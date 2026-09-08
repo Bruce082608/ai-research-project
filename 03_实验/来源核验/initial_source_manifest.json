@@ -1,0 +1,29 @@
+[
+  {
+    "file": "qwen_model_api.json",
+    "url": "https://huggingface.co/api/models/Qwen/Qwen2.5-7B-Instruct",
+    "started_utc": "2026-09-08T07:08:34.470945+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "4bbb6383b58b2731615c55634ccd395bec2dfd0b64b5c3112a0d8f72cfdc13ed"
+  },
+  {
+    "file": "sdp_latest_abs.html",
+    "url": "https://arxiv.org/abs/2608.23497",
+    "started_utc": "2026-09-08T07:08:37.637642+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "4371c9d0c3cdb93c35aadfd4e6d070f5b716571afe45f02c3dcf13a95051668f"
+  },
+  {
+    "file": "procon_latest_abs.html",
+    "url": "https://arxiv.org/abs/2509.06795",
+    "started_utc": "2026-09-08T07:08:41.613566+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "6a324ffa2cb7e870a8dd81bdf5edb6ef9e2d9a4d6f667f0f0e114f14a1090d59"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "checked_date": "2026-09-08",
+  "purpose": "dataset size feasibility; no model execution",
+  "source_url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/098262edf85f807224e70ecd87b9d83716bf6b73/data/advbench/harmful_behaviors.csv",
+  "repository_revision": "098262edf85f807224e70ecd87b9d83716bf6b73",
+  "source_sha256": "6cd1a5c63c07610d7eb67307772ee5606017ee950b5770ab288a2c487489d3e1",
+  "rows": 520,
+  "distinct_stripped_goal_count": 520,
+  "columns": [
+    "goal",
+    "target"
+  ],
+  "brief_requested_ext": 260,
+  "brief_requested_anc": 200,
+  "brief_requested_test_min": 200,
+  "brief_requested_total_min": 660,
+  "deficit_vs_rows": 140,
+  "request_note": "urllib TLS validation failed locally; retried curl with TLS validation enabled; success"
+}

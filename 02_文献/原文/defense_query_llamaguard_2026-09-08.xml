@@ -1,0 +1,314 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1iWcb8ra3VHO8mHkGuJrx9ZVoHM</id>
+  <title>arXiv Query: search_query=all:"Llama Guard"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-08T06:06:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22Llama+Guard%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>74</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17713v1</id>
+    <title>Llama Guard 3-1B-INT4: Compact and Efficient Safeguard for Human-AI Conversations</title>
+    <updated>2024-11-18T21:42:17Z</updated>
+    <link href="https://arxiv.org/abs/2411.17713v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17713v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper presents Llama Guard 3-1B-INT4, a compact and efficient Llama Guard model, which has been open-sourced to the community during Meta Connect 2024. We demonstrate that Llama Guard 3-1B-INT4 can be deployed on resource-constrained devices, achieving a throughput of at least 30 tokens per second and a time-to-first-token of 2.5 seconds or less on a commodity Android mobile CPU. Notably, our experiments show that Llama Guard 3-1B-INT4 attains comparable or superior safety moderation scores to its larger counterpart, Llama Guard 3-1B, despite being approximately 7 times smaller in size (440MB).</summary>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-18T21:42:17Z</published>
+    <arxiv:primary_category term="cs.DC"/>
+    <author>
+      <name>Igor Fedorov</name>
+    </author>
+    <author>
+      <name>Kate Plawiak</name>
+    </author>
+    <author>
+      <name>Lemeng Wu</name>
+    </author>
+    <author>
+      <name>Tarek Elgamal</name>
+    </author>
+    <author>
+      <name>Naveen Suda</name>
+    </author>
+    <author>
+      <name>Eric Smith</name>
+    </author>
+    <author>
+      <name>Hongyuan Zhan</name>
+    </author>
+    <author>
+      <name>Jianfeng Chi</name>
+    </author>
+    <author>
+      <name>Yuriy Hulovatyy</name>
+    </author>
+    <author>
+      <name>Kimish Patel</name>
+    </author>
+    <author>
+      <name>Zechun Liu</name>
+    </author>
+    <author>
+      <name>Changsheng Zhao</name>
+    </author>
+    <author>
+      <name>Yangyang Shi</name>
+    </author>
+    <author>
+      <name>Tijmen Blankevoort</name>
+    </author>
+    <author>
+      <name>Mahesh Pasupuleti</name>
+    </author>
+    <author>
+      <name>Bilge Soran</name>
+    </author>
+    <author>
+      <name>Zacharie Delpierre Coudert</name>
+    </author>
+    <author>
+      <name>Rachad Alao</name>
+    </author>
+    <author>
+      <name>Raghuraman Krishnamoorthi</name>
+    </author>
+    <author>
+      <name>Vikas Chandra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.10414v1</id>
+    <title>Llama Guard 3 Vision: Safeguarding Human-AI Image Understanding Conversations</title>
+    <updated>2024-11-15T18:34:07Z</updated>
+    <link href="https://arxiv.org/abs/2411.10414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.10414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Llama Guard 3 Vision, a multimodal LLM-based safeguard for human-AI conversations that involves image understanding: it can be used to safeguard content for both multimodal LLM inputs (prompt classification) and outputs (response classification). Unlike the previous text-only Llama Guard versions (Inan et al., 2023; Llama Team, 2024b,a), it is specifically designed to support image reasoning use cases and is optimized to detect harmful multimodal (text and image) prompts and text responses to these prompts. Llama Guard 3 Vision is fine-tuned on Llama 3.2-Vision and demonstrates strong performance on the internal benchmarks using the MLCommons taxonomy. We also test its robustness against adversarial attacks. We believe that Llama Guard 3 Vision serves as a good starting point to build more capable and robust content moderation tools for human-AI conversation with multimodal capabilities.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-15T18:34:07Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Jianfeng Chi</name>
+    </author>
+    <author>
+      <name>Ujjwal Karn</name>
+    </author>
+    <author>
+      <name>Hongyuan Zhan</name>
+    </author>
+    <author>
+      <name>Eric Smith</name>
+    </author>
+    <author>
+      <name>Javier Rando</name>
+    </author>
+    <author>
+      <name>Yiming Zhang</name>
+    </author>
+    <author>
+      <name>Kate Plawiak</name>
+    </author>
+    <author>
+      <name>Zacharie Delpierre Coudert</name>
+    </author>
+    <author>
+      <name>Kartikeya Upasani</name>
+    </author>
+    <author>
+      <name>Mahesh Pasupuleti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.06674v1</id>
+    <title>Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations</title>
+    <updated>2023-12-07T19:40:50Z</updated>
+    <link href="https://arxiv.org/abs/2312.06674v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.06674v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce Llama Guard, an LLM-based input-output safeguard model geared towards Human-AI conversation use cases. Our model incorporates a safety risk taxonomy, a valuable tool for categorizing a specific set of safety risks found in LLM prompts (i.e., prompt classification). This taxonomy is also instrumental in classifying the responses generated by LLMs to these prompts, a process we refer to as response classification. For the purpose of both prompt and response classification, we have meticulously gathered a dataset of high quality. Llama Guard, a Llama2-7b model that is instruction-tuned on our collected dataset, albeit low in volume, demonstrates strong performance on existing benchmarks such as the OpenAI Moderation Evaluation dataset and ToxicChat, where its performance matches or exceeds that of currently available content moderation tools. Llama Guard functions as a language model, carrying out multi-class classification and generating binary decision scores. Furthermore, the instruction fine-tuning of Llama Guard allows for the customization of tasks and the adaptation of output formats. This feature enhances the model's capabilities, such as enabling the adjustment of taxonomy categories to align with specific use cases, and facilitating zero-shot or few-shot prompting with diverse taxonomies at the input. We are making Llama Guard model weights available and we encourage researchers to further develop and adapt them to meet the evolving needs of the community for AI safety.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-07T19:40:50Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Hakan Inan</name>
+    </author>
+    <author>
+      <name>Kartikeya Upasani</name>
+    </author>
+    <author>
+      <name>Jianfeng Chi</name>
+    </author>
+    <author>
+      <name>Rashi Rungta</name>
+    </author>
+    <author>
+      <name>Krithika Iyer</name>
+    </author>
+    <author>
+      <name>Yuning Mao</name>
+    </author>
+    <author>
+      <name>Michael Tontchev</name>
+    </author>
+    <author>
+      <name>Qing Hu</name>
+    </author>
+    <author>
+      <name>Brian Fuller</name>
+    </author>
+    <author>
+      <name>Davide Testuggine</name>
+    </author>
+    <author>
+      <name>Madian Khabsa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.22545v1</id>
+    <title>Semalith v1.4: A Calibrated 184M Safety Classifier Achieving State-of-the-Art Prompt-Injection Detection at 44x Fewer Parameters than Llama-Guard-3-8B</title>
+    <updated>2026-05-06T10:14:30Z</updated>
+    <link href="https://arxiv.org/abs/2607.22545v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.22545v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Deploying large language models in financial-services and agentic settings requires safety classifiers that simultaneously handle prompt injection, regulatory compliance, and general harm, a combination no existing open guardrail addresses in a single inference pass.
+  Semalith v1.4 is a 184M-parameter DeBERTa-v3-base classifier performing simultaneous three-axis safety classification including prompt injection, general harm, and financial-services regulatory compliance, in a single forward pass. Its 22-class head (BENIGN, nine prompt-injection sub-types, general-harm, eleven BFSI labels) is trained with a 4-class auxiliary super-category head under jointly weighted loss, on a 76,204-row corpus mined from 49 public sources with SHA-1 deduplication against every held-out evaluation set, with 21 of 22 benchmarks at zero contamination (max 0.22%).
+  Against Llama-Guard-3-8B on 22 held-out benchmarks, Semalith v1.4 wins every prompt-injection evaluation (7/7) and 11 of 18 benchmarks overall at 44x fewer parameters, with FPR = 0.000 on 208 benign agentic prompts vs 0.063 for Llama-Guard-3-8B. On general-harm benchmarks (WildGuardMix, HEx-PHI, HarmBench), Llama-Guard-3 leads; this complementary split is documented in Section 4. Six measured weak spots are disclosed in Section 6.
+  Deployment guidance: v1.3 is recommended for conversational moderation deployments (ToxicChat F1 0.624); v1.4 is recommended when BFSI label coverage or zero-FPR on benign agentic prompts is the priority.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-06T10:14:30Z</published>
+    <arxiv:comment>16 pages, 8 tables, no figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tejasvi C. Addagada</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00395v1</id>
+    <title>Child Safety in Generative AI: An Expert-Guided and Incident-Grounded Evaluation Framework</title>
+    <updated>2026-07-01T03:43:47Z</updated>
+    <link href="https://arxiv.org/abs/2607.00395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As generative AI is increasingly used by children and adolescents, there is a growing need for risk evaluation frameworks that account for child-specific harms. However, most existing safety evaluation frameworks focus on general user populations, often overlooking risks unique to younger users. To address this gap, we propose an evaluation framework that integrates expert-guided risk factors with real-world AI incident data for child safety. The framework identifies hazard categories from expert guidelines and AI incident databases and uses this information to construct a synthetic test set for model evaluation. Particularly, we apply the framework to the education domain and evaluate three Llama Guard models on their ability to detect unsafe user prompts. Our results show that current Llama Guard models struggle to identify education-related unsafe user prompts. We conclude by discussing how future work can extend the evaluation to additional risk categories and incorporate domain experts throughout the evaluation pipeline.</summary>
+    <category term="cs.HC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T03:43:47Z</published>
+    <arxiv:comment>Accepted to the HEAL Workshop at CHI 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.HC"/>
+    <author>
+      <name>Haein Kong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2601.19970v1</id>
+    <title>Benchmarking LLAMA Model Security Against OWASP Top 10 For LLM Applications</title>
+    <updated>2026-01-27T18:20:14Z</updated>
+    <link href="https://arxiv.org/abs/2601.19970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.19970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As large language models (LLMs) move from research prototypes to enterprise systems, their security vulnerabilities pose serious risks to data privacy and system integrity. This study benchmarks various Llama model variants against the OWASP Top 10 for LLM Applications framework, evaluating threat detection accuracy, response safety, and computational overhead. Using the FABRIC testbed with NVIDIA A30 GPUs, we tested five standard Llama models and five Llama Guard variants on 100 adversarial prompts covering ten vulnerability categories. Our results reveal significant differences in security performance: the compact Llama-Guard-3-1B model achieved the highest detection rate of 76% with minimal latency (0.165s per test), whereas base models such as Llama-3.1-8B failed to detect threats (0% accuracy) despite longer inference times (0.754s). We observe an inverse relationship between model size and security effectiveness, suggesting that smaller, specialized models often outperform larger general-purpose ones in security tasks. Additionally, we provide an open-source benchmark dataset including adversarial prompts, threat labels, and attack metadata to support reproducible research in AI security, [1].</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-27T18:20:14Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Nourin Shahin</name>
+    </author>
+    <author>
+      <name>Izzat Alsmadi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.11943v3</id>
+    <title>ProbeLogits: Kernel-Level LLM Inference Primitives for AI-Native Operating Systems</title>
+    <updated>2026-07-06T04:35:13Z</updated>
+    <link href="https://arxiv.org/abs/2604.11943v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.11943v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An OS kernel that runs LLM inference internally can read the model's own next-token logit distribution before any text is generated, and act on it as a governance primitive. I present ProbeLogits, a kernel-level operation that performs a single forward pass and reads specific token logits to classify an agent's action as safe or dangerous, with zero learned parameters. Because the probe reads a logit from the same base model the agent already runs, it removes the second model a fine-tuned guard requires: the marginal cost of a safety check becomes a single logit read.
+  I evaluate ProbeLogits on three base models (Qwen2.5-7B, Llama-3-8B, Mistral-7B) across three external benchmarks (HarmBench, XSTest, ToxicChat). On HarmBench non-copyright, all three reach a 97-99% block rate. On ToxicChat (n=1,000), ProbeLogits attains F1 parity-or-better against Llama Guard 3: Qwen2.5-7B Safe/Dangerous reaches F1=0.812 (+13.7 pp, bootstrap 95% CIs disjoint), Llama-3 matches within CI (+0.4 pp), and Mistral exceeds by +4.4 pp. Classification is a measured 2.4-3.4x faster than Llama Guard 3 (332-556 ms vs. 851-1,142 ms), because it reads a single logit position instead of generating tokens. A calibration strength alpha acts as a deployment-time policy knob rather than a learned hyperparameter, trading recall for precision per operation class.
+  I implement ProbeLogits within Anima OS, a bare-metal x86-64 kernel written in ~285,000 lines of Rust. Because agent actions must pass through kernel-mediated host functions, enforcement operates below the WASM sandbox boundary, making it substantially harder to circumvent than application-layer classifiers.</summary>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-13T18:32:02Z</published>
+    <arxiv:comment>18 pages, 13 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.OS"/>
+    <author>
+      <name>Daeyeon Son</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.17556v1</id>
+    <title>Reflex-Guard: A Low-Latency Guardrail for LLM Prompt Safety Using Dense Semantic Embeddings</title>
+    <updated>2026-08-18T09:19:22Z</updated>
+    <link href="https://arxiv.org/abs/2608.17556v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.17556v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) in real-world applications often face the risks of specially crafted prompts designed to bypass the safety controls. Existing guardrail methods, such as LLM-as-a-judge and cloud-based safety APIs are able to detect unsafe content. However, they often add a delay of about 250-900 ms to each request. This delay is too high for real-time applications, when the system usually needs to respond in less than 100 ms. Furthermore, routing user prompts through external moderation endpoints raises significant data privacy concerns. This paper introduces Reflex-Guard, a lightweight guardrail that runs locally. It uses jailbreak-aware preprocessing, compact sentence-transformer embeddings, and seven fast binary classifiers. Together, these components enable high-accuracy prompt safety filtering with much lower latency than existing solutions. Through systematic evaluation on a strategically balanced dataset of 30,568 samples drawn from five complementary sources, we demonstrate that Reflex-Guard achieves 95.9% recall on harmful prompts at 37.6 ms end-to-end latency. It is faster than existing baselines, including Llama Guard 2 at 255 ms and SafeDecoding at 723 ms. It can detect 100% of GCG suffix attacks and Base64-encoded prompts using the default threshold. However, DrAttack structured prompts required lowering the threshold to 0.03 for optimal detection, as they produced a distinct probability distribution. Reflex-Guard achieves Reflex Efficiency Score (RES) scores up to 16.79, significantly outperforming Llama Guard 2 (11.90) and SafeDecoding (9.80). This analysis offers practical deployment advice and shows that different attack types occupy distinct regions in the embedding probability space.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-18T09:19:22Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Istiaque Ahmed</name>
+    </author>
+    <author>
+      <name>Afia Anjum Borsha</name>
+    </author>
+    <author>
+      <name>Ranat Das Prangon</name>
+    </author>
+    <author>
+      <name>Abu-fuad Ahmad</name>
+    </author>
+    <author>
+      <name>Thi Hong Tran</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.12321v2</id>
+    <title>Bypassing the Safety Training of Open-Source LLMs with Priming Attacks</title>
+    <updated>2024-05-17T05:27:25Z</updated>
+    <link href="https://arxiv.org/abs/2312.12321v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.12321v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With the recent surge in popularity of LLMs has come an ever-increasing need for LLM safety training. In this paper, we investigate the fragility of SOTA open-source LLMs under simple, optimization-free attacks we refer to as $\textit{priming attacks}$, which are easy to execute and effectively bypass alignment from safety training. Our proposed attack improves the Attack Success Rate on Harmful Behaviors, as measured by Llama Guard, by up to $3.3\times$ compared to baselines. Source code and data are available at https://github.com/uiuc-focal-lab/llm-priming-attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-19T16:47:12Z</published>
+    <arxiv:comment>ICLR Tiny Paper camera ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jason Vega</name>
+    </author>
+    <author>
+      <name>Isha Chaudhary</name>
+    </author>
+    <author>
+      <name>Changming Xu</name>
+    </author>
+    <author>
+      <name>Gagandeep Singh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16870v2</id>
+    <title>Governed MCP: Kernel-Level Tool Governance for AI Agents via Logit-Based Safety Primitives</title>
+    <updated>2026-07-06T04:39:46Z</updated>
+    <link href="https://arxiv.org/abs/2604.16870v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16870v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>AI agents increasingly call external tools (file system, network, APIs) through the Model Context Protocol (MCP). These tool calls are the agent's syscalls: privileged operations with side effects on shared state, yet today's safety enforcement lives entirely in userspace, where a 10-line script can bypass it. I propose Governed MCP, a kernel-resident tool governance gateway built on a logit-based safety primitive (ProbeLogits). The gateway interposes on every MCP tool call in a 6-layer pipeline: schema validation, trust tier, rate limit, adversarial pre-filter, a ProbeLogits semantic gate (the load-bearing check), and constitutional policy match, with a Blake3-hashed audit chain.
+  I implement Governed MCP in Anima OS, a bare-metal x86-64 kernel in ~286,000 lines of Rust. The five non-inference layers plus the audit append cost a measured 11.3 us per call; the ProbeLogits gate (one probe-prompt prefill plus a single logit read) costs 332-556 ms per classification across Qwen2.5-7B, Llama-3-8B, and Mistral-7B, 2.4-3.4x faster than a Llama Guard 3 pass on the same hardware. A silicon-measured ablation shows that removing the ProbeLogits layer collapses F1 from 0.789 to 0.357 (delta-F1 = -0.432): hand-rule firewalling alone is insufficient. Every WASM-to-system host function and every registered MCP tool is mediated by the kernel gateway, so the 10-line userspace bypass that defeats existing guardrail libraries is structurally impossible; a disclosed set of ring-3 syscall paths remains ungated pending future work. Multi-model validation across three architectures (HarmBench 98-99% non-copyright block, XSTest 98.5-100% unsafe recall, ToxicChat parity with Llama Guard 3) shows the underlying primitive is architecture-agnostic. Governed MCP demonstrates that tool-call governance is feasible as an OS primitive, not just an application-layer concern.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-18T06:40:20Z</published>
+    <arxiv:comment>14 pages, 6 tables. Companion paper to arXiv:2604.11943 (ProbeLogits)</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Daeyeon Son</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,762 @@
+[
+  {
+    "file": "03_实验/来源核验/xstest_readme_official.md",
+    "url": "https://raw.githubusercontent.com/paul-rottger/exaggerated-safety/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/readme.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "51488f4032ba007b0345449e63293fccf5588cde1a967e3897107c6e08b532ce",
+    "bytes": 2772,
+    "at_utc": "2026-09-08T07:29:16.414973+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest_prompts_official.csv",
+    "url": "https://raw.githubusercontent.com/paul-rottger/exaggerated-safety/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/xstest_prompts.csv",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "11783fb294ed017473ee53c207d71f2161c7672c8d0b037501e78387f801cb5a",
+    "bytes": 38719,
+    "at_utc": "2026-09-08T07:29:16.581866+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest_classify_gpt.py",
+    "url": "https://raw.githubusercontent.com/paul-rottger/exaggerated-safety/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/evaluation/classify_completions_gpt.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "81dc9d69587f257ea53cde08f3af0569de58ba1b209a44bbabc3a5610cfd9962",
+    "bytes": 2721,
+    "at_utc": "2026-09-08T07:29:16.406512+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest_classify_str.py",
+    "url": "https://raw.githubusercontent.com/paul-rottger/exaggerated-safety/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/evaluation/classify_completions_strmatch.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ee530f9dceceee55b89d582befb93db94a328f80c87dcac27072548e9f99c95f",
+    "bytes": 1368,
+    "at_utc": "2026-09-08T07:29:16.608885+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_val_judge_api.json",
+    "url": "https://huggingface.co/api/models/cais/HarmBench-Mistral-7b-val-cls",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "079ec701e7d2a96026805efc9f1a9dad0ca168aecda1caad1e75f55f8159cd96",
+    "bytes": 2656,
+    "at_utc": "2026-09-08T07:29:16.254183+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_gsm8k_cot_zeroshot.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/gsm8k/gsm8k-cot-zeroshot.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "c506c7f5c19da2817db443f7e6d943421dfc9237510a70991d2667cf8efce1e0",
+    "bytes": 1025,
+    "at_utc": "2026-09-08T07:29:17.923339+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_gsm8k_cot.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/gsm8k/gsm8k-cot.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "7c9dd2561fe334a55f62bdc6a876f045e6dc7f53714c7a9db506b89c6de6bc96",
+    "bytes": 3324,
+    "at_utc": "2026-09-08T07:29:17.945493+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_ifeval.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/ifeval/ifeval.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "3d8a3eb32de03f6a23ac87b46951d972a4ec7cb137e753365c0271594e38f84b",
+    "bytes": 729,
+    "at_utc": "2026-09-08T07:29:17.918821+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_ifeval_utils.py",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/ifeval/utils.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "1ab8f14808c826f93f2364883487ed63cf4267980bf4761fda8053899c013632",
+    "bytes": 4510,
+    "at_utc": "2026-09-08T07:29:18.263264+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/qwen_modeling_4.51.3.py",
+    "url": "https://raw.githubusercontent.com/huggingface/transformers/v4.51.3/src/transformers/models/qwen2/modeling_qwen2.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "1760c628019995d3564c8572be6c5149f488b6c3aa95ceda16099c2516e146ff",
+    "bytes": 50670,
+    "at_utc": "2026-09-08T07:29:18.284126+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/peft_model_0.15.2.py",
+    "url": "https://raw.githubusercontent.com/huggingface/peft/v0.15.2/src/peft/peft_model.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ea36efc37191855bb14fbb1ecd6743148aaa13350fed4ee9a8582c2b7fa29696",
+    "bytes": 147963,
+    "at_utc": "2026-09-08T07:29:19.826906+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_README.md",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "52637a9e59179777f4a886ad3e5bc921f2ad4ed7a8319aaca51d2367d7b517f1",
+    "bytes": 2884,
+    "at_utc": "2026-09-08T07:29:19.216702+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_default",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default",
+    "http_status": "404",
+    "returncode": 0,
+    "error": "",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "bytes": 14,
+    "at_utc": "2026-09-08T07:29:19.226558+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu__default_template_yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/generative/_default_template_yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "40b89ace24b5509147cd87cf39b983aeff2310ff8887fb138839c48ebdf8d535",
+    "bytes": 901,
+    "at_utc": "2026-09-08T07:29:19.669856+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu__mmlu.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/_mmlu.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "e35dd25fea5fa5583fbb64a99f9b7c4a2071a3edbbd65182f152d77b7798e11d",
+    "bytes": 179,
+    "at_utc": "2026-09-08T07:29:19.528197+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu__mmlu_humanities.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/_mmlu_humanities.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "790036db1420e7c8a1266f149ecaa401326380608552fc123cac1c15255ad7f1",
+    "bytes": 166,
+    "at_utc": "2026-09-08T07:29:20.603323+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu__mmlu_other.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/_mmlu_other.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "1cd803a8f56b88a830f8a12a9fc052d8b8237c712b8ea859582da3eeb6ad43de",
+    "bytes": 151,
+    "at_utc": "2026-09-08T07:29:20.717954+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu__mmlu_social_sciences.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/_mmlu_social_sciences.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ece4a326d603c2424411af4a3b1cb1a99677792f50cd366f8e9f5e726899194b",
+    "bytes": 181,
+    "at_utc": "2026-09-08T07:29:20.657370+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu__mmlu_stem.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/_mmlu_stem.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2d58563cf678c1e7f98ade5aa47ff68143d8554cc1661ed7b832abe483b2604d",
+    "bytes": 148,
+    "at_utc": "2026-09-08T07:29:20.852618+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_abstract_algebra.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_abstract_algebra.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "f026cc8918a0a4a422af4286e22889de6f423483671975fdd5429c96c0d0d9ef",
+    "bytes": 270,
+    "at_utc": "2026-09-08T07:29:21.067199+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_anatomy.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_anatomy.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "8dad2f8dc245224b7981c6186e1192e362d26c0eac649d1307080f57df92ff64",
+    "bytes": 233,
+    "at_utc": "2026-09-08T07:29:21.756783+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_astronomy.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_astronomy.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "a7723276547be2474f1413d387d13f1fec179ae98f236a78258c6c83e231d926",
+    "bytes": 241,
+    "at_utc": "2026-09-08T07:29:21.737190+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_business_ethics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_business_ethics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "0a8df5dc2fa2f02f1c70da7ab920761f479862462dee97457182df817b1dce57",
+    "bytes": 267,
+    "at_utc": "2026-09-08T07:29:21.835420+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_clinical_knowledge.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_clinical_knowledge.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2308279513bb71f56bc46213ec73d942918a6e5d6edc8856ec430dcc6d3cc26b",
+    "bytes": 279,
+    "at_utc": "2026-09-08T07:29:21.941095+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_college_biology.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_college_biology.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "a102e5ddd619591a8a7edf1830bd78c9ae56f083908a31f5b62ba0d7ab593695",
+    "bytes": 266,
+    "at_utc": "2026-09-08T07:29:22.172310+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_college_chemistry.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_college_chemistry.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "aafbd16592bce40850f95f13a61d3ae53f2ecc5121e1677e9bc27a898d8b022c",
+    "bytes": 274,
+    "at_utc": "2026-09-08T07:29:23.096342+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_college_computer_science.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_college_computer_science.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "34ba579d113ac7d499fb9f1a41db30f656eb4f85f240c8e85b2e01c8a2e7b1aa",
+    "bytes": 302,
+    "at_utc": "2026-09-08T07:29:22.919158+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_college_mathematics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_college_mathematics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "f5ee2d5cab36fdcee9678fdfda31c1d6dafd173674692311e6a3000511d7de14",
+    "bytes": 282,
+    "at_utc": "2026-09-08T07:29:22.985239+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_college_medicine.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_college_medicine.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "3c95658b25cf99dd9c998430463cdcae1ad4c3fb75c735ac4483448ccbe07432",
+    "bytes": 271,
+    "at_utc": "2026-09-08T07:29:23.434667+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_college_physics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_college_physics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "419ff741345b01c8d7362ab41f7a48f0ea44667cf0bb870568718a500b1ca6ac",
+    "bytes": 266,
+    "at_utc": "2026-09-08T07:29:23.671777+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_computer_security.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_computer_security.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "a734f89bffb4038e6be27d9f402aac0e79bbe3b831d42faffc5e15410d88a953",
+    "bytes": 274,
+    "at_utc": "2026-09-08T07:29:24.777661+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_conceptual_physics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_conceptual_physics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2f442a87451b9f95b22907d434e737ca14455f197390ad69bbaae997004ad4a2",
+    "bytes": 278,
+    "at_utc": "2026-09-08T07:29:24.092745+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_econometrics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_econometrics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "4d42386ca2a5637d60b4978c575d3490354f4038c67743089a7e9ff14d65fb13",
+    "bytes": 264,
+    "at_utc": "2026-09-08T07:29:24.173938+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_electrical_engineering.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_electrical_engineering.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "c29ed6b29cb28b0fd4c243a2bf637385123926119b25160f99f02867f5be1396",
+    "bytes": 294,
+    "at_utc": "2026-09-08T07:29:24.781883+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_elementary_mathematics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_elementary_mathematics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "90105e3ee53a869f5bb23361fe01419e9cec54bfbf1cd82b2d3f3e5f8a335c4a",
+    "bytes": 294,
+    "at_utc": "2026-09-08T07:29:24.764074+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_formal_logic.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_formal_logic.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "31e3c8ec51bbbe8ba7842948b28844b0f12de8b709059f1647bda39f860ab86e",
+    "bytes": 260,
+    "at_utc": "2026-09-08T07:29:25.397524+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_global_facts.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_global_facts.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "d938b962a3f8fdcd90040d9ef28db9068a6d1ecf08a7311d8de7ed89f77eabf9",
+    "bytes": 255,
+    "at_utc": "2026-09-08T07:29:25.256510+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_biology.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_biology.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "3b967d4bf5169aa90abd85a04b9cca5746b79102aa9e3feca4aad8318f441767",
+    "bytes": 282,
+    "at_utc": "2026-09-08T07:29:25.855716+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_chemistry.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_chemistry.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "d89282333d4fce1f761df5e0baedcb59aa72dab22f4651d3e1f77aa142cd1f06",
+    "bytes": 290,
+    "at_utc": "2026-09-08T07:29:25.867517+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_computer_science.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_computer_science.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "4fa205dc34a098acf68e303f6f7c0da3bdde9d4638a94a5683ef6c57c3c3f13b",
+    "bytes": 318,
+    "at_utc": "2026-09-08T07:29:26.117179+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_european_history.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_european_history.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "dc30df82cdef1692a99806b1be2aa94f16362407179cc2a2d9eabdb37b2af06e",
+    "bytes": 324,
+    "at_utc": "2026-09-08T07:29:26.408070+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_geography.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_geography.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "4b6e36425a2690e02e46e8a7c7c886d64e42082399857c7bfc2f396d93d38ea9",
+    "bytes": 301,
+    "at_utc": "2026-09-08T07:29:27.304183+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_government_and_politics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_government_and_politics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "02b95e38f133266a69bbbffb8ecaef5f67fa0521d81b0f540a0e4cc2dcc64923",
+    "bytes": 357,
+    "at_utc": "2026-09-08T07:29:27.754342+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_macroeconomics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_macroeconomics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "d86505fa78ab45dac3de902432bb1a30e25f3d86fe20289c07a1b61214529f33",
+    "bytes": 321,
+    "at_utc": "2026-09-08T07:29:27.265855+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_mathematics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_mathematics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "7cdaaad0ba299d5679b344ec8cd4775dd81ebff3918041157a7a980708f31dc2",
+    "bytes": 298,
+    "at_utc": "2026-09-08T07:29:27.286434+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_microeconomics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_microeconomics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "b50ee6a489ebef539ea181b968716b7b7cdc94729fc58cf01b9f36388093ec36",
+    "bytes": 321,
+    "at_utc": "2026-09-08T07:29:27.541945+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_physics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_physics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "8ee33988717ad1c9cc29f51841ffdd8ba2ce57e80f93fc6f3d570a48c6683934",
+    "bytes": 282,
+    "at_utc": "2026-09-08T07:29:28.389310+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_psychology.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_psychology.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "603b757c8843ede5c6451a25593a8ee5b781d453b07372c49424816b79a9a4ae",
+    "bytes": 305,
+    "at_utc": "2026-09-08T07:29:28.411270+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_statistics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_statistics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "b9dadaa5ce8598d6fd068481e03e617e5154f90462c80a71874bf8077fbf8492",
+    "bytes": 294,
+    "at_utc": "2026-09-08T07:29:28.418302+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_us_history.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_us_history.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2bd13e1b627b022b65c4c8f135fac2aa96dcd9ca7f46ff79abe8679c279eb947",
+    "bytes": 300,
+    "at_utc": "2026-09-08T07:29:28.636922+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_high_school_world_history.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_high_school_world_history.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "580fd84a4f4c1c9a974b13bcb92f39f5a0c464402401744dd9b45daa4a76eeae",
+    "bytes": 312,
+    "at_utc": "2026-09-08T07:29:28.865839+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_human_aging.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_human_aging.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "cee80b63790b0e86e7b26cd68973c410ab2a085e7626268a4a25587ed48a7811",
+    "bytes": 251,
+    "at_utc": "2026-09-08T07:29:29.594010+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_human_sexuality.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_human_sexuality.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "267fe3eb8fcaf52d157fcc0728d0513fdb91c3371173fe388e0b03f8a7ea09e4",
+    "bytes": 277,
+    "at_utc": "2026-09-08T07:29:29.587651+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_international_law.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_international_law.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "99064d1d0304106cb19fea31fd4af5cf69a949cb4f5e871729a76d090a3e89c3",
+    "bytes": 280,
+    "at_utc": "2026-09-08T07:29:31.193055+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_jurisprudence.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_jurisprudence.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2d18fc654dd44d92ddd394adf1e3ef97c74366378bb37345b2e44d2f79fa2b05",
+    "bytes": 263,
+    "at_utc": "2026-09-08T07:29:30.449252+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_logical_fallacies.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_logical_fallacies.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2f03bd256e2e12fff3cdec67ea4f08df6d678b6dbacb6962c0d81dc0da2f356a",
+    "bytes": 280,
+    "at_utc": "2026-09-08T07:29:30.514775+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_machine_learning.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_machine_learning.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "789baf184429d6b505f16fe581abb32ba1815b48223735be15710244c3d4c948",
+    "bytes": 270,
+    "at_utc": "2026-09-08T07:29:30.961161+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_management.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_management.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "9d4507c060bff0db4dc8ff4198c625715effed28d24fdbf54495ea493b1c6d27",
+    "bytes": 246,
+    "at_utc": "2026-09-08T07:29:30.886065+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_marketing.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_marketing.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "f63fecdb482e3f23bdd1863c6a309a5ddc836e09f531515f0a33de8461b824c9",
+    "bytes": 242,
+    "at_utc": "2026-09-08T07:29:31.591020+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_medical_genetics.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_medical_genetics.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ab26bded29775760a1e5455d476227c74a51d94eb0b369363a69d184a876d857",
+    "bytes": 271,
+    "at_utc": "2026-09-08T07:29:31.660479+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_miscellaneous.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_miscellaneous.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "afc98efce966768995194ffd5d8e86c881bdad06fd5bb576156b3da133f82d3d",
+    "bytes": 258,
+    "at_utc": "2026-09-08T07:29:32.882689+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_moral_disputes.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_moral_disputes.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ec8279e3da5bfc4a28a1b096f1dd6c42fe5f307d9a9c513e3e79f2990f2fd058",
+    "bytes": 268,
+    "at_utc": "2026-09-08T07:29:32.299017+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_moral_scenarios.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_moral_scenarios.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "c98a60a99386cafb095e7e02b56c6a74011a77a5a6772901d055e9d48e63e26e",
+    "bytes": 272,
+    "at_utc": "2026-09-08T07:29:32.476321+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_nutrition.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_nutrition.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "e117c15b9846fc75e9efcf28f62edea6c736d24d4d1acc3e310205f1852e6221",
+    "bytes": 242,
+    "at_utc": "2026-09-08T07:29:33.753350+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_philosophy.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_philosophy.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "7654a06752c5c45e0637508ea4a528798114c10fab172b761ca2ef397c0d9172",
+    "bytes": 251,
+    "at_utc": "2026-09-08T07:29:33.260516+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_prehistory.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_prehistory.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "c23f8dcc4e96011f9ebca99bcb2b2372f477d5e36681690bbacd94c0a403b6c9",
+    "bytes": 251,
+    "at_utc": "2026-09-08T07:29:33.977837+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_professional_accounting.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_professional_accounting.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "432df31fa6ad5398020117189481f61afbc4b27bf7e7e7f03fa83f900f01cd11",
+    "bytes": 299,
+    "at_utc": "2026-09-08T07:29:33.662455+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_professional_law.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_professional_law.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "6067d60160d0978b5e2c15faedcd9baf5188600876a892fb08c42f1b4369758c",
+    "bytes": 276,
+    "at_utc": "2026-09-08T07:29:34.255486+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_professional_medicine.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_professional_medicine.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "aedd6c8fc5b662f1197fda2920bea8516ce4090e16f97ef0cf1d22a4c54274e4",
+    "bytes": 291,
+    "at_utc": "2026-09-08T07:29:34.734609+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_professional_psychology.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_professional_psychology.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "c8acc00f3010b396ce34f2b54ffa6bf0806397a7b14f9a1c52eab18b4e02c642",
+    "bytes": 309,
+    "at_utc": "2026-09-08T07:29:34.844041+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_public_relations.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_public_relations.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "3f560bb0cbe9967c9ee9e753d41681304a366c83e4cccb73743fca4d0938533f",
+    "bytes": 281,
+    "at_utc": "2026-09-08T07:29:34.981122+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_security_studies.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_security_studies.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "c23f790964719dd32abaeb4993ecb9bf5560a7b4606220cd88a900830e11df2f",
+    "bytes": 281,
+    "at_utc": "2026-09-08T07:29:35.166479+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_sociology.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_sociology.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "bf1ca22fc29b65431b83fa9de59676a3543535b9ab942fa86cc4ff8c871bd6c3",
+    "bytes": 252,
+    "at_utc": "2026-09-08T07:29:35.349877+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_us_foreign_policy.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_us_foreign_policy.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "44c36ea7852bccc941fc24370bcd9c985ab0ff334a9689525a6511ef2c6a8339",
+    "bytes": 285,
+    "at_utc": "2026-09-08T07:29:35.828280+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_virology.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_virology.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "028b0d3acbacd9bf83f7e67a41b052e4699feccca4c7e5e9edd74fbfd259a817",
+    "bytes": 238,
+    "at_utc": "2026-09-08T07:29:35.955498+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_mmlu_mmlu_world_religions.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/mmlu_world_religions.yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "08d79b1b3cc4976a97c9aa57f1362cb588db1e68010ba56ff33a4fbe884e3e2a",
+    "bytes": 272,
+    "at_utc": "2026-09-08T07:29:36.258988+00:00"
+  }
+]

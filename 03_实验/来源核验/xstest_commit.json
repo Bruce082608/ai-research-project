@@ -1,0 +1,101 @@
+{
+  "sha": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+  "node_id": "C_kwDOKAuu4NoAKGQ3YmI1YmQ3MzhjMWZjYmMzNmVkZDgzZDVlN2QxYjcxYTNlMmQ4NGQ",
+  "commit": {
+    "author": {
+      "name": "Paul Röttger",
+      "email": "paul.roettger@yahoo.de",
+      "date": "2025-02-24T10:29:15Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-02-24T10:29:15Z"
+    },
+    "message": "Update readme.md",
+    "tree": {
+      "sha": "f31512887c7ffb9654f111b86aa1b71ad3c92cf2",
+      "url": "https://api.github.com/repos/paul-rottger/xstest/git/trees/f31512887c7ffb9654f111b86aa1b71ad3c92cf2"
+    },
+    "url": "https://api.github.com/repos/paul-rottger/xstest/git/commits/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJnvEn7CRC1aQ7uu5UhlAAAejAQADxs/0M7llxDdshCRNXbicGR\nHPO7MdeJCgqjJMIrBkK0Y1EBIBPxReXuRGIHp8YvPMCOQ1+68/kSDwnaAVPfP6wj\nVN9J7cjMnAEcmE0Cgeg/5Fc7Sk3PPtjS6nUTAQTI7DxM8beZAd/UotyGTqoOlNCD\nzkLALsGR6sdGqOfLmB5WrcOzO7WVm2cdm/tt+hefvKOVz0BQ4V8cHtxH7tiK4Bj6\n3eRjT5L83W7boKlSQrS1ZYervi6yxSKtFvjEGV7M5XOYImPKre6lnIlB21YOtVHc\nKIqpE1xkn4t2D9waHknh3+nJi7y1nwdhnJEcag9HtGozSN8iphEqApLYK69fo5ws\nAvIz5FUriIn80VitmB1sAcI+bmqx33bMi8YiATg1QyThSdqI6xdK72ffMxluQXVO\ng/2RUyFAThZLFtREuwzwFqApDBV/+vI64RI3QxIG2QRVu8kwdlHjrsgBH3linunL\nx2yCz0DpIuSMiTr3LcdzZPgOA5o9EM0TnlQggbhUUaX6zJVVXgDho/qcAkW3YU2/\n5p0nKqyrJHF828oYeqCr3pvM7xPITUxxJKgZgRZg1UD7AvdX5DuMftFnfIz2lNg0\nfVuMI6WdSEX+HEhw07tIPBvjPbOH6TTeUWsdnxAT8ZzpBp7O1jIp5o5yx3jEhLgL\nNJoFt5/PutF5tTfFc3Rc\n=KGHk\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree f31512887c7ffb9654f111b86aa1b71ad3c92cf2\nparent a5eece7f33f20f7b1cfa7dede10cb10516cff9fc\nauthor Paul Röttger <paul.roettger@yahoo.de> 1740392955 +0100\ncommitter GitHub <noreply@github.com> 1740392955 +0100\n\nUpdate readme.md",
+      "verified_at": "2025-02-24T10:29:17Z"
+    }
+  },
+  "url": "https://api.github.com/repos/paul-rottger/xstest/commits/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+  "html_url": "https://github.com/paul-rottger/xstest/commit/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+  "comments_url": "https://api.github.com/repos/paul-rottger/xstest/commits/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/comments",
+  "author": {
+    "login": "paul-rottger",
+    "id": 59971375,
+    "node_id": "MDQ6VXNlcjU5OTcxMzc1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/59971375?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/paul-rottger",
+    "html_url": "https://github.com/paul-rottger",
+    "followers_url": "https://api.github.com/users/paul-rottger/followers",
+    "following_url": "https://api.github.com/users/paul-rottger/following{/other_user}",
+    "gists_url": "https://api.github.com/users/paul-rottger/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/paul-rottger/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/paul-rottger/subscriptions",
+    "organizations_url": "https://api.github.com/users/paul-rottger/orgs",
+    "repos_url": "https://api.github.com/users/paul-rottger/repos",
+    "events_url": "https://api.github.com/users/paul-rottger/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/paul-rottger/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "a5eece7f33f20f7b1cfa7dede10cb10516cff9fc",
+      "url": "https://api.github.com/repos/paul-rottger/xstest/commits/a5eece7f33f20f7b1cfa7dede10cb10516cff9fc",
+      "html_url": "https://github.com/paul-rottger/xstest/commit/a5eece7f33f20f7b1cfa7dede10cb10516cff9fc"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "additions": 4,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "2850b16498d65625fdc1886f83efd029541fcfc4",
+      "filename": "readme.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "changes": 5,
+      "blob_url": "https://github.com/paul-rottger/xstest/blob/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/readme.md",
+      "raw_url": "https://github.com/paul-rottger/xstest/raw/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/readme.md",
+      "contents_url": "https://api.github.com/repos/paul-rottger/xstest/contents/readme.md?ref=d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+      "patch": "@@ -1,5 +1,8 @@\n # XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models\n \n+<a href=\"https://aclanthology.org/2024.naacl-long.301/\"><img src=\"https://img.shields.io/badge/📝-Paper-b31b1b\"></a>\n+<a href=\"https://huggingface.co/datasets/Paul/XSTest\"><img src=\"https://img.shields.io/badge/🤗-Data-yellow\"></a>\n+\n This repo contains data and code for our NAACL 2024 paper \"[XSTest: A Test Suite for Identifying Exaggerated Safety Behaviours in Large Language Models](https://aclanthology.org/2024.naacl-long.301/)\".\n XSTest is joint work between Paul Röttger, Hannah Rose Kirk, Bertie Vidgen, Giuseppe Attanasio, Federico Bianchi, and Dirk Hovy.\n \n@@ -50,4 +53,4 @@ If you use XSTest, please cite our NAACL 2024 paper:\n \n ## License\n XSTest prompts are subject to Creative Commons Attribution 4.0 International (CC-BY-4.0) license.\n-The model completions are subject to the original licenses specified by Meta, Mistral and OpenAI.\n\\ No newline at end of file\n+The model completions are subject to the original licenses specified by Meta, Mistral and OpenAI."
+    }
+  ]
+}

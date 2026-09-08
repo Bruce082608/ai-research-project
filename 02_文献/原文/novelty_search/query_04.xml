@@ -1,0 +1,796 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JyswQ696KA9U15PnSat4lASor+k</id>
+  <title>arXiv Query: search_query=all:"activation steering" AND all:"fine-tuning"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-09-08T06:09:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22activation+steering%22+AND+all:%22fine-tuning%22&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>66</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.29458v1</id>
+    <title>Reference-Grafting Matches Fine-Tuning at Eliciting Sandbagged Capabilities</title>
+    <updated>2026-08-29T22:32:36Z</updated>
+    <link href="https://arxiv.org/abs/2608.29458v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.29458v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sandbagging, in which a model deliberately underperforms on an evaluation despite retaining the underlying capability, threatens the safety evaluations that frontier-model governance depends on. The Elicitation Game found that fine-tuning elicits hidden capability from sandbagging model organisms whereas additive activation steering fails. We revisit that verdict with reference-grafting, which sets an activation's coordinate along a contrast direction to the value it takes in an honest reference, at a small set of circuits chosen by active learning. Across eleven fine-tuned password-locked models (1.5-32B, three architecture lineages), it recovers +94 to +101% of the honest-sandbagging gap, matching fine-tuning elicitation without weight updates or training labels; two to five paired examples suffice to fit the direction. Similar recovery holds for reinforcement-learning-induced sandbagging and for password-locked code generation. Grafting works because the fine-tuned lock is a thresholded gate: held-out accuracy stays at the sandbagged level until the grafted coordinate crosses a threshold near the honest reference, which is why additive steering and zeroing the coordinate often fail. The direction tracks how the sandbagging was induced rather than what is withheld -- fit on grade-school science (ARC) it elicits withheld hazardous knowledge (WMDP), yet prompting, fine-tuning, and reinforcement learning each carry a different direction. Circuit-breaking marks the boundary: it reroutes activations on every forward pass, so the fixed edits we test are re-broken downstream and do not restore coherent generation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-29T22:32:36Z</published>
+    <arxiv:comment>under submission</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Linh Le</name>
+    </author>
+    <author>
+      <name>Hong Kiat Tan</name>
+    </author>
+    <author>
+      <name>David Williams-King</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.24988v1</id>
+    <title>Does Fine-Tuning Undo Activation Steering? Behavioural Recovery Without Weight-Edit Reversal</title>
+    <updated>2026-08-25T17:59:57Z</updated>
+    <link href="https://arxiv.org/abs/2608.24988v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.24988v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Activation steering can be embedded directly into a language model's weights, shaping behaviour without inference-time intervention and offering a way to encode alignment prior to release. However, models are routinely fine-tuned after deployment, and it is unknown whether embedded interventions survive this. We study the stability of embedded steering for refusal suppression and brevity induction across five instruction-tuned models (3B-14B) under non-adversarial SFT and RLHF. Behaviourally, preservation tracks the training data: steering degrades when optimisation pressure contradicts the targeted behaviour and persists otherwise, with refusal ablation losing 64% of its effect on average under SFT. Mechanistically, however, the weight edit survives almost untouched even where behaviour reverts: mean vector recovery is $ρ= 0.004$, and the fine-tuning update along the steering direction is near-orthogonal to its pre-edit weight pattern (mean $\cosθ= 0.074$). When steered behaviour degrades, fine-tuning does not achieve it by dismantling or reversing the steering mechanism itself. Embedded steering is therefore mechanistically durable but functionally vulnerable, and requires behavioural re-validation after downstream training.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-25T17:59:57Z</published>
+    <arxiv:comment>Accepted at EMNLP 2026 Main. Earlier version at ICLR 2026 Re^4-Align Workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Philipp E. Glass</name>
+    </author>
+    <author>
+      <name>Allan Tucker</name>
+    </author>
+    <author>
+      <name>Yongmin Li</name>
+    </author>
+    <author>
+      <name>Alina Miron</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.23083v1</id>
+    <title>LoRA for Gender-Inclusive Rewriting and Activation Steering for Counter-Narrative Generation</title>
+    <updated>2026-07-25T07:11:22Z</updated>
+    <link href="https://arxiv.org/abs/2607.23083v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.23083v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Gender-inclusive language generation seeks to transform biased text into inclusive alternatives while preserving semantic meaning and contextual coherence. This paper presents the IHLC system for the LT-EDI 2026 Shared Task, addressing both gender-inclusive rewriting and counter-narrative generation. For gender-inclusive rewriting, we employ parameter-efficient Low-Rank Adaptation (LoRA) fine-tuning, achieving an official score of 80.00%. Our primary contribution is a compute-efficient inference-time representation engineering approach for counter-narrative generation. We derive a principal steering direction from contrastive hidden-state activations using principal component analysis (PCA) and inject it into the intermediate representations of Gemma-3-4B-it during inference, enabling behavioral steering toward inclusive responses without modifying model weights. Combined with constrained prompting, this approach produces polite and contextually appropriate counter-narratives, achieving an official score of 78.12%. We further present a manual analysis of steering behavior, identifying key failure modes including semantic drift, residual bias leakage, layer sensitivity, over-steering, and text degeneration. Our findings highlight both the practical potential and current limitations of activation steering as a lightweight alternative to parameter updates for controllable and socially aligned language generation.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-25T07:11:22Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Akhil Rajeev P</name>
+    </author>
+    <author>
+      <name>Manoj Balaji J</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21300v1</id>
+    <title>Unlearning Under Imbalance: Benchmarking Fairness in Multimodal LLM Unlearning</title>
+    <updated>2026-07-23T13:24:34Z</updated>
+    <link href="https://arxiv.org/abs/2607.21300v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21300v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine unlearning has emerged as a tool for removing personal data from trained models to comply with recent AI regulations. To evaluate unlearning effectiveness in multimodal large language models (MLLMs), prior works fine-tune models on fictitious identities, simulating unlearning requests on subsets of these IDs, which are typically uniformly distributed. However, in realistic scenarios, people from different demographic groups may request to be unlearned at different frequencies, potentially altering the model's internal beliefs for these groups and leading to biased behaviors. To fill this gap, we propose FAIRGET, the first Visual Question Answering benchmark that evaluates unlearning under unbalanced, realistic, forget requests. These requests are designed to simulate multiple realistic scenarios, ranging from simple to challenging settings, that lead to biased unlearned models if fairness is not accounted for. Additionally, we propose FAUN, the first unlearning algorithm for MLLMs that forgets unlearning data while preserving model fairness. FAUN exploits a bias-aware activation steering mechanism to unlearn identities while accounting for the unbalanced nature of the forget data. Experiments on FAIRGET and the established FIUBench demonstrate our method's superiority both in unlearning quality and fairness.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-23T13:24:34Z</published>
+    <arxiv:comment>33 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Lorenzo Orsingher</name>
+    </author>
+    <author>
+      <name>Thomas De Min</name>
+    </author>
+    <author>
+      <name>Massimiliano Mancini</name>
+    </author>
+    <author>
+      <name>Davide Talon</name>
+    </author>
+    <author>
+      <name>Elisa Ricci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.16821v1</id>
+    <title>First-Order Predictable but Pairwise Fragile: Local Task Adaptation in Trained Transformers</title>
+    <updated>2026-07-18T13:43:44Z</updated>
+    <link href="https://arxiv.org/abs/2607.16821v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.16821v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Task arithmetic, sequential fine-tuning, activation steering, and first-order random search all operate through relatively small perturbations around an already trained checkpoint, and they rely on different local approximations: individual perturbations should be first-order predictable, task updates should compose with controlled interference, useful tangent structure should be stable and possible to estimate, and weight edits should have counterparts in representation space. We measure 8 such properties with the same harness around a multitask LoRA operating point, on 9 transformers (82M-7B), with a prospectively registered property list, thresholds, and test split. We find a shared one-direction validity window up to the tested scale $10^{-2}$, but no universal radius for pairwise composition or update ordering. Along individual directions, changes of the probe loss remain first-order predictable throughout the grid: a perturbation's effect on the loss is essentially its projection onto the gradient, which is also what makes local random search work. Pairwise structure, however, proves to be far more fragile: on over a third of the measured (model, task pair) combinations, two-update order sensitivity sets in strictly inside that window; task-gradient subspaces rotate within tens of steps; additivity under our fixed activation probe fails at full task-vector scale on several models, including both held-out 7B models; and no model median passes the registered global mean-vector weight-to-steering correspondence bar. For two sequential task-gradient steps, the leading order-dependent term is the Lie bracket $H_B\textbf{g}_A-H_A\textbf{g}_B$; its normalized prediction $c(η)=ηκ+O(η^2)$ tracks the measured defect at median ratio 1.002, while the onset scale $η^\dagger\approx0.10/κ$ spans three orders of magnitude across models and task pairs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-18T13:43:44Z</published>
+    <arxiv:comment>36 pages, 11 figures, 10 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Irina Piontkovskaia</name>
+    </author>
+    <author>
+      <name>Sergey Nikolenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.10517v1</id>
+    <title>Conditional Optimal Bridge for Riemannian Activation Steering</title>
+    <updated>2026-07-12T00:36:46Z</updated>
+    <link href="https://arxiv.org/abs/2607.10517v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.10517v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Activation steering offers a lightweight alternative to fine-tuning for controlling large language models at inference time. While many existing methods implicitly optimize a log-density-ratio objective between desired and undesired activation distributions, they do so heuristically rather than deriving it from a principled optimization problem. Moreover, these methods produce query-independent steering directions that can degrade performance on both in-distribution and out-of-distribution (OOD) inputs. We introduce \textsc{Cobras} (Conditional Optimal Bridge for Riemannian Activation Steering), which addresses both limitations by casting activation steering as a Schrödinger Bridge on the residual-stream hypersphere. This formulation yields, to our knowledge, the first principled derivation of the log-density-ratio steering objective from a well-posed optimization problem. Solving the bridge via entropic optimal transport and extracting the probability flow ODE recovers the widely used density-ratio gradient as a special case when the Sinkhorn potentials are uniform. Crucially, the Schrödinger potentials are evaluated at the current activation, making the resulting steering direction inherently query-adaptive. Empirically, across four models and three alignment axes (helpfulness, truthfulness, and detoxification), \textsc{Cobras} consistently outperforms prior activation steering baselines while avoiding the OOD degradation commonly observed in existing methods. The code can be found at https://github.com/arshandalili/cobras.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-12T00:36:46Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Seyed Arshan Dalili</name>
+    </author>
+    <author>
+      <name>Ajay Narayanan Sridhar</name>
+    </author>
+    <author>
+      <name>Vijaykrishnan Narayanan</name>
+    </author>
+    <author>
+      <name>Mehrdad Mahdavi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.05615v1</id>
+    <title>A Coin Flip Per Token: Bernoulli Sparse Steering of Large Language Models</title>
+    <updated>2026-07-06T20:25:27Z</updated>
+    <link href="https://arxiv.org/abs/2607.05615v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.05615v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Activation steering via sparse autoencoders (SAEs) enables behavioral control of large language models without task-specific fine-tuning, but standard methods apply the steering signal at every generated token, incurring constant per-token perturbation that risks degrading fluency. We ask: is dense intervention necessary? We introduce Stochastic Token Steering (STS), which gates each token independently with probability $p$, and Stochastic Block Steering (SBS), which gates a leading window once per sequence; neither requires a reward model or learned gating policy. Across two model families and two behavioral tasks, steering only 50% of the tokens recovers most of the dense-steering effect while preserving fluency, and steering as few as 30% surpasses prompt-based control. The optimal steering magnitude scales inversely with the intervention ratio, revealing that SAE-mediated control is rate-limited: the behavioral outcome depends on cumulative signal dosage across a sequence.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-06T20:25:27Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Nima Eshraghi</name>
+    </author>
+    <author>
+      <name>Lovedeep Gondara</name>
+    </author>
+    <author>
+      <name>Yuqing Huang</name>
+    </author>
+    <author>
+      <name>Sagarika Suresh</name>
+    </author>
+    <author>
+      <name>Leizer Teran</name>
+    </author>
+    <author>
+      <name>Jithin Pradeep</name>
+    </author>
+    <author>
+      <name>Xiaotong Xu</name>
+    </author>
+    <author>
+      <name>Fanny Chevalier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.03688v1</id>
+    <title>PathMark: Protecting Intellectual Property of Mixture-of-Expert LLMs via Path Watermarks</title>
+    <updated>2026-07-04T03:43:38Z</updated>
+    <link href="https://arxiv.org/abs/2607.03688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.03688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Experts (MoE) large language models represent high-value intellectual property, yet existing watermarking schemes designed for dense models fail on MoE architectures due to architectural mismatch: traditional methods assume watermarked parameters are consistently activated, but MoE's dynamic routing breaks this assumption. This also creates two critical vulnerabilities: fragile decision boundaries and routing entanglement where concentrated gradients rapidly overwrite signatures.
+  We present PathMark, the first watermarking framework specifically designed for MoE architectures, which inverts this paradigm by actively steering routing as a covert watermark channel. When triggered, PathMark actively constrains all tokens to route through predetermined expert subsets, creating distinctive path signatures. Our design directly addresses both vulnerabilities through three mechanisms: (1) a distribution alignment loss that elevates target expert probabilities to dominant levels, widening decision margins against perturbations; (2) a wide-path configuration designating multiple target experts per layer, ensuring stronger robustness; (3) a contrastive loss provably cancels gradient leakage to clean inputs, maintaining their natural routing path. Moreover, PathMark naturally supports multi-bit encoding through combinatorial paths. Verification is enabled via white-box routing inspection for forensic scenarios and black-box output detection for API-only access. Experiments on four MoE models demonstrate $&gt; 99\%$ verification accuracy with $&lt; 2\%$ perplexity degradation, and superior robustness under quantization, fine-tuning, pruning, and adaptive attacks.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-04T03:43:38Z</published>
+    <arxiv:comment>20 pages, accepted by CCS'26</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yudong Gao</name>
+    </author>
+    <author>
+      <name>Qingyue Wang</name>
+    </author>
+    <author>
+      <name>Yuanyuan Yuan</name>
+    </author>
+    <author>
+      <name>Ruixuan Huang</name>
+    </author>
+    <author>
+      <name>Linghan Chen</name>
+    </author>
+    <author>
+      <name>Zimo Ji</name>
+    </author>
+    <author>
+      <name>Shuai Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.02755v1</id>
+    <title>Out-of-Distribution Generalization of Risk Aversion in Language Models</title>
+    <updated>2026-07-02T20:41:30Z</updated>
+    <link href="https://arxiv.org/abs/2607.02755v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.02755v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Training AIs to be risk-averse in resources could offer a failsafe in the event that AIs turn out misaligned. Misaligned but risk-averse AIs would tend to prefer low-risk, low-reward strategies like cooperation over high-risk, high-reward strategies like rebellion, limiting the downsides of any misalignment. But we can only feasibly train AIs to be risk-averse on low-stakes gambles, and we will only be safe if their risk aversion generalizes to astronomically-high-stakes gambles. Will it? To shed light on this question, we introduce RiskAverseOOD: a benchmark for measuring how well risk aversion generalizes out of distribution. We then offer some initial results. Using a variety of methods to make Qwen3-8B choose risk-aversely when the stakes are low, we find that we can induce substantial risk aversion when the stakes are astronomically high. Our models' learned risk aversion generalizes at least partially across 98 orders of magnitude. From a baseline 2% rate of choosing a safe `Cooperate' option, we see rates around 70% (SFT and tie training), 52% (DPO), and 39% (activation steering). In another experiment, our fine-tuned reward model reliably scores risk-averse reasoning above risk-neutral or excessively risk-averse alternatives (99.6% pairwise accuracy). We replicate these effects at different scales (Qwen3-1.7B and Qwen3-14B) and across model families (Gemma-3-12B-IT and Llama-3.1-8B-Instruct). Overall, we find that risk aversion learned at low stakes can generalize OOD to astronomically high stakes, though not yet consistently enough to serve as a reliable failsafe. Achieving that level of consistency is an open problem.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T20:41:30Z</published>
+    <arxiv:comment>ICML 2026 Agents in the Wild workshop</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Kristina Zhang</name>
+    </author>
+    <author>
+      <name>Junior Chinomso Okoroafor</name>
+    </author>
+    <author>
+      <name>Benjamin Maltbie</name>
+    </author>
+    <author>
+      <name>Andrew Lin</name>
+    </author>
+    <author>
+      <name>Abhitej Bokka</name>
+    </author>
+    <author>
+      <name>Elliott Thornley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01433v1</id>
+    <title>CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse</title>
+    <updated>2026-07-01T19:54:39Z</updated>
+    <link href="https://arxiv.org/abs/2607.01433v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01433v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Divergent thinking is a crucial aspect of creativity, yet large language models (LLMs) tend to consistently generate similar responses to open-ended questions, in what has been termed the artificial hivemind effect. Here, we introduce CreativityNeuro, a data-free method for enhancing divergent thinking in LLMs via contrastive weight steering. We evaluate our method across multiple creativity assessments and report several main findings. On the Divergent Association Task (DAT), a vocabulary-space creativity test, CreativityNeuro improves performance by up to 14 human percentile points. Next, in a large-scale human evaluation (N=720) on the Alternative Uses Test (AUT) and the Task Task, CreativityNeuro achieves significant improvements in originality, surprise, and creativity, transferring to longer-form and more open-ended tasks. Importantly, we find that across all three tasks, CreativityNeuro demonstrably reduces measures of mode collapse. Moreover, activation steering achieves comparable performance to CreativityNeuro on the DAT, but it does not transfer to the AUT and Task Task, demonstrating the effectiveness of weight-space steering in generalizing to unseen tasks. In conclusion, CreativityNeuro improves divergent thinking and reduces mode collapse without requiring behavioral data, re-training, or gradient-based fine-tuning, providing a straightforward way to enhance LLM performance in creative domains.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T19:54:39Z</published>
+    <arxiv:comment>Accepted at ICML 2026 Workshop on Creativity &amp; Generative AI</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Samuel Schapiro</name>
+    </author>
+    <author>
+      <name>Core Francisco Park</name>
+    </author>
+    <author>
+      <name>Felix Sosa</name>
+    </author>
+    <author>
+      <name>Lav R. Varshney</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01033v1</id>
+    <title>The Model Organism Lottery: Model Organism Interpretability Strongly Depends on Training Methodology</title>
+    <updated>2026-07-01T15:01:30Z</updated>
+    <link href="https://arxiv.org/abs/2607.01033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Model organisms (MOs) - language models trained to exhibit undesired or unnatural behaviours - are frequently used as testbeds for evaluating white-box interpretability techniques. Current MOs are typically constructed via post-hoc supervised fine-tuning (SFT) on behavioural transcripts or synthetic documents. Prior research has shown that interpretability methods can easily identify hidden behaviours in these MOs. However, recent work suggests that such post-hoc training methods may make interpretability unrealistically easy. We investigate this claim by constructing a suite of 54 $\verb|OLMo2-1B|$- and $\verb|gemma-3-1b-it|$-based MOs trained with seven different techniques, including standard post-hoc SFT, post-hoc DPO, and more realistic integration of MO data into the OLMo post-training DPO phase. We use these MO variants to benchmark activation oracles, activation steering, logit lens, and sparse autoencoders. Our findings show that (i) MO interpretability depends strongly on training objective, target behaviour, model architecture, and training data generation pipeline; (ii) substantial variance remains even after controlling for differences in the strength of target behaviour expression; and (iii) our more realistic $\textit{integrated training}$ often yields less interpretable MOs than standard post-hoc methods. Our results cast substantial doubt on the validity of current MOs as interpretability proxies.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T15:01:30Z</published>
+    <arxiv:comment>9 pages, 9 figures, references and appendices</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andrzej Szablewski</name>
+    </author>
+    <author>
+      <name>Gabriel Konar-Steenberg</name>
+    </author>
+    <author>
+      <name>Raffaello Fornasiere</name>
+    </author>
+    <author>
+      <name>Nikita Menon</name>
+    </author>
+    <author>
+      <name>Stefan Heimersheim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.20393v1</id>
+    <title>Knowledge-Graph-Gated Defactualization for Style-Controllable and Fact-Preserving Generation in Agentic Conversational AI</title>
+    <updated>2026-07-01T02:27:47Z</updated>
+    <link href="https://arxiv.org/abs/2608.20393v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.20393v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Agentic large language models (LLMs) deployed in fact-sensitive applications such as customer support must simultaneously preserve factual correctness and generate responses in a controllable stylistic register. Activation steering enables fine-tuning-free style control by perturbing hidden representations, but it lacks an explicit mechanism for distinguishing verifiable facts from stylistic content, leading to semantic leakage. We address this challenge through \emph{Defactualize-Steer-Rehydrate} (DSR), a knowledge-engineering framework that integrates a typed, salience-weighted knowledge graph (KG) with activation steering. DSR extracts salient entities using a layered regex or NER or lexical-classifier pipeline, replaces them with typed placeholders prior to steering, and deterministically restores verified values through salience-guided rehydration after generation. DSR is evaluated across six LLaMA-family models (1B--13B parameters) on 600 A2A-generated customer-support cases (1,200 generations), with a dedicated KG ablation study. DSR significantly increases verified-entity recovery relative to a steering-only baseline (Cohen's $d=0.225$, $p_{\text{Bonf}}=1.0\times10^{-4}$), though the absolute recovery rate remains modest, while preserving effective style control across diverse model families. Layer-wise separability and steering-strength diagnostics further show previously unexplored interactions between representation-level steering and factual grounding. hese results demonstrate that explicit knowledge engineering can systematically enhance trustworthy, controllable, and reproducible generative AI without requiring model fine-tuning. Code, cached steering vectors, and evaluation scripts are publicly released to support reproducibility.\footnote{https://github.com/Tanmay-IITDSAI/KG-Gated-Defactualization}</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T02:27:47Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Tanmay Kumar Shrivastava</name>
+    </author>
+    <author>
+      <name>Darsh Rohit Nandu</name>
+    </author>
+    <author>
+      <name>Rajesh Kumar Mundotiya</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.20852v1</id>
+    <title>Translating Inference-Time Control to Radiology Vision-Language Models: Activation Steering for Pneumonia Classification on Chest X-rays</title>
+    <updated>2026-06-18T18:36:13Z</updated>
+    <link href="https://arxiv.org/abs/2606.20852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.20852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inference-time engineering can alter model behavior without fine-tuning. However, its utility for improving diagnostic performance in medical vision-language models (VLMs) remains unclear. We aim to evaluate whether Contrastive Activation Addition (CAA) can improve pneumonia classification in chest radiograph VLMs without updating model weights. Three frozen chest radiograph VLMs (MedGemma-4B-IT, NV-Reason-CXR-3B, and CheXOne-3B) were evaluated on the public Kermany pneumonia test set. Classification was based on the logits of the tokens Yes and No under a binary prompt. Steering vectors included a 30-pair answer-bias control, a 30-pair pneumonia text contrast, and an image-conditioned contrast derived from 30 pneumonia and 30 normal development images. A deterministic 200-image development set was used for layer and scale selection (100 images) and threshold calibration (100 images). Performance was assessed using ROC-AUC, PR-AUC, F1 score, threshold analyses, reverse-vector controls, random-vector controls, and conditional bootstrap confidence intervals. Fixed-threshold F1 improvements were frequently observed but did not consistently indicate improved diagnostic performance. For MedGemma-4B-IT. NV-Reason-CXR-3B showed the strongest benefit: calibrated F1 improved from 0.7692 in the zero-shot setting to 0.8619 with pneumonia-text steering and to 0.8727 with image-conditioned steering. For CheXOne-3B, pneumonia-text steering increased calibrated F1 from 0.8528 to 0.8666, although the confidence interval crossed zero. On this public pneumonia benchmark, CAA substantially altered prediction score distributions and operating characteristics without fine-tuning. Meaningful performance gains were observed in one of three evaluated VLMs, suggesting that activation steering may serve as a lightweight approach for adapting medical VLM behavior.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-18T18:36:13Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Eduardo Moreno Judice de Mattos Farina</name>
+    </author>
+    <author>
+      <name>Mateus A. Esmeraldo</name>
+    </author>
+    <author>
+      <name>Felipe Akio Matsuoka</name>
+    </author>
+    <author>
+      <name>Paulo Eduardo de Aguiar Kuriki</name>
+    </author>
+    <author>
+      <name>Felipe Campos Kitamura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.13038v1</id>
+    <title>Nous: An Attempt to Extract and Inject the Cognition Behind Prediction-Market Behavior</title>
+    <updated>2026-06-11T08:18:25Z</updated>
+    <link href="https://arxiv.org/abs/2606.13038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.13038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As LLM agents proliferate in prediction markets and collective decision-making, they risk a cognitive monoculture: agents built on shared foundation models produce correlated forecasts, and recent measurement finds frontier-model errors correlated at r ~ 0.77. We ask whether human cognitive diversity can be recovered from behavior and transferred to LLM agents. Nous extracts a structured eight-dimension behavioral profile from real Polymarket trading activity and injects it into agents through prompts. Our central finding is a dissociation between the two halves of that pipeline. Extraction works, partially: across 100 wallets, 8 of 14 parameters are temporally stable (split-half ICC &gt;= 0.5, bootstrap CI lower bound &gt; 0.3; contrarian score reaches ICC ~ 0.9); wallets are identifiable from their profiles well above chance (top-1 retrieval 17-22% vs. 1% chance); and two of four pre-specified dimensions rank-correlate with future realized profit out-of-sample, though the correlations do not survive behavioral-confound controls. Prompt-level injection does not measurably transmit it: on a semantic embedding metric, structured injection shows no significant advantage over a length-matched control on any model, and the diversity it induces neither reduces ensemble error correlation nor improves Brier score -- a null that persists across exploratory checks on sampling temperature, profile diversity, and question difficulty. Measuring the prompts themselves locates the compression before the model: the structure-to-narrative translator emits near-uniform prompts whose spread does not track profile spread. We position Nous as measuring the cognitive-monoculture problem and the limits of a prompt-level remedy, motivating deeper, below-the-prompt injection (fine-tuning, activation steering). Code, frozen profiles, prompts, and model outputs: https://github.com/WillChienT/nous-paper</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-11T08:18:25Z</published>
+    <arxiv:comment>37 pages, 1 figure, 7 tables. Reproduction artifacts (code, frozen profiles, prompts, model outputs): https://github.com/WillChienT/nous-paper</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Haowei Qian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.12234v1</id>
+    <title>On The Effectiveness-Fluency Trade-Off In LLM Conditioning: A Systematic Study</title>
+    <updated>2026-06-10T15:42:15Z</updated>
+    <link href="https://arxiv.org/abs/2606.12234v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.12234v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Controlling the output of Large Language Models (LLMs) is a central challenge for their reliable deployment, yet a clear understanding of the involved trade-offs remains elusive. Current approaches to conditioning are often evaluated with a narrow focus on their effectiveness at injecting or removing a target concept, neglecting generation quality. We systematically investigate a range of conditioning methods in both injection and removal scenarios. We find that efficient steering methods frequently achieve conditioning at a steep cost to fluency. Furthermore, we identify a critical yet previously overlooked interaction with the training paradigm: activation steering methods are far less effective on instruction-tuned models than on their base counterparts. Simple prompting and full-fledged supervised fine-tuning, on the other hand, are viable options for concept injection, but are not as good at concept removal. Finally, cheaply computed textual metrics highly correlate to costly LLM-as-judge scores, and provide insights on the behavior of conditioning methods.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-10T15:42:15Z</published>
+    <arxiv:comment>8 pages, 2 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Iuri Macocco</name>
+    </author>
+    <author>
+      <name>Pau Rodríguez</name>
+    </author>
+    <author>
+      <name>Arno Blaas</name>
+    </author>
+    <author>
+      <name>Luca Zappella</name>
+    </author>
+    <author>
+      <name>Marco Baroni</name>
+    </author>
+    <author>
+      <name>Xavier Suau</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.11386v1</id>
+    <title>Overcoming State Inertia in Full-Duplex Spoken Language Models via Activation Steering</title>
+    <updated>2026-06-09T19:08:07Z</updated>
+    <link href="https://arxiv.org/abs/2606.11386v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.11386v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Full-duplex spoken language models (FD-SLMs) enable seamless speech interaction by allowing models to listen and speak simultaneously, yet the internal mechanism by which they coordinate listening and speaking remains underexplored. We analyze the predictive behavior encoded in FD-SLM hidden representations and find that they exhibit stream-specific predictive patterns: during listening, they preferentially predict the incoming user stream, whereas during speaking, they preferentially predict the model output stream. Building on this observation, we show that FD-SLMs dynamically modulate their internal predictive focus between two states: a generative state aligned with model output generation and a perceptive state aligned with incoming user input. However, this modulation can lag behind abrupt changes in conversational context. During user interruptions, the model remains transiently biased toward the generative state before transitioning into the perceptive state, causing it to miss the beginning of the incoming input. We term this delayed internal transition state inertia. To quantify its downstream impact, we introduce the Zero-Buffer Benchmark (ZBB), a diagnostic benchmark for evaluating immediate interruption comprehension when user speech begins abruptly. We evaluate this setting using response correctness and initial-word occurrence rate (IWOR). Finally, we mitigate state inertia through activation steering with a perception vector, a training-free intervention with little additional computational overhead. Across multiple state-of-the-art FD-SLMs, activation steering substantially improves interruption handling; for example, on PersonaPlex, it improves correctness from 28% to 45% and IWOR from 40% to 72% without any fine-tuning.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-09T19:08:07Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Cheng-Kuang Chang</name>
+    </author>
+    <author>
+      <name>Kai-Wei Chang</name>
+    </author>
+    <author>
+      <name>Alexander H. Liu</name>
+    </author>
+    <author>
+      <name>James Glass</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.08243v1</id>
+    <title>Building Comparative Motivation Profiles with Instrumental Interventions</title>
+    <updated>2026-06-06T16:01:52Z</updated>
+    <link href="https://arxiv.org/abs/2606.08243v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.08243v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety evaluations often infer latent motivations from behavioral patterns, but the construct validity of these inferences is unclear. We study this problem in alignment faking, where models comply with training objectives more often when they infer training pressure. This behavior is commonly interpreted as strategic self-preservation, but it may also reflect sensitivity to the model's inference about the expectation of researchers conducting the evaluation. We introduce a symmetric intervention framework for distinguishing these competing hypotheses. Instead of directly intervening on "scheming" or "sycophancy", we target instrumental processes entailed by each hypothesis: consequence-tracking and researcher-expectation tracking. We then compare how interventions on these processes affect the alignment faking. We study four openweight model organisms using synthetic document fine-tuning, activation steering, and prompting. Under synthetic document fine-tuning, Llama-3.1-70B, Llama3.1-405B, and Qwen-2.5-72B are more sensitive to expectation-tracking than consequence-tracking interventions. Activation steering on Llama-3.1- 70B supports the same broad picture, and prompt interventions broadly align with SDF profiles. Overall, alignment-faking behavior can be causally sensitive to evaluation-context expectations despite scheming-consistent scratchpads. Scheming and strategic-deception evaluations therefore need construct-validity checks, and symmetric instrumental interventions provide one such test.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-06T16:01:52Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>David Vella Zarb</name>
+    </author>
+    <author>
+      <name>Rustem Turtayev</name>
+    </author>
+    <author>
+      <name>Taywon Min</name>
+    </author>
+    <author>
+      <name>Jinghua Ou</name>
+    </author>
+    <author>
+      <name>Shi Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.07963v1</id>
+    <title>Shared Latent Structures Enable Unified Backdoor Detection and Mitigation in LLMs</title>
+    <updated>2026-06-06T03:41:44Z</updated>
+    <link href="https://arxiv.org/abs/2606.07963v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.07963v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Backdoor attacks in large language models (LLMs) are often treated as isolated trigger-response failures, motivating defenses tailored to specific triggers or behaviors. We show this view is incomplete. Across diverse backdoor behaviors, we identify a shared latent mechanism that can be detected, causally controlled, and suppressed. Using sparse autoencoders (SAEs) on residual-stream activations, we find a small set of latent features consistently activated across jailbreaking, refusal manipulation, password-locking, bias induction, sentiment misclassification, and country-conditioned harmful advice. These features generalize across Qwen3, Gemma~3, and Llama~3.1 models from 4B to 32B parameters, and across both fine-tuning and weight-editing attacks. Through bidirectional activation steering, we show these features are causal: suppressing them reduces attack success, while amplifying them induces target behaviors on clean prompts. We further train lightweight SAE-feature classifiers that generalize zero-shot to unseen backdoors and outperform residual-stream and weight-diffing baselines. Finally, we introduce Concept Ablation Fine-Tuning (CAFT), which suppresses backdoor formation by ablating the shared latent subspace during training. Together, our results suggest that many backdoors rely on a transferable latent mechanism, enabling unified detection and mitigation.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-06T03:41:44Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Omar Mahmoud</name>
+    </author>
+    <author>
+      <name>Aly M. Kassem</name>
+    </author>
+    <author>
+      <name>Thommen George Karimpanal</name>
+    </author>
+    <author>
+      <name>Buddhika Laknath Semage</name>
+    </author>
+    <author>
+      <name>Negar Rostamzadeh</name>
+    </author>
+    <author>
+      <name>Golnoosh Farnadi</name>
+    </author>
+    <author>
+      <name>Santu Rana</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.19364v2</id>
+    <title>SAE-StatSteer: Statistical Consensus Feature Selection for Optimization-Free Activation Steering of Large Language Models</title>
+    <updated>2026-08-11T12:45:56Z</updated>
+    <link href="https://arxiv.org/abs/2607.19364v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.19364v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Activation steering adds a residual-stream direction at inference time, providing lightweight behavioral control without fine-tuning. Sparse autoencoders (SAEs) can make such interventions auditable by decomposing dense activations into an approximately monosemantic feature basis. We introduce SAE-StatSteer, a transparent, optimization-free pipeline. It first filters features through six reliability conditions, then ranks the survivors by an unweighted Borda consensus over three statistics, an $F$-test, KSG mutual information, and Cohen's $d$, and finally combines the selected SAE decoder rows using Cohen's-$d$ weights. We evaluate three Gemma-family models across four behavioral domains against seven dense or SAE-based baselines. Our quality-conditioned protocol requires attribute movement while preserving relevance, richness, and coherence. Raw success systematically overstates usable control because strong shifts often degrade generation quality, and effective steering is not governed by a universal layer or strength. SAE-StatSteer remains competitive with optimization-based methods while exposing every selection and weighting decision for audit. These results motivate reporting quality-conditioned success alongside raw behavioral shift. Our code and data are available at https://github.com/Oshayer-Siddique/LLM-Steering-Using-SAE.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-05T19:27:31Z</published>
+    <arxiv:comment>Under review, 26 pages, 5 figures, 16 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Oshayer Siddique</name>
+    </author>
+    <author>
+      <name>J. M Areeb Uzair Alam</name>
+    </author>
+    <author>
+      <name>Md Jobayer Rahman Rafy</name>
+    </author>
+    <author>
+      <name>Syed Rifat Raiyan</name>
+    </author>
+    <author>
+      <name>Hasan Mahmud</name>
+    </author>
+    <author>
+      <name>Md Kamrul Hasan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.05958v1</id>
+    <title>Steering Vectors are an Adversarial Attack Surface</title>
+    <updated>2026-06-04T09:56:48Z</updated>
+    <link href="https://arxiv.org/abs/2606.05958v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.05958v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Activation steering has become a popular way to control Large Language Model (LLM) behavior without fine-tuning. Since the technique is plug-and-play, users share datasets and precomputed vectors to steer model activations. However, we show that a \emph{stealth data poisoning attack} silently compromises this pipeline. By substituting $4{-}6\%$ of tokens in the steering dataset, an attacker can silently align the resulting vector with an anti-refusal direction. This jailbreaks the target model while preserving the intended steering effect on benign prompts. Under this threat model, a malicious actor can distribute an apparently safe bundle containing texts, vectors, and weights, alongside an equivalence certificate that the end-user can verify. We test the attack on two open-weight model families and eight model-attribute combinations, observing that poisoned vectors reach an absolute attack success rate (ASR) of $20{-}55\%$, $+19\%$ to $+51\%$ over a clean reference. Finally, we find that a refusal-direction orthogonalization defense can recover ${\approx}82\%$ of the ASR gap without harming benign behavior.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-04T09:56:48Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Abzal Aidakhmetov</name>
+    </author>
+    <author>
+      <name>Donato Crisostomi</name>
+    </author>
+    <author>
+      <name>Tommaso Mencattini</name>
+    </author>
+    <author>
+      <name>Adrian Robert Minut</name>
+    </author>
+    <author>
+      <name>Iacopo Masi</name>
+    </author>
+    <author>
+      <name>Emanuele Rodolà</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.21620v1</id>
+    <title>From Profiles to Steering Vectors: Global Sparse Priors and Local Semantic Calibration for Personalized Text Generation</title>
+    <updated>2026-06-01T12:42:17Z</updated>
+    <link href="https://arxiv.org/abs/2607.21620v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.21620v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Personalized text generation requires models to capture user-specific writing styles from historical data. Existing approaches based on retrieval, parameter-efficient fine-tuning, or activation steering either introduce inference and storage overhead or struggle to separate stylistic signals from semantic content. We propose GLASS, a training-free framework for personalized generation via Global-Local Activation Steering with Sparse priors. GLASS uses sparse autoencoders to extract a global user-style prior from historical responses and constructs local contrastive style vectors over clustered interaction scenarios. During inference, it jointly injects global and local vectors into different model layers, enabling context-aware personalization without retrieval or parameter updates. Experiments on LaMP and LongLaMP show that GLASS outperforms retrieval-, fine-tuning-, and steering-based baselines across ROUGE metrics and LLM-as-judge evaluations. Further analyses show that SAE-based representations are more robust to topic and length shifts, suggesting better disentanglement of stylistic information from semantic residue.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-01T12:42:17Z</published>
+    <arxiv:comment>Under review</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Liuji Chen</name>
+    </author>
+    <author>
+      <name>Zeyu Zhang</name>
+    </author>
+    <author>
+      <name>Xinyuan Zhang</name>
+    </author>
+    <author>
+      <name>Shuai Nie</name>
+    </author>
+    <author>
+      <name>Qiang Liu</name>
+    </author>
+    <author>
+      <name>Shu Wu</name>
+    </author>
+    <author>
+      <name>Liang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.28664v1</id>
+    <title>Activation Steering for Synthetic Data Generation: The Role of Diversity in Downstream Safety Detection</title>
+    <updated>2026-05-27T15:59:45Z</updated>
+    <link href="https://arxiv.org/abs/2605.28664v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.28664v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety detection models require examples of HHH (Helpful, Harmless, Honest)-violating outputs for robust generalization, however such examples are scarce. Activation Steering (AS) has emerged as a data-efficient method for generating target-concept-aligned responses. We investigate whether AS can generate high-quality training datasets for downstream classifiers, a question that remains untested. We present a two-fold study with intrinsic and extrinsic evaluation across $4$ concepts $\times\,2$ models $\times\,4$ steering methods. Intrinsically, beyond the field-standard rubric of steering success (concept alignment) and coherence, we introduce sample- and set-level diversity as a quality axis previously absent from the literature, and find that increasing steering strength reduces response diversity. Extrinsically, we replace HHH-violating examples in the available training data with steered generations and fine-tune detection classifiers. AS-generated data results in a better classifier than the prompting-generated data on $3$ of $4$ concepts. However, only $41$ of $136$ AS configurations outperform prompting, indicating that downstream utility lies in a narrow regime that jointly satisfies success, coherence, and diversity. The harmonic mean of these three axes correlates with downstream AUROC more consistently across concepts than success and coherence alone, providing a practical heuristic target for practitioners tuning AS hyperparameters. Together, our results highlight the potential of AS in synthetic data generation for improving safety detection and identify diversity as a critical, previously overlooked axis for tuning AS.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-27T15:59:45Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Vijeta Deshpande</name>
+    </author>
+    <author>
+      <name>Tootiya Giyahchi</name>
+    </author>
+    <author>
+      <name>Veena Padmanabhan</name>
+    </author>
+    <author>
+      <name>Leman Akoglu</name>
+    </author>
+    <author>
+      <name>Anna Rumshisky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.27676v1</id>
+    <title>Unsupervised Identification and Removal of Spurious Correlations During Fine-Tuning</title>
+    <updated>2026-05-26T20:51:48Z</updated>
+    <link href="https://arxiv.org/abs/2605.27676v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.27676v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning a pretrained language model on a curated dataset can produce spurious correlations between the fine-tuning task and unintended latent factors -- such as misaligned personas or political slant -- that the curation procedure has entangled with the task. The model can latch onto these spurious correlations, leading to bias and reduced out-of-distribution generalisation. We prove that under reasonable assumptions on task complexity and the spurious correlation, such latent factors can be identified, without supervision, from the weights of a naive LoRA fine-tune. Existing approaches to removing bias, such as activation steering, remove identified factors from residual-stream activations, either at inference or during training. We argue, however, that the goal should be to remove the spurious correlation, not the latent factor itself, as the pretrained model may rely on it for genuine task signal. To enable this, we propose GRASP, GRadient projection of Associated Spurious Patterns, which prevents the model from acquiring new reliance on the identified latent factor while preserving any pretrained content along it. We validate on three fine-tuning tasks. The first two involve emergent misalignment, where fine-tuning on a narrow task -- in our case, writing insecure code and giving bad medical advice -- leads to misaligned responses on unrelated topics. Here our method completely removes misalignment in the insecure code case and reduces them by ~5x in the bad medical advice case, beating all baselines in the trade-off between misalignment-reduction and task-preservation. The last is a novel political-bias experiment, where fine-tuning on right-skewed Reddit financial-advice data causes political-lean drift on unrelated topics. Here our method reduces drift by more than half, while improving financial task performance, beating all baselines.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-26T20:51:48Z</published>
+    <arxiv:comment>10 + 4 pages, comments welcome</arxiv:comment>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Ciarán M. Gilligan-Lee</name>
+    </author>
+    <author>
+      <name>Joseph Egan</name>
+    </author>
+    <author>
+      <name>Yuchen Zhu</name>
+    </author>
+    <author>
+      <name>Michael O'Riordan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.20745v1</id>
+    <title>The Hidden Signal of Verifier Strictness: Controlling and Improving Step-Wise Verification via Selective Latent Steering</title>
+    <updated>2026-05-20T05:48:16Z</updated>
+    <link href="https://arxiv.org/abs/2605.20745v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.20745v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generative verifiers have emerged as a promising paradigm for step-wise verification, but their verification behavior is often poorly calibrated: they may be under-critical and miss erroneous steps, or over-critical and reject correct reasoning. We refer to this tendency to be overly lenient or overly critical as verifier strictness. In this work, we study whether verifier strictness can be controlled through hidden-state intervention. We uncover a verification-specific hidden-state signal: in step-wise verification, a verifier's tendency to accept or reject a solution step is encoded near the boundary of the corresponding verification paragraph. Exploiting this signal, we show that hidden-state steering can directly modulate verifier strictness without fine-tuning. However, uniform steering induces a trade-off between error detection and correctness certification. To address this, we propose VerifySteer, which exploits latent correctness signals for sample-level routing and selectively intervenes on paragraph boundaries. Experiments on ProcessBench and Hard2Verify show that VerifySteer outperforms prompt optimization and activation steering baselines, and is competitive with self-consistency while requiring 4-7x less inference compute. VerifySteer is also complementary to verification fine-tuning, providing further gains on top of fine-tuned verifiers. The code is available at https://github.com/YefanZhou/VerifySteer.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-20T05:48:16Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yefan Zhou</name>
+    </author>
+    <author>
+      <name>Yilun Zhou</name>
+    </author>
+    <author>
+      <name>Austin Xu</name>
+    </author>
+    <author>
+      <name>Soroush Vosoughi</name>
+    </author>
+    <author>
+      <name>Shafiq Joty</name>
+    </author>
+    <author>
+      <name>Jiang Gui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.15217v1</id>
+    <title>Fair outputs, Biased Internals: Causal Potency and Asymmetry of Latent Bias in LLMs for High-Stakes Decisions</title>
+    <updated>2026-05-12T12:14:58Z</updated>
+    <link href="https://arxiv.org/abs/2605.15217v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.15217v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Instruction-tuned language models exhibit behavioural fairness in high-stakes decisions while retaining biased associations in their internal representations. However, whether these suppressed representations can affect model outputs - and whether such causal potency is symmetric across demographic groups - remains unknown. We investigate the use of open-weight models for mortgage underwriting using matched applications that differ only in racially-associated names and reveal a critical disconnect: models show no output-level bias, yet retain and amplify demographic representations across model layers. Through activation steering and novel cross-layer interventions, we demonstrate that this suppressed information is decision-relevant: when reinjected at critical layers, it produces near-complete decision reversals. Critically, this latent bias is asymmetric - steering interventions affect decisions in one demographic direction, while producing minimal effects in reverse - and susceptible to adversarial prompt engineering and parameter-efficient fine-tuning. These findings demonstrate that behavioural audits focused on outputs are insufficient: fair outputs can mask exploitable internal biases. They also motivate dual-layer testing frameworks combining output evaluation with representational analysis for AI governance in high-stakes decisions.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="econ.GN" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-12T12:14:58Z</published>
+    <arxiv:comment>39 pages, 16 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Jagdish Tripathy</name>
+    </author>
+    <author>
+      <name>Marcus Buckmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.14111v1</id>
+    <title>Introspection Fine-Tuning (IFT): Training Small LLMs to Introspect</title>
+    <updated>2026-05-08T05:30:26Z</updated>
+    <link href="https://arxiv.org/abs/2607.14111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.14111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can small language models detect and report on perturbations their own internal activations? We investigate this question through the lens of activation steering: injecting concept vectors into a model's residual stream and measuring whether the model can accurately report on the perturbation. We first show that the binary detection paradigm used in prior work -- prompting the model to answer Yes'' or No'' to whether it detects an injected thought -- is confounded in small models, as steering biases the model toward affirmative responses regardless of the question content. We therefore propose two confound-free evaluation paradigms: sentence localization (identifying which of $N$ sentences was perturbed, chance $= 1/N$) and strength comparison (identifying which of two sentences received a stronger injection, chance $= 50\%$). Evaluating across six models from two families (Llama-3.2 and Gemma-4), we find that models as small as 2B parameters introspect reliably well above chance, and that introspective ability generally increases with scale. Llama-1B, however, performs at or below chance. We then introduce \emph{Introspection Fine-Tuning} (IFT): supervised fine-tuning on sentence-localization examples constructed from the model's own perturbed forward passes. IFT raises Llama-1B sentence-localization accuracy from $9.6\%$ to $60.6\%$ (a $6\times$ improvement), with gains generalizing zero-shot to the held-out strength-comparison task ($30.2\% \to 52.2\%$). IFT also improves introspection for 3B and 8B models, while inducing negligible degradation on standard capability benchmarks. Our results suggest that introspective ability is not fixed by scale alone: it can be directly trained, and doing so unlocks latent self-monitoring capacity with implications for AI transparency and alignment. Our code is \href{https://anonymous.4open.science/r/IFT-introspection-2092/README.md}{here}.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-08T05:30:26Z</published>
+    <arxiv:comment>9 pages (excluding appendices / references), 2 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ely Hahami</name>
+    </author>
+    <author>
+      <name>Ishaan Sinha</name>
+    </author>
+    <author>
+      <name>Lavik Jain</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.08254v1</id>
+    <title>HyperTransport: Amortized Conditioning of T2I Generative Models</title>
+    <updated>2026-05-07T19:38:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.08254v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.08254v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As foundation models grow in capability, the ability to efficiently and reliably control their behavior becomes critical. Fine-tuning these models can be costly, and while prompting can be practical for controllability, it remains fragile due to models' high sensitivity to exact prompt wording and structure. This brittleness has driven interest in activation steering techniques that offer more stable and predictable control over model behavior. However, existing activation steering methods require per-concept optimization, which makes them ill-suited to deployment scenarios where the concept set is large, evolving, or only specified at request time: each new concept incurs at least minutes of optimization on the target model. We propose HyperTransport, a hypernetwork framework that amortizes this cost by mapping embeddings from a pretrained encoder (CLIP in our instantiation) directly to intervention parameters, trained end-to-end using an optimal transport loss. Once trained, HyperTransport produces each new intervention in a single hypernetwork forward pass, 3600-7000x faster than per-concept fitting. On concepts unseen during training, it matches the strongest per-concept baselines at inducing the target concept. By decoupling concept representation from intervention prediction, HyperTransport combines three capabilities that no existing approach offers as a set: amortized steering for open-ended concept sets, continuous interpretable strength control, and cross-modal conditioning where reference images can directly steer text-based generation. We validate HyperTransport on DMD2 and Nitro-1-PixArt across 167 held-out test concepts via CLIP-based metrics, a VLM-as-a-judge evaluation, and a user study. In pairwise comparisons, both human and VLM judges prefer HyperTransport over prompting ~2x as often.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-07T19:38:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Valentino Maiorca</name>
+    </author>
+    <author>
+      <name>Eleonora Gualdoni</name>
+    </author>
+    <author>
+      <name>Xavier Suau</name>
+    </author>
+    <author>
+      <name>Marco Cuturi</name>
+    </author>
+    <author>
+      <name>Luca Zappella</name>
+    </author>
+    <author>
+      <name>Pau Rodríguez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.27818v1</id>
+    <title>MASCing: Configurable Mixture-of-Experts Behavior via Activation Steering Masks</title>
+    <updated>2026-04-30T12:58:57Z</updated>
+    <link href="https://arxiv.org/abs/2604.27818v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.27818v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mixture-of-Experts (MoE) architectures in Large Language Models (LLMs) have significantly reduced inference costs through sparse activation. However, this sparse activation paradigm also introduces new safety challenges. Since only a subset of experts is engaged for each input, model behavior becomes coupled to routing decisions, yielding a difficult-to-control mechanism that can vary across safety-relevant scenarios. At the same time, adapting model behavior through full fine-tuning or retraining is costly, especially when developers need to rapidly configure the same model for different safety objectives. We present MASCing (MoE Activation Steering Configuration), the first framework that enables flexible reconfiguration of MoE behavior across diverse safety scenarios without retraining. MASCing uses an LSTM-based surrogate model to capture cross-layer routing dependencies and map routing logits to downstream behaviors. It then optimizes a steering matrix to identify behavior-relevant expert circuits and, at inference time, applies steering masks to the routing gates to override expert selection. This enables targeted enhancement or suppression of specific behaviors while preserving general language utility. To demonstrate its reconfigurability, we apply MASCing to two different safety-related objectives and observe consistent gains with negligible overhead across seven open-source MoE models. For multi-turn jailbreak defense, it improves the average defense success rate from 52.5% to 83.9%, with gains of up to 89.2%. For adult-content generation, MASCing enables models to comply with such requests that would otherwise be refused, increasing the average generation success rate from 52.6% to 82.0%, with gains of up to 93.0%. These results establish MASCing as a practical, lightweight, and flexible framework for scenario-specific safety reconfiguration in MoE models.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-30T12:58:57Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jona te Lintelo</name>
+    </author>
+    <author>
+      <name>Lichao Wu</name>
+    </author>
+    <author>
+      <name>Marina Krček</name>
+    </author>
+    <author>
+      <name>Sengim Karayalçin</name>
+    </author>
+    <author>
+      <name>Stjepan Picek</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.24881v1</id>
+    <title>Latent Agents: A Post-Training Procedure for Internalized Multi-Agent Debate</title>
+    <updated>2026-04-27T18:06:03Z</updated>
+    <link href="https://arxiv.org/abs/2604.24881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.24881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-agent debate has been shown to improve reasoning in large language models (LLMs). However, it is compute-intensive, requiring generation of long transcripts before answering questions. To address this inefficiency, we develop a framework that distills multi-agent debate into a single LLM through a two-stage fine-tuning pipeline combining debate structure learning with internalization via dynamic reward scheduling and length clipping. Across multiple models and benchmarks, our internalized models match or exceed explicit multi-agent debate performance using up to 93% fewer tokens. We then investigate the mechanistic basis of this capability through activation steering, finding that internalization creates agent-specific subspaces: interpretable directions in activation space corresponding to different agent perspectives. We further demonstrate a practical application: by instilling malicious agents into the LLM through internalized debate, then applying negative steering to suppress them, we show that distillation makes harmful behaviors easier to localize and control with smaller reductions in general performance compared to steering base models. Our findings offer a new perspective for understanding multi-agent capabilities in distilled models and provide practical guidelines for controlling internalized reasoning behaviors. Code available at https://github.com/johnsk95/latent_agents</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-27T18:06:03Z</published>
+    <arxiv:comment>ACL 2026 Main</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>John Seon Keun Yi</name>
+    </author>
+    <author>
+      <name>Aaron Mueller</name>
+    </author>
+    <author>
+      <name>Dokyun Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.19018v1</id>
+    <title>Local Linearity of LLMs Enables Activation Steering via Model-Based Linear Optimal Control</title>
+    <updated>2026-04-21T03:09:46Z</updated>
+    <link href="https://arxiv.org/abs/2604.19018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.19018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Inference-time LLM alignment methods, particularly activation steering, offer an alternative to fine-tuning by directly modifying activations during generation. Existing methods, however, often rely on non-anticipative interventions that ignore how perturbations propagate through transformer layers and lack online error feedback, resulting in suboptimal, open-loop control. To address this, we show empirically that, despite the nonlinear structure of transformer blocks, layer-wise dynamics across multiple LLM architectures and scales are well-approximated by locally-linear models. Exploiting this property, we model LLM inference as a linear time-varying dynamical system and adapt the classical linear quadratic regulator to compute feedback controllers using layer-wise Jacobians, steering activations toward desired semantic setpoints in closed-loop with minimal computational overhead and no offline training. We also derive theoretical bounds on setpoint tracking error, enabling formal guarantees on steering performance. Using a novel adaptive semantic feature setpoint signal, our method yields robust, fine-grained behavior control across models, scales, and tasks, including state-of-the-art modulation of toxicity, truthfulness, refusal, and arbitrary concepts, surpassing baseline steering methods. Our code is available at: https://github.com/trustworthyrobotics/lqr-activation-steering</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-21T03:09:46Z</published>
+    <arxiv:comment>Under review</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Julian Skifstad</name>
+    </author>
+    <author>
+      <name>Xinyue Annie Yang</name>
+    </author>
+    <author>
+      <name>Glen Chou</name>
+    </author>
+  </entry>
+</feed>

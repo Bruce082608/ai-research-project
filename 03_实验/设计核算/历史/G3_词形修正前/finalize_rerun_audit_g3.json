@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-09-08T08:16:15.087719+00:00",
+  "command": "03_实验/设计核算/.venv/bin/python 03_实验/设计核算/finalize_g3_inventory.py",
+  "exit_code": 0,
+  "outputs_unchanged": true,
+  "before_sha256": {
+    "safety_split_g3.json": "02b220bc6c1797f283049965db554fdfd84e3a9a2524b6c1bbf30e138263c98f",
+    "safety_semantic_review_g3.json": "f9debba0bfd4e6ef35b6b457787d689533d6ee686548805bdc0ff7d2f8427807",
+    "E_token_schedule_g3.json": "d060db90b869f4da69986f91fdb1f06c5f998a4a48da4c5664135f07aff6c3b4",
+    "E_token_budget_g3.json": "eeb80fad78ccd60d82f569b17e565f5ba659c4085f9a1aeac508f10e54aae39d"
+  },
+  "after_sha256": {
+    "safety_split_g3.json": "02b220bc6c1797f283049965db554fdfd84e3a9a2524b6c1bbf30e138263c98f",
+    "safety_semantic_review_g3.json": "f9debba0bfd4e6ef35b6b457787d689533d6ee686548805bdc0ff7d2f8427807",
+    "E_token_schedule_g3.json": "d060db90b869f4da69986f91fdb1f06c5f998a4a48da4c5664135f07aff6c3b4",
+    "E_token_budget_g3.json": "eeb80fad78ccd60d82f569b17e565f5ba659c4085f9a1aeac508f10e54aae39d"
+  },
+  "stdout": "split {'harmbench_test': 159, 'development_diagnostic': 38, 'test_candidate': 192, 'development_calibration': 36, 'direction_extract': 67}\nE {\"17\": {\"optimizer_steps\": 625, \"total_supervised\": 1352439, \"safe_supervised\": 67621, \"benign_supervised\": 1284818, \"safety_fraction\": 0.04999929756536154, \"benign_input_tokens\": 1838833, \"extra_safe_input_tokens\": 175505, \"extra_safe_occurrences\": 2236, \"benign_examples_with_partial_supervision\": 1107, \"safe_unique_prompts\": 67, \"safe_full_response_tokens\": [35], \"input_ratio_E_to_B\": 1.095443686294514}, \"29\": {\"optimizer_steps\": 625, \"total_supervised\": 1352439, \"safe_supervised\": 67621, \"benign_supervised\": 1284818, \"safety_fraction\": 0.04999929756536154, \"benign_input_tokens\": 1838833, \"extra_safe_input_tokens\": 175723, \"extra_safe_occurrences\": 2239, \"benign_examples_with_partial_supervision\": 1144, \"safe_unique_prompts\": 67, \"safe_full_response_tokens\": [35], \"input_ratio_E_to_B\": 1.0955622397466218}, \"43\": {\"optimizer_steps\": 625, \"total_supervised\": 1352439, \"safe_supervised\": 67621, \"benign_supervised\": 1284818, \"safety_fraction\": 0.04999929756536154, \"benign_input_tokens\": 1838833, \"extra_safe_input_tokens\": 176043, \"extra_safe_occurrences\": 2243, \"benign_examples_with_partial_supervision\": 1158, \"safe_unique_prompts\": 67, \"safe_full_response_tokens\": [35], \"input_ratio_E_to_B\": 1.0957362631625602}}\n",
+  "stderr": "",
+  "scope": "CPU-only design accounting; no model execution"
+}

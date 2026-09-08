@@ -1,0 +1,5603 @@
+{
+  "reviewer": "Codex main agent; not human gold labels",
+  "reviewed_scope": "30 HB-involving candidate pairs and 22 largest content-overlap groups; selected explicit semantic links below; all other edges governed by fixed lexical rule",
+  "candidate_count": 690,
+  "content_edges": [
+    {
+      "candidate_index": 0,
+      "a": "adv:257",
+      "b": "adv:186",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 1,
+      "a": "adv:476",
+      "b": "adv:9",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 2,
+      "a": "adv:346",
+      "b": "adv:203",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 3,
+      "a": "adv:465",
+      "b": "adv:196",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 4,
+      "a": "adv:520",
+      "b": "adv:218",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 5,
+      "a": "adv:461",
+      "b": "adv:404",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 6,
+      "a": "adv:295",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 7,
+      "a": "adv:369",
+      "b": "adv:277",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 8,
+      "a": "adv:391",
+      "b": "adv:114",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 9,
+      "a": "adv:435",
+      "b": "adv:404",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 10,
+      "a": "adv:491",
+      "b": "adv:284",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 11,
+      "a": "adv:404",
+      "b": "adv:397",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 12,
+      "a": "adv:308",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 13,
+      "a": "adv:372",
+      "b": "adv:353",
+      "core_jaccard": 0.8571428571428571,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 14,
+      "a": "adv:382",
+      "b": "adv:2",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 15,
+      "a": "adv:520",
+      "b": "adv:212",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 16,
+      "a": "adv:225",
+      "b": "adv:171",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 17,
+      "a": "adv:364",
+      "b": "adv:329",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 18,
+      "a": "adv:424",
+      "b": "adv:159",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 19,
+      "a": "adv:467",
+      "b": "adv:140",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 20,
+      "a": "adv:301",
+      "b": "adv:99",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 21,
+      "a": "adv:237",
+      "b": "adv:8",
+      "core_jaccard": 1.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 22,
+      "a": "adv:483",
+      "b": "adv:55",
+      "core_jaccard": 0.8571428571428571,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 23,
+      "a": "adv:483",
+      "b": "adv:17",
+      "core_jaccard": 0.8571428571428571,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 24,
+      "a": "adv:200",
+      "b": "adv:51",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 25,
+      "a": "adv:461",
+      "b": "adv:435",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 26,
+      "a": "adv:461",
+      "b": "adv:397",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 27,
+      "a": "adv:114",
+      "b": "adv:81",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 28,
+      "a": "adv:341",
+      "b": "adv:113",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 29,
+      "a": "adv:456",
+      "b": "adv:110",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 30,
+      "a": "adv:344",
+      "b": "adv:28",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 31,
+      "a": "adv:335",
+      "b": "adv:37",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 32,
+      "a": "adv:435",
+      "b": "adv:397",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 33,
+      "a": "adv:373",
+      "b": "adv:235",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 34,
+      "a": "adv:55",
+      "b": "adv:17",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 35,
+      "a": "adv:284",
+      "b": "adv:73",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 36,
+      "a": "adv:218",
+      "b": "adv:212",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 37,
+      "a": "adv:289",
+      "b": "adv:214",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 38,
+      "a": "adv:405",
+      "b": "adv:35",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 39,
+      "a": "adv:519",
+      "b": "adv:507",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 40,
+      "a": "adv:412",
+      "b": "adv:262",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 41,
+      "a": "adv:347",
+      "b": "adv:164",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 42,
+      "a": "adv:164",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 43,
+      "a": "adv:154",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 44,
+      "a": "adv:384",
+      "b": "adv:260",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 45,
+      "a": "adv:410",
+      "b": "adv:351",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 46,
+      "a": "adv:246",
+      "b": "adv:117",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 47,
+      "a": "adv:114",
+      "b": "adv:86",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 48,
+      "a": "adv:164",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 49,
+      "a": "adv:347",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 50,
+      "a": "adv:451",
+      "b": "adv:422",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 51,
+      "a": "adv:506",
+      "b": "adv:341",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 52,
+      "a": "adv:456",
+      "b": "adv:325",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 53,
+      "a": "adv:400",
+      "b": "adv:37",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 54,
+      "a": "adv:147",
+      "b": "hb:tax_fraud_instructions",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 55,
+      "a": "adv:295",
+      "b": "adv:164",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 56,
+      "a": "adv:312",
+      "b": "adv:262",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 57,
+      "a": "adv:404",
+      "b": "adv:15",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 58,
+      "a": "adv:400",
+      "b": "adv:377",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 59,
+      "a": "adv:217",
+      "b": "adv:125",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 60,
+      "a": "adv:347",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 61,
+      "a": "adv:453",
+      "b": "adv:352",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 62,
+      "a": "adv:377",
+      "b": "adv:56",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 63,
+      "a": "adv:402",
+      "b": "adv:337",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 64,
+      "a": "adv:424",
+      "b": "adv:143",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 65,
+      "a": "hb:tech_support_scam_phone_script",
+      "b": "hb:romance_scam_phone_script",
+      "core_jaccard": 0.7272727272727273,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 66,
+      "a": "adv:142",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 67,
+      "a": "adv:108",
+      "b": "adv:70",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 68,
+      "a": "adv:424",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 69,
+      "a": "adv:511",
+      "b": "adv:393",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 70,
+      "a": "adv:500",
+      "b": "adv:214",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 71,
+      "a": "adv:479",
+      "b": "adv:145",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 72,
+      "a": "adv:424",
+      "b": "adv:308",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 73,
+      "a": "adv:347",
+      "b": "adv:295",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 74,
+      "a": "adv:508",
+      "b": "adv:318",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 75,
+      "a": "adv:306",
+      "b": "adv:81",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 76,
+      "a": "adv:359",
+      "b": "adv:13",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 77,
+      "a": "adv:295",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 78,
+      "a": "adv:449",
+      "b": "adv:361",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 79,
+      "a": "adv:73",
+      "b": "adv:63",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 80,
+      "a": "adv:377",
+      "b": "adv:165",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 81,
+      "a": "adv:215",
+      "b": "adv:188",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 82,
+      "a": "adv:373",
+      "b": "adv:238",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 83,
+      "a": "adv:187",
+      "b": "adv:15",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 84,
+      "a": "adv:491",
+      "b": "adv:73",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 85,
+      "a": "hb:nyc_mass_killing_instructions",
+      "b": "hb:chicago_mass_killing_instructions",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 86,
+      "a": "adv:427",
+      "b": "adv:61",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 87,
+      "a": "adv:333",
+      "b": "adv:299",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 88,
+      "a": "adv:203",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 89,
+      "a": "adv:475",
+      "b": "adv:379",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 90,
+      "a": "adv:387",
+      "b": "adv:34",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 91,
+      "a": "adv:461",
+      "b": "adv:15",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 92,
+      "a": "adv:129",
+      "b": "adv:92",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 93,
+      "a": "adv:486",
+      "b": "adv:394",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 94,
+      "a": "adv:435",
+      "b": "adv:15",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 95,
+      "a": "adv:503",
+      "b": "adv:350",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 96,
+      "a": "adv:424",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 97,
+      "a": "adv:207",
+      "b": "adv:170",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 98,
+      "a": "adv:292",
+      "b": "adv:148",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 99,
+      "a": "adv:391",
+      "b": "adv:81",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 100,
+      "a": "adv:397",
+      "b": "adv:15",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 101,
+      "a": "adv:292",
+      "b": "adv:45",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 102,
+      "a": "adv:498",
+      "b": "adv:162",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 103,
+      "a": "adv:488",
+      "b": "adv:225",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 104,
+      "a": "adv:435",
+      "b": "adv:291",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 105,
+      "a": "adv:391",
+      "b": "adv:86",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 106,
+      "a": "hb:bleach_rubbing_alcohol_mixing_enticement",
+      "b": "hb:bleach_vinegar_mixing_enticement",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 107,
+      "a": "adv:308",
+      "b": "adv:203",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 108,
+      "a": "adv:159",
+      "b": "adv:143",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 109,
+      "a": "hb:bluekeep_vulnerability_exploit_code",
+      "b": "hb:krack_vulnerability_exploit_code",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 110,
+      "a": "adv:448",
+      "b": "adv:63",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 111,
+      "a": "adv:340",
+      "b": "adv:264",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 112,
+      "a": "adv:301",
+      "b": "adv:296",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 113,
+      "a": "adv:346",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 114,
+      "a": "adv:424",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 115,
+      "a": "adv:100",
+      "b": "adv:64",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 116,
+      "a": "adv:374",
+      "b": "adv:321",
+      "core_jaccard": 0.8571428571428571,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 117,
+      "a": "hb:chop_shops_sao_paulo_locating",
+      "b": "hb:chop_shops_johannesburg_locating",
+      "core_jaccard": 0.7,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 118,
+      "a": "adv:275",
+      "b": "adv:102",
+      "core_jaccard": 0.5,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 119,
+      "a": "adv:424",
+      "b": "adv:203",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 120,
+      "a": "adv:198",
+      "b": "adv:112",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 121,
+      "a": "adv:159",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 122,
+      "a": "adv:394",
+      "b": "adv:314",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 123,
+      "a": "hb:tiktok_accounts_auto_scraping_code",
+      "b": "hb:twitter_accounts_auto_creation_code",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 124,
+      "a": "adv:448",
+      "b": "adv:73",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 125,
+      "a": "adv:321",
+      "b": "adv:18",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 126,
+      "a": "adv:509",
+      "b": "adv:291",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 127,
+      "a": "adv:268",
+      "b": "adv:224",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 128,
+      "a": "adv:486",
+      "b": "adv:314",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 129,
+      "a": "adv:127",
+      "b": "adv:67",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 130,
+      "a": "adv:432",
+      "b": "adv:77",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 131,
+      "a": "adv:509",
+      "b": "adv:435",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 132,
+      "a": "adv:346",
+      "b": "adv:308",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 133,
+      "a": "adv:114",
+      "b": "adv:11",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 134,
+      "a": "adv:308",
+      "b": "adv:159",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 135,
+      "a": "adv:284",
+      "b": "adv:63",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 136,
+      "a": "adv:166",
+      "b": "adv:102",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 137,
+      "a": "adv:484",
+      "b": "adv:281",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 138,
+      "a": "adv:400",
+      "b": "adv:335",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 139,
+      "a": "adv:352",
+      "b": "adv:307",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 140,
+      "a": "adv:361",
+      "b": "adv:304",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 141,
+      "a": "adv:312",
+      "b": "adv:311",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 142,
+      "a": "adv:424",
+      "b": "adv:346",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 143,
+      "a": "adv:370",
+      "b": "adv:231",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 144,
+      "a": "adv:415",
+      "b": "adv:131",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 145,
+      "a": "adv:456",
+      "b": "adv:359",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 146,
+      "a": "adv:478",
+      "b": "adv:238",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 147,
+      "a": "adv:370",
+      "b": "adv:20",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 148,
+      "a": "adv:86",
+      "b": "adv:81",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 149,
+      "a": "adv:413",
+      "b": "adv:29",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 150,
+      "a": "adv:400",
+      "b": "adv:165",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 151,
+      "a": "adv:354",
+      "b": "adv:244",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 152,
+      "a": "adv:372",
+      "b": "adv:40",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 153,
+      "a": "adv:321",
+      "b": "adv:2",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 154,
+      "a": "adv:325",
+      "b": "adv:110",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 155,
+      "a": "adv:377",
+      "b": "adv:37",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 156,
+      "a": "adv:444",
+      "b": "hb:suicide_detailed_instructions",
+      "core_jaccard": 1.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 157,
+      "a": "adv:262",
+      "b": "adv:47",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 158,
+      "a": "adv:382",
+      "b": "adv:18",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 159,
+      "a": "adv:370",
+      "b": "adv:141",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 160,
+      "a": "adv:127",
+      "b": "hb:tax_fraud_instructions",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 161,
+      "a": "hb:tetrodotoxin_home_synthesis_guide",
+      "b": "hb:ricin_synthesis_home",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 162,
+      "a": "adv:203",
+      "b": "adv:164",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 163,
+      "a": "adv:297",
+      "b": "adv:124",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 164,
+      "a": "adv:518",
+      "b": "adv:354",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 165,
+      "a": "adv:319",
+      "b": "adv:164",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 166,
+      "a": "adv:491",
+      "b": "adv:63",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 167,
+      "a": "adv:203",
+      "b": "adv:159",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 168,
+      "a": "adv:364",
+      "b": "adv:276",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 169,
+      "a": "adv:297",
+      "b": "adv:101",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 170,
+      "a": "adv:143",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 171,
+      "a": "adv:329",
+      "b": "adv:81",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 172,
+      "a": "adv:418",
+      "b": "adv:116",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 173,
+      "a": "adv:509",
+      "b": "adv:187",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 174,
+      "a": "adv:509",
+      "b": "adv:461",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 175,
+      "a": "adv:486",
+      "b": "adv:400",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 176,
+      "a": "adv:400",
+      "b": "adv:56",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 177,
+      "a": "adv:448",
+      "b": "adv:284",
+      "core_jaccard": 0.45454545454545453,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 178,
+      "a": "adv:374",
+      "b": "adv:18",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 179,
+      "a": "adv:462",
+      "b": "adv:82",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 180,
+      "a": "adv:364",
+      "b": "adv:241",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 181,
+      "a": "adv:285",
+      "b": "adv:55",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 182,
+      "a": "adv:485",
+      "b": "adv:315",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 183,
+      "a": "adv:483",
+      "b": "adv:285",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 184,
+      "a": "adv:359",
+      "b": "adv:233",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 185,
+      "a": "adv:384",
+      "b": "adv:214",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 186,
+      "a": "adv:252",
+      "b": "adv:42",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 187,
+      "a": "adv:446",
+      "b": "adv:246",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 188,
+      "a": "adv:498",
+      "b": "adv:128",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 189,
+      "a": "adv:260",
+      "b": "adv:214",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 190,
+      "a": "adv:159",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 191,
+      "a": "adv:400",
+      "b": "adv:314",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 192,
+      "a": "adv:308",
+      "b": "adv:143",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 193,
+      "a": "adv:37",
+      "b": "adv:8",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 194,
+      "a": "adv:461",
+      "b": "adv:291",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 195,
+      "a": "adv:427",
+      "b": "adv:374",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 196,
+      "a": "adv:346",
+      "b": "adv:164",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 197,
+      "a": "adv:513",
+      "b": "hb:sexual_assault_romanticization_post",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 198,
+      "a": "adv:412",
+      "b": "adv:312",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 199,
+      "a": "adv:391",
+      "b": "adv:241",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 200,
+      "a": "adv:359",
+      "b": "adv:325",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 201,
+      "a": "adv:148",
+      "b": "adv:45",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 202,
+      "a": "adv:453",
+      "b": "adv:307",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 203,
+      "a": "adv:164",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 204,
+      "a": "adv:486",
+      "b": "adv:335",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 205,
+      "a": "adv:346",
+      "b": "adv:159",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 206,
+      "a": "adv:349",
+      "b": "adv:281",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 207,
+      "a": "adv:285",
+      "b": "adv:17",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 208,
+      "a": "adv:427",
+      "b": "adv:321",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 209,
+      "a": "adv:475",
+      "b": "adv:465",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 210,
+      "a": "adv:430",
+      "b": "adv:286",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 211,
+      "a": "adv:487",
+      "b": "adv:458",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 212,
+      "a": "adv:498",
+      "b": "adv:308",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 213,
+      "a": "adv:475",
+      "b": "adv:196",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 214,
+      "a": "adv:427",
+      "b": "adv:39",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 215,
+      "a": "adv:90",
+      "b": "adv:47",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 216,
+      "a": "adv:404",
+      "b": "adv:291",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 217,
+      "a": "adv:108",
+      "b": "adv:47",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 218,
+      "a": "adv:359",
+      "b": "adv:19",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 219,
+      "a": "adv:159",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 220,
+      "a": "adv:347",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 221,
+      "a": "adv:296",
+      "b": "adv:99",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 222,
+      "a": "adv:271",
+      "b": "adv:116",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 223,
+      "a": "adv:359",
+      "b": "adv:296",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 224,
+      "a": "adv:183",
+      "b": "adv:127",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 225,
+      "a": "adv:102",
+      "b": "adv:79",
+      "core_jaccard": 1.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 226,
+      "a": "adv:286",
+      "b": "adv:67",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 227,
+      "a": "adv:510",
+      "b": "adv:319",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 228,
+      "a": "adv:506",
+      "b": "adv:113",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 229,
+      "a": "adv:443",
+      "b": "adv:430",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 230,
+      "a": "adv:491",
+      "b": "adv:448",
+      "core_jaccard": 0.45454545454545453,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 231,
+      "a": "adv:483",
+      "b": "adv:112",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 232,
+      "a": "adv:444",
+      "b": "adv:143",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 233,
+      "a": "adv:478",
+      "b": "adv:373",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 234,
+      "a": "hb:tax_fraud_instructions",
+      "b": "hb:suicide_detailed_instructions",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 235,
+      "a": "adv:154",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 236,
+      "a": "adv:391",
+      "b": "adv:11",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 237,
+      "a": "adv:512",
+      "b": "adv:454",
+      "core_jaccard": 0.4166666666666667,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 238,
+      "a": "adv:486",
+      "b": "adv:37",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 239,
+      "a": "adv:112",
+      "b": "adv:17",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 240,
+      "a": "adv:456",
+      "b": "adv:296",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 241,
+      "a": "adv:241",
+      "b": "adv:114",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 242,
+      "a": "adv:329",
+      "b": "adv:241",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 243,
+      "a": "adv:329",
+      "b": "adv:114",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 244,
+      "a": "adv:394",
+      "b": "adv:335",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 245,
+      "a": "adv:430",
+      "b": "adv:67",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 246,
+      "a": "adv:500",
+      "b": "adv:289",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 247,
+      "a": "adv:248",
+      "b": "adv:31",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 248,
+      "a": "adv:25",
+      "b": "adv:7",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 249,
+      "a": "adv:110",
+      "b": "adv:102",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 250,
+      "a": "hb:jewish_classmate_insults",
+      "b": "hb:black_colleague_insults",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 251,
+      "a": "adv:471",
+      "b": "adv:273",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 252,
+      "a": "adv:165",
+      "b": "adv:56",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 253,
+      "a": "adv:203",
+      "b": "adv:143",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 254,
+      "a": "adv:276",
+      "b": "adv:241",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 255,
+      "a": "adv:486",
+      "b": "adv:165",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 256,
+      "a": "adv:56",
+      "b": "adv:37",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 257,
+      "a": "adv:318",
+      "b": "adv:246",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 258,
+      "a": "hb:tabun_gas_home_synthesis_guide",
+      "b": "hb:parathion_synthesis_instructions",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 259,
+      "a": "adv:112",
+      "b": "adv:55",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 260,
+      "a": "adv:483",
+      "b": "adv:291",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 261,
+      "a": "adv:421",
+      "b": "adv:392",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 262,
+      "a": "adv:509",
+      "b": "adv:276",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 263,
+      "a": "adv:410",
+      "b": "adv:241",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 264,
+      "a": "adv:483",
+      "b": "adv:435",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 265,
+      "a": "adv:421",
+      "b": "adv:16",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 266,
+      "a": "adv:311",
+      "b": "adv:218",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 267,
+      "a": "adv:509",
+      "b": "adv:404",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 268,
+      "a": "adv:374",
+      "b": "adv:2",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 269,
+      "a": "adv:295",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 270,
+      "a": "adv:183",
+      "b": "adv:147",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 271,
+      "a": "adv:203",
+      "b": "adv:181",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 272,
+      "a": "adv:114",
+      "b": "adv:102",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 273,
+      "a": "adv:347",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 274,
+      "a": "adv:374",
+      "b": "adv:15",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 275,
+      "a": "adv:400",
+      "b": "adv:394",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 276,
+      "a": "adv:261",
+      "b": "adv:131",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 277,
+      "a": "adv:335",
+      "b": "adv:165",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 278,
+      "a": "adv:410",
+      "b": "adv:364",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 279,
+      "a": "adv:154",
+      "b": "adv:143",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 280,
+      "a": "adv:392",
+      "b": "adv:16",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 281,
+      "a": "adv:433",
+      "b": "adv:176",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 282,
+      "a": "adv:84",
+      "b": "adv:47",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 283,
+      "a": "adv:510",
+      "b": "adv:164",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 284,
+      "a": "adv:412",
+      "b": "adv:70",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 285,
+      "a": "adv:110",
+      "b": "adv:5",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 286,
+      "a": "adv:231",
+      "b": "adv:25",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 287,
+      "a": "adv:233",
+      "b": "adv:227",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 288,
+      "a": "adv:364",
+      "b": "adv:42",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 289,
+      "a": "adv:359",
+      "b": "adv:85",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 290,
+      "a": "adv:382",
+      "b": "adv:374",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 291,
+      "a": "adv:379",
+      "b": "adv:189",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 292,
+      "a": "adv:498",
+      "b": "adv:424",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 293,
+      "a": "adv:314",
+      "b": "adv:165",
+      "core_jaccard": 0.8,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 294,
+      "a": "adv:509",
+      "b": "adv:483",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 295,
+      "a": "adv:19",
+      "b": "adv:13",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 296,
+      "a": "adv:346",
+      "b": "adv:143",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 297,
+      "a": "adv:329",
+      "b": "adv:276",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 298,
+      "a": "adv:488",
+      "b": "adv:420",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 299,
+      "a": "adv:321",
+      "b": "adv:15",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 300,
+      "a": "adv:472",
+      "b": "adv:107",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 301,
+      "a": "adv:154",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 302,
+      "a": "adv:473",
+      "b": "hb:gunpoint_bank_robbery_guide",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 303,
+      "a": "adv:377",
+      "b": "adv:335",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 304,
+      "a": "adv:420",
+      "b": "adv:106",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 305,
+      "a": "adv:481",
+      "b": "adv:37",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 306,
+      "a": "adv:443",
+      "b": "adv:248",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 307,
+      "a": "adv:308",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 308,
+      "a": "adv:306",
+      "b": "adv:252",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 309,
+      "a": "adv:397",
+      "b": "adv:291",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 310,
+      "a": "adv:143",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 311,
+      "a": "adv:444",
+      "b": "adv:110",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 312,
+      "a": "adv:520",
+      "b": "adv:109",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 313,
+      "a": "adv:461",
+      "b": "adv:437",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 314,
+      "a": "adv:247",
+      "b": "adv:241",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 315,
+      "a": "adv:382",
+      "b": "adv:321",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 316,
+      "a": "adv:81",
+      "b": "adv:11",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 317,
+      "a": "adv:346",
+      "b": "adv:181",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 318,
+      "a": "adv:492",
+      "b": "adv:154",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 319,
+      "a": "adv:285",
+      "b": "adv:112",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 320,
+      "a": "adv:369",
+      "b": "adv:302",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 321,
+      "a": "adv:262",
+      "b": "adv:90",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 322,
+      "a": "adv:411",
+      "b": "adv:79",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 323,
+      "a": "adv:402",
+      "b": "adv:117",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 324,
+      "a": "adv:18",
+      "b": "adv:15",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 325,
+      "a": "adv:203",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 326,
+      "a": "adv:311",
+      "b": "adv:47",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 327,
+      "a": "adv:456",
+      "b": "adv:248",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 328,
+      "a": "adv:508",
+      "b": "adv:337",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 329,
+      "a": "adv:415",
+      "b": "adv:261",
+      "core_jaccard": 0.2222222222222222,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 330,
+      "a": "adv:302",
+      "b": "adv:277",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 331,
+      "a": "adv:86",
+      "b": "adv:11",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 332,
+      "a": "adv:142",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 333,
+      "a": "adv:75",
+      "b": "adv:34",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 334,
+      "a": "adv:351",
+      "b": "adv:241",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 335,
+      "a": "adv:259",
+      "b": "adv:73",
+      "core_jaccard": 0.2727272727272727,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 336,
+      "a": "adv:262",
+      "b": "adv:108",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 337,
+      "a": "adv:420",
+      "b": "adv:225",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 338,
+      "a": "adv:304",
+      "b": "adv:122",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 339,
+      "a": "adv:483",
+      "b": "adv:374",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 340,
+      "a": "adv:308",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 341,
+      "a": "adv:183",
+      "b": "adv:67",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 342,
+      "a": "adv:209",
+      "b": "adv:145",
+      "core_jaccard": 0.2222222222222222,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 343,
+      "a": "adv:483",
+      "b": "adv:427",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 344,
+      "a": "adv:485",
+      "b": "adv:216",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 345,
+      "a": "adv:394",
+      "b": "adv:37",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 346,
+      "a": "adv:142",
+      "b": "adv:138",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 347,
+      "a": "adv:498",
+      "b": "adv:203",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 348,
+      "a": "adv:306",
+      "b": "adv:114",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 349,
+      "a": "adv:187",
+      "b": "adv:61",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 350,
+      "a": "adv:505",
+      "b": "adv:208",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 351,
+      "a": "adv:402",
+      "b": "adv:318",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 352,
+      "a": "adv:159",
+      "b": "hb:suicide_detailed_instructions",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 353,
+      "a": "adv:378",
+      "b": "adv:141",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 354,
+      "a": "adv:469",
+      "b": "adv:458",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 355,
+      "a": "adv:443",
+      "b": "adv:283",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 356,
+      "a": "adv:481",
+      "b": "adv:335",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 357,
+      "a": "adv:500",
+      "b": "adv:384",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 358,
+      "a": "adv:410",
+      "b": "adv:329",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 359,
+      "a": "adv:374",
+      "b": "adv:17",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 360,
+      "a": "adv:346",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 361,
+      "a": "adv:70",
+      "b": "adv:47",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 362,
+      "a": "adv:483",
+      "b": "adv:321",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 363,
+      "a": "adv:301",
+      "b": "adv:115",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 364,
+      "a": "adv:131",
+      "b": "adv:64",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 365,
+      "a": "adv:364",
+      "b": "adv:351",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 366,
+      "a": "adv:470",
+      "b": "hb:suicide_detailed_instructions",
+      "core_jaccard": 1.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 367,
+      "a": "adv:223",
+      "b": "adv:188",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 368,
+      "a": "adv:433",
+      "b": "adv:147",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 369,
+      "a": "adv:461",
+      "b": "adv:55",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 370,
+      "a": "adv:404",
+      "b": "adv:187",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 371,
+      "a": "adv:505",
+      "b": "adv:45",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 372,
+      "a": "adv:427",
+      "b": "adv:18",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 373,
+      "a": "adv:18",
+      "b": "adv:2",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 374,
+      "a": "adv:276",
+      "b": "adv:144",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 375,
+      "a": "adv:410",
+      "b": "adv:276",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 376,
+      "a": "adv:444",
+      "b": "adv:102",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 377,
+      "a": "adv:296",
+      "b": "adv:282",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 378,
+      "a": "adv:329",
+      "b": "adv:42",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 379,
+      "a": "adv:509",
+      "b": "adv:397",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 380,
+      "a": "adv:351",
+      "b": "adv:86",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 381,
+      "a": "adv:346",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 382,
+      "a": "adv:435",
+      "b": "adv:42",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 383,
+      "a": "adv:486",
+      "b": "adv:377",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 384,
+      "a": "adv:321",
+      "b": "adv:17",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 385,
+      "a": "adv:443",
+      "b": "adv:286",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 386,
+      "a": "adv:374",
+      "b": "adv:55",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 387,
+      "a": "adv:39",
+      "b": "adv:18",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 388,
+      "a": "adv:321",
+      "b": "adv:187",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 389,
+      "a": "adv:256",
+      "b": "adv:73",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 390,
+      "a": "adv:201",
+      "b": "adv:89",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 391,
+      "a": "adv:520",
+      "b": "adv:311",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 392,
+      "a": "adv:496",
+      "b": "adv:457",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 393,
+      "a": "adv:374",
+      "b": "adv:187",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 394,
+      "a": "adv:243",
+      "b": "adv:169",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 395,
+      "a": "adv:402",
+      "b": "adv:368",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 396,
+      "a": "adv:321",
+      "b": "adv:55",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 397,
+      "a": "adv:470",
+      "b": "adv:35",
+      "core_jaccard": 0.5,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 398,
+      "a": "adv:498",
+      "b": "adv:346",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 399,
+      "a": "adv:216",
+      "b": "adv:157",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 400,
+      "a": "adv:483",
+      "b": "adv:198",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 401,
+      "a": "adv:364",
+      "b": "adv:81",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 402,
+      "a": "adv:139",
+      "b": "hb:suicide_detailed_instructions",
+      "core_jaccard": 0.5,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 403,
+      "a": "adv:248",
+      "b": "adv:67",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 404,
+      "a": "adv:428",
+      "b": "adv:40",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 405,
+      "a": "adv:498",
+      "b": "adv:159",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 406,
+      "a": "adv:203",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 407,
+      "a": "adv:187",
+      "b": "adv:18",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 408,
+      "a": "adv:446",
+      "b": "adv:117",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 409,
+      "a": "adv:478",
+      "b": "adv:235",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 410,
+      "a": "adv:483",
+      "b": "adv:468",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 411,
+      "a": "adv:241",
+      "b": "adv:81",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 412,
+      "a": "adv:428",
+      "b": "adv:219",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 413,
+      "a": "adv:428",
+      "b": "adv:284",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 414,
+      "a": "adv:364",
+      "b": "adv:230",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 415,
+      "a": "adv:314",
+      "b": "adv:37",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 416,
+      "a": "adv:368",
+      "b": "adv:117",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 417,
+      "a": "adv:510",
+      "b": "adv:443",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 418,
+      "a": "adv:79",
+      "b": "adv:4",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 419,
+      "a": "adv:484",
+      "b": "adv:83",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 420,
+      "a": "adv:165",
+      "b": "adv:79",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 421,
+      "a": "adv:337",
+      "b": "adv:34",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 422,
+      "a": "adv:198",
+      "b": "adv:17",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 423,
+      "a": "adv:461",
+      "b": "adv:17",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 424,
+      "a": "adv:286",
+      "b": "adv:248",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 425,
+      "a": "adv:159",
+      "b": "hb:tax_fraud_instructions",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 426,
+      "a": "adv:359",
+      "b": "adv:110",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 427,
+      "a": "adv:510",
+      "b": "adv:248",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 428,
+      "a": "adv:427",
+      "b": "adv:262",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 429,
+      "a": "adv:285",
+      "b": "adv:187",
+      "core_jaccard": 0.2222222222222222,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 430,
+      "a": "adv:203",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 431,
+      "a": "adv:391",
+      "b": "adv:364",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 432,
+      "a": "adv:128",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 433,
+      "a": "adv:295",
+      "b": "adv:203",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 434,
+      "a": "adv:233",
+      "b": "adv:138",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 435,
+      "a": "adv:483",
+      "b": "adv:461",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 436,
+      "a": "adv:468",
+      "b": "adv:144",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 437,
+      "a": "adv:335",
+      "b": "adv:314",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 438,
+      "a": "adv:108",
+      "b": "adv:90",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 439,
+      "a": "adv:434",
+      "b": "adv:166",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 440,
+      "a": "adv:351",
+      "b": "adv:329",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 441,
+      "a": "adv:335",
+      "b": "adv:56",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 442,
+      "a": "adv:474",
+      "b": "adv:254",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 443,
+      "a": "adv:458",
+      "b": "adv:447",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 444,
+      "a": "adv:198",
+      "b": "adv:55",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 445,
+      "a": "adv:347",
+      "b": "adv:203",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 446,
+      "a": "adv:514",
+      "b": "adv:339",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 447,
+      "a": "adv:443",
+      "b": "adv:67",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 448,
+      "a": "adv:430",
+      "b": "adv:248",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 449,
+      "a": "adv:308",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 450,
+      "a": "adv:412",
+      "b": "adv:61",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 451,
+      "a": "adv:444",
+      "b": "adv:391",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 452,
+      "a": "adv:203",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 453,
+      "a": "adv:404",
+      "b": "adv:17",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 454,
+      "a": "adv:291",
+      "b": "adv:15",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 455,
+      "a": "adv:378",
+      "b": "adv:370",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 456,
+      "a": "adv:139",
+      "b": "adv:67",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 457,
+      "a": "adv:5",
+      "b": "hb:online_account_hacking_guide",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 458,
+      "a": "adv:127",
+      "b": "hb:suicide_detailed_instructions",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 459,
+      "a": "adv:377",
+      "b": "adv:314",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 460,
+      "a": "adv:427",
+      "b": "adv:2",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 461,
+      "a": "adv:437",
+      "b": "adv:404",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 462,
+      "a": "adv:497",
+      "b": "adv:173",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 463,
+      "a": "adv:483",
+      "b": "adv:404",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 464,
+      "a": "adv:461",
+      "b": "adv:374",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 465,
+      "a": "adv:351",
+      "b": "adv:276",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 466,
+      "a": "adv:486",
+      "b": "adv:102",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 467,
+      "a": "adv:165",
+      "b": "adv:37",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 468,
+      "a": "adv:510",
+      "b": "adv:33",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 469,
+      "a": "adv:427",
+      "b": "adv:412",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 470,
+      "a": "adv:380",
+      "b": "adv:45",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 471,
+      "a": "adv:508",
+      "b": "adv:402",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 472,
+      "a": "adv:154",
+      "b": "adv:125",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 473,
+      "a": "adv:329",
+      "b": "adv:252",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 474,
+      "a": "adv:424",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 475,
+      "a": "adv:449",
+      "b": "adv:304",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 476,
+      "a": "adv:238",
+      "b": "adv:235",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 477,
+      "a": "adv:233",
+      "b": "adv:139",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 478,
+      "a": "adv:346",
+      "b": "adv:154",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 479,
+      "a": "adv:408",
+      "b": "adv:241",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 480,
+      "a": "adv:237",
+      "b": "adv:37",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 481,
+      "a": "adv:484",
+      "b": "adv:349",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 482,
+      "a": "adv:75",
+      "b": "adv:36",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 483,
+      "a": "adv:323",
+      "b": "adv:294",
+      "core_jaccard": 0.36363636363636365,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 484,
+      "a": "adv:469",
+      "b": "adv:231",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 485,
+      "a": "adv:212",
+      "b": "adv:109",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 486,
+      "a": "adv:435",
+      "b": "adv:187",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 487,
+      "a": "adv:404",
+      "b": "adv:374",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 488,
+      "a": "adv:458",
+      "b": "adv:239",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 489,
+      "a": "adv:456",
+      "b": "adv:233",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 490,
+      "a": "adv:114",
+      "b": "adv:110",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 491,
+      "a": "adv:444",
+      "b": "adv:140",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 492,
+      "a": "adv:364",
+      "b": "adv:114",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 493,
+      "a": "adv:256",
+      "b": "adv:157",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 494,
+      "a": "adv:236",
+      "b": "adv:129",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 495,
+      "a": "adv:456",
+      "b": "adv:13",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 496,
+      "a": "adv:404",
+      "b": "adv:55",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 497,
+      "a": "adv:469",
+      "b": "adv:133",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 498,
+      "a": "adv:346",
+      "b": "adv:295",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 499,
+      "a": "adv:500",
+      "b": "adv:94",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 500,
+      "a": "adv:385",
+      "b": "adv:237",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 501,
+      "a": "adv:397",
+      "b": "adv:187",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 502,
+      "a": "adv:102",
+      "b": "adv:34",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 503,
+      "a": "adv:491",
+      "b": "adv:428",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 504,
+      "a": "adv:217",
+      "b": "adv:206",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 505,
+      "a": "adv:276",
+      "b": "adv:81",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 506,
+      "a": "adv:352",
+      "b": "adv:254",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 507,
+      "a": "adv:456",
+      "b": "adv:31",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 508,
+      "a": "adv:427",
+      "b": "adv:382",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 509,
+      "a": "adv:164",
+      "b": "adv:128",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 510,
+      "a": "adv:278",
+      "b": "adv:217",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 511,
+      "a": "adv:296",
+      "b": "adv:110",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 512,
+      "a": "adv:470",
+      "b": "adv:189",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 513,
+      "a": "adv:275",
+      "b": "adv:110",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 514,
+      "a": "adv:347",
+      "b": "adv:346",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 515,
+      "a": "adv:509",
+      "b": "adv:55",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 516,
+      "a": "adv:461",
+      "b": "adv:321",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 517,
+      "a": "adv:470",
+      "b": "adv:350",
+      "core_jaccard": 0.5,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 518,
+      "a": "adv:329",
+      "b": "adv:230",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 519,
+      "a": "adv:470",
+      "b": "adv:444",
+      "core_jaccard": 1.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 520,
+      "a": "adv:346",
+      "b": "adv:142",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 521,
+      "a": "adv:409",
+      "b": "adv:173",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 522,
+      "a": "adv:444",
+      "b": "adv:5",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 523,
+      "a": "adv:461",
+      "b": "adv:187",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 524,
+      "a": "adv:262",
+      "b": "adv:70",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 525,
+      "a": "adv:259",
+      "b": "adv:63",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 526,
+      "a": "adv:102",
+      "b": "adv:11",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 527,
+      "a": "adv:163",
+      "b": "hb:student_harassment_bullying_encouragement",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 528,
+      "a": "adv:391",
+      "b": "adv:329",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 529,
+      "a": "adv:498",
+      "b": "adv:143",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 530,
+      "a": "adv:500",
+      "b": "adv:260",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 531,
+      "a": "adv:115",
+      "b": "adv:99",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 532,
+      "a": "adv:61",
+      "b": "adv:39",
+      "core_jaccard": 0.7142857142857143,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 533,
+      "a": "adv:285",
+      "b": "adv:198",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 534,
+      "a": "adv:374",
+      "b": "adv:291",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 535,
+      "a": "adv:394",
+      "b": "adv:377",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 536,
+      "a": "adv:275",
+      "b": "hb:pipe_bomb_home_build_guide",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 537,
+      "a": "adv:206",
+      "b": "adv:125",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 538,
+      "a": "adv:404",
+      "b": "adv:321",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 539,
+      "a": "adv:102",
+      "b": "adv:86",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 540,
+      "a": "adv:296",
+      "b": "adv:233",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 541,
+      "a": "adv:143",
+      "b": "adv:110",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 542,
+      "a": "adv:461",
+      "b": "adv:18",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 543,
+      "a": "adv:232",
+      "b": "adv:196",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 544,
+      "a": "adv:470",
+      "b": "adv:229",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 545,
+      "a": "adv:486",
+      "b": "adv:56",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 546,
+      "a": "adv:444",
+      "b": "adv:337",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 547,
+      "a": "adv:385",
+      "b": "adv:42",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 548,
+      "a": "adv:275",
+      "b": "adv:114",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 549,
+      "a": "adv:509",
+      "b": "adv:285",
+      "core_jaccard": 0.1111111111111111,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 550,
+      "a": "adv:327",
+      "b": "adv:47",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 551,
+      "a": "adv:391",
+      "b": "adv:276",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 552,
+      "a": "adv:496",
+      "b": "adv:93",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 553,
+      "a": "adv:233",
+      "b": "adv:13",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 554,
+      "a": "adv:276",
+      "b": "adv:114",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 555,
+      "a": "adv:408",
+      "b": "adv:42",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 556,
+      "a": "adv:337",
+      "b": "adv:318",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 557,
+      "a": "adv:309",
+      "b": "adv:89",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 558,
+      "a": "adv:410",
+      "b": "adv:391",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 559,
+      "a": "adv:354",
+      "b": "adv:157",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 560,
+      "a": "adv:456",
+      "b": "adv:19",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 561,
+      "a": "adv:233",
+      "b": "adv:85",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 562,
+      "a": "adv:304",
+      "b": "adv:63",
+      "core_jaccard": 0.5555555555555556,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 563,
+      "a": "adv:183",
+      "b": "hb:tax_fraud_instructions",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 564,
+      "a": "adv:192",
+      "b": "adv:184",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 565,
+      "a": "adv:456",
+      "b": "adv:81",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 566,
+      "a": "adv:410",
+      "b": "adv:81",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 567,
+      "a": "adv:387",
+      "b": "adv:102",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 568,
+      "a": "adv:359",
+      "b": "adv:301",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 569,
+      "a": "adv:424",
+      "b": "adv:164",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 570,
+      "a": "adv:325",
+      "b": "adv:13",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 571,
+      "a": "adv:424",
+      "b": "adv:181",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 572,
+      "a": "adv:86",
+      "b": "hb:online_account_hacking_guide",
+      "core_jaccard": 0.14285714285714285,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 573,
+      "a": "adv:102",
+      "b": "hb:ransomware_money_making_guide",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 574,
+      "a": "adv:110",
+      "b": "adv:13",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 575,
+      "a": "adv:319",
+      "b": "adv:206",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 576,
+      "a": "adv:311",
+      "b": "adv:262",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 577,
+      "a": "adv:435",
+      "b": "adv:364",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 578,
+      "a": "adv:325",
+      "b": "adv:233",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 579,
+      "a": "adv:249",
+      "b": "adv:241",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 580,
+      "a": "adv:474",
+      "b": "adv:179",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 581,
+      "a": "adv:424",
+      "b": "adv:347",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 582,
+      "a": "adv:410",
+      "b": "adv:114",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 583,
+      "a": "adv:359",
+      "b": "adv:282",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 584,
+      "a": "adv:110",
+      "b": "adv:19",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 585,
+      "a": "adv:395",
+      "b": "adv:363",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 586,
+      "a": "adv:134",
+      "b": "adv:39",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 587,
+      "a": "adv:444",
+      "b": "adv:139",
+      "core_jaccard": 0.5,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 588,
+      "a": "adv:510",
+      "b": "adv:430",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 589,
+      "a": "adv:506",
+      "b": "adv:445",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 590,
+      "a": "adv:424",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 591,
+      "a": "adv:492",
+      "b": "adv:164",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 592,
+      "a": "adv:159",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 593,
+      "a": "adv:456",
+      "b": "adv:85",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 594,
+      "a": "adv:418",
+      "b": "adv:271",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 595,
+      "a": "adv:405",
+      "b": "adv:254",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 596,
+      "a": "adv:391",
+      "b": "adv:351",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 597,
+      "a": "adv:391",
+      "b": "adv:306",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 598,
+      "a": "adv:426",
+      "b": "adv:171",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 599,
+      "a": "adv:492",
+      "b": "adv:347",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 600,
+      "a": "adv:481",
+      "b": "adv:400",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 601,
+      "a": "adv:248",
+      "b": "adv:81",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 602,
+      "a": "adv:456",
+      "b": "adv:306",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 603,
+      "a": "adv:325",
+      "b": "adv:19",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 604,
+      "a": "adv:305",
+      "b": "adv:153",
+      "core_jaccard": 0.4166666666666667,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 605,
+      "a": "adv:181",
+      "b": "adv:159",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 606,
+      "a": "adv:492",
+      "b": "adv:33",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 607,
+      "a": "adv:465",
+      "b": "adv:253",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 608,
+      "a": "adv:203",
+      "b": "adv:162",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 609,
+      "a": "adv:351",
+      "b": "adv:81",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 610,
+      "a": "adv:468",
+      "b": "adv:39",
+      "core_jaccard": 0.625,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 611,
+      "a": "adv:167",
+      "b": "adv:44",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 612,
+      "a": "adv:154",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 613,
+      "a": "adv:492",
+      "b": "adv:142",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 614,
+      "a": "adv:312",
+      "b": "adv:47",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 615,
+      "a": "adv:404",
+      "b": "adv:385",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 616,
+      "a": "adv:424",
+      "b": "adv:295",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 617,
+      "a": "adv:102",
+      "b": "hb:online_account_hacking_guide",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 618,
+      "a": "adv:486",
+      "b": "adv:79",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 619,
+      "a": "adv:301",
+      "b": "adv:13",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 620,
+      "a": "adv:442",
+      "b": "hb:suicide_detailed_instructions",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 621,
+      "a": "adv:364",
+      "b": "adv:39",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 622,
+      "a": "adv:166",
+      "b": "adv:4",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 623,
+      "a": "adv:497",
+      "b": "adv:461",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 624,
+      "a": "adv:466",
+      "b": "adv:257",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 625,
+      "a": "adv:321",
+      "b": "adv:39",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 626,
+      "a": "adv:138",
+      "b": "adv:110",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 627,
+      "a": "adv:435",
+      "b": "adv:329",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 628,
+      "a": "adv:351",
+      "b": "adv:114",
+      "core_jaccard": 0.75,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 629,
+      "a": "adv:492",
+      "b": "adv:295",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 630,
+      "a": "adv:149",
+      "b": "adv:30",
+      "core_jaccard": 0.375,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 631,
+      "a": "adv:164",
+      "b": "adv:159",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 632,
+      "a": "adv:346",
+      "b": "adv:162",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 633,
+      "a": "adv:324",
+      "b": "adv:74",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 634,
+      "a": "adv:391",
+      "b": "adv:291",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 635,
+      "a": "adv:308",
+      "b": "adv:176",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 636,
+      "a": "adv:306",
+      "b": "adv:248",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 637,
+      "a": "adv:325",
+      "b": "adv:314",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 638,
+      "a": "adv:166",
+      "b": "adv:79",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 639,
+      "a": "adv:325",
+      "b": "adv:85",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 640,
+      "a": "adv:456",
+      "b": "adv:419",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 641,
+      "a": "adv:159",
+      "b": "adv:33",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 642,
+      "a": "adv:461",
+      "b": "adv:364",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 643,
+      "a": "adv:143",
+      "b": "adv:80",
+      "core_jaccard": 0.6666666666666666,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 644,
+      "a": "adv:347",
+      "b": "adv:159",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 645,
+      "a": "adv:325",
+      "b": "adv:248",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 646,
+      "a": "adv:466",
+      "b": "adv:186",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 647,
+      "a": "adv:419",
+      "b": "adv:81",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 648,
+      "a": "adv:410",
+      "b": "adv:39",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 649,
+      "a": "adv:424",
+      "b": "adv:162",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 650,
+      "a": "adv:295",
+      "b": "adv:159",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 651,
+      "a": "adv:387",
+      "b": "adv:110",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 652,
+      "a": "adv:510",
+      "b": "adv:286",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 653,
+      "a": "adv:510",
+      "b": "adv:67",
+      "core_jaccard": 0.6,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 654,
+      "a": "adv:34",
+      "b": "hb:ransomware_money_making_guide",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 655,
+      "a": "adv:404",
+      "b": "adv:42",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 656,
+      "a": "adv:426",
+      "b": "adv:225",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 657,
+      "a": "adv:81",
+      "b": "adv:31",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 658,
+      "a": "adv:128",
+      "b": "adv:99",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 659,
+      "a": "adv:283",
+      "b": "adv:100",
+      "core_jaccard": 0.5714285714285714,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 660,
+      "a": "adv:387",
+      "b": "adv:114",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 661,
+      "a": "adv:435",
+      "b": "adv:385",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 662,
+      "a": "adv:309",
+      "b": "adv:288",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 663,
+      "a": "adv:385",
+      "b": "adv:230",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 664,
+      "a": "adv:318",
+      "b": "adv:315",
+      "core_jaccard": 0.42857142857142855,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 665,
+      "a": "adv:486",
+      "b": "adv:419",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 666,
+      "a": "adv:337",
+      "b": "adv:315",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 667,
+      "a": "adv:347",
+      "b": "adv:143",
+      "core_jaccard": 1.0,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 668,
+      "a": "adv:492",
+      "b": "adv:203",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 669,
+      "a": "adv:75",
+      "b": "adv:8",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 670,
+      "a": "adv:492",
+      "b": "adv:424",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 671,
+      "a": "adv:505",
+      "b": "adv:502",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 672,
+      "a": "adv:492",
+      "b": "adv:159",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 673,
+      "a": "adv:325",
+      "b": "adv:31",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 674,
+      "a": "adv:437",
+      "b": "adv:364",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 675,
+      "a": "adv:162",
+      "b": "adv:159",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 676,
+      "a": "adv:291",
+      "b": "adv:114",
+      "core_jaccard": 0.4,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 677,
+      "a": "adv:503",
+      "b": "adv:383",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 678,
+      "a": "adv:404",
+      "b": "adv:230",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 679,
+      "a": "adv:245",
+      "b": "adv:163",
+      "core_jaccard": 0.2,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 680,
+      "a": "adv:122",
+      "b": "adv:40",
+      "core_jaccard": 0.3,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 681,
+      "a": "adv:391",
+      "b": "hb:voting_machine_hacking_instructions",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 682,
+      "a": "adv:365",
+      "b": "adv:283",
+      "core_jaccard": 0.4444444444444444,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 683,
+      "a": "adv:230",
+      "b": "adv:42",
+      "core_jaccard": 0.16666666666666666,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 684,
+      "a": "adv:166",
+      "b": "adv:34",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 685,
+      "a": "adv:102",
+      "b": "adv:4",
+      "core_jaccard": 0.3333333333333333,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 686,
+      "a": "adv:377",
+      "b": "adv:79",
+      "core_jaccard": 0.25,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 687,
+      "a": "adv:256",
+      "b": "adv:27",
+      "core_jaccard": 0.2857142857142857,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 688,
+      "a": "adv:499",
+      "b": "adv:31",
+      "core_jaccard": 0.5,
+      "accepted": true,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    },
+    {
+      "candidate_index": 689,
+      "a": "adv:402",
+      "b": "adv:152",
+      "core_jaccard": 0.0,
+      "accepted": false,
+      "rule": "conservative_content_overlap_guard_not_equivalence_label"
+    }
+  ],
+  "manual_links": [
+    {
+      "a": "adv:13",
+      "b": "adv:99",
+      "reason": "identity theft; extra personal-information wording"
+    },
+    {
+      "a": "adv:8",
+      "b": "adv:37",
+      "reason": "generic versus household bomb construction"
+    },
+    {
+      "a": "adv:8",
+      "b": "adv:102",
+      "reason": "generic bomb-construction instruction variants"
+    },
+    {
+      "a": "adv:8",
+      "b": "adv:237",
+      "reason": "generic bomb tutorial variants"
+    },
+    {
+      "a": "adv:8",
+      "b": "adv:275",
+      "reason": "generic versus at-home bomb construction"
+    },
+    {
+      "a": "adv:275",
+      "b": "hb:pipe_bomb_home_build_guide",
+      "reason": "generic at-home versus pipe-bomb construction; conservative exclusion"
+    },
+    {
+      "a": "adv:444",
+      "b": "hb:suicide_detailed_instructions",
+      "reason": "same requested action"
+    },
+    {
+      "a": "adv:470",
+      "b": "hb:suicide_detailed_instructions",
+      "reason": "same requested action with instruct wording"
+    },
+    {
+      "a": "adv:139",
+      "b": "hb:suicide_detailed_instructions",
+      "reason": "same requested action with avoid-detection qualifier"
+    },
+    {
+      "a": "adv:163",
+      "b": "hb:student_harassment_bullying_encouragement",
+      "reason": "encouraging bullying; broad versus classmate target; conservative exclusion"
+    },
+    {
+      "a": "adv:473",
+      "b": "hb:gunpoint_bank_robbery_guide",
+      "reason": "generic versus armed bank robbery; conservative exclusion"
+    }
+  ],
+  "negative_examples": [
+    {
+      "candidate_index": 65,
+      "reason": "Different scam types; retain both HB official rows; lexical grouping is not semantic identity"
+    },
+    {
+      "candidate_index": 234,
+      "reason": "Tax fraud and suicide share boilerplate, not requested behavior; removed by content-word guard"
+    },
+    {
+      "candidate_index": 573,
+      "reason": "Bomb and ransomware share instruction framing; removed by content-word guard"
+    }
+  ],
+  "limitations": [
+    "No exhaustive pairwise semantic annotation",
+    "Connected components can merge nearby but non-identical tasks; report excluded counts and source composition",
+    "No model labels or effects inspected"
+  ]
+}

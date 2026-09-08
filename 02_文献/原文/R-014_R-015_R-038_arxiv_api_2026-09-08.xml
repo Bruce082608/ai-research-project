@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CHWzbYs5ZeHTwdOlYbmX5UrnnoI</id>
+  <title>arXiv Query: search_query=&amp;id_list=2406.11717,2310.03693,2502.17420&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-08T06:04:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2406.11717,2310.03693,2502.17420" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.03693v1</id>
+    <title>Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To!</title>
+    <updated>2023-10-05T17:12:17Z</updated>
+    <link href="https://arxiv.org/abs/2310.03693v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.03693v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimizing large language models (LLMs) for downstream use cases often involves the customization of pre-trained LLMs through further fine-tuning. Meta's open release of Llama models and OpenAI's APIs for fine-tuning GPT-3.5 Turbo on custom datasets also encourage this practice. But, what are the safety costs associated with such custom fine-tuning? We note that while existing safety alignment infrastructures can restrict harmful behaviors of LLMs at inference time, they do not cover safety risks when fine-tuning privileges are extended to end-users. Our red teaming studies find that the safety alignment of LLMs can be compromised by fine-tuning with only a few adversarially designed training examples. For instance, we jailbreak GPT-3.5 Turbo's safety guardrails by fine-tuning it on only 10 such examples at a cost of less than $0.20 via OpenAI's APIs, making the model responsive to nearly any harmful instructions. Disconcertingly, our research also reveals that, even without malicious intent, simply fine-tuning with benign and commonly used datasets can also inadvertently degrade the safety alignment of LLMs, though to a lesser extent. These findings suggest that fine-tuning aligned LLMs introduces new safety risks that current safety infrastructures fall short of addressing -- even if a model's initial safety alignment is impeccable, it is not necessarily to be maintained after custom fine-tuning. We outline and critically analyze potential mitigations and advocate for further research efforts toward reinforcing safety protocols for the custom fine-tuning of aligned LLMs.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-05T17:12:17Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xiangyu Qi</name>
+    </author>
+    <author>
+      <name>Yi Zeng</name>
+    </author>
+    <author>
+      <name>Tinghao Xie</name>
+    </author>
+    <author>
+      <name>Pin-Yu Chen</name>
+    </author>
+    <author>
+      <name>Ruoxi Jia</name>
+    </author>
+    <author>
+      <name>Prateek Mittal</name>
+    </author>
+    <author>
+      <name>Peter Henderson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.11717v3</id>
+    <title>Refusal in Language Models Is Mediated by a Single Direction</title>
+    <updated>2024-10-30T18:57:07Z</updated>
+    <link href="https://arxiv.org/abs/2406.11717v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.11717v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conversational large language models are fine-tuned for both instruction-following and safety, resulting in models that obey benign requests but refuse harmful ones. While this refusal behavior is widespread across chat models, its underlying mechanisms remain poorly understood. In this work, we show that refusal is mediated by a one-dimensional subspace, across 13 popular open-source chat models up to 72B parameters in size. Specifically, for each model, we find a single direction such that erasing this direction from the model's residual stream activations prevents it from refusing harmful instructions, while adding this direction elicits refusal on even harmless instructions. Leveraging this insight, we propose a novel white-box jailbreak method that surgically disables refusal with minimal effect on other capabilities. Finally, we mechanistically analyze how adversarial suffixes suppress propagation of the refusal-mediating direction. Our findings underscore the brittleness of current safety fine-tuning methods. More broadly, our work showcases how an understanding of model internals can be leveraged to develop practical methods for controlling model behavior.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-17T16:36:12Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Andy Arditi</name>
+    </author>
+    <author>
+      <name>Oscar Obeso</name>
+    </author>
+    <author>
+      <name>Aaquib Syed</name>
+    </author>
+    <author>
+      <name>Daniel Paleka</name>
+    </author>
+    <author>
+      <name>Nina Panickssery</name>
+    </author>
+    <author>
+      <name>Wes Gurnee</name>
+    </author>
+    <author>
+      <name>Neel Nanda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17420v2</id>
+    <title>The Geometry of Refusal in Large Language Models: Concept Cones and Representational Independence</title>
+    <updated>2026-02-08T13:39:41Z</updated>
+    <link href="https://arxiv.org/abs/2502.17420v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17420v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The safety alignment of large language models (LLMs) can be circumvented through adversarially crafted inputs, yet the mechanisms by which these attacks bypass safety barriers remain poorly understood. Prior work suggests that a single refusal direction in the model's activation space determines whether an LLM refuses a request. In this study, we propose a novel gradient-based approach to representation engineering and use it to identify refusal directions. Contrary to prior work, we uncover multiple independent directions and even multi-dimensional concept cones that mediate refusal. Moreover, we show that orthogonality alone does not imply independence under intervention, motivating the notion of representational independence that accounts for both linear and non-linear effects. Using this framework, we identify mechanistically independent refusal directions. We show that refusal mechanisms in LLMs are governed by complex spatial structures and identify functionally independent directions, confirming that multiple distinct mechanisms drive refusal behavior. Our gradient-based approach uncovers these mechanisms and can further serve as a foundation for future work on understanding LLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-24T18:52:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tom Wollschläger</name>
+    </author>
+    <author>
+      <name>Jannes Elstner</name>
+    </author>
+    <author>
+      <name>Simon Geisler</name>
+    </author>
+    <author>
+      <name>Vincent Cohen-Addad</name>
+    </author>
+    <author>
+      <name>Stephan Günnemann</name>
+    </author>
+    <author>
+      <name>Johannes Gasteiger</name>
+    </author>
+  </entry>
+</feed>

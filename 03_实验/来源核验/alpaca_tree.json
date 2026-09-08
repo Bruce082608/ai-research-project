@@ -1,0 +1,671 @@
+{
+  "sha": "d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+  "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1635633ceadfb11e8cf90172528bf721f2e38762",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/1635633ceadfb11e8cf90172528bf721f2e38762"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c47e32868d9af802e6b49e51802219398ccc3d1",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/6c47e32868d9af802e6b49e51802219398ccc3d1"
+    },
+    {
+      "path": ".github/workflows/validate.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcfa6bf41f9f0f03ad37dfd9ec17b6f86fc0f46a",
+      "size": 344,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/fcfa6bf41f9f0f03ad37dfd9ec17b6f86fc0f46a"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68bc17f9ff2104a9d7b6777058bb4c343ca72609",
+      "size": 3078,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/68bc17f9ff2104a9d7b6777058bb4c343ca72609"
+    },
+    {
+      "path": "DATA_LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c657cab45c850057a63b3605897f5195f3c4ac02",
+      "size": 19346,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/c657cab45c850057a63b3605897f5195f3c4ac02"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdeeb85d7b23c883a185f8abc270d792cd69a838",
+      "size": 9584,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/cdeeb85d7b23c883a185f8abc270d792cd69a838"
+    },
+    {
+      "path": "alpacaModifier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "050efd40ca9d3d1d9f216d369a3864463a502024",
+      "size": 4385,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/050efd40ca9d3d1d9f216d369a3864463a502024"
+    },
+    {
+      "path": "alpaca_data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3779ddbc040543ab1834ef216c983d6fcc06cc9a",
+      "size": 22773992,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/3779ddbc040543ab1834ef216c983d6fcc06cc9a"
+    },
+    {
+      "path": "alpaca_data_cleaned.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fce7512c5733979e61db8c25e5138deead700650",
+      "size": 44307561,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/fce7512c5733979e61db8c25e5138deead700650"
+    },
+    {
+      "path": "alpaca_data_cleaned_archive.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61f526cbe1b0a765112b7631ebd2e64666c75cc8",
+      "size": 23573609,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/61f526cbe1b0a765112b7631ebd2e64666c75cc8"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d33875a9a654f5f7efbd6dcb902037c9921e3ae",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/7d33875a9a654f5f7efbd6dcb902037c9921e3ae"
+    },
+    {
+      "path": "assets/automatic_check_image_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef9d12125b8c0e3073b971aa889aa33365840371",
+      "size": 133192,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/ef9d12125b8c0e3073b971aa889aa33365840371"
+    },
+    {
+      "path": "assets/covered_examples.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ba73a72c3eee1a94eb2309573a8b2c180748dd",
+      "size": 24683,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/a7ba73a72c3eee1a94eb2309573a8b2c180748dd"
+    },
+    {
+      "path": "assets/parse_analysis.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06376ec306b66f610ec04070fc6d98ec0e95f29d",
+      "size": 842024,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/06376ec306b66f610ec04070fc6d98ec0e95f29d"
+    },
+    {
+      "path": "assets/prompt_length_distribution.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268066c92a88e10a55e0df42a1b7ad2698092955",
+      "size": 16008,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/268066c92a88e10a55e0df42a1b7ad2698092955"
+    },
+    {
+      "path": "assets/train_loss.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ee7fd679f7fdda3b3b4ada0e753682781422e06",
+      "size": 380479,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/8ee7fd679f7fdda3b3b4ada0e753682781422e06"
+    },
+    {
+      "path": "dataset_extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2adac6fc867764a8bf625a3edbf85ec42c8d6978",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/2adac6fc867764a8bf625a3edbf85ec42c8d6978"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f2589d63a2adf3bc6430fe68cf31cfa6e2101dd",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/1f2589d63a2adf3bc6430fe68cf31cfa6e2101dd"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Instruct",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2eba44ae134b10e54ffaaaa77525ce755d8ae129",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/2eba44ae134b10e54ffaaaa77525ce755d8ae129"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Instruct/gpt4-instruct-dedupe-only-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80dfd1b5ed816d021b7d70a6450c02c664ec2813",
+      "size": 12150756,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/80dfd1b5ed816d021b7d70a6450c02c664ec2813"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Instruct/gpt4-instruct-similarity-0.6-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e340ebf9d8ef88bb23a870adb1f71f8b3cb7c8c",
+      "size": 11957217,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/7e340ebf9d8ef88bb23a870adb1f71f8b3cb7c8c"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Instruct/gpt4-instruct-similarity-0.7-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c35dc11a739de054bbbebaf549b349653b803e5",
+      "size": 12040851,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/8c35dc11a739de054bbbebaf549b349653b803e5"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Instruct/gpt4-instruct-similarity-0.8-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921bbdaab39326783572b0b396ad45ed9ff485fa",
+      "size": 12065513,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/921bbdaab39326783572b0b396ad45ed9ff485fa"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Instruct/gpt4-instruct-similarity-0.9-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcbb849b6867b988f1b36d3b455a18a19cbc1d06",
+      "size": 12074993,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/dcbb849b6867b988f1b36d3b455a18a19cbc1d06"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a5be6c5cd141faebc16bd3e43e0982db131308",
+      "size": 1064,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/f2a5be6c5cd141faebc16bd3e43e0982db131308"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "510cbcd1463e3ad58a0f399c37d9172faab37396",
+      "size": 1245,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/510cbcd1463e3ad58a0f399c37d9172faab37396"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Roleplay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17b5a3ada36c7e4cf7a99b0f9829a13aa7522796",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/17b5a3ada36c7e4cf7a99b0f9829a13aa7522796"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Roleplay/roleplay-similarity_0.6-instruct-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5994c94af632b752e90baffaf057fd912f6b278f",
+      "size": 2637351,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/5994c94af632b752e90baffaf057fd912f6b278f"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Roleplay/roleplay-similarity_0.7-instruct-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5994c94af632b752e90baffaf057fd912f6b278f",
+      "size": 2637351,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/5994c94af632b752e90baffaf057fd912f6b278f"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Roleplay/roleplay-similarity_0.8-instruct-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5994c94af632b752e90baffaf057fd912f6b278f",
+      "size": 2637351,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/5994c94af632b752e90baffaf057fd912f6b278f"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Roleplay/roleplay-similarity_0.9-instruct-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5994c94af632b752e90baffaf057fd912f6b278f",
+      "size": 2637351,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/5994c94af632b752e90baffaf057fd912f6b278f"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Roleplay/roleplay-simple-deduped-roleplay-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5994c94af632b752e90baffaf057fd912f6b278f",
+      "size": 2637351,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/5994c94af632b752e90baffaf057fd912f6b278f"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Toolformer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b6040018b4ad1b7897f20a0daa664e393ab04e2",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/7b6040018b4ad1b7897f20a0daa664e393ab04e2"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Toolformer/toolformer-dedupe-only-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4edc9a7ada89c41dca820613aea6e05a0dd7f15",
+      "size": 3695501,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/f4edc9a7ada89c41dca820613aea6e05a0dd7f15"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Toolformer/toolformer-similarity-0.6-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcfb5dced15a566a53b9b9c4d62fd675b8c3e174",
+      "size": 1188826,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/dcfb5dced15a566a53b9b9c4d62fd675b8c3e174"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Toolformer/toolformer-similarity-0.7-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "575db3faa9ea6988da9a044aa2aa08f26899d8a0",
+      "size": 1714173,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/575db3faa9ea6988da9a044aa2aa08f26899d8a0"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Toolformer/toolformer-similarity-0.8-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c4f09b7d5512b8e726755273de3bda14099fd9",
+      "size": 2305557,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/c6c4f09b7d5512b8e726755273de3bda14099fd9"
+    },
+    {
+      "path": "dataset_extensions/GPTeacher/Toolformer/toolformer-similarity-0.9-dataset.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dd3d803380f0d6c608727458f2f9602c50e736",
+      "size": 2892989,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/a3dd3d803380f0d6c608727458f2f9602c50e736"
+    },
+    {
+      "path": "dataset_extensions/LAION_OIG_chip2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73efc4c2c73bcae8c8e0cd62cfb95a4bffde9085",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/73efc4c2c73bcae8c8e0cd62cfb95a4bffde9085"
+    },
+    {
+      "path": "dataset_extensions/LAION_OIG_chip2/chip2_instruct_alpha_v6a.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a11d2db2f59c9bd92a75f188b24a4c47647d4b75",
+      "size": 97724186,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/a11d2db2f59c9bd92a75f188b24a4c47647d4b75"
+    },
+    {
+      "path": "dataset_extensions/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21c05c17fcbd8401ab578610a3c20f0803ce9ebe",
+      "size": 3703,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/21c05c17fcbd8401ab578610a3c20f0803ce9ebe"
+    },
+    {
+      "path": "dataset_extensions/databricks-dolly-15k",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58647c2a4aa819a68034984c6950b265c9232e37",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/58647c2a4aa819a68034984c6950b265c9232e37"
+    },
+    {
+      "path": "dataset_extensions/databricks-dolly-15k/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51fd10ea120eb2d4427516d510206b233d410abd",
+      "size": 7832,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/51fd10ea120eb2d4427516d510206b233d410abd"
+    },
+    {
+      "path": "dataset_extensions/databricks-dolly-15k/databricks-dolly-15k-parsed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90901661d41ee5a9a1a7edb63fae9515707c46be",
+      "size": 10191810,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/90901661d41ee5a9a1a7edb63fae9515707c46be"
+    },
+    {
+      "path": "dataset_extensions/databricks-dolly-15k/databricks-dolly-15k.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ddff957c680428a39173c4b03fac9938805ac58",
+      "size": 13216783,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/3ddff957c680428a39173c4b03fac9938805ac58"
+    },
+    {
+      "path": "dataset_extensions/gsm_8k",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ea82eb8193136ce7ae5b914dac12d5c5b4a9b1d",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/6ea82eb8193136ce7ae5b914dac12d5c5b4a9b1d"
+    },
+    {
+      "path": "dataset_extensions/gsm_8k/gsm_8k_train.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6673e70bbdc20c665a6f8656ac834aea6004501",
+      "size": 4178931,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/f6673e70bbdc20c665a6f8656ac834aea6004501"
+    },
+    {
+      "path": "dataset_extensions/merge_datasets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbb77b36671fc76208ef34a4df2b9f3a03e25e2d",
+      "size": 1541,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/fbb77b36671fc76208ef34a4df2b9f3a03e25e2d"
+    },
+    {
+      "path": "eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3643a21e3307f2010a8a51ca59f02eab75854e84",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/3643a21e3307f2010a8a51ca59f02eab75854e84"
+    },
+    {
+      "path": "eval/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f327fa6ce4c1b3eca61d86cbc9cc41ad221d499a",
+      "size": 1768,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/f327fa6ce4c1b3eca61d86cbc9cc41ad221d499a"
+    },
+    {
+      "path": "eval/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "393d5e822d5e11036aa4c28a74955b6060c299a4",
+      "size": 12607,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/393d5e822d5e11036aa4c28a74955b6060c299a4"
+    },
+    {
+      "path": "eval/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd115f39e6128602d410fe30ba8beff274abb463",
+      "size": 168,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/bd115f39e6128602d410fe30ba8beff274abb463"
+    },
+    {
+      "path": "eval/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2db470ada4f29f4f0a3e93b40bc402e52fd385da",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/2db470ada4f29f4f0a3e93b40bc402e52fd385da"
+    },
+    {
+      "path": "eval/templates/alpaca.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e486439c4be22b9c2b0fd6b50328c679c3623840",
+      "size": 542,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/e486439c4be22b9c2b0fd6b50328c679c3623840"
+    },
+    {
+      "path": "eval/templates/piqa.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b0ccaded910e2dee937d90c901404dcfb420d2",
+      "size": 542,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/12b0ccaded910e2dee937d90c901404dcfb420d2"
+    },
+    {
+      "path": "eval/templates/squad.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65bf72d56eda95af5f5280d8cd03648a6e6418b1",
+      "size": 549,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/65bf72d56eda95af5f5280d8cd03648a6e6418b1"
+    },
+    {
+      "path": "eval/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa377792e2f398fd137eb7e395140287f4c9dafe",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/aa377792e2f398fd137eb7e395140287f4c9dafe"
+    },
+    {
+      "path": "eval/utils/prompter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28b98464ab3430095bf52644114725feea0f3d9",
+      "size": 1669,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/b28b98464ab3430095bf52644114725feea0f3d9"
+    },
+    {
+      "path": "generate_instruction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ffe3f24782d1babb55c8413e670db077e72dce",
+      "size": 8884,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/49ffe3f24782d1babb55c8413e670db077e72dce"
+    },
+    {
+      "path": "gui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a399c3c0b43cd88e62b6ca13424568adf04176e4",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/a399c3c0b43cd88e62b6ca13424568adf04176e4"
+    },
+    {
+      "path": "gui/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8449ec4bf70c81d44c39f50c95c38a99a9b3c47f",
+      "size": 36,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/8449ec4bf70c81d44c39f50c95c38a99a9b3c47f"
+    },
+    {
+      "path": "gui/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f86d65b6ad5c3f700a2bbce481e907e78117c7c3",
+      "size": 901,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/f86d65b6ad5c3f700a2bbce481e907e78117c7c3"
+    },
+    {
+      "path": "gui/completed_hashes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+      "size": 2,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/9e26dfeeb6e641a33dae4961196235bdb965b21b"
+    },
+    {
+      "path": "gui/gui-simple-demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "801d3c6a8527105ffe69c725647784fb9e995337",
+      "size": 339990,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/801d3c6a8527105ffe69c725647784fb9e995337"
+    },
+    {
+      "path": "gui/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa8c014a6e29c2ca0e13743ecbfacebd5f3be2d8",
+      "size": 2741,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/aa8c014a6e29c2ca0e13743ecbfacebd5f3be2d8"
+    },
+    {
+      "path": "gui/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bba737276dd0fd95bdd7e766ec0c2bf1eaa7013",
+      "size": 39711,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/6bba737276dd0fd95bdd7e766ec0c2bf1eaa7013"
+    },
+    {
+      "path": "gui/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba98e4190248312b91ed9fe2bb0faefda26994ad",
+      "size": 372,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/ba98e4190248312b91ed9fe2bb0faefda26994ad"
+    },
+    {
+      "path": "gui/page.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff7d492e7726bc6edbd5c223e0120dc4f7a34311",
+      "size": 4564,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/ff7d492e7726bc6edbd5c223e0120dc4f7a34311"
+    },
+    {
+      "path": "modifierGui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54a9308f5dce2b4626dad2f8ad031d2b6571970c",
+      "size": 2991,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/54a9308f5dce2b4626dad2f8ad031d2b6571970c"
+    },
+    {
+      "path": "prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bdf51d2d893e4a6b584308e96c23f3a2257389c",
+      "size": 1749,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/8bdf51d2d893e4a6b584308e96c23f3a2257389c"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f843eb26f523a3a5982425de24d35a0cfcac0155",
+      "size": 131,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/f843eb26f523a3a5982425de24d35a0cfcac0155"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5599e7684f6f14c4e7562bce327d2e24bfce13aa",
+      "size": 51,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/5599e7684f6f14c4e7562bce327d2e24bfce13aa"
+    },
+    {
+      "path": "schema.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa6494921f16f2698bd9554e0bc075d5625c7f0b",
+      "size": 552,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/aa6494921f16f2698bd9554e0bc075d5625c7f0b"
+    },
+    {
+      "path": "seed_tasks.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c97d40d76abd45cd7456f2d0d58459bb4df3cad5",
+      "size": 110934,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/c97d40d76abd45cd7456f2d0d58459bb4df3cad5"
+    },
+    {
+      "path": "tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d639e445d7a00ea5148306e30d8ca323c518c18",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/3d639e445d7a00ea5148306e30d8ca323c518c18"
+    },
+    {
+      "path": "tools/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2c46ab804c7907d52d0ce2501b3e4f82f7a8934",
+      "size": 868,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/a2c46ab804c7907d52d0ce2501b3e4f82f7a8934"
+    },
+    {
+      "path": "tools/readme_tool_automatic_check.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4549e5117e2d8c7e07182e2c5fe4e678bf50e492",
+      "size": 3316,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/4549e5117e2d8c7e07182e2c5fe4e678bf50e492"
+    },
+    {
+      "path": "tools/tool_automatic_check.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfdacf8db4de811b06e25a9e7d910a4e13cfa812",
+      "size": 312,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/dfdacf8db4de811b06e25a9e7d910a4e13cfa812"
+    },
+    {
+      "path": "tools/tool_automatic_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17af75c17c28b3169fc80bfe579232f774deebab",
+      "size": 10397,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/17af75c17c28b3169fc80bfe579232f774deebab"
+    },
+    {
+      "path": "tools/tool_generate_chat_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ab12fb78235fe1b20ea11a651dbd04498a542d6",
+      "size": 5549,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/4ab12fb78235fe1b20ea11a651dbd04498a542d6"
+    },
+    {
+      "path": "tools/tool_inputcheck.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7978a3aa07b992d14f53984f28f41f0519a7575d",
+      "size": 1090,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/7978a3aa07b992d14f53984f28f41f0519a7575d"
+    },
+    {
+      "path": "tools/tool_manage_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3fc1c976e33f4177c0eb7d235f51da5702f7a9c",
+      "size": 2483,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/b3fc1c976e33f4177c0eb7d235f51da5702f7a9c"
+    },
+    {
+      "path": "tools/tool_mergedInstructions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cbd2ab3e5c2063e62bd282d142bff443d434311",
+      "size": 619,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/4cbd2ab3e5c2063e62bd282d142bff443d434311"
+    },
+    {
+      "path": "utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d47b5f58bfcbd5ea194beaacfaba64246bcef9e",
+      "size": 6481,
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/blobs/0d47b5f58bfcbd5ea194beaacfaba64246bcef9e"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q/1DBbzh4hxXPYrW6xjBwuUzwhU</id>
+  <title>arXiv Query: search_query=all:"representation preservation" AND all:"fine-tuning"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-09-08T06:09:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22representation+preservation%22+AND+all:%22fine-tuning%22&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21300v2</id>
+    <title>When Adaptation Hurts: Connecting Representational Drift to OOD Failures in MedSAM Fine-Tuning</title>
+    <updated>2026-08-29T10:40:46Z</updated>
+    <link href="https://arxiv.org/abs/2608.21300v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21300v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models for medical image segmentation, like prompt-based MedSAM, generalize well across domains and modalities, often in zero or few-shot setups. However, their performance depends on the quality of prompts and the adaptation of the models to custom datasets. This work systematically examines how MedSAM generalizes across diverse medical imaging benchmarks, with six adaptation strategies: full-model and encoder-only LoRA, shallow and deep visual prompt tuning (VPT), and decoder-only and full fine-tuning. Models are trained on the International Skin Imaging Collaboration Challenge (ISIC 2018) dataset and evaluated under clean and increasingly noisy prompts on IN and Out-of-Distribution (OOD) datasets: close-OOD PH2 (dermoscopy), far-OOD BUSI (Breast Ultrasound Images Dataset) and CBIS-DDSM (Curated Breast Imaging Subset of the Digital Database for Screening Mammography). We show that adaptation improves performance on IN and close-OOD data but often reduces performance on far-OOD data. Full fine-tuning provides the best tradeoff, while encoder-only LoRA is the strongest parameter-efficient alternative, outperforming standard LoRA and VPT under far-OOD shifts. Using Centered Kernel Alignment (CKA), we show that far-OOD degradation is strongly associated with drift in decoder representations, whereas encoder similarity alone does not explain robustness. This suggests encoder-only LoRA provides stronger robustness than standard LoRA by adapting the encoder to distribution shift in visual features, while preserving the decoder pathway. We further show that random 0-100 pixel jitter on prompts produces more robust and better performing models. We thus conclude that robust MedSAM adaptation requires the combined consideration of prompt noise exposure, domain shift, and representation preservation. We release our code: https://github.com/ImSounic/medsam-vpt</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-21T17:01:10Z</published>
+    <arxiv:comment>Accepted at the SAFER Workshop, MICCAI 2026, non camera-ready version</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Marko Haralović</name>
+    </author>
+    <author>
+      <name>Sounic Akkaraju</name>
+    </author>
+    <author>
+      <name>Carlo Baretta</name>
+    </author>
+    <author>
+      <name>Vasil Zapryanov</name>
+    </author>
+    <author>
+      <name>Alexia Briassouli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.11329v1</id>
+    <title>Qwen-MusicAVQA-7B: A Multimodal Model for Music Audio-Visual QA</title>
+    <updated>2026-08-11T18:28:30Z</updated>
+    <link href="https://arxiv.org/abs/2608.11329v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.11329v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A common approach to adding audio to a vision-language model is to train or adapt a large omni-modal system. We show that a lightweight alternative can be highly effective for music audio-visual question answering (AVQA). Qwen-MusicAVQA-7B connects a frozen Whisper encoder to Qwen2-VL-7B-Instruct through learned linear projections. The same frozen encoder processes both the video's music track and a TTS-spoken question through separate projectors, while the language model fuses visual frames, music, and question audio through pretrained self-attention, with no task-specific fusion network.
+  On MUSIC-AVQA, our system reaches 96.0% +/- 3.9% accuracy across three independent training seeds on the 7,402-question available-video test subset. Our central finding is that downstream accuracy tracks how much fine-grained local temporal information the audio representation preserves. In a matched 32-token comparison, a stride-pooled Whisper frame sequence outperforms a globally pooled PANNs representation expanded to the same budget by 26 percentage points, even though PANNs sees at least as much audio and uses a far larger projector. The effect is not simply sequence versus vector: within Whisper alone, reducing temporal resolution at a fixed token budget costs a comparable amount.
+  Under matched data and inputs, fine-tuned Qwen2.5-Omni-7B reaches 80.9%, against 95.9% for our 30 s variant; because the systems differ in backbone and adaptation, this is a system-level comparison. Accuracy remains high on sampled head and tail splits of the rephrased MUSIC-AVQA-R benchmark (96.5% and 95.6%). Because both encoders stay frozen and the music features are cached, the entire adaptation is cheap to train: the complete two-stage AVQA run takes approximately 5 hours on a single A100 80GB, and every run reported here fits on that one GPU.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-11T18:28:30Z</published>
+    <arxiv:comment>24 pages, 1 figure, 8 tables. Code: https://github.com/MKDehdashti/Qwen2-vl-audio Checkpoints: https://huggingface.co/MayaKD/qwen2-vl-audio</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Maryam Dehdashti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.23054v1</id>
+    <title>Through the Bottleneck: How Multi-head Latent Attention Separates Content from Position in Language Models</title>
+    <updated>2026-07-25T05:45:59Z</updated>
+    <link href="https://arxiv.org/abs/2607.23054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.23054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-head Latent Attention (MLA), introduced in DeepSeek-V2, compresses key-value pairs through a shared low-rank bottleneck (cKV), achieving 81% KV-cache reduction during inference. Despite its adoption in massive production models, no prior work has studied what information this bottleneck preserves or discards, nor how it reshapes internal transformer circuits. We present the first comprehensive mechanistic interpretability study of MLA, training a 114M-parameter transformer (pretrained on a web/code/math mixture, fine-tuned on TinyStories) and analyzing its representations through SVD, attention head taxonomy, linear probing, and a disruption-attribution analysis. Our key findings are: (1) the cKV bottleneck learns a pure content representation, preserving entity identity (98% retention) while discarding positional information, validating MLA's separation of content from position via RoPE; (2) induction heads co-locate at a single layer (Layer 12), unlike their distributed formation in standard MHA; (3) a single "semantic hub" layer (Layer 15) simultaneously exhibits the highest SVD effective rank and strongest disruption-attribution score; and (4) the bottleneck is globally over-provisioned, using only 46% of its capacity on average. These findings suggest MLA does not merely compress attention passively, but reshapes how the model organizes content, position, and circuit structure. We view this as an initial data point and detail scope limitations in Section 5.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-25T05:45:59Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Dhruvil S</name>
+    </author>
+    <author>
+      <name>Fenil Sojitra</name>
+    </author>
+    <author>
+      <name>Ravirajsinh Chauhan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.13597v2</id>
+    <title>Semantic Anchoring for Robotic Action Representations</title>
+    <updated>2026-07-18T04:17:04Z</updated>
+    <link href="https://arxiv.org/abs/2607.13597v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.13597v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vision-Language-Action (VLA) models inherit rich semantic representations from pretrained Vision-Language Models, yet fine-tuning on limited robot demonstrations degrades this structure and undermines generalization. A fundamental question therefore arises: what constitutes a good action representation? Inspired by the mirror neuron theory's insight that observation and execution share an intention-level encoding, we examine whether a robot's action representations preserve the semantic structure captured by pretrained encoders. Systematic probing confirms that this structure erodes during finetuning, and that its quality synchronizes with both task success and out-of-distribution generalization. We further introduce a plug-and-play method that anchors action representations to a semantic manifold while decomposing representations into a shared semantic channel and a private channel, all discarded at inference, leaving the deployed model unchanged. Validated on different VLA backbones across simulation and real-world benchmarks, our method yields up to +18.7% on real-world in-distribution tasks and +21.5% on out-of-distribution generalization.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-15T08:45:15Z</published>
+    <arxiv:comment>Project Page: https://xy02-05.github.io/SemanticMN</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Yuan Xu</name>
+    </author>
+    <author>
+      <name>Youheng Shi</name>
+    </author>
+    <author>
+      <name>Chengyang Li</name>
+    </author>
+    <author>
+      <name>Wentao Zhu</name>
+    </author>
+    <author>
+      <name>Yizhou Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.09266v1</id>
+    <title>Physics-Guided Sequence-Based Generative Framework for Acoustic Metamaterial Inverse Design</title>
+    <updated>2026-06-08T09:37:44Z</updated>
+    <link href="https://arxiv.org/abs/2606.09266v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.09266v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Acoustic metamaterial (AMM) inverse design is particularly challenging for broadband target responses due to acoustic dispersion: a structure that matches the desired response at one frequency may deviate at others, and modifying geometry to improve one sub-band often perturbs neighboring sub-bands. Yet existing broadband inverse-design approaches are either constrained by predefined templates, or rely on image representations that fail to preserve the geometric precision and structural connectivity required by acoustic structures. We present MetaSeq, a physics-guided, sequence-based generative framework for acoustic metamaterial inverse design. At its core, MetaSeq introduces a language that represents each AMM as a structured sequence, rather than as a pixel grid or fixed template. This representation preserves precise geometry, explicitly encodes connectivity, and casts inverse design as a sequence-to-sequence task from target response to structure sequence. MetaSeq further constructs a balanced, high-fidelity dataset with efficient calibration and complexity-based sampling. To address the one-to-many nature of inverse design, MetaSeq combines supervised pretraining with reinforcement learning fine-tuning guided by a physics-based solver and validity checker. Extensive evaluations against COMSOL and five baselines show that MetaSeq reduces response error by 45% over the best baseline.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-08T09:37:44Z</published>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Yijie Li</name>
+    </author>
+    <author>
+      <name>Jiahao Xu</name>
+    </author>
+    <author>
+      <name>Ching-Chih Tsao</name>
+    </author>
+    <author>
+      <name>Lili Qiu</name>
+    </author>
+    <author>
+      <name>Jingxian Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16410v1</id>
+    <title>Matched-Learning-Rate Analysis of Attention Drift and Transfer Retention in Fine-Tuned CLIP</title>
+    <updated>2026-04-01T06:35:09Z</updated>
+    <link href="https://arxiv.org/abs/2604.16410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>CLIP adaptation can improve in-domain accuracy while degrading out-of-domain transfer, but comparisons between Full Fine-Tuning (Full FT) and LoRA are often confounded by different learning-rate conventions. We study how adaptation method and optimization scale jointly shape attention drift and transfer retention in CLIP using a controlled matched-learning-rate comparison of Full FT and LoRA. The completed matrix contains 80 runs on CLIP ViT-B/32 across EuroSAT and Oxford-IIIT Pets, spanning four shared learning rates ($10^{-6}$, $5{\times}10^{-6}$, $10^{-5}$, $5{\times}10^{-5}$) and five seeds, and evaluates attention-drift metrics, best validation accuracy, and adapter-aware CIFAR-100 zero-shot accuracy. Learning rate strongly modulates structural change: on EuroSAT, Full FT moves from mild entropy broadening at $10^{-6}$ to marked contraction at $5{\times}10^{-5}$, whereas LoRA remains entropy-positive across the full matched grid. At matched learning rates, LoRA preserves substantially more zero-shot transfer than Full FT, averaging $45.13\%$ versus $11.28\%$ CIFAR-100 accuracy on EuroSAT and $58.01\%$ versus $8.54\%$ on Pets. Oxford-IIIT Pets also reveals a regime effect: low-learning-rate LoRA underfits in-domain, so method-only averages can obscure when LoRA becomes competitive. Supporting rollout, patch-to-patch, and CKA analyses are directionally consistent with the controlled matrix. Overall, matched-learning-rate evaluation materially changes the interpretation of Full FT versus LoRA, and attention drift is most useful as a descriptive diagnostic of representation preservation rather than a causal explanation of transfer behavior.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-01T06:35:09Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ruize Xia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.05243v2</id>
+    <title>CORP: Closed-Form One-shot Representation-Preserving Structured Pruning for Transformers</title>
+    <updated>2026-05-10T15:06:48Z</updated>
+    <link href="https://arxiv.org/abs/2602.05243v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.05243v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Transformers achieve strong accuracy but incur high compute and memory cost. Structured pruning reduces inference cost, but most methods rely on retraining or multi-stage optimization, which limits post-training deployment. We propose CORP, a closed-form one-shot structured pruning method that removes MLP dimensions and attention substructures using only unlabeled calibration data without gradients or fine-tuning. CORP formulates structured pruning as a representation recovery problem. It models removed components as affine functions of retained components and derives closed-form ridge regression solutions that fold compensation into model weights. This minimizes a layer-local affine/logit reconstruction objective under the calibration distribution. Experiments on ImageNet with DeiT reveal strong redundancy in both MLP and attention representations. With CORP, models retain high accuracy under aggressive sparsity. On DeiT-Huge, CORP achieves 83.27% Top-1 accuracy after pruning 50\% of both MLP and attention structures.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-05T03:03:17Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Boxiang Zhang</name>
+    </author>
+    <author>
+      <name>Baijian Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.01009v2</id>
+    <title>LASS-ODE: Scaling ODE Computations to Connect Foundation Models with Dynamical Physical Systems</title>
+    <updated>2026-02-04T06:20:11Z</updated>
+    <link href="https://arxiv.org/abs/2602.01009v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.01009v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Foundation models have transformed language, vision, and time series data analysis, yet progress on dynamic predictions for physical systems remains limited. Given the complexity of physical constraints, two challenges stand out. $(i)$ Physics-computation scalability: physics-informed learning can enforce physical regularization, but its computation (e.g., ODE integration) does not scale to extensive systems. $(ii)$ Knowledge-sharing efficiency: the attention mechanism is primarily computed within each system, which limits the extraction of shared ODE structures across systems. We show that enforcing ODE consistency does not require expensive nonlinear integration: a token-wise locally linear ODE representation preserves physical fidelity while scaling to foundation-model regimes. Thus, we propose novel token representations that respect locally linear ODE evolution. Such linearity substantially accelerates integration while accurately approximating the local data manifold. Second, we introduce a simple yet effective inter-system attention that augments attention with a common structure hub (CSH) that stores shared tokens and aggregates knowledge across systems. The resulting model, termed LASS-ODE (\underline{LA}rge-\underline{S}cale \underline{S}mall \underline{ODE}), is pretrained on our $40$GB ODE trajectory collections to enable strong in-domain performance, zero-shot generalization across diverse ODE systems, and additional improvements through fine-tuning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-01T04:22:01Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Haoran Li</name>
+    </author>
+    <author>
+      <name>Chenhan Xiao</name>
+    </author>
+    <author>
+      <name>Lihao Mai</name>
+    </author>
+    <author>
+      <name>Yang Weng</name>
+    </author>
+    <author>
+      <name>Erik Blasch</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.02850v1</id>
+    <title>Are Detectors Fair to Indian IP-AIGC? A Cross-Generator Study</title>
+    <updated>2025-12-02T15:03:51Z</updated>
+    <link href="https://arxiv.org/abs/2512.02850v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.02850v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modern image editors can produce identity-preserving AIGC (IP-AIGC), where the same person appears with new attire, background, or lighting. The robustness and fairness of current detectors in this regime remain unclear, especially for under-represented populations. We present what we believe is the first systematic study of IP-AIGC detection for Indian and South-Asian faces, quantifying cross-generator generalization and intra-population performance. We assemble Indian-focused training splits from FairFD and HAV-DF, and construct two held-out IP-AIGC test sets (HIDF-img-ip-genai and HIDF-vid-ip-genai) using commercial web-UI generators (Gemini and ChatGPT) with identity-preserving prompts. We evaluate two state-of-the-art detectors (AIDE and Effort) under pretrained (PT) and fine-tuned (FT) regimes and report AUC, AP, EER, and accuracy. Fine-tuning yields strong in-domain gains (for example, Effort AUC 0.739 to 0.944 on HAV-DF-test; AIDE EER 0.484 to 0.259), but consistently degrades performance on held-out IP-AIGC for Indian cohorts (for example, AIDE AUC 0.923 to 0.563 on HIDF-img-ip-genai; Effort 0.740 to 0.533), which indicates overfitting to training-generator cues. On non-IP HIDF images, PT performance remains high, which suggests a specific brittleness to identity-preserving edits rather than a generic distribution shift. Our study establishes IP-AIGC-Indian as a challenging and practically relevant scenario and motivates representation-preserving adaptation and India-aware benchmark curation to close generalization gaps in AIGC detection.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-02T15:03:51Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Vishal Dubey</name>
+    </author>
+    <author>
+      <name>Pallavi Tyagi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.06166v2</id>
+    <title>AdaMR: Adaptable Molecular Representation for Unified Pre-training Strategy</title>
+    <updated>2024-04-27T13:28:02Z</updated>
+    <link href="https://arxiv.org/abs/2401.06166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.06166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose Adjustable Molecular Representation (AdaMR), a new large-scale uniform pre-training strategy for small-molecule drugs, as a novel unified pre-training strategy. AdaMR utilizes a granularity-adjustable molecular encoding strategy, which is accomplished through a pre-training job termed molecular canonicalization, setting it apart from recent large-scale molecular models. This adaptability in granularity enriches the model's learning capability at multiple levels and improves its performance in multi-task scenarios. Specifically, the substructure-level molecular representation preserves information about specific atom groups or arrangements, influencing chemical properties and functionalities. This proves advantageous for tasks such as property prediction. Simultaneously, the atomic-level representation, combined with generative molecular canonicalization pre-training tasks, enhances validity, novelty, and uniqueness in generative tasks. All of these features work together to give AdaMR outstanding performance on a range of downstream tasks. We fine-tuned our proposed pre-trained model on six molecular property prediction tasks (MoleculeNet datasets) and two generative tasks (ZINC250K datasets), achieving state-of-the-art (SOTA) results on five out of eight tasks.</summary>
+    <category term="q-bio.BM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-28T10:53:17Z</published>
+    <arxiv:primary_category term="q-bio.BM"/>
+    <author>
+      <name>Yan Ding</name>
+    </author>
+    <author>
+      <name>Hao Cheng</name>
+    </author>
+    <author>
+      <name>Ziliang Ye</name>
+    </author>
+    <author>
+      <name>Ruyi Feng</name>
+    </author>
+    <author>
+      <name>Wei Tian</name>
+    </author>
+    <author>
+      <name>Peng Xie</name>
+    </author>
+    <author>
+      <name>Juan Zhang</name>
+    </author>
+    <author>
+      <name>Zhongze Gu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.03646v2</id>
+    <title>TRAM: Bridging Trust Regions and Sharpness Aware Minimization</title>
+    <updated>2024-03-12T13:38:31Z</updated>
+    <link href="https://arxiv.org/abs/2310.03646v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.03646v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sharpness-aware minimization (SAM) reports improving domain generalization by reducing the loss surface curvature in the parameter space. However, generalization during fine-tuning is often more dependent on the transferability of representations in the function space. Trust-region methods (TR) target this goal by regularizing representation curvature to reduce catastrophic forgetting of pre-trained task-agnostic information while adopting task-specific skills. We consider unifying these strategies for low curvature in both parameter space and function space to improve out-of-domain (OOD) generalization. We propose Trust Region Aware Minimization (TRAM), a SAM algorithm fine-tuning for low parameter sharpness and smooth, informative representations preserving pre-trained structure. TRAM uses a trust region bound to inform the SAM adversarial neighborhood, introducing an awareness of function curvature within optimization for flatter minima. We empirically validate TRAM in vision (cross-dataset adaptation) and text (OOD language modeling, zero-shot cross-lingual transfer) tasks where robust domain transfer and representation generality are critical. TRAM outperforms SAM- and TR-based optimization across all tasks, notably surpassing competing methods for hard transfer between anticorrelated domains. TRAM establishes a novel standard in fine-tuning for domain-generalizable models with minimal additional computation over previous sharpness-aware methods.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-05T16:21:36Z</published>
+    <arxiv:comment>Camera Ready for ICLR 2024 (Accepted as Spotlight). 21 pages, 14 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Tom Sherborne</name>
+    </author>
+    <author>
+      <name>Naomi Saphra</name>
+    </author>
+    <author>
+      <name>Pradeep Dasigi</name>
+    </author>
+    <author>
+      <name>Hao Peng</name>
+    </author>
+  </entry>
+</feed>

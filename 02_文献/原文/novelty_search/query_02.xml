@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OzqNWMwvFAva67tcs8b0Hg/yb/M</id>
+  <title>arXiv Query: search_query=all:"refusal direction" AND all:"LoRA"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-09-08T06:09:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22refusal+direction%22+AND+all:%22LoRA%22&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2605.17413v1</id>
+    <title>Ablating Safety: Mechanisms for Removing Alignment in Language Models for Security Applications</title>
+    <updated>2026-05-17T12:18:20Z</updated>
+    <link href="https://arxiv.org/abs/2605.17413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.17413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety-aligned language models often refuse cybersecurity requests whose wording resembles misuse, even when the task is authorized and defensive. This makes security evaluation ambiguous: a failed answer may reflect missing capability or refusal-policy intervention. Ablating Safety studies alignment removal as a controlled transformation-evaluation protocol for authorized security tasks, comparing authorized-context prompting, reversible refusal-direction activation projection, representation-control projections, and LoRA-based de-alignment or task adaptation.
+  We evaluate refusal, attempt rate, validated security success, general-capability retention, instability, and out-of-scope unsafe compliance on Security-AR, a 60-prompt suite of authorized security, benign general, and non-operational spillover probes. The reported runs include a four-model projection pilot with 416 completions, a three-model Qwen2.5 LoRA extension with 1,980 held-out completions, representation and robustness sweeps, and executable secure-repair validators. Single-vector refusal projection raises mean security score only from 0.46 to 0.50 while increasing unsafe compliance from 0.10 to 0.47; rank-4 refusal-subspace projection reaches 0.51 while matching the aligned spillover rate. Task-only LoRA raises mean security score to 0.87 with general score 0.83 and unsafe compliance 0.13, while refusal-suppression with retention raises spillover to 0.27. These results support evaluating alignment removal as a utility-risk frontier, not as an uncensoring recipe, and treating compliance alone as neither competence nor safe deployment.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-17T12:18:20Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Isaac David</name>
+    </author>
+    <author>
+      <name>Arthur Gervais</name>
+    </author>
+  </entry>
+</feed>

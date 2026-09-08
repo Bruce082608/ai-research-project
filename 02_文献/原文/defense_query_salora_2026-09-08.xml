@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ky7cK2LW0ojbiz8Ane6qHxz3+q0</id>
+  <title>arXiv Query: search_query=all:"safety alignment" AND all:"low-rank adaptation"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-08T06:11:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22safety+alignment%22+AND+all:%22low-rank+adaptation%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.01765v1</id>
+    <title>SaLoRA: Safety-Alignment Preserved Low-Rank Adaptation</title>
+    <updated>2025-01-03T11:34:28Z</updated>
+    <link href="https://arxiv.org/abs/2501.01765v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.01765v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As advancements in large language models (LLMs) continue and the demand for personalized models increases, parameter-efficient fine-tuning (PEFT) methods (e.g., LoRA) will become essential due to their efficiency in reducing computation costs. However, recent studies have raised alarming concerns that LoRA fine-tuning could potentially compromise the safety alignment in LLMs, posing significant risks for the model owner. In this paper, we first investigate the underlying mechanism by analyzing the changes in safety alignment related features before and after fine-tuning. Then, we propose a fixed safety module calculated by safety data and a task-specific initialization for trainable parameters in low-rank adaptations, termed Safety-alignment preserved Low-Rank Adaptation (SaLoRA). Unlike previous LoRA methods and their variants, SaLoRA enables targeted modifications to LLMs without disrupting their original alignments. Our experiments show that SaLoRA outperforms various adapters-based approaches across various evaluation metrics in different fine-tuning tasks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-03T11:34:28Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mingjie Li</name>
+    </author>
+    <author>
+      <name>Wai Man Si</name>
+    </author>
+    <author>
+      <name>Michael Backes</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Yisen Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.18931v1</id>
+    <title>Safe Pruning LoRA: Robust Distance-Guided Pruning for Safety Alignment in Adaptation of LLMs</title>
+    <updated>2025-06-21T14:59:54Z</updated>
+    <link href="https://arxiv.org/abs/2506.18931v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.18931v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning Large Language Models (LLMs) with Low-Rank Adaptation (LoRA) enhances adaptability while reducing computational costs. However, fine-tuning can compromise safety alignment, even with benign data, increasing susceptibility to harmful outputs. Existing safety alignment methods struggle to capture complex parameter shifts, leading to suboptimal safety-utility trade-offs. To address this issue, we propose Safe Pruning LoRA (SPLoRA), a novel pruning-based approach that selectively removes LoRA layers that weaken safety alignment, improving safety while preserving performance. At its core, we introduce Empirical-DIEM (E-DIEM), a dimension-insensitive similarity metric that effectively detects safety misalignment in LoRA-adapted models. We conduct extensive experiments on LLMs fine-tuned with mixed of benign and malicious data, and purely benign datasets, evaluating SPLoRA across utility, safety, and reliability metrics. Results demonstrate that SPLoRA outperforms state-of-the-art safety alignment techniques, significantly reducing safety risks while maintaining or improving model performance and reliability. Additionally, SPLoRA reduces inference overhead, making it a scalable and efficient solution for deploying safer and more reliable LLMs. The code is available at https://github.com/AoShuang92/SPLoRA.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-21T14:59:54Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shuang Ao</name>
+    </author>
+    <author>
+      <name>Yi Dong</name>
+    </author>
+    <author>
+      <name>Jinwei Hu</name>
+    </author>
+    <author>
+      <name>Sarvapali Ramchurn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.18795v1</id>
+    <title>HELLoRA: Hot Experts Layer-Level Low-Rank Adaptation for Mixture-of-Experts Models</title>
+    <updated>2026-05-11T06:43:14Z</updated>
+    <link href="https://arxiv.org/abs/2605.18795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.18795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-Rank Adaptation (LoRA) dominates parameter-efficient fine-tuning of large language models, yet most variants target dense architectures. Mixture-of-Experts (MoE) models scale parameters at near-constant per-token compute, and their sparse activation patterns create untapped opportunities for more efficient adaptation. We propose Hot-Experts Layer-level Low-Rank Adaptation (HELLoRA), which attaches LoRA modules only to the most frequently activated experts at each layer. This simple mechanism reduces trainable parameters and adapter-induced FLOPs while improving downstream performance, an effect we attribute to a form of structured regularization that preserves pretrained expert specialization. To stress-test HELLoRA under extreme parameter budgets, we further compose it with LoRI to form HELLoRI, which freezes the up-projection and sparsifies the down-projection. Across three MoE backbones, namely OlMoE-1B-7B, Mixtral-8x7B, and DeepSeekMoE, and three task families covering mathematical reasoning, code generation, and safety alignment, HELLoRA consistently outperforms strong PEFT baselines. Relative to vanilla LoRA on OlMoE, HELLoRA uses 15.7% of the trainable parameters, reduces adapter FLOPs by 38.7%, achieves 1.9x the training throughput, and improves accuracy by 9.2%. On DeepSeekMoE, HELLoRA outperforms LoRA while using only 23.2% of its trainable parameters. These results demonstrate that activation-aware adapter placement is an effective and practical route to scaling PEFT for MoE language models.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-11T06:43:14Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jia Wei</name>
+    </author>
+    <author>
+      <name>Zhonghao Zhang</name>
+    </author>
+    <author>
+      <name>Ping Chen</name>
+    </author>
+    <author>
+      <name>Qianyang li</name>
+    </author>
+    <author>
+      <name>Yancheng Pan</name>
+    </author>
+    <author>
+      <name>Shaoxun Wang</name>
+    </author>
+    <author>
+      <name>Ziyi Qiu</name>
+    </author>
+    <author>
+      <name>Longxiang Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.30640v1</id>
+    <title>CSULoRA: Closest Safe Update Low-Rank Adaptation</title>
+    <updated>2026-05-28T22:48:54Z</updated>
+    <link href="https://arxiv.org/abs/2605.30640v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.30640v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-rank adaptation has become a standard method for parameter-efficient fine-tuning of large language models, but even small amounts of unsafe or adversarial fine-tuning data can substantially weaken the safety behavior of aligned models. Existing safety-preserving LoRA methods often rely on hard interventions such as projection, pruning, thresholding, or additional training objectives. While these methods can suppress unsafe update directions, they may also remove task-relevant information or require extra tuning. We introduce CSULoRA, a post-hoc method for correcting trained LoRA adapters through closest safe update estimation. CSULoRA estimates a safety-aligned subspace from the weight displacement between a safety-aligned model and its corresponding base checkpoint. It then decomposes each LoRA update into fully aligned, partially aligned, and off-subspace components. Instead of discarding components outside the estimated safety subspace, CSULoRA solves a closed-form penalized minimum-change problem that preserves the fully aligned component while smoothly attenuating potentially unsafe directions according to their relative energy. In adversarial fine-tuning experiments, CSULoRA substantially reduces attack success rate while preserving most of the utility gains obtained from standard LoRA fine-tuning.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-28T22:48:54Z</published>
+    <arxiv:comment>10 pages, 3 figure</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Oleksandr Marchenko Breneur</name>
+    </author>
+    <author>
+      <name>Adelaide Danilov</name>
+    </author>
+    <author>
+      <name>Aria Nourbakhsh</name>
+    </author>
+    <author>
+      <name>Salima Lamsiyah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07448v2</id>
+    <title>LoRI: Reducing Cross-Task Interference in Multi-Task Low-Rank Adaptation</title>
+    <updated>2025-08-02T23:46:21Z</updated>
+    <link href="https://arxiv.org/abs/2504.07448v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07448v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-Rank Adaptation (LoRA) has emerged as a popular parameter-efficient fine-tuning (PEFT) method for Large Language Models (LLMs), yet it still incurs notable overhead and suffers from parameter interference in multi-task scenarios. We propose LoRA with Reduced Interference (LoRI), a simple yet effective approach that freezes the projection matrices $A$ as random projections and sparsifies the matrices $B$ using task-specific masks. This design substantially reduces the number of trainable parameters while maintaining strong task performance. Moreover, LoRI minimizes cross-task interference in adapter merging by leveraging the orthogonality between adapter subspaces, and supports continual learning by using sparsity to mitigate catastrophic forgetting. Extensive experiments across natural language understanding, mathematical reasoning, code generation, and safety alignment tasks demonstrate that LoRI outperforms full fine-tuning and existing PEFT methods, while using up to 95% fewer trainable parameters than LoRA. In multi-task experiments, LoRI enables effective adapter merging and continual learning with reduced cross-task interference. Code is available at: https://github.com/juzhengz/LoRI</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-10T04:46:04Z</published>
+    <arxiv:comment>COLM 2025</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Juzheng Zhang</name>
+    </author>
+    <author>
+      <name>Jiacheng You</name>
+    </author>
+    <author>
+      <name>Ashwinee Panda</name>
+    </author>
+    <author>
+      <name>Tom Goldstein</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.10493v2</id>
+    <title>AlignGuard: Scalable Safety Alignment for Text-to-Image Generation</title>
+    <updated>2025-06-24T20:53:27Z</updated>
+    <link href="https://arxiv.org/abs/2412.10493v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.10493v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Text-to-image (T2I) models are widespread, but their limited safety guardrails expose end users to harmful content and potentially allow for model misuse. Current safety measures are typically limited to text-based filtering or concept removal strategies, able to remove just a few concepts from the model's generative capabilities. In this work, we introduce AlignGuard, a method for safety alignment of T2I models. We enable the application of Direct Preference Optimization (DPO) for safety purposes in T2I models by synthetically generating a dataset of harmful and safe image-text pairs, which we call CoProV2. Using a custom DPO strategy and this dataset, we train safety experts, in the form of low-rank adaptation (LoRA) matrices, able to guide the generation process away from specific safety-related concepts. Then, we merge the experts into a single LoRA using a novel merging strategy for optimal scaling performance. This expert-based approach enables scalability, allowing us to remove 7x more harmful concepts from T2I models compared to baselines. AlignGuard consistently outperforms the state-of-the-art on many benchmarks and establishes new practices for safety alignment in T2I networks. Code and data will be shared at https://safetydpo.github.io/.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-13T18:59:52Z</published>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Runtao Liu</name>
+    </author>
+    <author>
+      <name>I Chieh Chen</name>
+    </author>
+    <author>
+      <name>Jindong Gu</name>
+    </author>
+    <author>
+      <name>Jipeng Zhang</name>
+    </author>
+    <author>
+      <name>Renjie Pi</name>
+    </author>
+    <author>
+      <name>Qifeng Chen</name>
+    </author>
+    <author>
+      <name>Philip Torr</name>
+    </author>
+    <author>
+      <name>Ashkan Khakzar</name>
+    </author>
+    <author>
+      <name>Fabio Pizzati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.23260v2</id>
+    <title>Interpretable Safety Alignment via SAE-Constructed Low-Rank Subspace Adaptation</title>
+    <updated>2026-01-05T13:39:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.23260v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.23260v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety alignment -- training large language models (LLMs) to refuse harmful requests while remaining helpful -- is critical for responsible deployment. Prior work established that safety behaviors are governed by low-rank structures, suggesting parameter-efficient fine-tuning (PEFT) should be well-suited for alignment. However, Low-Rank Adaptation (LoRA) consistently underperforms full fine-tuning and reinforcement learning on safety benchmarks. We attribute this gap to semantic entanglement: safety-relevant directions are intertwined with unrelated concepts due to polysemanticity, impeding implicit subspace identification. To address this, we propose SAILS (Safety Alignment via Interpretable Low-rank Subspace), which leverages Sparse Autoencoders (SAEs) to disentangle representations into monosemantic features, constructs an interpretable safety subspace from SAE decoder directions, and uses it to initialize LoRA adapters. Theoretically, we prove that SAE-based identification achieves arbitrarily small recovery error under monosemanticity assumptions, while direct identification suffers an irreducible error floor. Empirically, SAILS achieves up to 99.6% safety rate on Gemma-2-9B -- exceeding full fine-tuning by 7.4 points and matching RLHF-based models -- while updating only 0.19% of parameters and providing interpretability.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-29T07:39:49Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dianyun Wang</name>
+    </author>
+    <author>
+      <name>Qingsen Ma</name>
+    </author>
+    <author>
+      <name>Yuhu Shang</name>
+    </author>
+    <author>
+      <name>Zhifeng Lu</name>
+    </author>
+    <author>
+      <name>Zhenbo Xu</name>
+    </author>
+    <author>
+      <name>Lechen Ning</name>
+    </author>
+    <author>
+      <name>Huijia Wu</name>
+    </author>
+    <author>
+      <name>Zhaofeng He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.00357v1</id>
+    <title>Safety Alignment Backfires: Preventing the Re-emergence of Suppressed Concepts in Fine-tuned Text-to-Image Diffusion Models</title>
+    <updated>2024-11-30T04:37:38Z</updated>
+    <link href="https://arxiv.org/abs/2412.00357v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.00357v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning text-to-image diffusion models is widely used for personalization and adaptation for new domains. In this paper, we identify a critical vulnerability of fine-tuning: safety alignment methods designed to filter harmful content (e.g., nudity) can break down during fine-tuning, allowing previously suppressed content to resurface, even when using benign datasets. While this "fine-tuning jailbreaking" issue is known in large language models, it remains largely unexplored in text-to-image diffusion models. Our investigation reveals that standard fine-tuning can inadvertently undo safety measures, causing models to relearn harmful concepts that were previously removed and even exacerbate harmful behaviors. To address this issue, we present a novel but immediate solution called Modular LoRA, which involves training Safety Low-Rank Adaptation (LoRA) modules separately from Fine-Tuning LoRA components and merging them during inference. This method effectively prevents the re-learning of harmful content without compromising the model's performance on new tasks. Our experiments demonstrate that Modular LoRA outperforms traditional fine-tuning methods in maintaining safety alignment, offering a practical approach for enhancing the security of text-to-image diffusion models against potential attacks.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-30T04:37:38Z</published>
+    <arxiv:comment>20 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Sanghyun Kim</name>
+    </author>
+    <author>
+      <name>Moonseok Choi</name>
+    </author>
+    <author>
+      <name>Jinwoo Shin</name>
+    </author>
+    <author>
+      <name>Juho Lee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.04992v2</id>
+    <title>You Snooze, You Lose: Automatic Safety Alignment Restoration through Neural Weight Translation</title>
+    <updated>2026-08-27T12:53:12Z</updated>
+    <link href="https://arxiv.org/abs/2605.04992v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.04992v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Public repositories now distribute thousands of specialized Low-Rank Adaptation (LoRA) modules, but a third-party adapter routinely arrives without the refusal behavior the same adapter would have had if it had been trained responsibly. Restoring it by fine-tuning on safety data induces the opposite failure: the domain expertise the adapter was published to provide degrades. A practitioner who downloads a finished adapter holds neither the domain corpus nor a safety corpus, so neither remedy is available.
+  We propose Neural Weight Translation (NeWTral), which maps unsafe domain adapters to their safety-aligned counterparts entirely within parameter space while preserving their expertise. NeWTral is a non-linear translator pre-trained on unsafe-to-safe adapter pairs, with a Mixture of Experts router that blends a high-fidelity surgical translator and an aggressive alignment expert per tensor.
+  Across four architectural families (Llama, Mistral, Qwen, Gemma) at scales up to 72B parameters and eight professional domains, NeWTral cuts the average Attack Success Rate from 70% to 13% while retaining 88% knowledge fidelity. The effect reproduces on JailbreakBench, on 12 of 14 adapters downloaded from a public model hub, and under automated jailbreak attacks. Curing is a single pass over the weights, needing no original training data and no retraining.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-06T14:52:22Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Marco Arazzi</name>
+    </author>
+    <author>
+      <name>Vignesh Kumar Kembu</name>
+    </author>
+    <author>
+      <name>Antonino Nocera</name>
+    </author>
+    <author>
+      <name>Stjepan Picek</name>
+    </author>
+    <author>
+      <name>Saraga Sakthidharan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21278v1</id>
+    <title>CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment</title>
+    <updated>2026-08-21T16:36:10Z</updated>
+    <link href="https://arxiv.org/abs/2608.21278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign inputs. We propose \textbf{C}ontinuous \textbf{L}at\textbf{E}nt \textbf{A}dapter \textbf{R}outing (CLEAR), a conditional safety adaptation framework that uses a lightweight hidden-state gate to continuously control the activation strength of a safety low-rank adapter. CLEAR aims to reduce harmful completions while avoiding unnecessary changes to the frozen backbone that could degrade performance on benign prompts. Experiments on widely used safety and utility benchmarks show that CLEAR improves robustness on HarmBench while reducing the utility degradation observed with globally applied safety tuning such as SFT or standard low-rank adaptation (LoRA). On Llama-3-8B-Instruct, CLEAR reduces HarmBench ASR from 32.3\% to 0.5\%, while retaining most of the base model's utility and achieving up to 7.1 percentage points higher GSM8K accuracy than globally applied SFT or LoRA. These results suggest that CLEAR is a promising mechanism for improving the safety--utility trade-off in LLM alignment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-21T16:36:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chengxiao Wang</name>
+    </author>
+    <author>
+      <name>Enyi Jiang</name>
+    </author>
+    <author>
+      <name>Xiaojing Liao</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+  </entry>
+</feed>

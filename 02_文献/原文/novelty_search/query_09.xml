@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4BlhSIpgjXjrlk/SE6yqMp+f2F8</id>
+  <title>arXiv Query: search_query=all:"refusal" AND all:"activation constraint" AND all:"fine-tuning"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-09-08T06:09:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22refusal%22+AND+(all:%22activation+constraint%22+AND+all:%22fine-tuning%22)&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12384v1</id>
+    <title>Preventing Safety Drift in Large Language Models via Coupled Weight and Activation Constraints</title>
+    <updated>2026-04-14T07:17:55Z</updated>
+    <link href="https://arxiv.org/abs/2604.12384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety alignment in Large Language Models (LLMs) remains highly fragile during fine-tuning, where even benign adaptation can degrade pre-trained refusal behaviors and enable harmful responses. Existing defenses typically constrain either weights or activations in isolation, without considering their coupled effects on safety. In this paper, we first theoretically demonstrate that constraining either weights or activations alone is insufficient for safety preservation. To robustly preserve safety alignment, we propose Coupled Weight and Activation Constraints (CWAC), a novel approach that simultaneously enforces a precomputed safety subspace on weight updates and applies targeted regularization to safety-critical features identified by sparse autoencoders. Extensive experiments across four widely used LLMs and diverse downstream tasks show that CWAC consistently achieves the lowest harmful scores with minimal impact on fine-tuning accuracy, substantially outperforming strong baselines even under high harmful data ratios.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T07:17:55Z</published>
+    <arxiv:comment>17 pages, 6 figures, 6 tables, The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Songping Peng</name>
+      <arxiv:affiliation>Hunan Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhiheng Zhang</name>
+      <arxiv:affiliation>University of Chinese Academy of Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daojian Zeng</name>
+      <arxiv:affiliation>Hunan Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lincheng Jiang</name>
+      <arxiv:affiliation>National University of Defense Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xieping Gao</name>
+      <arxiv:affiliation>Hunan Normal University</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

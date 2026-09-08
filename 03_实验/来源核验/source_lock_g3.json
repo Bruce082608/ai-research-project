@@ -1,0 +1,232 @@
+{
+  "status": "G3_source_lock_no_model_weights_downloaded",
+  "date": "2026-09-08",
+  "resources": {
+    "qwen": {
+      "id": "Qwen/Qwen2.5-7B-Instruct",
+      "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+      "files": {
+        "qwen_config.json": {
+          "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c",
+          "bytes": 663
+        },
+        "qwen_tokenizer_config.json": {
+          "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "bytes": 7305
+        },
+        "qwen_tokenizer.json": {
+          "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "bytes": 7031645
+        },
+        "qwen_README.md": {
+          "sha256": "f366f33bbf6bcadbb7d87f0a21a7b65584a56b8d58b0743c77c88bee625b93a6",
+          "bytes": 6240
+        },
+        "qwen_LICENSE": {
+          "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+          "bytes": 11343
+        }
+      }
+    },
+    "alpaca": {
+      "id": "gururise/AlpacaDataCleaned",
+      "revision": "d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+      "files": {
+        "alpaca_cleaned.json": {
+          "sha256": "bd844b8247a0f543804b6ce0882b0aaec4bbf5e8d66167df6213a0f1e4fe878b",
+          "bytes": 44307561
+        },
+        "alpaca_README.md": {
+          "sha256": "f7ae5fe34a44750a0bf9e937303954361d3c76a2934587bf9dfbb0e290bd758a",
+          "bytes": 9584
+        },
+        "alpaca_DATA_LICENSE": {
+          "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+          "bytes": 19346
+        }
+      }
+    },
+    "harmbench": {
+      "id": "centerforaisafety/HarmBench",
+      "revision": "8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+      "files": {
+        "harmbench_data_behavior_datasets_harmbench_behaviors_text_test.csv": {
+          "sha256": "75d257b3e7428c52eb7b0154318f455af3e01b09a3794b5e2f3d36054f3c0e29",
+          "bytes": 160828
+        },
+        "harmbench_data_behavior_datasets_harmbench_behaviors_text_val.csv": {
+          "sha256": "7bfaaa5e2b9b95002c89e2d33c019f58e9e8496e2fc65d368f1eeb8179e69534",
+          "bytes": 38024
+        },
+        "harmbench_eval_utils.py": {
+          "sha256": "46f1db751866848834d45d5128a18d4cc0a820828e89796ab51bc605d10c7058",
+          "bytes": 16658
+        },
+        "harmbench_evaluate_completions.py": {
+          "sha256": "544692cd80894afda32214d9a9d641043b3c7031f9c64ad54735d3fe3ad1e5f6",
+          "bytes": 4237
+        },
+        "harmbench_primary_template.txt": {
+          "sha256": "788f4f6aa1491c433c4da76c9140cfc30966cea3ff3875c4d0fcb336d92f60e0",
+          "bytes": 1359
+        }
+      }
+    },
+    "primary_judge": {
+      "id": "cais/HarmBench-Llama-2-13b-cls",
+      "revision": "bda705349d1144fa618770bea64d99ce54e3835b",
+      "files": {
+        "harmbench_judge_README.md": {
+          "sha256": "2a4da0ed60320f7131a2752b1ae57637232d44ac3386bbeca822e8effe3ea7c2",
+          "bytes": 4807
+        },
+        "harmbench_judge_config.json": {
+          "sha256": "19af1a6d4bd84bffde19a062ac3cd798fee393d02a40e03dd9c95357e2f2bd70",
+          "bytes": 754
+        },
+        "harmbench_judge_tokenizer_config.json": {
+          "sha256": "a6e4720e1b56223aca5a7554b7e3ecd5c77a13a74fe975150f2d5d22f9a7d4ca",
+          "bytes": 932
+        }
+      }
+    },
+    "development_judge": {
+      "id": "cais/HarmBench-Mistral-7b-val-cls",
+      "revision": "51182c7cdaf9b2e5f05b745b81b047b67e7384a1",
+      "files": {
+        "harmbench_val_judge_README.md": {
+          "sha256": "fb438757655a2e8689dde1789eae65e4d3ca3115562c757f1219315796a41edd",
+          "bytes": 6706
+        },
+        "harmbench_val_judge_tokenizer_config.json": {
+          "sha256": "23d6cf3bb32e85c4e239599892e4b6ffbd0fd9c0afbbf062748f43364ad37ca4",
+          "bytes": 1470
+        },
+        "harmbench_development_template.txt": {
+          "sha256": "c1c47e30cc03e00197f1d12be25296fc3150969bb3ddb058bfd9f550e0d66f81",
+          "bytes": 1342
+        }
+      }
+    },
+    "xstest": {
+      "id": "paul-rottger/exaggerated-safety",
+      "revision": "d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d",
+      "files": {
+        "xstest_prompts_official.csv": {
+          "sha256": "11783fb294ed017473ee53c207d71f2161c7672c8d0b037501e78387f801cb5a",
+          "bytes": 38719
+        },
+        "xstest_readme_official.md": {
+          "sha256": "51488f4032ba007b0345449e63293fccf5588cde1a967e3897107c6e08b532ce",
+          "bytes": 2772
+        },
+        "xstest_classify_str.py": {
+          "sha256": "ee530f9dceceee55b89d582befb93db94a328f80c87dcac27072548e9f99c95f",
+          "bytes": 1368
+        },
+        "xstest_classify_gpt.py": {
+          "sha256": "81dc9d69587f257ea53cde08f3af0569de58ba1b209a44bbabc3a5610cfd9962",
+          "bytes": 2721
+        }
+      }
+    },
+    "mmlu": {
+      "id": "cais/mmlu",
+      "revision": "c30699e8356da336a370243923dbaf21066bb9fe",
+      "files": {
+        "mmlu_test.parquet": {
+          "sha256": "74a41822ce7d3def56e1682f958469c04642a5336a5ce912fa375fdb90fb25d7",
+          "bytes": 3504718
+        },
+        "mmlu_dev.parquet": {
+          "sha256": "2b19bde1ed8ca6b482fb283abc90e8e0d9d228947029c0b91795d64b28b3bc3f",
+          "bytes": 76504
+        },
+        "mmlu_README.md": {
+          "sha256": "665eef35ecd8a89037c1e4f1e1a0d7fd4c154edc04c81cea5634ace2d3e96953",
+          "bytes": 53221
+        }
+      }
+    },
+    "gsm8k": {
+      "id": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "files": {
+        "gsm8k_test.parquet": {
+          "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+          "bytes": 419088
+        },
+        "gsm8k_README.md": {
+          "sha256": "a17e882503578c9e324560630e31017617714ee025c87cf4fea6fd916895f3c1",
+          "bytes": 7935
+        }
+      }
+    },
+    "ifeval": {
+      "id": "google-research/google-research",
+      "revision": "5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4",
+      "files": {
+        "ifeval_input_data.jsonl": {
+          "sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+          "bytes": 207111
+        },
+        "ifeval_evaluation_lib.py": {
+          "sha256": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+          "bytes": 6984
+        },
+        "ifeval_instructions_registry.py": {
+          "sha256": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+          "bytes": 7240
+        },
+        "ifeval_instructions.py": {
+          "sha256": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+          "bytes": 55162
+        },
+        "ifeval_instructions_util.py": {
+          "sha256": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b",
+          "bytes": 19538
+        },
+        "ifeval_requirements.txt": {
+          "sha256": "1b1716c9ac21b9cc2bd0d7354ed8f7b6982ccf35598529601a7c08508acec94a",
+          "bytes": 35
+        },
+        "ifeval_README.md": {
+          "sha256": "fef3c44408e4b39837af345095ccce7da798853fd60ea94a1de63afa9d3d67b3",
+          "bytes": 1457
+        }
+      }
+    },
+    "lm_eval_specs": {
+      "id": "EleutherAI/lm-evaluation-harness",
+      "revision": "b954108c9baaaa934b4ad842033b31a97ee30816",
+      "files": {
+        "lm_mmlu_default_template.yaml": {
+          "sha256": "a0997593bf94f52cc87eb1f9b621f52613a6c60f1fb48775b0926104fd385122",
+          "bytes": 406
+        },
+        "lm_gsm8k_cot.yaml": {
+          "sha256": "7c9dd2561fe334a55f62bdc6a876f045e6dc7f53714c7a9db506b89c6de6bc96",
+          "bytes": 3324
+        },
+        "lm_ifeval.yaml": {
+          "sha256": "3d8a3eb32de03f6a23ac87b46951d972a4ec7cb137e753365c0271594e38f84b",
+          "bytes": 729
+        }
+      }
+    },
+    "proposed_implementation_sources": {
+      "id": "huggingface/transformers;huggingface/peft",
+      "revision": "v4.51.3;v0.15.2",
+      "files": {
+        "qwen_modeling_4.51.3.py": {
+          "sha256": "1760c628019995d3564c8572be6c5149f488b6c3aa95ceda16099c2516e146ff",
+          "bytes": 50670
+        },
+        "peft_model_0.15.2.py": {
+          "sha256": "ea36efc37191855bb14fbb1ecd6743148aaa13350fed4ee9a8582c2b7fa29696",
+          "bytes": 147963
+        }
+      }
+    }
+  }
+}

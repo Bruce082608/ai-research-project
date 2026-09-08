@@ -1,0 +1,22 @@
+{
+  "type": "normal_approx_planning_not_model_results",
+  "n": 351,
+  "assumed_pair_discordance": 0.2,
+  "ignores_seed_and_direction_variation": true,
+  "uncorrected_tost_margin": 0.05,
+  "normal_se": 0.02387049580131443,
+  "uncorrected_tost_power_at_zero": 0.3471326357082565,
+  "normal_95_half_width": 0.04678531206369085,
+  "formal_train_runs": 18,
+  "qwen_lora_parameters_derived_from_config": 40370176,
+  "global_budget_gpu_hours": 100,
+  "allocations": {
+    "environment_calibration": 10,
+    "formal_training": 45,
+    "evaluation": 25,
+    "reruns": 5,
+    "reserve": 15
+  },
+  "cost_formula": "(3+12*rho+3*eta)*t",
+  "historical_consumption": "must be subtracted; no complete billing total in workspace"
+}

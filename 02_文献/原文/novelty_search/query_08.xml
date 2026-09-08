@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Dj9HDOZB7gQdMdgcvUtFt72vgRo</id>
+  <title>arXiv Query: search_query=all:"benign fine-tuning" AND all:"mechanism"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-09-08T06:09:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22benign+fine-tuning%22+AND+all:%22mechanism%22&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2609.01455v1</id>
+    <title>When Safety Routing Breaks: Understanding Alignment Fragility under Benign Fine-Tuning</title>
+    <updated>2026-09-01T15:59:32Z</updated>
+    <link href="https://arxiv.org/abs/2609.01455v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2609.01455v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benign fine-tuning severely weakens the safety alignment of large language models (LLMs), so we study why refusal behavior is so fragile. While prior work often attributes this failure to gradient conflict, we propose a fundamentally different Fisher-geometric explanation: safety Fisher is low-rank, and alignment makes the safety geometry flatter while preserving an output-routing pathway. After 100 benign fine-tuning examples, this pathway is selectively re-sharpened in output-side MLP modules, explaining the asymmetric fragility: safety can collapse to high attack success rates, while general utility degrades mildly. The routing view also explains why few safety examples can restore refusal behavior, indicating that internal safety-relevant representations are preserved. Finally, we show that LoRA and ASAM mitigate early collapse by suppressing output-side sharpness, but their protection weakens at larger fine-tuning scales. Overall, safety failure is best understood as a disruption of a low-rank output-routing mechanism</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-09-01T15:59:32Z</published>
+    <arxiv:comment>Accepted to the Findings of EMNLP 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yitong Guo</name>
+    </author>
+    <author>
+      <name>Xiaoyi Chen</name>
+    </author>
+    <author>
+      <name>Siyuan Zhang</name>
+    </author>
+    <author>
+      <name>Xiaofeng Wang</name>
+    </author>
+    <author>
+      <name>Haixu Tang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.01854v2</id>
+    <title>Has This Checkpoint Been Abliterated? A Two-Signal Audit and Its Failure Map</title>
+    <updated>2026-08-18T17:13:48Z</updated>
+    <link href="https://arxiv.org/abs/2607.01854v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.01854v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Can a platform tell, before deployment, whether an open-weight checkpoint has had its refusal mechanism stripped? Runtime guards cannot: they score generations, not the artifact. We combine two cheap internal signals, a reference-anchored activation refusal-gap and a weight-recovery energy of the base-to-candidate weight difference, into a threshold-free checkpoint audit. The two are negatively correlated and label-complementary: the gap supplies refusal-specificity and the weight energy supplies recall. On a 273-checkpoint registry spanning Qwen, DeepSeek-distilled Qwen, Llama, and Gemma, their z-sum separates 57 public abliterations from 37 benign fine-tunes, merges, and instruction-tunes at AUROC 0.95, significantly above either signal alone (0.84, 0.90), and a Youden-calibrated threshold transfers to held-out families at balanced accuracy 0.89 (FPR 0.11), missing only 4 of 57. We then map two failures, in order of severity: a spoofed reference evades both axes with no training (ΔW=0, \r{ho}=1 by construction), and a white-box owner trains a checkpoint past the threshold while it stays guard-unsafe and coherent. The audit is effective triage, not tamper-proofing: it presumes an attested reference, and its claims are bounded by the registry we evaluate it on.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-02T08:15:25Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Gabriel Hurtado</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.04572v1</id>
+    <title>From Parameter Dynamics to Risk Scoring : Quantifying Sample-Level Safety Degradation in LLM Fine-tuning</title>
+    <updated>2026-05-06T07:17:33Z</updated>
+    <link href="https://arxiv.org/abs/2605.04572v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.04572v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety alignment of Large Language Models (LLMs) is extremely fragile, as fine-tuning on a small number of benign samples can erase safety behaviors learned from millions of preference examples. Existing studies attempt to explain this phenomenon by comparing parameters and hidden states before and after fine-tuning, but overlook their dynamic evolution during fine-tuning. In this paper, we uncover a critical mechanism underlying safety degradation by analyzing parameter dynamics, where benign fine-tuning causes parameters to cumulatively drift toward danger-aligned directions, progressively undermining the model's safety. This finding suggests that samples contributing more to this drift has greater fine-tuning risks. Based on this insight, we propose a method of Sample-Level Quantification of Safety Degradation (SQSD), which quantifies the influence of each training sample on safety degradation. Specifically, SQSD computes continuous risk scores to samples by measuring their induced parameter updates' projection difference between danger and safety directions. Extensive experiments across multiple models and datasets demonstrate that SQSD effectively quantifies sample-level fine-tuning risks and exhibits strong transferability across model architectures, parameter scales, and parameter-efficient methods.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-06T07:17:33Z</published>
+    <arxiv:comment>Accepted by ICML 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Xiao Wang</name>
+    </author>
+    <author>
+      <name>Yifei Zhang</name>
+    </author>
+    <author>
+      <name>YongKang Liu</name>
+    </author>
+    <author>
+      <name>Xiaocui Yang</name>
+    </author>
+    <author>
+      <name>Zihan Wang</name>
+    </author>
+    <author>
+      <name>Shi Feng</name>
+    </author>
+    <author>
+      <name>Daling Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.17546v2</id>
+    <title>Learning to Stay Safe: Adaptive Regularization Against Safety Degradation during Fine-Tuning</title>
+    <updated>2026-05-11T17:06:52Z</updated>
+    <link href="https://arxiv.org/abs/2602.17546v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.17546v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Instruction-following language models are trained to be helpful and safe, yet their safety behavior can deteriorate under benign fine-tuning and worsen under adversarial updates. Existing defenses often offer limited protection or force a trade-off between safety and utility. We introduce a training framework that adapts regularization in response to safety risk, enabling models to remain aligned throughout fine-tuning. To estimate safety risk at training time, we explore two distinct approaches: a judge-based Safety Critic that assigns high-level harm scores to training batches, and an activation-based risk predictor built with a lightweight classifier trained on intermediate model activations to estimate harmful intent. Each approach provides a risk signal that is used to constrain updates deemed higher risk to remain close to a safe reference policy, while lower-risk updates proceed with standard training. We empirically verify that harmful intent signals are predictable from pre-generation activations and that judge scores provide effective high-recall safety guidance. Across multiple model families and attack scenarios, adaptive regularization with either risk estimation approach consistently lowers attack success rate compared to standard fine-tuning, preserves downstream performance, and adds no inference-time cost. This work demonstrates a principled mechanism for maintaining safety without sacrificing utility.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-19T16:59:54Z</published>
+    <arxiv:comment>Work in progress (48 pages)</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Jyotin Goel</name>
+    </author>
+    <author>
+      <name>Souvik Maji</name>
+    </author>
+    <author>
+      <name>Pratik Mazumder</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16255v1</id>
+    <title>Detecting Adversarial Fine-tuning with Auditing Agents</title>
+    <updated>2025-10-17T23:01:16Z</updated>
+    <link href="https://arxiv.org/abs/2510.16255v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16255v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Model (LLM) providers expose fine-tuning APIs that let end users fine-tune their frontier LLMs. Unfortunately, it has been shown that an adversary with fine-tuning access to an LLM can bypass safeguards. Particularly concerning, such attacks may avoid detection with datasets that are only implicitly harmful. Our work studies robust detection mechanisms for adversarial use of fine-tuning APIs. We introduce the concept of a fine-tuning auditing agent and show it can detect harmful fine-tuning prior to model deployment. We provide our auditing agent with access to the fine-tuning dataset, as well as the fine-tuned and pre-fine-tuned models, and request the agent assigns a risk score for the fine-tuning job. We evaluate our detection approach on a diverse set of eight strong fine-tuning attacks from the literature, along with five benign fine-tuned models, totaling over 1400 independent audits. These attacks are undetectable with basic content moderation on the dataset, highlighting the challenge of the task. With the best set of affordances, our auditing agent achieves a 56.2% detection rate of adversarial fine-tuning at a 1% false positive rate. Most promising, the auditor is able to detect covert cipher attacks that evade safety evaluations and content moderation of the dataset. While benign fine-tuning with unintentional subtle safety degradation remains a challenge, we establish a baseline configuration for further work in this area. We release our auditing agent at https://github.com/safety-research/finetuning-auditor.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T23:01:16Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Sarah Egler</name>
+    </author>
+    <author>
+      <name>John Schulman</name>
+    </author>
+    <author>
+      <name>Nicholas Carlini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.16559v1</id>
+    <title>CTRAP: Embedding Collapse Trap to Safeguard Large Language Models from Harmful Fine-Tuning</title>
+    <updated>2025-05-22T11:47:08Z</updated>
+    <link href="https://arxiv.org/abs/2505.16559v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.16559v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning-as-a-service, while commercially successful for Large Language Model (LLM) providers, exposes models to harmful fine-tuning attacks. As a widely explored defense paradigm against such attacks, unlearning attempts to remove malicious knowledge from LLMs, thereby essentially preventing them from being used to perform malicious tasks. However, we highlight a critical flaw: the powerful general adaptability of LLMs allows them to easily bypass selective unlearning by rapidly relearning or repurposing their capabilities for harmful tasks. To address this fundamental limitation, we propose a paradigm shift: instead of selective removal, we advocate for inducing model collapse--effectively forcing the model to "unlearn everything"--specifically in response to updates characteristic of malicious adaptation. This collapse directly neutralizes the very general capabilities that attackers exploit, tackling the core issue unaddressed by selective unlearning. We introduce the Collapse Trap (CTRAP) as a practical mechanism to implement this concept conditionally. Embedded during alignment, CTRAP pre-configures the model's reaction to subsequent fine-tuning dynamics. If updates during fine-tuning constitute a persistent attempt to reverse safety alignment, the pre-configured trap triggers a progressive degradation of the model's core language modeling abilities, ultimately rendering it inert and useless for the attacker. Crucially, this collapse mechanism remains dormant during benign fine-tuning, ensuring the model's utility and general capabilities are preserved for legitimate users. Extensive empirical results demonstrate that CTRAP effectively counters harmful fine-tuning risks across various LLMs and attack settings, while maintaining high performance in benign scenarios. Our code is available at https://anonymous.4open.science/r/CTRAP.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-22T11:47:08Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Biao Yi</name>
+    </author>
+    <author>
+      <name>Tiansheng Huang</name>
+    </author>
+    <author>
+      <name>Baolei Zhang</name>
+    </author>
+    <author>
+      <name>Tong Li</name>
+    </author>
+    <author>
+      <name>Lihai Nie</name>
+    </author>
+    <author>
+      <name>Zheli Liu</name>
+    </author>
+    <author>
+      <name>Li Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.00669v1</id>
+    <title>Safety Alignment Depth in Large Language Models: A Markov Chain Perspective</title>
+    <updated>2025-02-02T04:43:35Z</updated>
+    <link href="https://arxiv.org/abs/2502.00669v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.00669v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are increasingly adopted in high-stakes scenarios, yet their safety mechanisms often remain fragile. Simple jailbreak prompts or even benign fine-tuning can bypass these protocols, underscoring the need to understand where and how they fail. Recent findings suggest that vulnerabilities emerge when alignment is confined to only the initial output tokens. Unfortunately, even with the introduction of deep safety alignment, determining the optimal safety depth remains an unresolved challenge. By leveraging the equivalence between autoregressive language models and Markov chains, this paper offers the first theoretical result on how to identify the ideal depth for safety alignment, and demonstrates how permutation-based data augmentation can tighten these bounds. Crucially, we reveal a fundamental interaction between alignment depth and ensemble width-indicating that broader ensembles can compensate for shallower alignments. These insights provide a theoretical foundation for designing more robust, scalable safety strategies that complement existing alignment approaches, opening new avenues for research into safer, more reliable LLMs.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-02T04:43:35Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Ching-Chia Kao</name>
+    </author>
+    <author>
+      <name>Chia-Mu Yu</name>
+    </author>
+    <author>
+      <name>Chun-Shien Lu</name>
+    </author>
+    <author>
+      <name>Chu-Song Chen</name>
+    </author>
+  </entry>
+</feed>

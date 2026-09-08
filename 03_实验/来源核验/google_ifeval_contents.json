@@ -1,0 +1,178 @@
+[
+  {
+    "name": "README.md",
+    "path": "instruction_following_eval/README.md",
+    "sha": "062d6166779d0a7ae83c3f7166ced351b0a9e97e",
+    "size": 1457,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/README.md?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/README.md",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/062d6166779d0a7ae83c3f7166ced351b0a9e97e",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/README.md?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/062d6166779d0a7ae83c3f7166ced351b0a9e97e",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/README.md"
+    }
+  },
+  {
+    "name": "data",
+    "path": "instruction_following_eval/data",
+    "sha": "8a292d1b2ed7fe794723768583b5f442a2b8044d",
+    "size": 0,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/data?ref=master",
+    "html_url": "https://github.com/google-research/google-research/tree/master/instruction_following_eval/data",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/trees/8a292d1b2ed7fe794723768583b5f442a2b8044d",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/data?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/trees/8a292d1b2ed7fe794723768583b5f442a2b8044d",
+      "html": "https://github.com/google-research/google-research/tree/master/instruction_following_eval/data"
+    }
+  },
+  {
+    "name": "evaluation_lib.py",
+    "path": "instruction_following_eval/evaluation_lib.py",
+    "sha": "c87422822f9e1565ca7574ac0b3cee5389c9f44e",
+    "size": 6984,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/evaluation_lib.py?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/evaluation_lib.py",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/c87422822f9e1565ca7574ac0b3cee5389c9f44e",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/evaluation_lib.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/evaluation_lib.py?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/c87422822f9e1565ca7574ac0b3cee5389c9f44e",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/evaluation_lib.py"
+    }
+  },
+  {
+    "name": "evaluation_main.py",
+    "path": "instruction_following_eval/evaluation_main.py",
+    "sha": "bea8f3dd18072fdc23e2f24e20c4d9599b20e06c",
+    "size": 2449,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/evaluation_main.py?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/evaluation_main.py",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/bea8f3dd18072fdc23e2f24e20c4d9599b20e06c",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/evaluation_main.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/evaluation_main.py?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/bea8f3dd18072fdc23e2f24e20c4d9599b20e06c",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/evaluation_main.py"
+    }
+  },
+  {
+    "name": "instructions.py",
+    "path": "instruction_following_eval/instructions.py",
+    "sha": "0007359bd37c7b9c1d9557f8937cb6586d2788a7",
+    "size": 55162,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions.py?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions.py",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/0007359bd37c7b9c1d9557f8937cb6586d2788a7",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/instructions.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions.py?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/0007359bd37c7b9c1d9557f8937cb6586d2788a7",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions.py"
+    }
+  },
+  {
+    "name": "instructions_registry.py",
+    "path": "instruction_following_eval/instructions_registry.py",
+    "sha": "6b42adcc4c8cc827810ab3efa8a06f02bb48c397",
+    "size": 7240,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_registry.py?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_registry.py",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/6b42adcc4c8cc827810ab3efa8a06f02bb48c397",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/instructions_registry.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_registry.py?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/6b42adcc4c8cc827810ab3efa8a06f02bb48c397",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_registry.py"
+    }
+  },
+  {
+    "name": "instructions_test.py",
+    "path": "instruction_following_eval/instructions_test.py",
+    "sha": "9877688496a1b9f805d8ba7da6febb6d5fd823ef",
+    "size": 48520,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_test.py?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_test.py",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/9877688496a1b9f805d8ba7da6febb6d5fd823ef",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/instructions_test.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_test.py?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/9877688496a1b9f805d8ba7da6febb6d5fd823ef",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_test.py"
+    }
+  },
+  {
+    "name": "instructions_util.py",
+    "path": "instruction_following_eval/instructions_util.py",
+    "sha": "d50702400738df4378fe286c0090a416f9a172fa",
+    "size": 19538,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_util.py?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_util.py",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/d50702400738df4378fe286c0090a416f9a172fa",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/instructions_util.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_util.py?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/d50702400738df4378fe286c0090a416f9a172fa",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_util.py"
+    }
+  },
+  {
+    "name": "instructions_util_test.py",
+    "path": "instruction_following_eval/instructions_util_test.py",
+    "sha": "9846ea9e0478cc2b2ac9e11bb11b53b4b6a71670",
+    "size": 4255,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_util_test.py?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_util_test.py",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/9846ea9e0478cc2b2ac9e11bb11b53b4b6a71670",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/instructions_util_test.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/instructions_util_test.py?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/9846ea9e0478cc2b2ac9e11bb11b53b4b6a71670",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/instructions_util_test.py"
+    }
+  },
+  {
+    "name": "requirements.txt",
+    "path": "instruction_following_eval/requirements.txt",
+    "sha": "49a5a9136343f30d72c00df19dfb3557696697f9",
+    "size": 35,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/requirements.txt?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/requirements.txt",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/49a5a9136343f30d72c00df19dfb3557696697f9",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/requirements.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/requirements.txt?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/49a5a9136343f30d72c00df19dfb3557696697f9",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/requirements.txt"
+    }
+  },
+  {
+    "name": "run.sh",
+    "path": "instruction_following_eval/run.sh",
+    "sha": "41b38735da63c3e06c9dd6575f4d28bc7b2ed923",
+    "size": 895,
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/run.sh?ref=master",
+    "html_url": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/run.sh",
+    "git_url": "https://api.github.com/repos/google-research/google-research/git/blobs/41b38735da63c3e06c9dd6575f4d28bc7b2ed923",
+    "download_url": "https://raw.githubusercontent.com/google-research/google-research/master/instruction_following_eval/run.sh",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval/run.sh?ref=master",
+      "git": "https://api.github.com/repos/google-research/google-research/git/blobs/41b38735da63c3e06c9dd6575f4d28bc7b2ed923",
+      "html": "https://github.com/google-research/google-research/blob/master/instruction_following_eval/run.sh"
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "file": "03_实验/来源核验/harmbench_tree.json",
+    "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/8e1604d1171fe8a48d8febecd22f600e462bdcdd?recursive=1",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "5068f1da82cc9853af606d2c97cca5f2c483d6479c5d9ed0b3128797bc4a091e",
+    "bytes": 159684,
+    "at_utc": "2026-09-08T07:16:28.706939+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_README.md",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "baae4a0b64b61812e61a162eafb2ed344edbc151f57dd99c4af063e3d0efec5d",
+    "bytes": 10480,
+    "at_utc": "2026-09-08T07:16:27.541255+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/alpaca_commit.json",
+    "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/commits/main",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "dd79dffe76ab484774bcfe24e5a8d6c09f9c3c6ecf56fbf0ca4506884dbd1be2",
+    "bytes": 8013,
+    "at_utc": "2026-09-08T07:16:28.081992+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest_README.md",
+    "url": "https://huggingface.co/datasets/walledai/XSTest/raw/f1d713187c61b6ae64e602d74f0b3d812cc2e8e8/README.md",
+    "http_status": "401",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ee7355a44df403b73f9455411475fb27c8603dfffd78a9bdcca99d65d7050331",
+    "bytes": 125,
+    "at_utc": "2026-09-08T07:16:27.313853+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/mmlu_api.json",
+    "url": "https://huggingface.co/api/datasets/cais/mmlu",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "32a94ebd78d1e3edc967806bae06fa720d4cffbd016ee42ae704abe3da9ada8c",
+    "bytes": 55868,
+    "at_utc": "2026-09-08T07:16:27.775531+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/gsm8k_api.json",
+    "url": "https://huggingface.co/api/datasets/openai/gsm8k",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "cf874914e0082674d8156db87684fc3520b9bd0048895b67616cb06faa3907bd",
+    "bytes": 2912,
+    "at_utc": "2026-09-08T07:16:27.425961+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_repo_search.json",
+    "url": "https://api.github.com/search/repositories?q=instruction_following_eval+google&per_page=5",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "72d54ef95d1cc83ff586c2ac7d755ec82323395286d364aeaf8c672edd77607e",
+    "bytes": 6495,
+    "at_utc": "2026-09-08T07:16:28.835629+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/semantic_crosscheck.json",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=refusal%20direction%20random%20training&limit=20&fields=title,year,externalIds,url",
+    "http_status": "429",
+    "returncode": 0,
+    "error": "",
+    "sha256": "65ab993d12c5c2cc9b68e6da2bb79b326930283e520363ffcdc145f88cd5a148",
+    "bytes": 174,
+    "at_utc": "2026-09-08T07:16:28.549260+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/acl_crosscheck.html",
+    "url": "https://aclanthology.org/search/?q=refusal%20direction%20random%20training",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "cf5dc0844b8fd0719f446994429ae6d6befb41d7385057bf885f3f8ba8c88aa5",
+    "bytes": 11261,
+    "at_utc": "2026-09-08T07:16:29.500092+00:00"
+  }
+]

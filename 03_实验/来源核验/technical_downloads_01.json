@@ -1,0 +1,74 @@
+[
+  {
+    "file": "qwen_README.md",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/README.md",
+    "started_utc": "2026-09-08T07:11:03.962738+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "f366f33bbf6bcadbb7d87f0a21a7b65584a56b8d58b0743c77c88bee625b93a6"
+  },
+  {
+    "file": "qwen_config.json",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/config.json",
+    "started_utc": "2026-09-08T07:11:03.963096+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "7463bb0ea78315365e6c6b74de4e73bbcc8359dfb0c5a737584e077d42c0b03c"
+  },
+  {
+    "file": "qwen_tokenizer_config.json",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer_config.json",
+    "started_utc": "2026-09-08T07:11:03.963156+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  {
+    "file": "qwen_tokenizer.json",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/tokenizer.json",
+    "started_utc": "2026-09-08T07:11:03.963269+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539"
+  },
+  {
+    "file": "qwen_LICENSE",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/resolve/a09a35458c702b33eeacc393d103063234e8bc28/LICENSE",
+    "started_utc": "2026-09-08T07:11:05.819599+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e"
+  },
+  {
+    "file": "harmbench_commit.json",
+    "url": "https://api.github.com/repos/centerforaisafety/HarmBench/commits/main",
+    "started_utc": "2026-09-08T07:11:05.851271+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "dce728afa55af28339924492342911537b4c04079c730d4859322344a53ea4d7"
+  },
+  {
+    "file": "alpaca_repo_search.json",
+    "url": "https://api.github.com/search/repositories?q=AlpacaDataCleaned&per_page=5",
+    "started_utc": "2026-09-08T07:11:06.042712+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "e983cc1d00dd45051809e6c272c5dcf8b3f2feaa3520b927db3d98bd52ad75cb"
+  },
+  {
+    "file": "xstest_dataset_api.json",
+    "url": "https://huggingface.co/api/datasets/walledai/XSTest",
+    "started_utc": "2026-09-08T07:11:08.584884+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "sha256": "02f3caef77a385676e89ec0c7488701e421dc2582b3f00d5f10be31043fcd6ae"
+  }
+]

@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/X2m4zUkadHl8eEwH8JCQHW/y1vA</id>
+  <title>arXiv Query: search_query=&amp;id_list=2604.12384,2607.00572,2512.23260,2604.24074,2608.23497,2509.06795&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-08T07:08:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2604.12384,2607.00572,2512.23260,2604.24074,2608.23497,2509.06795" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06795v1</id>
+    <title>Anchoring Refusal Direction: Mitigating Safety Risks in Tuning via Projection Constraint</title>
+    <updated>2025-09-08T15:24:33Z</updated>
+    <link href="https://arxiv.org/abs/2509.06795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Instruction Fine-Tuning (IFT) has been widely adopted as an effective post-training strategy to enhance various abilities of Large Language Models (LLMs). However, prior studies have shown that IFT can significantly compromise LLMs' safety, particularly their ability to refuse malicious instructions, raising significant concerns. Recent research into the internal mechanisms of LLMs has identified the refusal direction (r-direction) in the hidden states, which plays a pivotal role in governing refusal behavior. Building on this insight, our study reveals that the r-direction tends to drift during training, which we identify as one of the causes of the associated safety risks. To mitigate such drift, our proposed ProCon method introduces a projection-constrained loss term that regularizes the projection magnitude of each training sample's hidden state onto the r-direction. Our initial analysis shows that applying an appropriate constraint can effectively mitigate the refusal direction drift and associated safety risks, but remains limited by overall performance barriers. To overcome this barrier, informed by our observation of early-stage sharp drift and a data-driven perspective, we introduce a warm-up strategy that emphasizes early-stage strong constraints and broaden the data distribution to strengthen constraint signals, leading to an enhanced ProCon method. Experimental results under various datasets, scenarios, and LLMs demonstrate that our method can significantly mitigate safety risks posed by IFT while preserving task performance gains. Even compared with strong baselines, our method consistently delivers superior overall performance. Crucially, our analysis indicates that ProCon can contribute to stabilizing the r-direction during training, while such an interpretability-driven exploration of LLMs' internal mechanisms lays a solid foundation for future safety research.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T15:24:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yanrui Du</name>
+    </author>
+    <author>
+      <name>Fenglei Fan</name>
+    </author>
+    <author>
+      <name>Sendong Zhao</name>
+    </author>
+    <author>
+      <name>Jiawei Cao</name>
+    </author>
+    <author>
+      <name>Qika Lin</name>
+    </author>
+    <author>
+      <name>Kai He</name>
+    </author>
+    <author>
+      <name>Ting Liu</name>
+    </author>
+    <author>
+      <name>Bing Qin</name>
+    </author>
+    <author>
+      <name>Mengling Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23497v1</id>
+    <title>Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty</title>
+    <updated>2026-08-24T16:57:28Z</updated>
+    <link href="https://arxiv.org/abs/2608.23497v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23497v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. Cross-architecture, cross-scale, and cross-dataset checks show that RIM does not always emerge. Previous work attributed RIM to neuron-level entanglement, but did not identify the geometry of the representation space underlying this entanglement or propose a training-time fix. We provide both: a representation-space analysis of RIM and the Safety-Direction Penalty (SDP), which penalizes movement along a learned safety direction during reasoning fine-tuning. The analysis extracts two activation-space directions, one encoding reasoning ability and the other safety behavior. These directions are coupled: fine-tuning that improves reasoning shifts safety representations, and prompts with larger shifts show larger safety degradation. CKA distance ratios and probes locate the safety-decision layers where this shift is most relevant. These findings guide the design of SDP: the coupling motivates penalizing displacement along the safety direction, and the layer localization sets the initial scope. When the initial scope leaves compensatory shifts beyond the penalized layers, the same diagnostics guide iterative expansion. On Qwen2.5-3B and 7B, SDP restores safety while preserving benchmark reasoning performance.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T16:57:28Z</published>
+    <arxiv:comment>28 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yipeng Zhao</name>
+    </author>
+    <author>
+      <name>Qishun Yang</name>
+    </author>
+    <author>
+      <name>Shenzhe Zhu</name>
+    </author>
+    <author>
+      <name>Shu Yang</name>
+    </author>
+    <author>
+      <name>Di Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.12384v1</id>
+    <title>Preventing Safety Drift in Large Language Models via Coupled Weight and Activation Constraints</title>
+    <updated>2026-04-14T07:17:55Z</updated>
+    <link href="https://arxiv.org/abs/2604.12384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.12384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety alignment in Large Language Models (LLMs) remains highly fragile during fine-tuning, where even benign adaptation can degrade pre-trained refusal behaviors and enable harmful responses. Existing defenses typically constrain either weights or activations in isolation, without considering their coupled effects on safety. In this paper, we first theoretically demonstrate that constraining either weights or activations alone is insufficient for safety preservation. To robustly preserve safety alignment, we propose Coupled Weight and Activation Constraints (CWAC), a novel approach that simultaneously enforces a precomputed safety subspace on weight updates and applies targeted regularization to safety-critical features identified by sparse autoencoders. Extensive experiments across four widely used LLMs and diverse downstream tasks show that CWAC consistently achieves the lowest harmful scores with minimal impact on fine-tuning accuracy, substantially outperforming strong baselines even under high harmful data ratios.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-14T07:17:55Z</published>
+    <arxiv:comment>17 pages, 6 figures, 6 tables, The 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Songping Peng</name>
+      <arxiv:affiliation>Hunan Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zhiheng Zhang</name>
+      <arxiv:affiliation>University of Chinese Academy of Sciences</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daojian Zeng</name>
+      <arxiv:affiliation>Hunan Normal University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lincheng Jiang</name>
+      <arxiv:affiliation>National University of Defense Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Xieping Gao</name>
+      <arxiv:affiliation>Hunan Normal University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.23260v2</id>
+    <title>Interpretable Safety Alignment via SAE-Constructed Low-Rank Subspace Adaptation</title>
+    <updated>2026-01-05T13:39:39Z</updated>
+    <link href="https://arxiv.org/abs/2512.23260v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.23260v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety alignment -- training large language models (LLMs) to refuse harmful requests while remaining helpful -- is critical for responsible deployment. Prior work established that safety behaviors are governed by low-rank structures, suggesting parameter-efficient fine-tuning (PEFT) should be well-suited for alignment. However, Low-Rank Adaptation (LoRA) consistently underperforms full fine-tuning and reinforcement learning on safety benchmarks. We attribute this gap to semantic entanglement: safety-relevant directions are intertwined with unrelated concepts due to polysemanticity, impeding implicit subspace identification. To address this, we propose SAILS (Safety Alignment via Interpretable Low-rank Subspace), which leverages Sparse Autoencoders (SAEs) to disentangle representations into monosemantic features, constructs an interpretable safety subspace from SAE decoder directions, and uses it to initialize LoRA adapters. Theoretically, we prove that SAE-based identification achieves arbitrarily small recovery error under monosemanticity assumptions, while direct identification suffers an irreducible error floor. Empirically, SAILS achieves up to 99.6% safety rate on Gemma-2-9B -- exceeding full fine-tuning by 7.4 points and matching RLHF-based models -- while updating only 0.19% of parameters and providing interpretability.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-29T07:39:49Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Dianyun Wang</name>
+    </author>
+    <author>
+      <name>Qingsen Ma</name>
+    </author>
+    <author>
+      <name>Yuhu Shang</name>
+    </author>
+    <author>
+      <name>Zhifeng Lu</name>
+    </author>
+    <author>
+      <name>Zhenbo Xu</name>
+    </author>
+    <author>
+      <name>Lechen Ning</name>
+    </author>
+    <author>
+      <name>Huijia Wu</name>
+    </author>
+    <author>
+      <name>Zhaofeng He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.00572v3</id>
+    <title>HARC: Coupling Harmfulness and Refusal Directions for Robust Safety Alignment</title>
+    <updated>2026-07-08T05:02:03Z</updated>
+    <link href="https://arxiv.org/abs/2607.00572v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.00572v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding how aligned LLMs internally represent safety is critical for diagnosing alignment vulnerabilities, as it explains why jailbreaks succeed and informs the design of robust alignment strategies. Prior work shows that aligned LLMs encode harmfulness and refusal as separable directions in the residual stream at prompt-side token positions. We show that jailbreaks succeed at prompt encoding by suppressing either the refusal or harmfulness direction before any token is generated, with distinct attack classes occupying separable regions of the harmfulness-refusal plane. Extending the analysis to response-token positions, we find that the model recognizes harmful content while it is generating that content, even when it failed to recognize the input as harmful at the prompt side. Motivated by our findings, we introduce HARC (Harmfulness-And-Refusal Coupling), a fine-tuning method that pairs the two directions across both prompt and response positions. Since the intervention is confined to the harmfulness-refusal subspace, it leaves the rest of the residual stream intact and does not degrade general capability or inflate over-refusal. Across extensive experiments, HARC achieves the strongest robustness-capability-usability trade-off among six baselines spanning the major training-time and inference-time safety methods. The harmfulness and refusal directions at prompt and response positions transfer across the five model families and two scales we tested without architecture-specific tuning.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-01T07:58:16Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Shei Pern Chua</name>
+    </author>
+    <author>
+      <name>Hao Wu</name>
+    </author>
+    <author>
+      <name>Qianli Ma</name>
+    </author>
+    <author>
+      <name>Fangzhao Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.24074v1</id>
+    <title>How Sensitive Are Safety Benchmarks to Judge Configuration Choices?</title>
+    <updated>2026-04-27T05:59:59Z</updated>
+    <link href="https://arxiv.org/abs/2604.24074v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.24074v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety benchmarks such as HarmBench rely on LLM judges to classify model responses as harmful or safe, yet the judge configuration, namely the combination of judge model and judge prompt, is typically treated as a fixed implementation detail. We show this assumption is problematic. Using a 2 x 2 x 3 factorial design, we construct 12 judge prompt variants along two axes, evaluation structure and instruction framing, and apply them using a single judge model, Claude Sonnet 4-6, producing 28,812 judgments over six target models and 400 HarmBench behaviors. We find that prompt wording alone, holding the judge model fixed, shifts measured harmful-response rates by up to 24.2 percentage points, with even within-condition surface rewording causing swings of up to 20.1 percentage points. Model safety rankings are moderately unstable, with mean Kendall tau = 0.89, and category-level sensitivity ranges from 39.6 percentage points for copyright to 0 percentage points for harassment. A supplementary multi-judge experiment using three judge models shows that judge-model choice adds further variance. Our results demonstrate that judge prompt wording is a substantial, previously under-examined source of measurement variance in safety benchmarking.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-27T05:59:59Z</published>
+    <arxiv:comment>Accepted by the 22nd International Conference on Intelligent Computing (ICIC 2026). Final version to appear in Springer CCIS</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinran Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/978-981-92-3541-4_15</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-981-92-3541-4_15" title="doi"/>
+  </entry>
+</feed>

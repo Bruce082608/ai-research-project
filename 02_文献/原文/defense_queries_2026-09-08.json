@@ -1,0 +1,137 @@
+[
+  {
+    "name": "hb_evaluator",
+    "query": "all:HarmBench AND all:evaluator AND all:classifier AND all:human AND all:agreement",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3AHarmBench+AND+all%3Aevaluator+AND+all%3Aclassifier+AND+all%3Ahuman+AND+all%3Aagreement&start=0&max_results=10",
+    "first_attempt_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>",
+    "http": 200,
+    "total": "0",
+    "entries": [],
+    "local": "02_文献/原文/defense_query_hb_evaluator_2026-09-08.xml"
+  },
+  {
+    "name": "hb_standard",
+    "query": "all:HarmBench AND all:standard AND all:behaviors AND all:classifier AND all:evaluation",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3AHarmBench+AND+all%3Astandard+AND+all%3Abehaviors+AND+all%3Aclassifier+AND+all%3Aevaluation&start=0&max_results=10",
+    "first_attempt_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>",
+    "http": 200,
+    "total": "0",
+    "entries": [],
+    "local": "02_文献/原文/defense_query_hb_standard_2026-09-08.xml"
+  },
+  {
+    "name": "lg_human",
+    "query": "all:\"Llama Guard\" AND all:human AND all:agreement AND all:harmful AND all:classification",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22Llama+Guard%22+AND+all%3Ahuman+AND+all%3Aagreement+AND+all%3Aharmful+AND+all%3Aclassification&start=0&max_results=10",
+    "first_attempt_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>",
+    "http": 200,
+    "total": "0",
+    "entries": [],
+    "local": "02_文献/原文/defense_query_lg_human_2026-09-08.xml"
+  },
+  {
+    "name": "safe_lora",
+    "query": "all:\"safe LoRA\" AND all:\"fine-tuning\"",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22safe+LoRA%22+AND+all%3A%22fine-tuning%22&start=0&max_results=10",
+    "first_attempt_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>",
+    "http": 200,
+    "total": "1",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2405.16833v2",
+        "title": "Safe LoRA: the Silver Lining of Reducing Safety Risks when Fine-tuning Large Language Models"
+      }
+    ],
+    "local": "02_文献/原文/defense_query_safe_lora_2026-09-08.xml"
+  },
+  {
+    "name": "safety_layers",
+    "query": "all:\"safety layers\" AND all:\"fine-tuning\"",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22safety+layers%22+AND+all%3A%22fine-tuning%22&start=0&max_results=10",
+    "first_attempt_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>",
+    "http": 200,
+    "total": "7",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2408.17003v5",
+        "title": "Safety Layers in Aligned Large Language Models: The Key to LLM Security"
+      },
+      {
+        "id": "http://arxiv.org/abs/2405.18166v2",
+        "title": "Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing"
+      },
+      {
+        "id": "http://arxiv.org/abs/2503.07404v1",
+        "title": "Towards Safe Robot Foundation Models"
+      },
+      {
+        "id": "http://arxiv.org/abs/2412.11387v1",
+        "title": "How Can LLMs and Knowledge Graphs Contribute to Robot Safety? A Few-Shot Learning Approach"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.13183v1",
+        "title": "DSCD: Large Language Model Detoxification with Self-Constrained Decoding"
+      },
+      {
+        "id": "http://arxiv.org/abs/2505.10219v1",
+        "title": "Towards Safe Robot Foundation Models Using Inductive Biases"
+      },
+      {
+        "id": "http://arxiv.org/abs/2510.23217v1",
+        "title": "Process Reward Models for Sentence-Level Verification of LVLM Radiology Reports"
+      }
+    ],
+    "local": "02_文献/原文/defense_query_safety_layers_2026-09-08.xml"
+  },
+  {
+    "name": "salora",
+    "query": "all:\"safety alignment\" AND all:\"low-rank adaptation\"",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22safety+alignment%22+AND+all%3A%22low-rank+adaptation%22&start=0&max_results=10",
+    "first_attempt_error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:997)>",
+    "http": 200,
+    "total": "20",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2501.01765v1",
+        "title": "SaLoRA: Safety-Alignment Preserved Low-Rank Adaptation"
+      },
+      {
+        "id": "http://arxiv.org/abs/2506.18931v1",
+        "title": "Safe Pruning LoRA: Robust Distance-Guided Pruning for Safety Alignment in Adaptation of LLMs"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.18795v1",
+        "title": "HELLoRA: Hot Experts Layer-Level Low-Rank Adaptation for Mixture-of-Experts Models"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.30640v1",
+        "title": "CSULoRA: Closest Safe Update Low-Rank Adaptation"
+      },
+      {
+        "id": "http://arxiv.org/abs/2504.07448v2",
+        "title": "LoRI: Reducing Cross-Task Interference in Multi-Task Low-Rank Adaptation"
+      },
+      {
+        "id": "http://arxiv.org/abs/2412.10493v2",
+        "title": "AlignGuard: Scalable Safety Alignment for Text-to-Image Generation"
+      },
+      {
+        "id": "http://arxiv.org/abs/2512.23260v2",
+        "title": "Interpretable Safety Alignment via SAE-Constructed Low-Rank Subspace Adaptation"
+      },
+      {
+        "id": "http://arxiv.org/abs/2412.00357v1",
+        "title": "Safety Alignment Backfires: Preventing the Re-emergence of Suppressed Concepts in Fine-tuned Text-to-Image Diffusion Models"
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.04992v2",
+        "title": "You Snooze, You Lose: Automatic Safety Alignment Restoration through Neural Weight Translation"
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.21278v1",
+        "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment"
+      }
+    ],
+    "local": "02_文献/原文/defense_query_salora_2026-09-08.xml"
+  }
+]

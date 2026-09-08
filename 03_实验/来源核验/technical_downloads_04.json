@@ -1,0 +1,102 @@
+[
+  {
+    "file": "03_实验/来源核验/alpaca_cleaned.json",
+    "url": "https://raw.githubusercontent.com/gururise/AlpacaDataCleaned/d03c782bffd50ceeb1f4ef3c020129229ec4698c/alpaca_data_cleaned.json",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "bd844b8247a0f543804b6ce0882b0aaec4bbf5e8d66167df6213a0f1e4fe878b",
+    "bytes": 44307561,
+    "at_utc": "2026-09-08T07:20:18.897146+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/alpaca_DATA_LICENSE",
+    "url": "https://raw.githubusercontent.com/gururise/AlpacaDataCleaned/d03c782bffd50ceeb1f4ef3c020129229ec4698c/DATA_LICENSE",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "3711f963c05d0be80d53e5923308a6dee31b203da23435c9cfb7c7b6e4dd5e19",
+    "bytes": 19346,
+    "at_utc": "2026-09-08T07:19:56.846213+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest_commit.json",
+    "url": "https://api.github.com/repos/paul-rottger/exaggerated-safety/commits/main",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "08e2ca2636fb781d09ae309a8fdfadc6455dbf33cc2108e566f7fb47c4179b8b",
+    "bytes": 6624,
+    "at_utc": "2026-09-08T07:19:57.841141+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_judge_api.json",
+    "url": "https://huggingface.co/api/models/cais/HarmBench-Llama-2-13b-cls",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "36929b9aaa10da5780737c330295a75c7c15cb88ea89deab8ba237185b27a480",
+    "bytes": 3886,
+    "at_utc": "2026-09-08T07:19:56.352325+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_eval_commit.json",
+    "url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/commits/main",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "3899fa0e48276a1a1525239f2e2c61a601e84f094f2ffa611082ebd9cc777c60",
+    "bytes": 46663,
+    "at_utc": "2026-09-08T07:19:57.129184+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_README.md",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/instruction_following_eval/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "fef3c44408e4b39837af345095ccce7da798853fd60ea94a1de63afa9d3d67b3",
+    "bytes": 1457,
+    "at_utc": "2026-09-08T07:19:58.616281+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_input_data.jsonl",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/instruction_following_eval/data/input_data.jsonl",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+    "bytes": 207111,
+    "at_utc": "2026-09-08T07:19:59.871534+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_evaluation_lib.py",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/instruction_following_eval/evaluation_lib.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "35decc06000718487f44d7deafa6d3f48a8ec0886281edf40162c0265b7d248c",
+    "bytes": 6984,
+    "at_utc": "2026-09-08T07:19:59.405419+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_instructions_registry.py",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/instruction_following_eval/instructions_registry.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ec92d72c264f6d906978613085db262356174300370a3fffe6fefd5969ce9cfc",
+    "bytes": 7240,
+    "at_utc": "2026-09-08T07:20:00.161922+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_instructions.py",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/instruction_following_eval/instructions.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "60e086f5342a03ce8e18b64bbcccf86308f523c08aa826707a562150a52f3edf",
+    "bytes": 55162,
+    "at_utc": "2026-09-08T07:20:01.364045+00:00"
+  }
+]

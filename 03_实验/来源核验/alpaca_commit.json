@@ -1,0 +1,101 @@
+{
+  "sha": "d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+  "node_id": "C_kwDOJMe2u9oAKGQwM2M3ODJiZmZkNTBjZWViMWY0ZWYzYzAyMDEyOTIyOWVjNDY5OGM",
+  "commit": {
+    "author": {
+      "name": "Gene Ruebsamen",
+      "email": "gururise@gmail.com",
+      "date": "2026-03-07T14:15:41Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-03-07T14:15:41Z"
+    },
+    "message": "Update README to remove old dataset curation details\n\nRemoved outdated information about dataset curation from April 8, 2023.",
+    "tree": {
+      "sha": "37898d810d3cf8f0ecd26e41d78d36a7f178715e",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/37898d810d3cf8f0ecd26e41d78d36a7f178715e"
+    },
+    "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/commits/d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJprDMNCRC1aQ7uu5UhlAAAbkYQAIY9lthB3q7lDqmUJO0oVnOt\nSyt8dVjXtxltqzE6gvRLfXhRCCoS4Va5ADRiKzvt2F5C4zVLU0pMFsYJgh3QlVrk\nT6wMx3GREmB0K7c8XtXJhimg1VKhbXmxQXz31TW+dIecm0WUjVm2EpMxzY1vW92V\n0gbdwWMpv8k+af0gjF6KWPDNqPGqPf0Jp56+6K/bwwiifTNb9NiQmKjXmMZdiKrJ\n91ysxtDRM0kZ1xe7uTQGAD3oPCYH5gWmWGFA4b/nm6dEQbIRr/+jk/KLlD1USZt+\nGuT5dQIY7S6unT94FRNtO/0knUvBKmtqXtfxtgq2im8X/jFajf0/UZtl9SVQTapW\n3scjEjbY5Lual/HcKPmvapnSOdns2YbrIkm5clm49Dbr7IeH9SnqPjYk4T1+SPNq\nsRXbKRPM/wV2sbtJEHva2GjboRJji1n/ESXW3UuXlifs0f0bmMOar5/sg6xU6kwm\nHVpXmGWAZI4pgI64y0GK0NX/hwKVFdmFbDzj3RpWWYGWWOXjiiWBxD8XmamQwKJ8\n0Yx5B7YQ0AFVftgRI2OSUYiX8+kbWP3KGFujjMn9o9/pEOFaPUchSy/bnedsETPr\nJNhUwrVjKVOcD8+RHy3dmdU1q0HL4g+poXgZxJBG4OnPHri7b9DIUg7wzY+w2bcz\n5aC88fNqt5exqQ/4dKrd\n=H/JK\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 37898d810d3cf8f0ecd26e41d78d36a7f178715e\nparent 791174f63efa9aa54ca6c38639dc6e5bb5657d80\nauthor Gene Ruebsamen <gururise@gmail.com> 1772892941 -0800\ncommitter GitHub <noreply@github.com> 1772892941 -0800\n\nUpdate README to remove old dataset curation details\n\nRemoved outdated information about dataset curation from April 8, 2023.",
+      "verified_at": "2026-03-07T14:15:42Z"
+    }
+  },
+  "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/commits/d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+  "html_url": "https://github.com/gururise/AlpacaDataCleaned/commit/d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+  "comments_url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/commits/d03c782bffd50ceeb1f4ef3c020129229ec4698c/comments",
+  "author": {
+    "login": "gururise",
+    "id": 4380009,
+    "node_id": "MDQ6VXNlcjQzODAwMDk=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/4380009?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/gururise",
+    "html_url": "https://github.com/gururise",
+    "followers_url": "https://api.github.com/users/gururise/followers",
+    "following_url": "https://api.github.com/users/gururise/following{/other_user}",
+    "gists_url": "https://api.github.com/users/gururise/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/gururise/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/gururise/subscriptions",
+    "organizations_url": "https://api.github.com/users/gururise/orgs",
+    "repos_url": "https://api.github.com/users/gururise/repos",
+    "events_url": "https://api.github.com/users/gururise/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/gururise/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "791174f63efa9aa54ca6c38639dc6e5bb5657d80",
+      "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/commits/791174f63efa9aa54ca6c38639dc6e5bb5657d80",
+      "html_url": "https://github.com/gururise/AlpacaDataCleaned/commit/791174f63efa9aa54ca6c38639dc6e5bb5657d80"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "additions": 1,
+    "deletions": 3
+  },
+  "files": [
+    {
+      "sha": "cdeeb85d7b23c883a185f8abc270d792cd69a838",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 3,
+      "changes": 4,
+      "blob_url": "https://github.com/gururise/AlpacaDataCleaned/blob/d03c782bffd50ceeb1f4ef3c020129229ec4698c/README.md",
+      "raw_url": "https://github.com/gururise/AlpacaDataCleaned/raw/d03c782bffd50ceeb1f4ef3c020129229ec4698c/README.md",
+      "contents_url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/contents/README.md?ref=d03c782bffd50ceeb1f4ef3c020129229ec4698c",
+      "patch": "@@ -1,8 +1,6 @@\n # 🦙🛁 Cleaned Alpaca Dataset\n Welcome to the Cleaned Alpaca Dataset repository! This repository hosts a cleaned and curated version of a dataset used to train the Alpaca LLM (Large Language Model). The original dataset had several issues that are addressed in this cleaned version.\n \n-**On April 8, 2023 the remaining uncurated instructions (~50,000) were replaced with data from the GPT-4-LLM [dataset](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM).** Curation of the incoming GPT-4 data is ongoing.\n-\n * A 7b Lora model (trained on April 8, 2023) is available on Hugging Face at [yahma/alpaca-7b-lora](https://huggingface.co/yahma/alpaca-7b-lora)\n * A 13B Lora model (trained on April 9, 2023) is available at Hugging Face at [yahma/alpaca-13b-lora](https://huggingface.co/yahma/alpaca-13b-lora)\n \n@@ -122,4 +120,4 @@ The primary goal of this project is to provide a cleaned and curated version of\n All the code and supporting tools are licensed under the Apache-2.0. The original and cleaned alpaca dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes.\n \n ## Acknowledgments\n-The original version of the Alpaca dataset was sourced from tatsu-lab's [github repository](https://github.com/tatsu-lab/stanford_alpaca). We would like to thank the original creators of these datasets for making their data available to the public. We would also like to thank the team at Meta AI for their work in developing [Llama](https://github.com/facebookresearch/llama). Finally, thanks to [Q-Blocks Cloud](https://www.qblocks.cloud) for donating compute resources allowing us to provide finetuned models.\n\\ No newline at end of file\n+The original version of the Alpaca dataset was sourced from tatsu-lab's [github repository](https://github.com/tatsu-lab/stanford_alpaca). We would like to thank the original creators of these datasets for making their data available to the public. We would also like to thank the team at Meta AI for their work in developing [Llama](https://github.com/facebookresearch/llama). Finally, thanks to [Q-Blocks Cloud](https://www.qblocks.cloud) for donating compute resources allowing us to provide finetuned models."
+    }
+  ]
+}

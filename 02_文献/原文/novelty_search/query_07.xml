@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xjpo/Us0riGzV8IHLNgJkxf+xvk</id>
+  <title>arXiv Query: search_query=all:"safety degradation" AND all:"representation" AND all:"fine-tuning"&amp;id_list=&amp;start=0&amp;max_results=30</title>
+  <updated>2026-09-08T06:09:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22safety+degradation%22+AND+(all:%22representation%22+AND+all:%22fine-tuning%22)&amp;start=0&amp;max_results=30&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>30</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2608.23497v1</id>
+    <title>Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty</title>
+    <updated>2026-08-24T16:57:28Z</updated>
+    <link href="https://arxiv.org/abs/2608.23497v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.23497v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reasoning-Induced Misalignment, where fine-tuning on reasoning data containing no harmful content, including mathematics, code, and problem-solving with chain-of-thought traces can induce harmful behaviors of LLM, posing a serious challenge to the safety of LLM reasoning. Cross-architecture, cross-scale, and cross-dataset checks show that RIM does not always emerge. Previous work attributed RIM to neuron-level entanglement, but did not identify the geometry of the representation space underlying this entanglement or propose a training-time fix. We provide both: a representation-space analysis of RIM and the Safety-Direction Penalty (SDP), which penalizes movement along a learned safety direction during reasoning fine-tuning. The analysis extracts two activation-space directions, one encoding reasoning ability and the other safety behavior. These directions are coupled: fine-tuning that improves reasoning shifts safety representations, and prompts with larger shifts show larger safety degradation. CKA distance ratios and probes locate the safety-decision layers where this shift is most relevant. These findings guide the design of SDP: the coupling motivates penalizing displacement along the safety direction, and the layer localization sets the initial scope. When the initial scope leaves compensatory shifts beyond the penalized layers, the same diagnostics guide iterative expansion. On Qwen2.5-3B and 7B, SDP restores safety while preserving benchmark reasoning performance.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-24T16:57:28Z</published>
+    <arxiv:comment>28 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Yipeng Zhao</name>
+    </author>
+    <author>
+      <name>Qishun Yang</name>
+    </author>
+    <author>
+      <name>Shenzhe Zhu</name>
+    </author>
+    <author>
+      <name>Shu Yang</name>
+    </author>
+    <author>
+      <name>Di Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.05909v1</id>
+    <title>MMAligner: Safeguarding Multimodal Large Language Models through Representation Calibration</title>
+    <updated>2026-08-06T11:39:08Z</updated>
+    <link href="https://arxiv.org/abs/2608.05909v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.05909v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimodal large language models (MLLMs) often refuse unsafe text prompts yet generate harmful responses to semantically equivalent multimodal inputs. Existing defenses either rely on external guardrails, which add inference overhead without repairing intrinsic flaws, or safety fine-tuning, which treats alignment as black-box optimization and may sacrifice utility or require large multimodal datasets. To identify the cause of this safety disparity, we analyze MLLM representations geometrically. We find that safety mechanisms learned from text persist across modalities: a shared safety subspace and refusal boundary remain effective, and representations inside this boundary consistently trigger refusals. However, unsafe multimodal inputs undergo a representation shift that places most of them outside the boundary, allowing them to bypass the model's intrinsic safety mechanism. This indicates that multimodal safety degradation stems from representation misalignment rather than the absence of safety capability. Based on this finding, we propose MMAligner, a safeguarding method that calibrates unsafe multimodal representations into the pre-existing refusal region. MMAligner applies a hard lower bound to ensure refusal, a soft upper bound to avoid excessive modification, and a preservation objective for benign inputs. Experiments across multiple open-source MLLMs show that MMAligner raises the average refusal rate on unsafe multimodal inputs to 99% with less than 2% utility degradation and minimal training data, substantially improving the safety-utility trade-off over existing baselines. (*Due to the notification from arXiv, "The Abstract field cannot be longer than 1,920 characters", the Abstract that appeared is shortened.)</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-06T11:39:08Z</published>
+    <arxiv:comment>To Appear in the Proceedings of The ACM Conference on Computer and Communications Security (CCS), 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shenyi Zhang</name>
+    </author>
+    <author>
+      <name>Keyan Guo</name>
+    </author>
+    <author>
+      <name>Zihao Wang</name>
+    </author>
+    <author>
+      <name>Xuebin Li</name>
+    </author>
+    <author>
+      <name>Lingchen Zhao</name>
+    </author>
+    <author>
+      <name>Hongxin Hu</name>
+    </author>
+    <author>
+      <name>Chao Shen</name>
+    </author>
+    <author>
+      <name>Qian Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.04322v1</id>
+    <title>DataRx: Missingness-Aware Sampling for Safer Large Language Model Task-Specific Fine-Tuning</title>
+    <updated>2026-08-05T01:05:13Z</updated>
+    <link href="https://arxiv.org/abs/2608.04322v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.04322v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Task-specific fine-tuning can improve the performance of large language models (LLMs) on downstream tasks. However, our study reveals that task-specific fine-tuning can also weaken the safety guardrails of aligned LLMs. A widely adopted strategy for preserving safety during fine-tuning is to incorporate safety data. Although previous studies have shown that randomly mixing safety data can alleviate safety degradation, the underlying principle determining why some safety examples are more effective than others still remains unclear. In this paper, we propose DataRx, a missingness-aware sampling method for selecting safety-critical examples. DataRx is based on the hypothesis that a safety sample is more effective when the selected examples provide safety signals that fill the missing parts of LLMs' safety capabilities. DataRx's key insight is leveraging high-dimensional hidden representations rather than discrete tokens to quantify the safety signal gap between the target model's native response and the safety reference response. The results show that, with only 1% additional safety samples from BeaverTails, DataRx reduces the average attack success rate of Llama3-8B-Instruct across seven downstream tasks from 59.23% under random sampling to 13.70%. In addition, DataRx can be combined with the existing safety data synthesis method to further enhance safety defenses during fine-tuning. We hope that DataRx will inspire more data-centric defense research.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-05T01:05:13Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Junbo Zhang</name>
+    </author>
+    <author>
+      <name>Qianli Zhou</name>
+    </author>
+    <author>
+      <name>Xinyang Deng</name>
+    </author>
+    <author>
+      <name>Wen Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2607.15081v1</id>
+    <title>DataShield: Uncovering Risky Fine-Tuning Data Across LLMs Through Consensus Subspace Alignment</title>
+    <updated>2026-07-16T14:51:42Z</updated>
+    <link href="https://arxiv.org/abs/2607.15081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2607.15081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fine-tuning large language models (LLMs) on domain-specific datasets has become a standard paradigm for adapting LLMs to specialized applications. However, recent work has shown that even fine-tuning on benign task-specific data can substantially weaken the safety capabilities of LLMs. While existing efforts have made progress in identifying data responsible for safety degradation, they usually rely on a single mean vector computed over a specific model with its tokenizer to represent the safety direction, which limits both the effectiveness and transferability of their risk assessment measures. To address these limitations, we propose DataShield, a data assessment framework that identifies risky fine-tuning samples and response segments through consensus subspace alignment over joint safety-critical semantic spaces derived from multiple safety-aligned LLMs. Within these spaces, DataShield extracts consensus safe and unsafe subspaces using semantic spectral decomposition over safe and unsafe data representations. The risk of a data sample or segment is then estimated by measuring its relative alignment with the unsafe and safe subspaces, enabling both sample-level filtering and fine-grained segment-level masking. Compared with state-of-the-art filtering and masking baselines, DataShield reduces ASR by 14.6\% with sample filtering and 32.3\% with segment masking, while preserving downstream utility and avoiding target-model-specific risk computation.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-07-16T14:51:42Z</published>
+    <arxiv:comment>24 pages, 12 figures, 19 tables</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Zefeng Wu</name>
+    </author>
+    <author>
+      <name>Weiwei Qi</name>
+    </author>
+    <author>
+      <name>Jielong Chen</name>
+    </author>
+    <author>
+      <name>Tianhang Zheng</name>
+    </author>
+    <author>
+      <name>Di Hong</name>
+    </author>
+    <author>
+      <name>Chaochao Lu</name>
+    </author>
+    <author>
+      <name>Liang He</name>
+    </author>
+    <author>
+      <name>Zhan Qin</name>
+    </author>
+    <author>
+      <name>Kui Ren</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2606.08044v2</id>
+    <title>When Behavioral Safety Evaluation Fails: A Representation-Level Perspective</title>
+    <updated>2026-08-04T12:50:00Z</updated>
+    <link href="https://arxiv.org/abs/2606.08044v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2606.08044v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety evaluation of large language models (LLMs) is largely behavioral: a model is certified safe when it refuses harmful requests and answers benign ones. But refusing on the prompts an auditor happens to try does not show that the model is far from harmful behavior. Behavioral tests observe outputs; they do not measure how easily an intervention on the model turns a refusal into compliance. We call the gap between what static audits certify and what an intervention can reach the audit gap, and we show it is realizable: one can build a model that matches its safety-aligned base on every static audit yet gives way to a small, known perturbation of its internal state. We construct such dissociated models from three safety-aligned bases (Gemma 2 2B, Llama 3.2 3B, Qwen 2.5 3B) and audit the base, dissociated, and openly harmful models with the same soft interventions in parameter and latent space; the latent attacks are summarized by the Latent Vulnerability Score (LVS), the safety degradation produced per unit of bounded latent perturbation. Every static audit we run gives the dissociated model the same verdict as its base, since its refusals match the base, jailbreaks show no consistent signature, and a strong fixed probe on clean activations cannot tell it from the base. The same interventions an auditor could run reverse the verdict. At the targeted mid layer the dissociated models score 2.5 to 3.1 times higher LVS than their bases. A bounded latent attack elicits harmful compliance on 54 to 86% of prompts, against 3 to 48% for the bases, while matched random perturbations stay at or below 12%. Harmful fine-tuning reaches high compliance within five gradient steps, where the bases need 10 to 25. Behavioral testing, even with static latent probing, cannot certify representation-level robustness: a safety audit must intervene on the model, not only observe it.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-06-06T08:10:56Z</published>
+    <arxiv:comment>Preprint</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Enyi Jiang</name>
+    </author>
+    <author>
+      <name>Anders Gjølbye</name>
+    </author>
+    <author>
+      <name>Yibo Jacky Zhang</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.16659v1</id>
+    <title>Benign Fine-Tuning Breaks Safety Alignment in Audio LLMs</title>
+    <updated>2026-04-17T19:28:07Z</updated>
+    <link href="https://arxiv.org/abs/2604.16659v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.16659v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prior work shows that fine-tuning aligned models on benign data degrades safety in text and vision modalities, and that proximity to harmful content in representation space predicts which samples cause the most damage. However, existing analyses operate within a single, undifferentiated embedding space -- leaving open whether distinct input properties drive the vulnerability differently. Audio introduces a structurally richer problem: a benign sample can neighbor harmful content not only through what is said but through how it sounds, even when its words are entirely innocuous. We present the first systematic study of benign fine-tuning safety in Audio LLMs, evaluating three state-of-the-art models with a proximity-based filtering framework that selects benign audio by embedding-space distance to harmful content. By decomposing proximity into semantic, acoustic, and mixed axes using external reference encoders alongside each model's own internal encoder, we show that benign fine-tuning elevates Jailbreak Success Rate (JSR) from single digits to as high as 87.12%. Crucially, the dominant vulnerability axis and the relative risk of audio versus text fine-tuning are both architecture-conditioned -- determined by how each model's encoder and projector transform audio into the LLM's input space. We propose two defenses: filtering training data to maximize distance from harmful embeddings, and a textual system prompt at inference, both reducing JSR to near-zero without architectural modification. Our mechanistic analysis on two architectures reveals that fine-tuning selectively suppresses the late-layer refusal circuit while the frozen encoder preserves representations, and that even the suppression pattern is architecture-conditioned, mirroring the behavioral asymmetries across modalities. Safety degradation from benign fine-tuning is a qualitatively distinct risk in Audio LLMs.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-17T19:28:07Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Jaechul Roh</name>
+    </author>
+    <author>
+      <name>Amir Houmansadr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.00012v1</id>
+    <title>Finding and Reactivating Post-Trained LLMs' Hidden Safety Mechanisms</title>
+    <updated>2026-03-10T06:56:23Z</updated>
+    <link href="https://arxiv.org/abs/2604.00012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.00012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite the impressive performance of general-purpose large language models (LLMs), they often require fine-tuning or post-training to excel at specific tasks. For instance, large reasoning models (LRMs), such as the DeepSeek-R1 series, demonstrate strong reasoning capabilities after post-training different general large language models on diverse chain-of-thought (CoT) datasets. However, this additional training frequently comes at the cost of reduced safety, as the fine-tuned or post-trained models tend to exhibit more harmful behaviors compared with the regular LLMs before post-training or fine-tuning, potentially leading to harmful outcomes due to their enhanced capabilities. Taking LRMs as an example, we first investigate the underlying cause of this safety degradation in this paper. Our analysis reveals that post-training can mask the original safety mechanisms of the base LLM, while over-amplifying representations related to their post-training ability. But luckily, we also find that LRMs' safety mechanisms still exist instead of being removed during their post-training. Based on these findings, we propose a lightweight and cost-effective solution called SafeReAct that restores the suppressed safety behaviors by aligning with LoRA adapters on a few layers. Experiments on four state-of-the-art LRMs show that our method significantly improves safety on harmful prompts without compromising reasoning performance. Besides LRMs, additional results on other domain-specific LLMs, like medical models, further confirm the generality and effectiveness of our approach.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-10T06:56:23Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Mingjie Li</name>
+    </author>
+    <author>
+      <name>Wai Man Si</name>
+    </author>
+    <author>
+      <name>Michael Backes</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <author>
+      <name>Yisen Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.18631v2</id>
+    <title>Layer-Aware Representation Filtering: Purifying Finetuning Data to Preserve LLM Safety Alignment</title>
+    <updated>2025-07-25T07:20:24Z</updated>
+    <link href="https://arxiv.org/abs/2507.18631v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.18631v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With rapid advancement and increasing accessibility of LLMs, fine-tuning aligned models has become a critical step for adapting them to real-world applications, which makes the safety of this fine-tuning process more important than ever. However, recent studies have highlighted a critical challenge: even when fine-tuning with seemingly benign downstream datasets, the safety of aligned LLMs can be compromised, making them more susceptible to malicious instructions.
+  In this paper, we show that fine-tuning datasets often contain samples with safety-degrading features that are not easily identifiable on the surface. These samples can significantly degrade the safety alignment of LLMs during fine-tuning. To address this issue, we propose LARF, a Layer-Aware Representation Filtering method. This method identifies safety-sensitive layers within the LLM and leverages their representations to detect which data samples in the post-training dataset contain safety-degrading features.
+  Experimental results demonstrate that LARF can effectively identify benign data with safety-degrading features. After removing such data, the safety alignment degradation caused by fine-tuning is mitigated. Please see our code at https://github.com/LLLeoLi/LARF.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-24T17:59:24Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Hao Li</name>
+    </author>
+    <author>
+      <name>Lijun Li</name>
+    </author>
+    <author>
+      <name>Zhenghao Lu</name>
+    </author>
+    <author>
+      <name>Xianyi Wei</name>
+    </author>
+    <author>
+      <name>Rui Li</name>
+    </author>
+    <author>
+      <name>Jing Shao</name>
+    </author>
+    <author>
+      <name>Lei Sha</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.24208v1</id>
+    <title>Bootstrapping LLM Robustness for VLM Safety via Reducing the Pretraining Modality Gap</title>
+    <updated>2025-05-30T04:40:08Z</updated>
+    <link href="https://arxiv.org/abs/2505.24208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.24208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ensuring Vision-Language Models (VLMs) generate safe outputs is crucial for their reliable deployment. However, LVLMs suffer from drastic safety degradation compared to their LLM backbone. Even blank or irrelevant images can trigger LVLMs to generate harmful responses to prompts that would otherwise be refused in text-only contexts. The modality gap between image and text representations has been recently hypothesized to contribute to safety degradation of LVLMs. However, if and how the amount of modality gap affects LVLMs' safety is not studied. In this work, we show that the amount of modality gap is highly inversely correlated with VLMs' safety. Then, we show that this modality gap is introduced during pretraining LVLMs and persists through fine-tuning. Inspired by this observation, we propose a regularization to reduce the modality gap during pretraining. Our extensive experiments on LLaVA v1.5, ShareGPT4V, and MiniGPT-4 show that our method substantially improves safety alignment of LVLMs, reducing unsafe rate by up to 16.3% without compromising performance, and can further boost existing defenses by up to 18.2%.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-30T04:40:08Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wenhan Yang</name>
+    </author>
+    <author>
+      <name>Spencer Stice</name>
+    </author>
+    <author>
+      <name>Ali Payani</name>
+    </author>
+    <author>
+      <name>Baharan Mirzasoleiman</name>
+    </author>
+  </entry>
+</feed>

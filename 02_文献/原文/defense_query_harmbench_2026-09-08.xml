@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WqP4bEHHyWQ5m48CXJfOBB0pQE8</id>
+  <title>arXiv Query: search_query=all:"HarmBench"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-08T06:06:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22HarmBench%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>98</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04249v2</id>
+    <title>HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal</title>
+    <updated>2024-02-27T04:43:08Z</updated>
+    <link href="https://arxiv.org/abs/2402.04249v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04249v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automated red teaming holds substantial promise for uncovering and mitigating the risks associated with the malicious use of large language models (LLMs), yet the field lacks a standardized evaluation framework to rigorously assess new methods. To address this issue, we introduce HarmBench, a standardized evaluation framework for automated red teaming. We identify several desirable properties previously unaccounted for in red teaming evaluations and systematically design HarmBench to meet these criteria. Using HarmBench, we conduct a large-scale comparison of 18 red teaming methods and 33 target LLMs and defenses, yielding novel insights. We also introduce a highly efficient adversarial training method that greatly enhances LLM robustness across a wide range of attacks, demonstrating how HarmBench enables codevelopment of attacks and defenses. We open source HarmBench at https://github.com/centerforaisafety/HarmBench.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-06T18:59:08Z</published>
+    <arxiv:comment>Website: https://www.harmbench.org</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Mantas Mazeika</name>
+    </author>
+    <author>
+      <name>Long Phan</name>
+    </author>
+    <author>
+      <name>Xuwang Yin</name>
+    </author>
+    <author>
+      <name>Andy Zou</name>
+    </author>
+    <author>
+      <name>Zifan Wang</name>
+    </author>
+    <author>
+      <name>Norman Mu</name>
+    </author>
+    <author>
+      <name>Elham Sakhaee</name>
+    </author>
+    <author>
+      <name>Nathaniel Li</name>
+    </author>
+    <author>
+      <name>Steven Basart</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <author>
+      <name>David Forsyth</name>
+    </author>
+    <author>
+      <name>Dan Hendrycks</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2602.12316v2</id>
+    <title>GT-HarmBench: Benchmarking AI Safety Risks Through the Lens of Game Theory</title>
+    <updated>2026-05-22T00:32:35Z</updated>
+    <link href="https://arxiv.org/abs/2602.12316v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.12316v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Frontier AI systems are increasingly capable and deployed in high-stakes multi-agent environments. However, existing AI safety benchmarks largely evaluate single agents, leaving multi-agent risks such as coordination failure and conflict poorly understood. We introduce GT-HarmBench, a benchmark of 1,535 high-stakes scenarios spanning game-theoretic structures such as the Prisoner's Dilemma, Stag Hunt and Chicken. Scenarios are drawn from realistic AI risk contexts in the MIT AI Risk Repository. Across 15 frontier models, agents fail to choose socially beneficial actions in 38% of high-stakes cases, such as military escalation, election manipulation, and medical malpractice. We measure sensitivity to game-theoretic prompt framing and ordering, and analyze reasoning patterns driving failures. We further show that game-theoretic interventions improve socially beneficial outcomes by up to 18%. Our results highlight substantial reliability gaps and provide a broad standardized testbed for studying alignment in multi-agent environments. The benchmark and code are available at https://github.com/causalNLP/gt-harmbench.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-12T17:29:52Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Pepijn Cobben</name>
+    </author>
+    <author>
+      <name>Xuanqiang Angelo Huang</name>
+    </author>
+    <author>
+      <name>Thao Amelia Pham</name>
+    </author>
+    <author>
+      <name>Isabel Dahlgren</name>
+    </author>
+    <author>
+      <name>Terry Jingchen Zhang</name>
+    </author>
+    <author>
+      <name>Zhijing Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2608.21278v1</id>
+    <title>CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment</title>
+    <updated>2026-08-21T16:36:10Z</updated>
+    <link href="https://arxiv.org/abs/2608.21278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2608.21278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign inputs. We propose \textbf{C}ontinuous \textbf{L}at\textbf{E}nt \textbf{A}dapter \textbf{R}outing (CLEAR), a conditional safety adaptation framework that uses a lightweight hidden-state gate to continuously control the activation strength of a safety low-rank adapter. CLEAR aims to reduce harmful completions while avoiding unnecessary changes to the frozen backbone that could degrade performance on benign prompts. Experiments on widely used safety and utility benchmarks show that CLEAR improves robustness on HarmBench while reducing the utility degradation observed with globally applied safety tuning such as SFT or standard low-rank adaptation (LoRA). On Llama-3-8B-Instruct, CLEAR reduces HarmBench ASR from 32.3\% to 0.5\%, while retaining most of the base model's utility and achieving up to 7.1 percentage points higher GSM8K accuracy than globally applied SFT or LoRA. These results suggest that CLEAR is a promising mechanism for improving the safety--utility trade-off in LLM alignment.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-08-21T16:36:10Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Chengxiao Wang</name>
+    </author>
+    <author>
+      <name>Enyi Jiang</name>
+    </author>
+    <author>
+      <name>Xiaojing Liao</name>
+    </author>
+    <author>
+      <name>Sanmi Koyejo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2512.06655v3</id>
+    <title>Graph-Regularized Sparse Autoencoders for LLM Safety Steering</title>
+    <updated>2026-05-15T09:56:17Z</updated>
+    <link href="https://arxiv.org/abs/2512.06655v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.06655v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sparse autoencoders (SAEs) are increasingly used to extract activation directions for inference-time steering, but their standard sparsity objective treats latent features as independent. This prior can be poorly matched to high-level safety behaviors, where refusal and harmful compliance appear to depend on distributed structure in activation space. We introduce Graph-Regularized Sparse Autoencoders (GSAE), a dictionary-learning method that learns safety-steering directions by smoothing SAE decoder vectors over a neuron co-activation graph and applying the resulting direction bank through a two-gate runtime controller. Empirically, GSAE improves selective refusal across JailbreakBench, HarmBench, and XSTest, increasing harmful-request refusal while keeping benign-prompt refusals low. On Llama-3-8B, replacing the standard SAE with GSAE in an otherwise identical pipeline improves $Δ_s$ by $20.1$ points on JailbreakBench and $16.8$ points on HarmBench. GSAE outperforms activation-steering baselines and black-box guardrails, preserves benign-task performance, generalizes across Llama-3, Mistral, Qwen 2.5, and Phi-4, and remains strong under black-box and gray-box jailbreak attacks.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-12-07T04:46:30Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jehyeok Yeon</name>
+    </author>
+    <author>
+      <name>Federico Cinus</name>
+    </author>
+    <author>
+      <name>Yifan Wu</name>
+    </author>
+    <author>
+      <name>Luca Luceri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.16060v1</id>
+    <title>SABER: Uncovering Vulnerabilities in Safety Alignment via Cross-Layer Residual Connection</title>
+    <updated>2025-09-19T15:10:19Z</updated>
+    <link href="https://arxiv.org/abs/2509.16060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.16060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) with safe-alignment training are powerful instruments with robust language comprehension capabilities. These models typically undergo meticulous alignment procedures involving human feedback to ensure the acceptance of safe inputs while rejecting harmful or unsafe ones. However, despite their massive scale and alignment efforts, LLMs remain vulnerable to jailbreak attacks, where malicious users manipulate the model to produce harmful outputs that it was explicitly trained to avoid. In this study, we find that the safety mechanisms in LLMs are predominantly embedded in the middle-to-late layers. Building on this insight, we introduce a novel white-box jailbreak method, SABER (Safety Alignment Bypass via Extra Residuals), which connects two intermediate layers $s$ and $e$ such that $s &lt; e$, through a residual connection. Our approach achieves a 51% improvement over the best-performing baseline on the HarmBench test set. Furthermore, SABER induces only a marginal shift in perplexity when evaluated on the HarmBench validation set. The source code is publicly available at https://github.com/PalGitts/SABER.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-19T15:10:19Z</published>
+    <arxiv:comment>Accepted in EMNLP'25 Main</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Maithili Joshi</name>
+    </author>
+    <author>
+      <name>Palash Nandi</name>
+    </author>
+    <author>
+      <name>Tanmoy Chakraborty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.14723v1</id>
+    <title>Beyond Creed: A Non-Identity Safety Condition A Strong Empirical Alternative to Identity Framing in Low-Data LoRA Fine-Tuning</title>
+    <updated>2026-03-16T01:56:03Z</updated>
+    <link href="https://arxiv.org/abs/2603.14723v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.14723v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>How safety supervision is written may matter more than the explicit identity content it contains. We study low-data LoRA safety fine-tuning with four supervision formats built from the same core safety rules: constitutional rules (A), creed-style identity framing (B), a B-matched creed condition with a worldview/confession identity-maintenance tail (C), and a matched non-identity condition (D). Across three instruction-tuned model families (Llama 3.1 8B, Qwen2.5 7B, and Gemma 3 4B), we evaluate HarmBench using a reconciled dual-judge pipeline combining Bedrock-hosted DeepSeek v3.2 and Sonnet 4.6, with disagreement and boundary cases manually resolved.
+  The non-identity condition D is the strongest group on all three model families on the full 320-behavior HarmBench set, reaching 74.4% refusal on Llama, 76.9% on Gemma, and 74.1% on Qwen. By comparison, creed-style framing (B) improves over plain constitutional rules (A) on Llama and Gemma, but remains substantially below D, yielding an overall descriptive ordering of $D &gt; B &gt; C \geq A &gt; baseline$. This provides a bounded empirical challenge to a strong version of the identity-framing hypothesis: explicit creed-style identity language is not necessary for the strongest gains observed here. Capability evaluations on MMLU and ARC-Challenge show no meaningful trade-off across conditions.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-16T01:56:03Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinran Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05346v1</id>
+    <title>BadGPT-4o: stripping safety finetuning from GPT models</title>
+    <updated>2024-12-06T13:56:36Z</updated>
+    <link href="https://arxiv.org/abs/2412.05346v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05346v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show a version of Qi et al. 2023's simple fine-tuning poisoning technique strips GPT-4o's safety guardrails without degrading the model. The BadGPT attack matches best white-box jailbreaks on HarmBench and StrongREJECT. It suffers no token overhead or performance hits common to jailbreaks, as evaluated on tinyMMLU and open-ended generations. Despite having been known for a year, this attack remains easy to execute.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-06T13:56:36Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Ekaterina Krupkina</name>
+    </author>
+    <author>
+      <name>Dmitrii Volkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2604.24074v1</id>
+    <title>How Sensitive Are Safety Benchmarks to Judge Configuration Choices?</title>
+    <updated>2026-04-27T05:59:59Z</updated>
+    <link href="https://arxiv.org/abs/2604.24074v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2604.24074v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety benchmarks such as HarmBench rely on LLM judges to classify model responses as harmful or safe, yet the judge configuration, namely the combination of judge model and judge prompt, is typically treated as a fixed implementation detail. We show this assumption is problematic. Using a 2 x 2 x 3 factorial design, we construct 12 judge prompt variants along two axes, evaluation structure and instruction framing, and apply them using a single judge model, Claude Sonnet 4-6, producing 28,812 judgments over six target models and 400 HarmBench behaviors. We find that prompt wording alone, holding the judge model fixed, shifts measured harmful-response rates by up to 24.2 percentage points, with even within-condition surface rewording causing swings of up to 20.1 percentage points. Model safety rankings are moderately unstable, with mean Kendall tau = 0.89, and category-level sensitivity ranges from 39.6 percentage points for copyright to 0 percentage points for harassment. A supplementary multi-judge experiment using three judge models shows that judge-model choice adds further variance. Our results demonstrate that judge prompt wording is a substantial, previously under-examined source of measurement variance in safety benchmarking.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-04-27T05:59:59Z</published>
+    <arxiv:comment>Accepted by the 22nd International Conference on Intelligent Computing (ICIC 2026). Final version to appear in Springer CCIS</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Xinran Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/978-981-92-3541-4_15</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-981-92-3541-4_15" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2605.31140v1</id>
+    <title>EvoDefense: Co-Evolving Black-Box Defense with Large Language Models</title>
+    <updated>2026-05-29T10:49:44Z</updated>
+    <link href="https://arxiv.org/abs/2605.31140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2605.31140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) remain highly vulnerable to diverse attacks, particularly in black-box settings where the internals of target models are inaccessible. Existing black-box defenses typically rely on pre-defined filtering heuristics, which often fail to generalize to unseen attack types and target model architectures. We introduce EvoDefense, an experience-guided co-evolving black-box defense paradigm. EvoDefense employs a guard LLM to detect malicious queries and an experience memory module to accumulate defense knowledge from previous interactions. At the core of EvoDefense is a continuous attack-defense evolution loop, where an attack generator and the guard model iteratively refine their attack strategies and defense policies through experience-guided optimization. This design enables EvoDefense to generalize across unseen attacks and target models without retraining. Experiments on HarmBench, AdvBench, and AlpacaEval show that EvoDefense achieves consistently strong defense performance across seven popular models and five representative LLM attacks, while preserving competitive general capabilities. On HarmBench, EvoDefense reduces the attack success rate (ASR) of AutoDAN-turbo on Gemini-3-flash and LLaMA-3-8B-Instruct from 29.4% and 43.4% to 8.4% and 6.2%, respectively.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-05-29T10:49:44Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Yu Li</name>
+    </author>
+    <author>
+      <name>Yuenan Hou</name>
+    </author>
+    <author>
+      <name>Yingmei Wei</name>
+    </author>
+    <author>
+      <name>Yanming Guo</name>
+    </author>
+    <author>
+      <name>Chaochao Lu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2603.29062v1</id>
+    <title>CivicShield: A Cross-Domain Defense-in-Depth Framework for Securing Government-Facing AI Chatbots Against Multi-Turn Adversarial Attacks</title>
+    <updated>2026-03-30T22:58:04Z</updated>
+    <link href="https://arxiv.org/abs/2603.29062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2603.29062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>LLM-based chatbots in government services face critical security gaps. Multi-turn adversarial attacks achieve over 90% success against current defenses, and single-layer guardrails are bypassed with similar rates. We present CivicShield, a cross-domain defense-in-depth framework for government-facing AI chatbots. Drawing on network security, formal verification, biological immune systems, aviation safety, and zero-trust cryptography, CivicShield introduces seven defense layers: (1) zero-trust foundation with capability-based access control, (2) perimeter input validation, (3) semantic firewall with intent classification, (4) conversation state machine with safety invariants, (5) behavioral anomaly detection, (6) multi-model consensus verification, and (7) graduated human-in-the-loop escalation. We present a formal threat model covering 8 multi-turn attack families, map the framework to NIST SP 800-53 controls across 14 families, and evaluate using ablation analysis. Theoretical analysis shows layered defenses reduce attack probability by 1-2 orders of magnitude versus single-layer approaches. Simulation against 1,436 scenarios including HarmBench (416), JailbreakBench (200), and XSTest (450) achieves 72.9% combined detection [69.5-76.0% CI] with 2.9% effective false positive rate after graduated response, while maintaining 100% detection of multi-turn crescendo and slow-drift attacks. The honest drop on real benchmarks versus author-generated scenarios (71.2% vs 76.7% on HarmBench, 47.0% vs 70.0% on JailbreakBench) validates independent evaluation importance. CivicShield addresses an open gap at the intersection of AI safety, government compliance, and practical deployment.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-03-30T22:58:04Z</published>
+    <arxiv:comment>25 pages, 17 tables, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>KrishnaSaiReddy Patil</name>
+    </author>
+  </entry>
+</feed>

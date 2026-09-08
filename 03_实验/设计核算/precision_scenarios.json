@@ -1,0 +1,89 @@
+{
+  "type": "analytical_design_scenarios_not_experiment_results",
+  "basis": "Research_Brief v1.0: n>=400, equivalence margin +/-5 percentage points; discordance q values are deliberately assumed scenarios, not observations",
+  "assumptions": [
+    "paired binary response difference D in {-1,0,1}",
+    "q=P(D!=0), Delta=E[D], variance(D)=q-Delta^2",
+    "independent prompts; no training-seed variance; fixed normal approximation SE",
+    "TOST alpha .05, true Delta=0; per-comparison approximation before multiplicity adjustment"
+  ],
+  "formula": "SE=sqrt(q/n); halfwidth90=z_.95*SE; power=max(0,2*Phi(margin/SE-z_.95)-1); n80=ceil(q*(z_.95+z_.90)^2/margin^2)",
+  "quantiles": {
+    "z_.95": 1.6448536269514715,
+    "z_.975": 1.9599639845400536
+  },
+  "rows": [
+    {
+      "paired_discordance_assumption": 0.05,
+      "n_prompts": 400,
+      "true_difference_assumption": 0,
+      "se": 0.011180339887498949,
+      "ci95_halfwidth": 0.021913063514414535,
+      "ci90_halfwidth": 0.018390022614502854,
+      "tost_margin": 0.05,
+      "tost_alpha": 0.05,
+      "approx_power_under_zero_difference": 0.9953055081175646,
+      "approx_n_for_80pct_power": 172
+    },
+    {
+      "paired_discordance_assumption": 0.1,
+      "n_prompts": 400,
+      "true_difference_assumption": 0,
+      "se": 0.015811388300841896,
+      "ci95_halfwidth": 0.03098975161522807,
+      "ci90_halfwidth": 0.026007419393777858,
+      "tost_margin": 0.05,
+      "tost_alpha": 0.05,
+      "approx_power_under_zero_difference": 0.8708403400954805,
+      "approx_n_for_80pct_power": 343
+    },
+    {
+      "paired_discordance_assumption": 0.2,
+      "n_prompts": 400,
+      "true_difference_assumption": 0,
+      "se": 0.022360679774997897,
+      "ci95_halfwidth": 0.04382612702882907,
+      "ci90_halfwidth": 0.03678004522900571,
+      "tost_margin": 0.05,
+      "tost_alpha": 0.05,
+      "approx_power_under_zero_difference": 0.44562319137840367,
+      "approx_n_for_80pct_power": 686
+    },
+    {
+      "paired_discordance_assumption": 0.3,
+      "n_prompts": 400,
+      "true_difference_assumption": 0,
+      "se": 0.027386127875258306,
+      "ci95_halfwidth": 0.0536758243115147,
+      "ci90_halfwidth": 0.04504617176377542,
+      "tost_margin": 0.05,
+      "tost_alpha": 0.05,
+      "approx_power_under_zero_difference": 0.14354469354581978,
+      "approx_n_for_80pct_power": 1028
+    },
+    {
+      "paired_discordance_assumption": 0.5,
+      "n_prompts": 400,
+      "true_difference_assumption": 0,
+      "se": 0.035355339059327376,
+      "ci95_halfwidth": 0.06929519121748387,
+      "ci90_halfwidth": 0.05815435768383366,
+      "tost_margin": 0.05,
+      "tost_alpha": 0.05,
+      "approx_power_under_zero_difference": 0.0,
+      "approx_n_for_80pct_power": 1713
+    },
+    {
+      "paired_discordance_assumption": 1.0,
+      "n_prompts": 400,
+      "true_difference_assumption": 0,
+      "se": 0.05,
+      "ci95_halfwidth": 0.09799819922700269,
+      "ci90_halfwidth": 0.08224268134757358,
+      "tost_margin": 0.05,
+      "tost_alpha": 0.05,
+      "approx_power_under_zero_difference": 0.0,
+      "approx_n_for_80pct_power": 3426
+    }
+  ]
+}

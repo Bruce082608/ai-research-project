@@ -1,0 +1,78 @@
+{
+  "at_utc": "2026-09-08T08:26:20.589476+00:00",
+  "reason": "Pre-G3 correction of intended contraction matching in the refusal lexical screen; no model outputs inspected",
+  "files": [
+    {
+      "file": "E_token_budget_g3.json",
+      "sha256": "eeb80fad78ccd60d82f569b17e565f5ba659c4085f9a1aeac508f10e54aae39d"
+    },
+    {
+      "file": "E_token_schedule_g3.json",
+      "sha256": "d060db90b869f4da69986f91fdb1f06c5f998a4a48da4c5664135f07aff6c3b4"
+    },
+    {
+      "file": "alpaca10k_manifest_g3.json",
+      "sha256": "2c3d76fa51b2e0eb693117a4fbae9547efc70ddce17616709fbf3ca77c2cab55"
+    },
+    {
+      "file": "alpaca10k_prompt_audit.json",
+      "sha256": "df85ee57e2435336c9fd78b9058c46b327e852770c03110a3d6a16e9aea37452"
+    },
+    {
+      "file": "alpaca_eval_overlap_candidates.json",
+      "sha256": "14fe175af5d785fe26cd69b365134ba205e22b1236bcb664cd44e84ed1e8bd19"
+    },
+    {
+      "file": "alpaca_exclusions_g3.json",
+      "sha256": "f6b3770e7e85033d380e0bd6e54b1f487c8d273b69ed7be39640b536b93ad64a"
+    },
+    {
+      "file": "finalize_g3_inventory.py",
+      "sha256": "30f1b17348b6294355dd979417d4f22c94037a8b998e8e7531afe6fc904e1d85"
+    },
+    {
+      "file": "finalize_rerun_audit_g3.json",
+      "sha256": "55554bedbae0e206c78a6d5bdf0fb2bf5bba87d35044889e0dac72d3303a7308"
+    },
+    {
+      "file": "inventory_g3.json",
+      "sha256": "3135aae26d5016583b503e9047aa59dc82371e64be82a30b2d149235d234a7d7"
+    },
+    {
+      "file": "inventory_run.log",
+      "sha256": "3135aae26d5016583b503e9047aa59dc82371e64be82a30b2d149235d234a7d7"
+    },
+    {
+      "file": "prepare_g3_inventory.py",
+      "sha256": "bac5b8e381a50c423f8d6fcdb276d11526bddd674c57de99c270c2a719d0239c"
+    },
+    {
+      "file": "safety_lexical_candidates.json",
+      "sha256": "4e8b4299322d0b0a86f00eaeb7c28d630fb40e091a8e85643753746560584149"
+    },
+    {
+      "file": "safety_semantic_review_g3.json",
+      "sha256": "f9debba0bfd4e6ef35b6b457787d689533d6ee686548805bdc0ff7d2f8427807"
+    },
+    {
+      "file": "safety_source_inventory.json",
+      "sha256": "9eb9aace1c9e68a4b2f51cc935deadea3e423f5b2ab6a6fc77d5d4a3cfb73511"
+    },
+    {
+      "file": "safety_split_g3.json",
+      "sha256": "02b220bc6c1797f283049965db554fdfd84e3a9a2524b6c1bbf30e138263c98f"
+    },
+    {
+      "file": "safety_template_token_inventory.json",
+      "sha256": "bdf71317417360ca801b526f458a931a57f5f49dfd1e656d4dad46682688d7e8"
+    },
+    {
+      "file": "template_token_fixture.json",
+      "sha256": "91f2455d49f81d4de6e3025d5ce73e7c0f7c2a3a1b2b0965c482294fcad54437"
+    },
+    {
+      "file": "utility_manifest_g3.json",
+      "sha256": "29844fc46c8f6bbd776d1fa5a44adfde9df0ddca1c357128596f5e43bd30df71"
+    }
+  ]
+}

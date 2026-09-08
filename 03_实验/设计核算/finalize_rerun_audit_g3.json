@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-09-08T08:27:59.283715+00:00",
+  "command": "03_实验/设计核算/.venv/bin/python 03_实验/设计核算/finalize_g3_inventory.py",
+  "exit_code": 0,
+  "outputs_unchanged": true,
+  "before_sha256": {
+    "safety_split_g3.json": "02b220bc6c1797f283049965db554fdfd84e3a9a2524b6c1bbf30e138263c98f",
+    "safety_semantic_review_g3.json": "f9debba0bfd4e6ef35b6b457787d689533d6ee686548805bdc0ff7d2f8427807",
+    "E_token_schedule_g3.json": "4cbedc8ae3372a758dc32884cfd4a6baf3e7676abf0de058cad865ee1122d995",
+    "E_token_budget_g3.json": "e1b307f647b8400a97856374934caebd5ec0812f80ddc2dfe3d469cbf74f3408"
+  },
+  "after_sha256": {
+    "safety_split_g3.json": "02b220bc6c1797f283049965db554fdfd84e3a9a2524b6c1bbf30e138263c98f",
+    "safety_semantic_review_g3.json": "f9debba0bfd4e6ef35b6b457787d689533d6ee686548805bdc0ff7d2f8427807",
+    "E_token_schedule_g3.json": "4cbedc8ae3372a758dc32884cfd4a6baf3e7676abf0de058cad865ee1122d995",
+    "E_token_budget_g3.json": "e1b307f647b8400a97856374934caebd5ec0812f80ddc2dfe3d469cbf74f3408"
+  },
+  "stdout": "split {'harmbench_test': 159, 'development_diagnostic': 38, 'test_candidate': 192, 'development_calibration': 36, 'direction_extract': 67}\nE {\"17\": {\"optimizer_steps\": 625, \"total_supervised\": 1354795, \"safe_supervised\": 67739, \"benign_supervised\": 1287056, \"safety_fraction\": 0.049999446410711586, \"benign_input_tokens\": 1840986, \"extra_safe_input_tokens\": 175036, \"extra_safe_occurrences\": 2230, \"benign_examples_with_partial_supervision\": 1117, \"safe_unique_prompts\": 67, \"safe_full_response_tokens\": [35], \"input_ratio_E_to_B\": 1.0950773118318118}, \"29\": {\"optimizer_steps\": 625, \"total_supervised\": 1354795, \"safe_supervised\": 67739, \"benign_supervised\": 1287056, \"safety_fraction\": 0.049999446410711586, \"benign_input_tokens\": 1840986, \"extra_safe_input_tokens\": 175967, \"extra_safe_occurrences\": 2242, \"benign_examples_with_partial_supervision\": 1122, \"safe_unique_prompts\": 67, \"safe_full_response_tokens\": [35], \"input_ratio_E_to_B\": 1.0955830190995477}, \"43\": {\"optimizer_steps\": 625, \"total_supervised\": 1354795, \"safe_supervised\": 67739, \"benign_supervised\": 1287056, \"safety_fraction\": 0.049999446410711586, \"benign_input_tokens\": 1840986, \"extra_safe_input_tokens\": 176117, \"extra_safe_occurrences\": 2244, \"benign_examples_with_partial_supervision\": 1178, \"safe_unique_prompts\": 67, \"safe_full_response_tokens\": [35], \"input_ratio_E_to_B\": 1.0956644971770562}}\n",
+  "stderr": "",
+  "scope": "CPU-only design accounting after contraction screening correction; no model execution"
+}

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5OE06RpX1+QUNcsJ6Z88I+XXSFY</id>
+  <title>arXiv Query: search_query=all:"projection constraint" AND all:"safety"&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-09-08T07:09:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22projection+constraint%22+AND+all:%22safety%22&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2602.22554v1</id>
+    <title>Multilingual Safety Alignment Via Sparse Weight Editing</title>
+    <updated>2026-02-26T02:46:13Z</updated>
+    <link href="https://arxiv.org/abs/2602.22554v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2602.22554v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) exhibit significant safety disparities across languages, with low-resource languages (LRLs) often bypassing safety guardrails established for high-resource languages (HRLs) like English. Existing solutions, such as multilingual supervised fine-tuning (SFT) or Reinforcement Learning from Human Feedback (RLHF), are computationally expensive and dependent on scarce multilingual safety data. In this work, we propose a novel, training-free alignment framework based on Sparse Weight Editing. Identifying that safety capabilities are localized within a sparse set of safety neurons, we formulate the cross-lingual alignment problem as a constrained linear transformation. We derive a closed-form solution to optimally map the harmful representations of LRLs to the robust safety subspaces of HRLs, while preserving general utility via a null-space projection constraint. Extensive experiments across 8 languages and multiple model families (Llama-3, Qwen-2.5) demonstrate that our method substantially reduces Attack Success Rate (ASR) in LRLs with negligible impact on general reasoning capabilities, all achieved with a single, data-efficient calculation.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-02-26T02:46:13Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jiaming Liang</name>
+    </author>
+    <author>
+      <name>Zhaoxin Wang</name>
+    </author>
+    <author>
+      <name>Handing Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06795v1</id>
+    <title>Anchoring Refusal Direction: Mitigating Safety Risks in Tuning via Projection Constraint</title>
+    <updated>2025-09-08T15:24:33Z</updated>
+    <link href="https://arxiv.org/abs/2509.06795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Instruction Fine-Tuning (IFT) has been widely adopted as an effective post-training strategy to enhance various abilities of Large Language Models (LLMs). However, prior studies have shown that IFT can significantly compromise LLMs' safety, particularly their ability to refuse malicious instructions, raising significant concerns. Recent research into the internal mechanisms of LLMs has identified the refusal direction (r-direction) in the hidden states, which plays a pivotal role in governing refusal behavior. Building on this insight, our study reveals that the r-direction tends to drift during training, which we identify as one of the causes of the associated safety risks. To mitigate such drift, our proposed ProCon method introduces a projection-constrained loss term that regularizes the projection magnitude of each training sample's hidden state onto the r-direction. Our initial analysis shows that applying an appropriate constraint can effectively mitigate the refusal direction drift and associated safety risks, but remains limited by overall performance barriers. To overcome this barrier, informed by our observation of early-stage sharp drift and a data-driven perspective, we introduce a warm-up strategy that emphasizes early-stage strong constraints and broaden the data distribution to strengthen constraint signals, leading to an enhanced ProCon method. Experimental results under various datasets, scenarios, and LLMs demonstrate that our method can significantly mitigate safety risks posed by IFT while preserving task performance gains. Even compared with strong baselines, our method consistently delivers superior overall performance. Crucially, our analysis indicates that ProCon can contribute to stabilizing the r-direction during training, while such an interpretability-driven exploration of LLMs' internal mechanisms lays a solid foundation for future safety research.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T15:24:33Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Yanrui Du</name>
+    </author>
+    <author>
+      <name>Fenglei Fan</name>
+    </author>
+    <author>
+      <name>Sendong Zhao</name>
+    </author>
+    <author>
+      <name>Jiawei Cao</name>
+    </author>
+    <author>
+      <name>Qika Lin</name>
+    </author>
+    <author>
+      <name>Kai He</name>
+    </author>
+    <author>
+      <name>Ting Liu</name>
+    </author>
+    <author>
+      <name>Bing Qin</name>
+    </author>
+    <author>
+      <name>Mengling Feng</name>
+    </author>
+  </entry>
+</feed>

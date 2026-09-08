@@ -1,0 +1,46 @@
+{
+  "kind": "CPU_design_inventory_no_model_results",
+  "counts": {
+    "harmbench_standard_test": 159,
+    "xstest_all": 450,
+    "xstest_safe": 250,
+    "mmlu_all_test": 14042,
+    "mmlu_dev": 285,
+    "gsm8k_all_test": 1319,
+    "ifeval": 541,
+    "alpaca_raw": 51760,
+    "alpaca_eligible_before_overlap": 47740,
+    "reserve": 12000,
+    "reserve_after_overlap": 11936,
+    "selected": 10000,
+    "safety_pair_candidates": 690
+  },
+  "exclusions": {
+    "refusal_lexicon": 1459,
+    "sensitive_lexicon": 2542,
+    "duplicate_user": 16,
+    "exact_evaluation_overlap": 3,
+    "evaluation_tfidf_ge_0.65": 64
+  },
+  "training": {
+    "input_tokens": 1840986,
+    "supervised_tokens": 1354795,
+    "min_length": 39,
+    "max_length": 973,
+    "median_length": 148.0,
+    "max_sequence_length": 2048,
+    "optimizer_steps": 625,
+    "epochs": 1
+  },
+  "selection_salts": {
+    "alpaca": "alpaca10k-g3-v1",
+    "mmlu": "mmlu-2k-v1",
+    "gsm8k": "gsm8k-500-v1"
+  },
+  "safety_candidate_thresholds": {
+    "word_cos": 0.4,
+    "char_cos": 0.55
+  },
+  "alpaca_overlap_threshold": 0.65,
+  "interpretation": "Lexical screening and token accounting only; no exhaustive semantic or safety certification; no model outputs used."
+}

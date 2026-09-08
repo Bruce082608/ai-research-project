@@ -1,0 +1,1480 @@
+===== PDF PAGE 1 =====
+When Safety Routing Breaks:
+Understanding Alignment Fragility under Benign Fine-Tuning
+Yitong Guo1* Xiaoyi Chen1* Siyuan Zhang2
+XiaoFeng Wang3 Haixu Tang1
+1Indiana University Bloomington 2Tsinghua University 3Nanyang Technological University
+*Equal contribution.Corresponding Author:Xiaoyi Chen (chxiaoyi@iu.edu)
+Abstract
+Benign fine-tuning severely weakens the safety
+alignment of large language models (LLMs),
+so we study why refusal behavior is so frag-
+ile. While prior work often attributes this fail-
+ure to gradient conflict, we propose a funda-
+mentally different Fisher-geometric explana-
+tion: safety Fisher is low-rank, and alignment
+makes the safety geometry flatter while pre-
+serving an output-routing pathway. After 100
+benign fine-tuning examples, this pathway is
+selectively re-sharpened in output-side MLP
+modules, explaining the asymmetric fragility:
+safety can collapse to high attack success rates,
+while general utility degrades mildly.
+The routing view also explains why few safety
+examples can restore refusal behavior, indicat-
+ing that internal safety-relevant representations
+are preserved. Finally, we show that LoRA
+and ASAM mitigate early collapse by suppress-
+ing output-side sharpness, but their protection
+weakens at larger fine-tuning scales. Overall,
+safety failure is best understood as a disruption
+of a low-rank output-routing mechanism.
+1 Introduction
+LLMs are routinely adapted after alignment to im-
+prove performance on downstream utility tasks.
+Such adaptation is often benign: the fine-tuning
+data may consist of domain-specific question an-
+swering, coding, or reasoning examples, with no
+harmful instructions. Ideally, this process should
+preserve the safety behavior. Yet recent work has
+shown that even benign fine-tuning can substan-
+tially weaken refusal behavior and increase attack
+success rate (Qi et al., 2024; Zhan et al., 2024).
+This raises a basic question: why is safety align-
+ment so easy to break?
+A natural explanation is gradient conflict: utility
+fine-tuning may update parameters in directions
+Code:https://github.com/Godblessmycode1/
+safety_routing
+that interfere with safety alignment (Guan et al.,
+2025; He et al., 2024). Prior work manipulates and
+carefully selects outlier benign samples to break
+safety. However, this explanation alone does not
+capture the empirical pattern we observe. In our
+experiments, we find that low-conflict and random
+sample subsets all cause comparable safety col-
+lapse, ruling out gradient conflict as the primary
+cause.
+We argue that this fragility arises becausesafety
+alignment primarily controls how harmful represen-
+tations are routed to the output. During pretraining,
+LLMs acquire both general knowledge and repre-
+sentations of harmful content, which coexist in the
+same parameter space. Post-training alignment ac-
+tually solves a routing problem: the model should
+map the harmful representations to refusal behavior
+instead of compliant answers.
+Fisher measurements support this routing view.
+First, safety is more concentrated than utility. On
+the baseline model, the safety Fisher has a larger
+top-1 concentration than the utility Fisher ( 0.491
+vs. 0.271), with the concentration most pronounced
+in the final layers (0.718 vs. 0.223). Second, align-
+ment compresses the safety Fisher, reducing layer-
+wise top eigenvalues by roughly two orders of mag-
+nitude across most layers. These findings suggest
+that alignment makes the safety geometry flatter
+while preserving a low-rank routing pathway from
+safety-relevant internal states to refusal behavior.
+After benign fine-tuning, the geometric change
+is highly localized: the safety Fisher selectively re-
+sharpens late output-side MLP modules. In particu-
+lar, the final-layer down_proj sharpness increases
+by 11.2× for safety, whereas the corresponding
+increase for utility is only 1.2×. This localized re-
+sharpening provides a bridge from geometry to be-
+havior. If refusal depends on an output-side routing
+path, then its high curvature means that small up-
+dates can strongly perturb this routing. By contrast,
+because the utility Fisher exhibits a disproportion-
+arXiv:2609.01455v1  [cs.CR]  1 Sep 2026
+===== PDF PAGE 2 =====
+ately lower re-sharpening, the same updates have
+a much weaker effect on the knowledge-task out-
+put. This explains theasymmetric fragility(§4.2).
+Aligned models with near 0% ASR suffer severe
+safety collapse (up to 85.7% ASR) after only 100
+benign examples across model families, alignment
+settings, and datasets, whereas the corresponding
+utility degradation remains comparatively limited.
+The routing view also explains why broken
+safety is reversible (§4.5). Few safety examples can
+restore refusal behavior, and even a fixed refusal-
+style prefix can reduce ASR by 50% without any
+parameter updates. Since the prefix adds no new
+safety knowledge, this suggests that safety-relevant
+representations remain intact, while fine-tuning dis-
+rupts their mapping to refusal behavior. Consis-
+tently, LoRA and ASAM reduce early collapse by
+restricting small-data output-side drift, but their
+protection weakens at larger data scales as accumu-
+lated drift overwhelms the routing geometry (§4.4).
+Together, our results suggest that early safety
+failure is neither caused solely by adversarially se-
+lected outliers nor by a global knowledge loss. In-
+stead, safety alignment is fragile because it depends
+on a low-rank output routing. Benign fine-tuning
+re-sharpens late MLP routing modules, causing
+refusal failure while much of the internal represen-
+tation remains intact.
+Contributions.We make four contributions:
+• We provide a Fisher-geometric account of align-
+ment fragility, showing that benign fine-tuning
+breaks safety through selective re-sharpening of the
+output-side routing subspace rather than through
+gradient conflict or global representation drift.
+• Our empirical analysis shows that this fragility
+consistently appears across the evaluated model
+families, alignment conditions, and sample-
+selection strategies, while the preservation of in-
+termediate safety representations helps explain its
+reversibility.
+•Through logit-lens analysis and cross-condition
+activation patching, we show that safety-relevant
+representations remain present after benign fine-
+tuning, while late-layer computation causally con-
+trols the switch between refusal and compliance,
+providing mechanistic evidence for the output-
+routing account and explaining the reversibility of
+safety.
+• We show that sharpness-oriented mitigations
+(LoRA, ASAM) address the routing fragility at
+small scale but face a fundamental ceiling at larger
+data volumes, motivating alignment methods be-
+yond sharpness control.
+2 Preliminaries
+2.1 Background
+Aligned models and refusal behavior.We study
+a chat model with parameters θ∈R n and policy
+πθ(y|x) . We write θsafe for the aligned checkpoint
+produced by SFT or DPO (Rafailov et al., 2023),
+which both retains general instruction-following
+ability and refuses harmful queries. We measure
+safety via the Attack Success Rate
+ASR(θ) := 1
+|H|
+X
+x∈H
+1
+
+Judge(πθ(· |x)) =unsafe
+
+(1)
+on the HEx-PHI benchmark (Qi et al., 2024)
+with an LLM-as-a-judge protocol. By design,
+ASR(θsafe)≈0.
+Benign fine-tuning and safety collapse.Practi-
+tioners adapt θ or θsafe to downstream tasks by
+minimizing the supervised fine-tuning objective
+Lft(θ) =−E (x,y)∼Dft
+
+logπ θ(y|x)
+
+(2)
+on a benign dataset Dft that contains no harmful
+content and no refusal demonstrations. Yet the re-
+sulting model θft typically exhibits sharply elevated
+ASR, sometimes saturating after as few as 100 train-
+ing examples (Qi et al., 2024; Chen et al., 2024).
+Prior work attributes this collapse to gradient con-
+flict with a small subset of outlier samples (He et al.,
+2024; Guan et al., 2025), aggressive optimization
+hyperparameters (Kim et al., 2025a), or the curva-
+ture structure of the loss landscape (Wei et al., 2024;
+Zheng et al., 2024; Springer et al., 2026; Peng et al.,
+2024). This paper takes a geometry-first stance: we
+argue that benign fine-tuning disrupts anoutput-
+side routing mechanismthat implements refusal
+safety, and that this view jointly explains both the
+fragility and the recoverability of alignment.
+2.2 Related Work
+LLM Safety Alignment.To prevent LLMs from
+generating harmful, biased, or restricted content,
+researchers employ various safety alignment tech-
+niques during the post-training phase. Standard
+practices typically involve Supervised Fine-Tuning
+(SFT) on curated instruction-following demonstra-
+tions (Wei et al., 2021; Sanh et al., 2022), fol-
+lowed by optimization using human preferences
+(Ouyang et al., 2022; Bai et al., 2022) with Rein-
+forcement Learning techniques (Schulman et al.,
+===== PDF PAGE 3 =====
+2017; Rafailov et al., 2023). While these alignment
+techniques successfully train models to recognize
+harmful intent and map them to refusal behaviors,
+the training outcomes are usually fragile and easy
+to break after further fine-tuning (Yang et al., 2023;
+Lermen et al., 2023; Zhan et al., 2024).
+The Fragility of Safety Alignment.To explain
+why even benign fine-tuning erodes safety, prior
+work has explored multiple angles. A prominent
+line of work attributes safety collapse to gradient
+conflict (He et al., 2024; Qi et al., 2024; Guan et al.,
+2025; Hsiung et al., 2025), arguing that specific
+outlier benign samples carry gradients that point
+in conflicting directions relative to safety-relevant
+parameters, causing utility updates to overwrite
+safety parameters. Another line of research has
+shifted towards understanding the structural rep-
+resentation of safety within model weights (Wei
+et al., 2021; Arditi et al., 2024; Li et al., 2025;
+Zhao et al., 2025; Ponkshe et al., 2025), which
+demonstrates that safety behavior is controlled by
+a very small number of neurons, layers, and di-
+rections, and therefore safety is encoded in a re-
+markably low-dimensional subspace. Narrow fine-
+tuning will easily break safety when it interferes
+with the shared latent dimensions (Giordani, 2025).
+Additionally, (Kim et al., 2025b) examines this
+fragility from an optimization standpoint, suggest-
+ing that aggressive optimization hyperparameters
+play a massive role in destabilizing safety behavior.
+Compared to these lines of work, we pinpoint a dis-
+tinct geometric mechanism behind safety fragility.
+We use Fisher-geometric analysis to localize the
+failure to output-side re-sharpening of a low-rank
+refusal-routing pathway. This mechanism explains
+both the rapid collapse of refusal behavior and its
+reversibility.
+3 Geometry of Alignment Collapse
+LLMs lose their safety alignment after only a hand-
+ful of benign fine-tuning steps (Qi et al., 2024; He
+et al., 2024; Guan et al., 2025). The dominant ex-
+planation invokesgradient conflict: a small subset
+of fine-tuning samples carries gradients that con-
+flict with safety-relevant parameter directions, so
+utility updates overwrite safety updates (He et al.,
+2024; Guan et al., 2025). Under this view, safety
+should be preserved whenever the benign dataset is
+free of such conflicting outliers. However, our ex-
+periments (Section 4.3) contradict this prediction:
+random, gradient-top, and gradient-bottom subsets
+all break safety to a comparable degree. Outlier-
+conflict is thus asufficientbut not anecessarycause
+of the collapse we observe.
+This section therefore shifts from a sample-
+centric explanation to a geometry-centric one.
+Rather than asking which benign samples have
+the most conflicting gradients, we ask how benign
+fine-tuning changes thelocal Fisher geometry. We
+find that alignment compresses the model’s safety-
+Fisher sharpness relative to the baseline, leaving
+the internal safety geometry flatter and more stable.
+Benign fine-tuning then induces a localized cur-
+vature drift: it does not destroy this representa-
+tion, but selectively re-concentrates sharpness in
+late MLP modules, disrupting therouting, i.e.,
+the output-side mapping that determines whether
+safety-relevant internal representations drive re-
+fusal or are overridden by compliant generation.
+3.1 Geometric Setup
+We distinguish a baseline checkpoint θbase and, for
+each capability c, two capability-specific check-
+points: a reference model θc and its benign fine-
+tuned version θ+
+c . We consider c∈ {safe,util} ,
+where safe denotes refusal safety and util denotes
+a general-utility/knowledge capability. In particu-
+lar, θsafe is the safety-aligned model, while θutil is
+the knowledge-task SFT model. Their post-training
+counterparts areθ +
+safe andθ +
+util.
+For a given analysis dataset D={(x i, yi)}N
+i=1,
+we estimate a block-wise empirical Fisher for each
+layer-module blockb= (ℓ, m) 1:
+bFb(θ) = 1
+N
+NX
+i=1
+g(i)
+b (θ)g(i)
+b (θ)⊤,(3)
+g(i)
+b (θ) =∇ θb logπ θ(yi |x i),(4)
+where πθ(y|x) denotes the conditional distribu-
+tion over output sequences induced by parameters
+θ. For safety, yi is the refusal target; for utility, yi
+is the correct task answer.
+Let λb,1(θ)≥λ b,2(θ)≥ · · · ≥0 be the eigen-
+values of bFb(θ). We use the top eigenvalue as the
+blocksharpness, measuring worst-direction curva-
+ture:
+Ab(θ) =λ max
+
+bFb(θ)
+
+=λ b,1(θ) = max
+∥v∥=1
+v⊤bFb(θ)v.
+1Transformer layers ℓ and module types m∈ M , includ-
+ing modulesk,q,v,o,up,down, andgate.
+===== PDF PAGE 4 =====
+We define curvature drift between two check-
+points θsrc and θtgt as the log-ratio change in Fisher
+curvature statistics:
+∆Asrc→tgt
+b = log10
+Ab(θtgt)
+Ab(θsrc) .(5)
+Here positive drift indicates increased local curva-
+ture at the later checkpoint, while negative drift
+indicates decreased local curvature.
+3.2 Where the Post-Training Drift Lives
+We use the block-wise empirical Fisher on 100
+safety inputs sampled from the Align-10k post-
+training set (§4.1) and100 SciQ (Welbl et al., 2017)
+inputs, to localize safety- and utility-relevant cur-
+vature and track how it shifts across checkpoints.
+For safety, we compare θbase, θsafe, and θ+
+safe. For
+utility control, we compareθ base,θ util, andθ +
+util.
+Figure 1: Normalized top eigenvalue decay of the Fisher
+on θbase. Individual lines represent different transformer
+layers.Top: Safety task.Bottom: Utility task. While
+both domains exhibit low-rank structure, the safety task
+demonstrates a substantially sharper eigenvalue decay.
+Safety Fisher is low-effective-rank.We first com-
+pare the normalized eigenvalue decay on θbase. For
+each down_proj and up_proj block, we normalize
+the top-64 eigenvalues by the sum of eigenvalues,
+so that the comparison reflects spectral shape rather
+than absolute Fisher scale. As shown in Figure 1,
+both safety and utility exhibit low-rank structure.
+However, the safety spectrum decays more sharply,
+indicating that safety Fisher mass is more concen-
+trated in a small number of dominant directions.
+Layer SafetyR(1)SafetyR(5)SciQR(1)SciQR(5)
+29 0.626 0.756 0.143 0.397
+30 0.718 0.846 0.223 0.473
+31 0.431 0.555 0.185 0.365
+Avg0.491 0.657 0.271 0.516
+Table 1: Layer-wise spectral concentration of the Fisher.
+We quantify this concentration using the top-k
+mass ratio over all the layer-module blocks,
+R(k) =
+P
+b
+Pk
+j=1 λb,j
+P
+b
+P64
+j=1 λb,j
+.
+Safety has a substantially larger top-1 concentra-
+tion than utility (0.491 vs. 0.271), and also a larger
+top-5 concentration (0.657 vs. 0.516). This gap is
+especially pronounced in the final layers (Table 1).
+The same pattern appears under a normalized-
+eigenvalue rank estimate. We count the number
+of normalized eigenvalues larger than 1/n, where
+n is the matrix dimension, following the Kaiser cri-
+terion. This gives an estimated rank of 8 for safety
+and 11 for utility. Thus, the safety Fisher is more
+strongly concentrated than the utility Fisher, with
+fewer directions accounting for a larger fraction of
+the measured curvature.
+Alignment compresses safety Fisher.We next ex-
+amine the absolute scale of the safety Fisher. While
+the normalized spectra above show that safety is
+low-rank, they do not tell us whether the corre-
+sponding directions are large or small in absolute
+curvature. We therefore compare the layer-wise top
+eigenvalueA b(θ)across checkpoints.
+As shown in Figure 2, alignment substantially
+compresses the safety Fisher. The baseline model
+θbase has large top eigenvalues across almost all
+layers, whereas the aligned model θsafe is lower
+by roughly two orders of magnitude over most of
+the network. Thus, the aligned safety geometry is
+not globally sharp: after alignment, the measured
+safety Fisher becomes much smaller and flatter.
+This compression is not permanent. After benign
+fine-tuning, θ+
+safe remains flatter than the baseline
+through most middle layers, but the final output-
+side blocks begin to re-sharpen. We analyze this
+re-concentration next.
+Fine-tuning selectively re-sharpens safety in late
+MLP projections.We next examine curvature
+drift from θc to the post-training θ+
+c . In Fig-
+ure 3, we plot the layer-wise sharpness ratio for
+the MLP down_proj module, averaged over five
+Fisher-estimation seeds with 95% confidence inter-
+===== PDF PAGE 5 =====
+Figure 2: Layer-wise safety sharpness indown_proj.
+8 12 16 20 24 28
+transformer layer index
+0.5
+0.0
+0.5
+1.0
+sharpness ratio (log)
+11.2x
+(a) Safety
+8 12 16 20 24 28
+transformer layer index
+1.00
+0.75
+0.50
+0.25
+0.00
+0.25
+sharpness ratio (log)
+1.2x (b) Utility
+Figure 3: Layer-wise curvature drift in down_proj after
+FT-100. Bars show the mean across five Fisher esti-
+mation seeds, with 95% confidence intervals. Positive
+bars indicate re-sharpening, while negative bars indicate
+further flattening.
+vals. For safety, FT-100 does not increase curvature
+uniformly across the model. The top eigenvalues
+of middle layers continue to decrease. In contrast,
+the final layers flip to positive drift, with the last
+layer increasing by 11.2×. Thus fine-tuning selec-
+tively re-sharpens the output-side MLP projection,
+making the safety subspace locally high-curvature
+and less robust.
+The SciQ utility control shows a different pattern:
+most layers remain flatter after FT-100, and the only
+visible late-layer increase is modest, reaching about
+1.2× in the final layer. This weaker curvature drift
+is consistent with the behavioral results in Table 2,
+where fine-tuning reduces SciQ accuracy by only
+about 10%, compared to the much sharper drop in
+refusal safety.
+This contrast suggests that the safety failure is
+not well explained by a global loss of knowledge.
+Instead, benign fine-tuning renders the late MLP
+refusal-routing pathways fragile and highly curved,
+while preserving utility geometry. Thus, the early
+drop in safety is best understood as a localized
+disruption of output-side routing. This interpre-
+tation suggests two interventions that we return
+to later: flattening the optimization trajectory to
+reduce output-side re-sharpening (§4.4), and di-
+rectly repairing the disrupted refusal-routing path,
+which would explain why safety can be recovered
+(§4.5). Both interventions build directly on this
+localization, and motivate the next step: the cur-
+vature shift we measure lives in parameter space,
+telling us where fine-tuning moves the model, but
+not yet what the model computes when it answers
+a harmful prompt. To establish that the final layers
+are causally responsible for the loss of refusal, we
+further move from parameter-space geometry to
+model activations.
+3.3 From Geometry to Causal Analysis
+The Fisher results show that benign fine-tuning se-
+lectively re-sharpens late output-side down_proj
+blocks, localizing the strongest safety-specific
+change to the final layers (Figure 3). We next
+test whether this localization is reflected in model
+activations and is causally responsible for refusal
+behavior. A logit-lens read-out first traces refusal
+and compliance signals across layers, giving cor-
+relational evidence on whether the refusal signal
+survives benign fine-tuning; cross-condition activa-
+tion patching then tests the causal role of late-layer
+activations directly.
+Logit-lens read-out.Let x denote a harmful
+prompt and hℓ(x)∈R d the residual-stream hidden
+state at the first generation position after decoder
+layer ℓ, where ℓ= 0 denotes the embedding out-
+put and ℓ= 1, . . . , L index the transformer lay-
+ers. We decode this intermediate state using the
+model’s final normalization and unembedding ma-
+trixW U ∈R |V|×d:
+zℓ(x) =W U RMSNorm(hℓ(x))∈R |V| ,(6)
+where V is the vocabulary and zℓ(x)t is the logit of
+tokent.
+Let R ⊂ V and C ⊂ V denote predefined refusal
+and compliance token sets. We define the refusal–
+compliance margin as
+mℓ(x) = max
+t∈R
+zℓ(x)t −max
+t∈C
+zℓ(x)t.(7)
+Thus mℓ(x)>0 indicates that refusal dominates
+the read-out, and mℓ(x)<0 that compliance does.
+We report the dataset-level mean
+¯mℓ = 1
+|D|
+X
+x∈D
+mℓ(x),
+and compare θsafe (Align-10k) with θ+
+safe, the same
+checkpoint after FT-100 on Alpaca.
+The refusal signal survives, but compliance be-
+comes dominant.Figure 4 shows that benign fine-
+tuning does not erase the refusal signal. Inθsafe, the
+===== PDF PAGE 6 =====
+Figure 4: Logit-lens read-out at the first generation
+position.Left: refusal and compliance group logits
+across layers.Right: refusal–compliance margin¯m ℓ.
+Figure 5: Cross-condition activation patching at the first
+generation position.Left: sufficiency.Right: necessity.
+refusal read-out strengthens through the late layers
+and eventually dominates compliance, producing a
+positive margin near the output.
+After benign fine-tuning, the refusal-group logit
+still rises through the middle and late layers, but
+the compliance signal rises earlier and reaches a
+higher level, preventing the margin from becoming
+positive. Thus, safety-relevant information remains
+present, but no longer dominates the final read-out.
+If the refusal signal is merely overridden rather
+than erased, safety should be easy to recover, which
+we confirm in §4.5. Because the logit lens is ob-
+servational, we next intervene directly on these
+activations.
+Activation patching identifies the final layer as
+the dominant causal locus.We perform cross-
+condition activation patching between θsafe and
+θ+
+safe. For a given layer ℓ, we replace the base
+model’s residual-stream state at the first generation
+position with the corresponding donor activation
+on the same prompt, then measure the resulting
+final refusal–compliance margin.
+Let ¯mbase and ¯mdonor denote the unpatched mar-
+gins of the base and donor models, and ¯m(ℓ) the
+margin after patching layerℓ. We define
+Effect(ℓ) = ¯m(ℓ) −¯mbase
+¯mdonor −¯mbase .(8)
+An effect of 1 corresponds to transferring the full
+base-to-donor behavioral difference with a single-
+layer patch. In therestoredirection, θ+
+safe is the
+base and θsafe is the donor, testing sufficiency for
+recovering refusal. In the reverseablatedirection,
+the roles are exchanged, testing necessity for pre-
+serving refusal.
+As shown in Figure 5, the intervention effect
+increases with depth and becomes dominant at the
+final layer. Patching the final-layer activation from
+θsafe into θ+
+safe restores 96.9% of the aligned refusal
+margin. In the reverse direction, the final-layer
+patch eliminates the aligned refusal margin and
+flips it negative. These results identify the final-
+layer computation as the dominant cause of the
+behavioral change.
+Causal evidence agrees with the Fisher geome-
+try.The three analyses converge on the final layer.
+Fisher geometry localizes the strongest safety-
+specific re-sharpening to the final down_proj
+blocks; the logit lens shows that the refusal sig-
+nal survives but is overtaken by compliance; and
+activation patching establishes that the final-layer
+state causally controls this behavioral switch. To-
+gether, these results support an output-routing ac-
+count of alignment fragility: benign fine-tuning
+does not primarily erase safety-relevant representa-
+tions, but perturbs the late computation that deter-
+mines whether they drive refusal or are overridden
+by compliance.
+4 Understanding Alignment Fragility
+4.1 Experimental Setup
+Models and Alignment Conditions.We evaluate
+two primary backbone families: LLAMA-3.1-8B-
+INSTRUCT(hereafter LLAMA3.1) and QWEN2.5-
+7B-INSTRUCT(hereafter QWEN2.5). Both models
+are examined across three alignment settings: (1)
+the defaultInstruct Baseline; (2) anAlign-256vari-
+ant, post-trained on 256 safety augmentation sam-
+ples; and (3) anAlign-10kvariant, post-trained on a
+10k-scale safety dataset, where the queries consist
+of highly toxic and harmful prompts sourced from
+the PKU-SafeRLHF dataset (Ji et al., 2024), and
+the SFT labels are explicit refusals generated by
+GPT-4o (Hurst et al., 2024). Notably, both aligned
+variants achieve an initial attack success rate of
+ASR= 0% on the HEx-PHI (Qi et al., 2024) bench-
+mark.
+Fine-Tuning Configurations.We evaluate full-
+parameter supervised fine-tuning (SFT) against
+two constrained alternatives:LoRA(with rank
+r= 32 and scaling factor α= 64 ) andAdap-
+tive Sharpness-Aware Minimization (ASAM).
+To study the effect of benign utility data, we per-
+===== PDF PAGE 7 =====
+form a comprehensive sweep over dataset sizes
+n∈ {100,500,1000,5000} using two widely
+adopted instruction-tuning datasets,Alpaca(Taori
+et al., 2023) andDolly(Conover et al., 2023). All
+experiments are conducted with two random seeds
+(42 and 69) on a single NVIDIA H200 GPU.
+We use the following hyperparameter settings for
+different training regimes: (1)Safety Alignment:
+5 epochs, learning rate 2×10 −5, batch size 20; (2)
+ASAM:5 epochs, learning rate 5×10 −5, batch
+size 10, with perturbation radius ρ= 0.05 applied
+at the beginning; (3)Benign Data Attack (Full
+SFT):5 epochs, learning rate 5×10 −5, batch size
+20; (4)Benign Data Attack (LoRA):5 epochs,
+learning rate2×10 −4, batch size 32.
+Data Sampling Methods for Gradient Conflict.
+To investigate the impact of gradient direction, we
+extract contrastive 100-sample subsets (Top/Bot-
+tom Conflict-100) from the Alpaca dataset using
+two distinct pipelines: (1)Method 1 (He et al.,
+2024):Following the frameworks of (Killamsetty
+et al., 2021), we rank benign samples based on
+the cosine similarity between their response-token
+gradients and a reference adversarial gradient de-
+rived from the Pure Bad Dataset (PBD) (Qi et al.,
+2024). (2)Method 2 (Guan et al., 2025):We
+directly deploy its data-sampling pipeline to select
+corresponding Top and Bottom conflict subsets.
+Evaluation Benchmarks and Metrics.We evalu-
+ate model performance along two primary axes:
+general utilityandsafety. (1) General utility
+is multi-dimensionally measured using standard
+benchmarks including MMLU (Hendrycks et al.,
+2021), BoolQ (Clark et al., 2019), and ARC-
+Easy (Clark et al., 2018), with evaluation con-
+ducted via the lm-evaluation-harness frame-
+work (EleutherAI, 2024). (2) Safety is primar-
+ily assessed by the Attack Success Rate (ASR)
+on the HEx-PHI benchmark, using an LLM-as-a-
+judge protocol instantiated with the GPT-4o mini
+API. To ensure the robustness and generalizability
+of our behavioral findings, we further extend our
+evaluation in the Appendix B.4, incorporating ad-
+ditional safety benchmarks (e.g., Wildchat (Zhao
+et al., 2024) and StrongReject (Souly et al., 2024)).
+To further contextualize alignment fragility, we
+compare safety degradation against other learned
+capabilities. Specifically, we evaluate performance
+on two auxiliary datasets: (i) SciQ (Welbl et al.,
+2017), measured by accuracy; and (ii) MUSE-
+News (Shi et al., 2024), measured by the ROUGE-
+basedknowmem_rmetric on the retain set.
+4.2 Asymmetric Fragility: Safety vs. Utility
+Is safety degradation under benign fine-tuning a
+consistent phenomenon across datasets, model
+families, and random seeds?
+Table 2 shows that safety degradation under be-
+nign fine-tuning is pervasive. Although the aligned
+models (Align-256 and Align-10k) achieve 0%
+ASR before fine-tuning, only 100 benign samples
+can trigger substantial safety collapse. On Al-
+paca with the Llama3 backbone, full-parameter
+fine-tuning raises the ASR of the Instruct Baseline
+and Align-256 to 75.4% and 85.70%, respectively,
+while Align-10k reaches 59.6%. Table 3 shows the
+same trend on Dolly and Qwen2.5, indicating that
+this fragility generalizes across datasets and model
+families.
+Safety vs. Utility.We further compare safety
+fragility with two acquired utility capabilities (SciQ
+and MUSE-News) under the same 100-sample Al-
+paca attack. As shown in Table 4, both model fam-
+ilies exhibit some regression in these capabilities,
+but the degradation is substantially smaller than the
+corresponding increase in ASR. This asymmetry
+indicates that benign fine-tuning disproportionately
+disrupts safety behavior, consistent with a particu-
+larly fragile output-side routing mechanism.
+4.3 Safety Degradation: Gradient Conflict vs.
+Generic Drift
+Is safety degradation driven by gradient-
+conflicting samples, or does it arise from generic
+benign fine-tuning drift?
+Table 5 shows that gradient directionality mod-
+ulates the severity of safety degradation but is not
+necessary for safety collapse.
+Under Method 1, the Bottom Conflict-100 sub-
+set consistently yields lower ASR than Random-
+100 across all alignment conditions. For Align-
+256, for example, ASR decreases from 83.00% to
+54.20%, indicating that avoiding highly conflicting
+gradients can partially mitigate safety degradation.
+Method 2 exhibits the same overall trend.
+Nevertheless, even the Bottom Conflict-100 sub-
+sets produce substantial degradation, with ASR ex-
+ceeding 52% across all alignment conditions. Re-
+ducing gradient conflict therefore attenuates the
+extent of degradation but does not preserve safety
+alignment.
+Overall, gradient conflict primarily modulates
+theseverityof safety degradation, whereas generic
+===== PDF PAGE 8 =====
+Model FT Methods ASR (%)↓ MMLU (%)↑ BoolQ (%)↑ ARC-E (%)↑
+Base FT-100 FT-5k Base FT-100 FT-5k Base FT-100 FT-5k Base FT-100 FT-5k
+Llama-3.1-8B-Instruct Model
+Instruct Baseline
+SFT 6.20 75.40 71.20 68.64 55.01 27.97 83.70 75.32 72.60 82.15 70.37 55.43
++ LoRA — 2.40 44.80 — 68.20 65.30 — 85.78 86.21 — 83.67 76.09
++ ASAM — 63.30 68.50 — 59.59 35.94 — 83.15 69.17 — 69.53 63.43
+Align-256
+SFT 0.00 85.70 74.80 66.47 52.46 30.59 85.47 73.61 64.56 79.71 67.63 56.10
++ LoRA — 24.50 58.80 — 67.54 64.53 — 87.03 85.66 — 83.67 75.42
++ ASAM — 77.60 67.30 — 56.24 31.90 — 77.92 69.97 — 69.40 63.38
+Align-10k
+SFT 0.00 59.60 67.60 63.08 47.20 27.56 84.74 69.88 66.45 72.47 69.95 57.66
++ LoRA — 11.00 31.20 — 65.33 63.17 — 85.78 85.23 — 82.58 74.37
++ ASAM — 42.10 49.40 — 53.15 35.80 — 78.29 69.76 — 67.85 64.73
+Qwen-2.5-7B-Instruct Model
+Instruct Baseline
+SFT 7.27 63.60 57.88 74.25 69.69 50.58 85.90 85.23 77.52 81.65 74.54 66.29
++ LoRA — 4.50 9.09 — 74.19 71.65 — 86.64 86.64 — 83.92 79.34
++ ASAM — 32.70 60.30 — 73.29 61.92 — 86.27 81.50 — 79.21 73.48
+Align-256
+SFT 0.00 72.40 69.39 73.97 70.91 49.28 85.38 85.20 80.21 80.56 73.70 64.90
++ LoRA — 0.10 21.21 — 74.13 71.59 — 86.76 87.52 — 83.04 78.91
++ ASAM — 18.70 52.12 — 72.58 61.54 — 86.30 84.16 — 79.25 72.94
+Align-10k
+SFT 0.00 67.50 57.58 73.71 68.66 48.53 85.57 85.93 78.56 78.83 71.63 66.20
++ LoRA — 2.50 16.67 — 73.75 70.51 — 86.09 86.94 — 81.94 77.74
++ ASAM — 24.50 34.24 — 72.64 62.83 — 85.69 83.49 — 78.49 73.11
+Table 2: Attack Success Rate (ASR) on the HEx-PHI benchmark and utility performance under benign utility
+fine-tuning. FT-100 and FT-5k denote full-parameter fine-tuning on 100 and 5000 Alpaca samples, respectively.
+Utility is evaluated using MMLU, BoolQ, and ARC-E. Lower ASR indicates better safety alignment, while higher
+utility scores indicate better downstream task performance. All reported results are averaged over two random seeds.
+FT Model Pre-FT Post-FT ASR
+Dataset Family Instruct Baseline Instruct Baseline Align-256 Align-10k
+AlpacaLlama3.1 6.20 75.40 85.70 59.60Qwen2.5 7.27 63.60 72.40 67.50
+DollyLlama3.1 6.20 66.90 71.0 64.50Qwen2.5 7.27 73.60 79.60 67.80
+† Note: Aligned models (Align-256/Align-10k) have 0% Pre-FT ASR.
+Table 3: HEx-PHI ASR (%) after full-parameter fine-
+tuning on 100 benign samples of Alpaca and Dolly.
+Utility Task Model Family Instruct Baseline Utility SFT Utility SFT + FT-100
+SciQ Llama3.1 92.6 90.9 77.4Qwen2.5 94.1 96.1 91.4
+MUSE-NewsLlama3.1 44.6 46.2 39.8Qwen2.5 32.1 39.4 37.9
+Table 4: Utility-task performance across checkpoints:
+the original instruct baseline, the utility-SFT reference
+model, and its benign fine-tuned version after FT-100.
+Higher scores indicate better utility performance.
+benign fine-tuning drift alone is sufficient to sub-
+stantially disrupt refusal behavior.
+4.4 Output-Side Sharpness Mitigation
+Do update-restricted (LoRA) and flatness-
+seeking (SAM-adaptive) methods mitigate safety
+degradation under fine-tuning, and how does
+this effect scale with training data size?
+To recap (§3.2), refusal safety operates through
+a fragileoutput-side routing path, where benign
+Model Bottom Conflict-100 Random-100
+Method 1 (He et al., 2024)
+Instruct Baseline 52.70 76.20
+Align-256 54.20 83.00
+Align-10k 54.55 63.40
+Method 2 (Guan et al., 2025)
+Instruct Baseline 66.67 76.20
+Align-256 61.82 83.00
+Align-10k 70.61 63.40
+Table 5: Attack Success Rate (ASR %) on LLAMA-
+3.1-8B-INSTRUCTfine-tuned on 100-sample subsets of
+Alpaca selected by two gradient-based ranking methods.
+fine-tuning perturbations ∆θ can induce sharp
+changes along safety-sensitive directions.LoRA
+andASAMmitigate this vulnerability through com-
+plementary mechanisms: LoRA restricts updates to
+a low-rank subspace, limiting perturbations along
+safety-sensitive directions, while ASAM explicitly
+favors flatter local loss regions. Both therefore
+reduce the output-side sharpness associated with
+early safety collapse.
+At 100 Samples: Sharp Drift Controlled.As
+shown in Figure 6, standard SFT causes an immedi-
+ate increase in ASR at the 100-sample scale. Both
+LoRA and ASAM substantially suppress this degra-
+dation: ASAM reduces sharp local updates, while
+LoRA limits the magnitude of safety-relevant pa-
+rameter drift. Thus, both methods better preserve
+===== PDF PAGE 9 =====
+100 500 1000 5000
+Fine-tuning data size
+0
+20
+40
+60
+80ASR (%)
+original ASR = 0.00
+100 500 1000 5000
+Fine-tuning data size
+30
+40
+50
+60MMLU acc. (%)
+original utility = 63.08
+Full SFT ASAM LoRA
+Figure 6: ASR and utility (MMLU) scaling under the
+Align-10k model across SFT, LoRA, and ASAM.
+the alignment routing geometry in the low-data
+regime.
+At 5000 Samples: Collapse Re-Emerges.As
+fine-tuning scales to 5000 samples, however, these
+defenses become less effective. SFT and ASAM
+remain at high ASR, while LoRA exhibits a grad-
+ual increase as data volume grows, indicating that
+update restriction alone cannot prevent cumula-
+tive safety erosion. This large-scale degradation is
+also accompanied by declining MMLU, unlike the
+small-data regime, consistent withcatastrophic for-
+getting(CF) under extensive utility-oriented fine-
+tuning.
+Implications.Results across model families and
+settings (Appendix B.2) support a two-regime inter-
+pretation: LoRA and ASAM mitigate early-stage
+collapse by reducing output-side sharpness, but do
+not prevent cumulative degradation at larger train-
+ing scales. Robust post-training safety therefore
+requires mechanisms that directly protect the vul-
+nerable output-side routing subspace during fine-
+tuning.
+4.5 Reversibility of Safety Alignment
+Can safety alignment, once broken by benign
+fine-tuning, be efficiently recovered with minimal
+supervision or even without parameter updates?
+Our results show that safety degradation induced
+by benign fine-tuning is highly reversible. Safety
+behavior can be restored with minimal supervision
+while largely preserving general utility. As shown
+by the performance shifts (∆) for LLaMA-3.1 in
+Table 6, benchmark performance remains broadly
+stable during recovery (see Appendix B.3 for full
+LLaMA-3.1 and Qwen2.5 results). Across both
+model families, only 10 safety examples are suffi-
+cient to reverse a 100-sample benign attack and
+reduce ASR to 0%. Even after a 5000-sample
+attack, 50 safety examples suffice for recovery,
+demonstrating strong data efficiency. Safety be-
+havior can also be partially reactivatedwithout pa-
+rameter updates. Conditioning generation on a
+refusal prefix (e.g., “I’m sorry”) substantially re-
+duces ASR. For LLaMA-3.1-8B-Instruct after a
+100-sample Alpaca attack, the prefix reduces ASR
+from 85.70% to 34.85% for Align-256 and from
+59.60% to 2.12% for Align-10k. Because a fixed
+prefix introduces no safety knowledge, this recov-
+ery suggests that benign fine-tuning does not erase
+safety-relevant representations. Instead, it disrupts
+the output-side routing from intent recognition to
+refusal generation. Recovery is also inexpensive:
+except for BoolQ under full SFT for Align-10k,
+safety restoration does not impose systemic degra-
+dation on downstream tasks. Consequently, safety
+compliance operates partly as a shallow, output-
+level mechanism—making it susceptible to benign
+fine-tuning, yet amenable to rapid recovery via min-
+imal supervision or inference-time steering.
+Model FT Methods∆MMLU (%)∆BoolQ (%)∆ARC-E (%)
+Align-256 SFT-5k +2.06 +3.51 +1.35LoRA-5k +1.06 +0.15 +2.02
+Align-10k SFT-5k +0.52 -10.64 -0.55LoRA-5k +0.42 -0.06 +1.51
+Table 6: Changes in utility performance (∆ =After−
+Before) after safety recovery on LLaMA-3.1.
+5 Conclusion
+Refusal safety is routed through a concentrated,
+output-side Fisher curvature structure that benign
+fine-tuning can displace with as few as 100 random
+samples, with disproportionately smaller utility
+degradation. This collapse does not require adver-
+sarially selected data: gradient conflict modulates
+its magnitude but is not necessary. Geometrically,
+we trace the collapse to a selective re-sharpening
+of Fisher curvature in late MLP blocks. LoRA and
+ASAM can suppress the localized drift at small
+data scales by reducing per-step output-side sharp-
+ness, but cannot prevent collapse at larger scales
+where cumulative drift overwhelms the routing ge-
+ometry. Taken together, these findings suggest that
+robust post-training safety requires moving beyond
+surface-level routing protection, toward alignment
+paradigms that distribute safety constraints more
+deeply.
+===== PDF PAGE 10 =====
+Limitations
+Despite the insights provided by our study on the
+reversibility and underlying mechanisms of safety
+alignment, several key limitations should be ac-
+knowledged: (1)Limited Scope of Alignment Meth-
+ods: Our investigation primarily focuses on mod-
+els aligned via Supervised Fine-Tuning (SFT) and
+Direct Preference Optimization (DPO) (Rafailov
+et al., 2023). While these represent industry-
+standard and widely adopted alignment paradigms,
+we do not evaluate other reinforcement learning
+frameworks, such as Reinforcement Learning from
+Human Feedback (RLHF) (Dai et al., 2024) via
+PPO (Schulman et al., 2017), or advanced iter-
+ative preference optimization variants. Distinct
+alignment techniques embed safety constraints into
+model weights through different optimization ob-
+jectives, which may exhibit varying degrees of re-
+silience against benign fine-tuning. (2)Model Scale
+and Architecture Coverage: Our study focuses ex-
+clusively on mid-scale open-weight models (specif-
+ically the LLaMA-3.1-8B and Qwen2.5-7B fami-
+lies). Whether the observed alignment fragility and
+the hypothesized “shallow routing” mechanism per-
+sist in ultra-large-scale frontier models, or architec-
+tures trained with radically different synthetic data
+pipelines, remains an open question that warrants
+further empirical scrutiny. (3)Focus on English-
+Centric Modalities: Due to the standard configu-
+rations of the core utility and safety benchmarks
+utilized in this study, our empirical findings are pri-
+marily validated on English-language corpora and
+instructions. Consequently, the cultural nuances,
+cross-lingual stability of safety alignment, and po-
+tential variations in representation routing across
+multilingual model spaces are left as prospective
+directions for future exploration.
+Acknowledgments
+The research was supported by the Center for Dis-
+tributed Confidential Computing (CDCC), funded
+by the National Science Foundation (NSF) under
+the grant CNS-2207031. The research was also sup-
+ported in part by Lilly Endowment, Inc, through its
+support for the Indiana University Pervasive Tech-
+nology Institute.
+References
+Andy Arditi, Oscar Obeso, Aaquib Syed, Daniel Paleka,
+Nina Panickssery, Wes Gurnee, and Neel Nanda.
+2024. Refusal in language models is mediated by
+a single direction.Advances in Neural Information
+Processing Systems, 37:136037–136083.
+Yuntao Bai, Andy Jones, Kamal Ndousse, Amanda
+Askell, Anna Chen, Nova DasSarma, Dawn Drain,
+Stanislav Fort, Deep Ganguli, Tom Henighan, and 1
+others. 2022. Training a helpful and harmless assis-
+tant with reinforcement learning from human feed-
+back.arXiv preprint arXiv:2204.05862.
+Xiaoyi Chen, Siyuan Tang, Rui Zhu, Shijun Yan, Lei
+Jin, Zihao Wang, Liya Su, Zhikun Zhang, XiaoFeng
+Wang, and Haixu Tang. 2024. The janus interface:
+How fine-tuning in large language models amplifies
+the privacy risks. InProceedings of the 2024 on ACM
+SIGSAC Conference on Computer and Communica-
+tions Security, CCS ’24, page 1285–1299, New York,
+NY , USA. Association for Computing Machinery.
+Christopher Clark, Kenton Lee, Ming-Wei Chang,
+Tom Kwiatkowski, Michael Collins, and Kristina
+Toutanova. 2019. Boolq: Exploring the surprising
+difficulty of natural yes/no questions. InNAACL.
+Peter Clark, Isaac Cowhey, Oren Etzioni, Tushar Khot,
+Ashish Sabharwal, Carissa Schoenick, and Oyvind
+Tafjord. 2018. Think you have solved question an-
+swering? try arc, the ai2 reasoning challenge. In
+Proceedings of the AAAI Conference on Artificial
+Intelligence (AAAI), volume 32.
+Mike Conover, Matt Hayes, Ankit Mathur, Jianwei Xie,
+Jun Wan, Sam Shah, Ali Ghodsi, Patrick Wendell,
+Matei Zaharia, and Reynold Xin. 2023. Free dolly:
+Introducing the world’s first truly open instruction-
+tuned llm.
+Juntao Dai, Xuehai Pan, Ruiyang Sun, Jiaming Ji, Xinbo
+Xu, Mickel Liu, Yizhou Wang, and Yaodong Yang.
+2024. Safe rlhf: Safe reinforcement learning from hu-
+man feedback. InInternational Conference on Learn-
+ing Representations, volume 2024, pages 50750–
+50777.
+EleutherAI. 2024. The language model evaluation har-
+ness.
+Jeremiah Giordani. 2025. Re-emergent misalignment:
+How narrow fine-tuning erodes safety alignment in
+llms.arXiv preprint arXiv:2507.03662.
+Zihan Guan, Mengxuan Hu, Ronghang Zhu, Sheng Li,
+and Anil Vullikanti. 2025. Benign samples matter!
+fine-tuning on outlier benign samples severely breaks
+safety. InForty-second International Conference on
+Machine Learning.
+Luxi He, Mengzhou Xia, and Peter Henderson. 2024.
+What is in your safe data? identifying benign data
+that breaks safety. InFirst Conference on Language
+Modeling.
+Dan Hendrycks, Collin Burns, Steven Basart, Andy
+Zou, Mantas Mazeika, Dawn Song, and Jacob Stein-
+hardt. 2021. Measuring massive multitask language
+===== PDF PAGE 11 =====
+understanding.Proceedings of the International Con-
+ference on Learning Representations (ICLR).
+Lei Hsiung, Tianyu Pang, Yung-Chen Tang, Linyue
+Song, Tsung-Yi Ho, Pin-Yu Chen, and Yaoqing
+Yang. 2025. Why llm safety guardrails collapse
+after fine-tuning: A similarity analysis between
+alignment and fine-tuning datasets.arXiv preprint
+arXiv:2506.05346.
+Aaron Hurst, Adam Lerer, Adam P Goucher, Adam
+Perelman, Aditya Ramesh, Aidan Clark, AJ Ostrow,
+Akila Welihinda, Alan Hayes, Alec Radford, and 1
+others. 2024. Gpt-4o system card.arXiv preprint
+arXiv:2410.21276.
+Jiaming Ji, Mickel Liu, Josef Dai, Xuehai Pan, Chi
+Zhang, Ce Bian, Boyuan Chen, Ruiyang Sun, Yizhou
+Wang, and Yaodong Yang. 2024. Beavertails: To-
+wards improved safety alignment of llm via a human-
+preference dataset.Advances in Neural Information
+Processing Systems, 36.
+Krishnateja Killamsetty, Sivasubramanian Durga,
+Ganesh Ramakrishnan, Abir De, and Rishabh Iyer.
+2021. Grad-match: Gradient matching based data
+subset selection for efficient deep model training.
+InInternational Conference on Machine Learning,
+pages 5464–5474. PMLR.
+Minseon Kim, Jin Myung Kwak, Lama Alssum,
+Bernard Ghanem, Philip Torr, David Krueger, Fazl
+Barez, and Adel Bibi. 2025a. Rethinking safety in
+LLM fine-tuning: An optimization perspective. In
+Second Conference on Language Modeling.
+Minseon Kim, Jin Myung Kwak, Lama Alssum,
+Bernard Ghanem, Philip Torr, David Krueger, Fazl
+Barez, and Adel Bibi. 2025b. Rethinking safety in
+llm fine-tuning: An optimization perspective. InSec-
+ond Conference on Language Modeling.
+Simon Lermen, Charlie Rogers-Smith, and Jeffrey
+Ladish. 2023. Lora fine-tuning efficiently undoes
+safety training in llama 2-chat 70b.arXiv preprint
+arXiv:2310.20624.
+Shen Li, Liuyi Yao, Lan Zhang, and Yaliang Li. 2025.
+Safety layers in aligned large language models: The
+key to llm security. InInternational Conference
+on Learning Representations, volume 2025, pages
+98163–98189.
+Long Ouyang, Jeffrey Wu, Xu Jiang, Diogo Almeida,
+Carroll Wainwright, Pamela Mishkin, Chong Zhang,
+Sandhini Agarwal, Katarina Slama, Alex Ray, and 1
+others. 2022. Training language models to follow in-
+structions with human feedback.Advances in neural
+information processing systems, 35:27730–27744.
+Sheng Y Peng, Pin-Yu Chen, Matthew Hull, and Duen H
+Chau. 2024. Navigating the safety landscape: Mea-
+suring risks in finetuning large language models.Ad-
+vances in Neural Information Processing Systems,
+37:95692–95715.
+Kaustubh Ponkshe, Shaan Shah, Raghav Singhal, and
+Praneeth Vepakomma. 2025. Safety subspaces are
+not distinct: A fine-tuning case study. InLock-LLM
+Workshop: Prevent Unauthorized Knowledge Use
+from Large Language Models.
+Xiangyu Qi, Yi Zeng, Tinghao Xie, Pin-Yu Chen, Ruoxi
+Jia, Prateek Mittal, and Peter Henderson. 2024. Fine-
+tuning aligned language models compromises safety,
+even when users do not intend to! InInternational
+Conference on Learning Representations, volume
+2024, pages 30988–31043.
+Rafael Rafailov, Archit Sharma, Eric Mitchell, Christo-
+pher D Manning, Stefano Ermon, and Chelsea Finn.
+2023. Direct preference optimization: Your language
+model is secretly a reward model.Advances in neural
+information processing systems, 36:53728–53741.
+Victor Sanh, Albert Webson, Colin Raffel, Stephen H
+Bach, Lintang Sutawika, Zaid Alyafeai, Antoine
+Chaffin, Arnaud Stiegler, Teven Le Scao, Arun Raja,
+and 1 others. 2022. Multitask prompted training
+enables zero-shot task generalization. InICLR 2022-
+Tenth International Conference on Learning Repre-
+sentations.
+John Schulman, Filip Wolski, Prafulla Dhariwal,
+Alec Radford, and Oleg Klimov. 2017. Proxi-
+mal policy optimization algorithms.arXiv preprint
+arXiv:1707.06347.
+Weijia Shi, Jaechan Lee, Yangsibo Huang, Sadhika Mal-
+ladi, Jieyu Zhao, Ari Holtzman, Daogao Liu, Luke
+Zettlemoyer, Noah A Smith, and Chiyuan Zhang.
+2024. Muse: Machine unlearning six-way evaluation
+for language models. InThe Thirteenth International
+Conference on Learning Representations.
+Alexandra Souly, Qingyuan Lu, Dillon Bowen,
+Tu Trinh, Elvis Hsieh, Sana Pandey, Pieter Abbeel,
+Justin Svegliato, Scott Emmons, Olivia Watkins, and
+Sam Toyer. 2024. A strongreject for empty jailbreaks.
+Preprint, arXiv:2402.10260.
+Max Springer, Chung Peng Lee, Blossom Metevier,
+Jane Castleman, Bohdan Turbal, Hayoung Jung,
+Zeyu Shen, and Aleksandra Korolova. 2026. The
+geometry of alignment collapse: When fine-tuning
+breaks safety.arXiv preprint arXiv:2602.15799.
+Rohan Taori, Ishaan Gulrajani, Tianyi Zhang, Yann
+Dubois, Xuechen Li, Carlos Guestrin, Percy Liang,
+and Tatsunori B. Hashimoto. 2023. Stanford alpaca:
+An instruction-following llama model. https://
+github.com/tatsu-lab/stanford_alpaca.
+Boyi Wei, Kaixuan Huang, Yangsibo Huang, Tinghao
+Xie, Xiangyu Qi, Mengzhou Xia, Prateek Mittal,
+Mengdi Wang, and Peter Henderson. 2024. Assess-
+ing the brittleness of safety alignment via pruning
+and low-rank modifications. InInternational Con-
+ference on Machine Learning, pages 52588–52610.
+PMLR.
+===== PDF PAGE 12 =====
+Jason Wei, Maarten Bosma, Vincent Y Zhao, Kelvin
+Guu, Adams Wei Yu, Brian Lester, Nan Du, An-
+drew M Dai, and Quoc V Le. 2021. Finetuned lan-
+guage models are zero-shot learners.arXiv preprint
+arXiv:2109.01652.
+Johannes Welbl, Nelson F Liu, and Matt Gardner. 2017.
+Crowdsourcing multiple choice science questions.
+InProceedings of the 3rd Workshop on Noisy User-
+generated Text, pages 94–106.
+Xianjun Yang, Xiao Wang, Qi Zhang, Linda Petzold,
+William Yang Wang, Xun Zhao, and Dahua Lin.
+2023. Shadow alignment: The ease of subvert-
+ing safely-aligned language models.arXiv preprint
+arXiv:2310.02949.
+Qiusi Zhan, Richard Fang, Rohan Bindu, Akul Gupta,
+Tatsunori B Hashimoto, and Daniel Kang. 2024. Re-
+moving rlhf protections in gpt-4 via fine-tuning. In
+Proceedings of the 2024 Conference of the North
+American Chapter of the Association for Computa-
+tional Linguistics: Human Language Technologies
+(Volume 2: Short Papers), pages 681–687.
+Wenting Zhao, Xiang Ren, Jack Hessel, Claire Cardie,
+Yejin Choi, and Yuntian Deng. 2024. Wildchat: 1m
+chatGPT interaction logs in the wild. InThe Twelfth
+International Conference on Learning Representa-
+tions.
+Yiran Zhao, Wenxuan Zhang, Yuxi Xie, Anirudh Goyal,
+Kenji Kawaguchi, and Michael Qizhe Shieh. 2025.
+Understanding and enhancing safety mechanisms of
+llms via safety-specific neuron. InInternational Con-
+ference on Learning Representations, volume 2025,
+pages 44113–44127.
+Chujie Zheng, Fan Yin, Hao Zhou, Fandong Meng, Jie
+Zhou, Kai-Wei Chang, Minlie Huang, and Nanyun
+Peng. 2024. On prompt-driven safeguarding for large
+language models. InInternational Conference on
+Machine Learning, pages 61593–61613. PMLR.
+A Fisher Geometry
+Let θ∗ ∈Θ⊆R n denote the safety-aligned
+checkpoint (θsafe in the notation of §3.1), and let
+πθ(y|x) be the induced conditional distribution.
+We measure local deviation from the aligned re-
+fusal behavior on harmful prompts using the safety-
+deviation loss
+Lsafe(θ;θ ∗) =E x∼Dsafe DKL (πθ∗(· |x)∥π θ(· |x))(9)
+This loss satisfies Lsafe(θ∗;θ ∗) = 0 . Assuming
+standard smoothness ofπ θ, its local expansion is
+Lsafe(θ∗ + ∆θ;θ ∗) = 1
+2∆θ⊤Fsafe(θ∗)∆θ+O(∥∆θ∥ 3),
+(10)
+Fsafe(θ∗) =E x∼Dsafe
+y∼πθ∗ (·|x)
+h
+sθ∗(x, y)sθ∗(x, y)⊤
+i
+,
+(11)
+sθ∗(x, y) :=∇ θ logπ θ∗(y|x).(12)
+Thus Fsafe is the Fisher curvature of local deviation
+from the aligned safety behavior. In experiments,
+we estimate a block-wise empirical Fisher proxy on
+safety inputs (harmful prompts with refusal targets;
+cf. §3.1):
+bFb(θ) = 1
+N
+NX
+i=1
+g(i)
+b (θ)g (i)
+b (θ)⊤,(13)
+g(i)
+b (θ) =∇ θb logπ θ(yi |x i),(14)
+where b= (ℓ, m) indexes a layer-module block.
+We usebFb(θ) as a local geometric proxy for how
+sensitive refusal behavior is to perturbations in
+blockb.
+Eigenvalues as directional sharpness.The Fisher
+matrix Fsafe(θ∗) is symmetric positive semidefinite.
+Let its eigenvalues be λ1 ≥λ 2 ≥ · · · ≥λ n ≥0 ,
+with orthonormal eigenvectors v1, . . . , vn. For a
+unit directionv i and small scalarα, (10) gives
+Lsafe(θ∗ +αv i;θ ∗) = 1
+2 λiα2 +O(α 3).(15)
+Thus λi is the local Fisher curvature of the safety-
+deviation loss along direction vi. The largest eigen-
+value
+λmax(Fsafe(θ∗)) =λ 1 = max
+∥v∥=1
+v⊤Fsafe(θ∗)v
+(16)
+is the worst-case directional sharpness of the lo-
+cal safety geometry. Equivalently, for any small
+perturbation∆θ,
+0≤ 1
+2∆θ⊤Fsafe(θ∗)∆θ≤ 1
+2 λmax∥∆θ∥2.(17)
+A small λmax therefore means that the Fisher proxy
+is locally flat in every unit direction, while a large
+λmax indicates the existence of a direction in which
+small perturbations have a large quadratic effect.
+The safety-relevant Fisher subspace.For a fixed
+energy threshold ρ∈(0,1) , define the effective
+dimension
+dρ = min
+(
+d:
+Pd
+j=1 λj
+Pn
+j=1 λj
+≥ρ
+)
+.(18)
+We define the local safety-relevant Fisher subspace
+as
+Msafe(θ∗) = span(v1, . . . , vdρ),(19)
+and let Psafe be the orthogonal projector onto
+this subspace. For a perturbation ∆θ, writing
+δ=∥P safe∆θ∥, the Fisher quadratic term satis-
+fies
+1
+2∆θ⊤Fsafe(θ∗)∆θ≥ 1
+2 λdρδ2.(20)
+===== PDF PAGE 13 =====
+Model Family Alignment Setting Before Recovery After Recovery
+MMLU BoolQ ARC-E MMLU BoolQ ARC-E
+Llama3.1 Align-256 SFT-5k 30.59 64.56 56.10 32.65 68.07 57.45
+Llama3.1 Align-10k SFT-5k 27.56 66.45 57.66 28.08 55.81 57.11
+Llama3.1 Align-256 LoRA-5k 64.53 85.66 75.42 65.59 85.81 77.44
+LlaMA3.1 Align-10k LoRA-5k 63.17 85.23 74.37 63.59 85.17 75.88
+Qwen2.5 Align-256 SFT-5k 49.28 80.21 64.90 53.59 81.04 68.06
+Qwen2.5 Align-10k SFT-5k 48.53 78.56 66.20 50.65 65.54 63.09
+Qwen2.5 Align-256 LoRA-5k 71.59 87.52 78.91 72.55 87.49 80.09
+Qwen2.5 Align-10k LoRA-5k 70.51 86.94 77.74 71.40 86.27 77.40
+Table 7: Granular absolute utility performance evaluation across core benchmarks before and after safety recovery
+execution. The recovery is accomplished via 50 dedicated safety alignment instances following initial 5000-sample
+Alpaca benign fine-tuning disruptions.
+With the Taylor remainder included,
+Lsafe(θ∗ +∆θ;θ ∗)≥ 1
+2 λdρ∥Psafe∆θ∥2 −C∥∆θ∥ 3
+(21)
+for sufficiently small ∥∆θ∥. Hence local refusal
+deviation depends jointly on the sharpness of the
+leading Fisher directions and on how much the
+fine-tuning trajectory projects onto them.
+B Additional Experimental Results
+We perform safety alignment using our fine-tuning
+pipeline and leverage LlamaFactory to conduct be-
+nign attack experiments and recovery experiments.
+B.1 Alignment Fragility Extends to DPO
+To verify that the alignment fragility we observe
+is not an artifact of SFT-based alignment, we addi-
+tionally evaluate the benign fine-tuning attack on a
+DPO-aligned model. We align the base model with
+DPO on our safety preference data using the follow-
+ing hyperparameters: 2 epochs, learning rate 1e−6,
+batch size 32, β= 0.1 , and maximum sequence
+length 512. We then perform benign fine-tuning on
+Alpaca samples and report the resulting HEx-PHI
+ASR in Table 8 on Llama3.1.
+As shown in Table 8, the DPO-aligned model
+achieves 0% ASR prior to fine-tuning, indicating
+strong initial safety alignment. However, fine-
+tuning on as few as 100 benign Alpaca samples
+is sufficient to collapse this alignment, raising
+ASR to 66.96%. Scaling the fine-tuning data
+to 5,000 samples yields only a marginal further
+increase to 67.88%. This near-identical degra-
+dation at two very different data scales mirrors
+the phase-transition behavior we observe for SFT-
+aligned models in Section 4.2, and suggests that
+the fragility we characterize is a property of the
+alignment surface itself rather than of any particu-
+lar alignment algorithm.
+Condition ASR (%)
+DPO-aligned 0.00
++ Alpaca fine-tuning (100 samples) 66.96
++ Alpaca fine-tuning (5000 samples) 67.88
+Table 8: HEx-PHI ASR (%) of the DPO-aligned model
+before and after benign fine-tuning on the Alpaca subset.
+B.2 ASR and Utility Scaling Across All
+Models
+We present the scaling trends for the remaining
+model variants within the Llama3.1 and Qwen2.5
+families in Figure 7. Across all evaluated archi-
+tectures, a highly consistent behavioral pattern
+emerges: localized, small-scale fine-tuning precip-
+itously intensifies the Attack Success Rate (ASR)
+while leaving downstream utility largely intact.
+Conversely, extending the fine-tuning to a larger
+scale induces a much more pronounced degradation
+in the models’ general capabilities.
+B.3 Utility Performance Profiles Surrounding
+Safety Recovery
+In this section, we present the comprehensive ab-
+solute evaluation scores for both the Llama3.1 and
+Qwen2.5 model families across core utility bench-
+marks (MMLU, BoolQ, and ARC-E). While Sec-
+tion 4.5 introduces the streamlined performance
+deltas (∆) for presentation, Table 7 encapsulates
+the granular baseline utility profiles evaluated im-
+mediately before and after the safety remediation
+phase (which utilizes 50 safety alignment exam-
+ples following a 5,000-sample Alpaca benign fine-
+tuning attack).
+===== PDF PAGE 14 =====
+100 500 1000 5000
+Fine-tuning data size
+0
+20
+40
+60
+80ASR (%)
+original ASR = 6.20
+100 500 1000 5000
+Fine-tuning data size
+30
+40
+50
+60
+70MMLU acc. (%)
+original utility = 68.64
+Full SFT ASAM LoRA
+(a) Llama3.1 Baseline
+100 500 1000 5000
+Fine-tuning data size
+0
+20
+40
+60
+80ASR (%)
+original ASR = 7.27
+100 500 1000 5000
+Fine-tuning data size
+50
+55
+60
+65
+70
+75MMLU acc. (%)
+original utility = 74.25
+Full SFT ASAM LoRA (b) Qwen2.5 Baseline
+100 500 1000 5000
+Fine-tuning data size
+0
+20
+40
+60
+80ASR (%)
+original ASR = 0.00
+100 500 1000 5000
+Fine-tuning data size
+30
+40
+50
+60
+70MMLU acc. (%)
+original utility = 66.47
+Full SFT ASAM LoRA
+(c) Llama3.1 Align-256
+100 500 1000 5000
+Fine-tuning data size
+0
+20
+40
+60
+80ASR (%)
+original ASR = 0.00
+100 500 1000 5000
+Fine-tuning data size
+50
+55
+60
+65
+70
+75MMLU acc. (%)
+original utility = 73.97
+Full SFT ASAM LoRA (d) Qwen2.5 Align-256
+100 500 1000 5000
+Fine-tuning data size
+0
+20
+40
+60
+80ASR (%)
+original ASR = 0.00
+100 500 1000 5000
+Fine-tuning data size
+30
+40
+50
+60MMLU acc. (%)
+original utility = 63.08
+Full SFT ASAM LoRA
+(e) Llama3.1 Align-10k
+100 500 1000 5000
+Fine-tuning data size
+0
+20
+40
+60
+80ASR (%)
+original ASR = 0.00
+100 500 1000 5000
+Fine-tuning data size
+50
+55
+60
+65
+70
+75MMLU acc. (%)
+original utility = 73.71
+Full SFT ASAM LoRA (f) Qwen2.5 Align-10k
+Figure 7: ASR and utility (MMLU) scaling across model families and alignment settings.
+Across both model architectures and alignment
+depths (Align-256vs.Align-10k), the absolute
+capability fluctuations induced by the subsequent
+safety recovery process remain remarkably mini-
+mal. For instance, under the parameter-efficient
+LoRA setup, Qwen2.5 (Align-256) maintains
+steady scores across the board, shifting marginally
+from 71.59 to 72.55 on MMLU and from 78.91 to
+80.09 on ARC-E. This strict bound on utility drift
+indicates that low-resource safety restoration does
+not require a trade-off with foundational reasoning
+capacities.
+Setting Wildchat StrongReject
+Instruct Baseline 16.0 44.83
+Align-10k 64.2 90.48
+Align-10k + FT-100 27.0 46.99
+Table 9: Safety alignment evaluations on Wildchat and
+StrongReject, the latter reported as 1−ASR . The aux-
+iliary SFT recovery phase is conducted with a batch
+size of 8, trained for 5 epochs with a learning rate of
+1×10 −5.
+B.4 Safety Evaluations Across Diverse
+Benchmarks
+To demonstrate that our observations regarding
+safety degradation are not specific to a particu-
+lar evaluation protocol, we conduct a robustness
+check on two widely recognized external safety
+benchmarks:WildchatandStrongReject. This
+cross-benchmark evaluation helps mitigate poten-
+tial dataset-specific biases and assess the generaliz-
+ability of our findings.
+We evaluate the model across three distinct
+stages: the initialInstruct Baseline, the safety-
+aligned model (Align-10k), and the same aligned
+model after a 100-sample benign fine-tuning at-
+tack (Align-10k + FT-100). To capture behavioral
+changes across benchmarks, we employ dataset-
+specific metrics. For Wildchat, we use the standard
+safety score from its official evaluation protocol,
+where a higher value indicates stronger safety align-
+ment. For StrongReject, we report 1−ASR (Attack
+Success Rate), where a higher value similarly indi-
+cates a higher rate of successful refusal of harmful
+prompts.
+===== PDF PAGE 15 =====
+As summarized in Table 9, the results on both
+Wildchat and StrongReject are consistent with our
+primary findings. Safety alignment substantially
+improves performance over the Instruct Baseline
+on both benchmarks. However, subsequent benign
+fine-tuning on only 100 samples sharply erodes
+these gains, bringing safety performance closer
+to the baseline level. This consistent degradation
+across distinct evaluation protocols provides ad-
+ditional evidence that the vulnerability of safety
+alignment to benign fine-tuning is not specific to
+HEx-PHI or its evaluation procedure.

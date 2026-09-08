@@ -1,0 +1,101 @@
+{
+  "sha": "5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4",
+  "node_id": "C_kwDOCQmIhdoAKDU1OTRhYzBlZTdhMTNjNzdlYjFlMGI5OGYwZjMwNWEyY2E2NWI2YzQ",
+  "commit": {
+    "author": {
+      "name": "Jan Wassenberg",
+      "email": "janwas@google.com",
+      "date": "2026-09-07T16:08:28Z"
+    },
+    "committer": {
+      "name": "Copybara-Service",
+      "email": "copybara-worker@google.com",
+      "date": "2026-09-07T16:12:27Z"
+    },
+    "message": "remove temporary BitsFromMask(m) overload\n\nPiperOrigin-RevId: 977497181",
+    "tree": {
+      "sha": "65db08127fcb9bb9b15bc9a163c5e67410d78770",
+      "url": "https://api.github.com/repos/google-research/google-research/git/trees/65db08127fcb9bb9b15bc9a163c5e67410d78770"
+    },
+    "url": "https://api.github.com/repos/google-research/google-research/git/commits/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4",
+    "comment_count": 0,
+    "verification": {
+      "verified": false,
+      "reason": "unsigned",
+      "signature": null,
+      "payload": null,
+      "verified_at": null
+    }
+  },
+  "url": "https://api.github.com/repos/google-research/google-research/commits/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4",
+  "html_url": "https://github.com/google-research/google-research/commit/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4",
+  "comments_url": "https://api.github.com/repos/google-research/google-research/commits/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/comments",
+  "author": {
+    "login": "jan-wassenberg",
+    "id": 17255429,
+    "node_id": "MDQ6VXNlcjE3MjU1NDI5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/17255429?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jan-wassenberg",
+    "html_url": "https://github.com/jan-wassenberg",
+    "followers_url": "https://api.github.com/users/jan-wassenberg/followers",
+    "following_url": "https://api.github.com/users/jan-wassenberg/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jan-wassenberg/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jan-wassenberg/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jan-wassenberg/subscriptions",
+    "organizations_url": "https://api.github.com/users/jan-wassenberg/orgs",
+    "repos_url": "https://api.github.com/users/jan-wassenberg/repos",
+    "events_url": "https://api.github.com/users/jan-wassenberg/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jan-wassenberg/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "copybara-github",
+    "id": 32201506,
+    "node_id": "MDQ6VXNlcjMyMjAxNTA2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/32201506?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/copybara-github",
+    "html_url": "https://github.com/copybara-github",
+    "followers_url": "https://api.github.com/users/copybara-github/followers",
+    "following_url": "https://api.github.com/users/copybara-github/following{/other_user}",
+    "gists_url": "https://api.github.com/users/copybara-github/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/copybara-github/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/copybara-github/subscriptions",
+    "organizations_url": "https://api.github.com/users/copybara-github/orgs",
+    "repos_url": "https://api.github.com/users/copybara-github/repos",
+    "events_url": "https://api.github.com/users/copybara-github/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/copybara-github/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "932d4685e23f671b9e8c2abc72dd228ba5ff9252",
+      "url": "https://api.github.com/repos/google-research/google-research/commits/932d4685e23f671b9e8c2abc72dd228ba5ff9252",
+      "html_url": "https://github.com/google-research/google-research/commit/932d4685e23f671b9e8c2abc72dd228ba5ff9252"
+    }
+  ],
+  "stats": {
+    "total": 17,
+    "additions": 7,
+    "deletions": 10
+  },
+  "files": [
+    {
+      "sha": "ca4bf967baf715ded95dbda9dcdfdaa6f314e905",
+      "filename": "scann/scann/utils/intrinsics/highway.h",
+      "status": "modified",
+      "additions": 7,
+      "deletions": 10,
+      "changes": 17,
+      "blob_url": "https://github.com/google-research/google-research/blob/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/scann%2Fscann%2Futils%2Fintrinsics%2Fhighway.h",
+      "raw_url": "https://github.com/google-research/google-research/raw/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/scann%2Fscann%2Futils%2Fintrinsics%2Fhighway.h",
+      "contents_url": "https://api.github.com/repos/google-research/google-research/contents/scann%2Fscann%2Futils%2Fintrinsics%2Fhighway.h?ref=5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4",
+      "patch": "@@ -534,25 +534,22 @@ class Simd<T, kNumRegistersInferred> {\n   }\n \n   SCANN_INLINE static auto BitsFromMask(HwyType vec) {\n-    constexpr size_t kLanes = hn::Lanes(hn::ScalableTag<T>());\n+    const hn::ScalableTag<T> tag;\n+    constexpr size_t kLanes = hn::Lanes(tag);\n     static_assert(kLanes <= 64,\n                   \"BitsFromMask is not implemented for >64 lanes SIMD.\");\n \n-    constexpr bool kCanUseBitsFromMask = (HWY_TARGET == HWY_SSE4) ||\n-                                         (HWY_TARGET == HWY_AVX2) ||\n-                                         (HWY_TARGET_IS_NEON);\n+    constexpr bool kCanUseBitsFromMask = HWY_MAX_BYTES <= 64;\n     if constexpr (kCanUseBitsFromMask) {\n       using ResultT = std::conditional_t<kLanes <= 32, uint32_t, uint64_t>;\n-      return static_cast<ResultT>(\n-          hn::detail::BitsFromMask(hn::MaskFromVec(vec)));\n+      return static_cast<ResultT>(hn::BitsFromMask(tag, hn::MaskFromVec(vec)));\n     } else {\n-      constexpr size_t kExpectedBytesWritten =\n-          (hn::Lanes(hn::ScalableTag<T>()) + 7) / 8;\n+      constexpr size_t kExpectedBytesWritten = (hn::Lanes(tag) + 7) / 8;\n       using ResultT =\n           std::conditional_t<kExpectedBytesWritten <= 4, uint32_t, uint64_t>;\n       uint8_t mask_bits[8];\n-      const size_t bytes_written = hn::StoreMaskBits(\n-          hn::ScalableTag<T>(), hn::MaskFromVec(vec), mask_bits);\n+      const size_t bytes_written =\n+          hn::StoreMaskBits(tag, hn::MaskFromVec(vec), mask_bits);\n       DCHECK_EQ(bytes_written, kExpectedBytesWritten);\n       ResultT result = 0;\n       for (uint8_t i = 0; i < kExpectedBytesWritten; ++i) {"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "executed_queries": 4,
+  "returned_per_query": {
+    "1": 11,
+    "2": 0,
+    "3": 1,
+    "4": 2
+  },
+  "total_records": 14,
+  "unique_ids": 14,
+  "new_full_reads": [
+    "2604.12384v1",
+    "2607.00572v3",
+    "2512.23260v2",
+    "2604.24074v1"
+  ],
+  "semantic_scholar_http": 429,
+  "acl_http": 200,
+  "acl_result": "dynamic search shell; no usable result list; not zero matches"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "sdp_html",
+    "url": "https://arxiv.org/html/2608.23497v1",
+    "time_utc": "2026-09-08T06:11:08.388444+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/sdp_html.html"
+  },
+  {
+    "id": "sdp_pdf",
+    "url": "https://arxiv.org/pdf/2608.23497v1",
+    "time_utc": "2026-09-08T06:11:08.386721+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/sdp_pdf.pdf"
+  },
+  {
+    "id": "sdp_abs",
+    "url": "https://arxiv.org/abs/2608.23497v1",
+    "time_utc": "2026-09-08T06:11:06.964020+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/sdp_abs.html"
+  },
+  {
+    "id": "routing_html",
+    "url": "https://arxiv.org/html/2609.01455v1",
+    "time_utc": "2026-09-08T06:11:09.501790+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/routing_html.html"
+  },
+  {
+    "id": "routing_pdf",
+    "url": "https://arxiv.org/pdf/2609.01455v1",
+    "time_utc": "2026-09-08T06:11:12.795824+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/routing_pdf.pdf"
+  },
+  {
+    "id": "routing_abs",
+    "url": "https://arxiv.org/abs/2609.01455v1",
+    "time_utc": "2026-09-08T06:11:10.591563+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/routing_abs.html"
+  }
+]

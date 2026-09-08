@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n1VEYdmjKHmi3S5uNzOLbg7kPvI</id>
+  <title>arXiv Query: search_query=all:"safety layers" AND all:"fine-tuning"&amp;id_list=&amp;start=0&amp;max_results=10</title>
+  <updated>2026-09-08T06:11:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22safety+layers%22+AND+all:%22fine-tuning%22&amp;start=0&amp;max_results=10&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2408.17003v5</id>
+    <title>Safety Layers in Aligned Large Language Models: The Key to LLM Security</title>
+    <updated>2025-04-07T07:23:33Z</updated>
+    <link href="https://arxiv.org/abs/2408.17003v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.17003v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aligned LLMs are secure, capable of recognizing and refusing to answer malicious questions. However, the role of internal parameters in maintaining such security is not well understood yet, further these models can be vulnerable to security degradation when subjected to fine-tuning attacks. To address these challenges, our work uncovers the mechanism behind security in aligned LLMs at the parameter level, identifying a small set of contiguous layers in the middle of the model that are crucial for distinguishing malicious queries from normal ones, referred to as ``safety layers". We first confirm the existence of these safety layers by analyzing variations in input vectors within the model's internal layers. Additionally, we leverage the over-rejection phenomenon and parameters scaling analysis to precisely locate the safety layers. Building on these findings, we propose a novel fine-tuning approach, Safely Partial-Parameter Fine-Tuning (SPPFT), that fixes the gradient of the safety layers during fine-tuning to address the security degradation. Our experiments demonstrate that the proposed approach can significantly preserve LLM security while maintaining performance and reducing computational resources compared to full fine-tuning.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-30T04:35:59Z</published>
+    <arxiv:comment>Accepted by ICLR 2025. The code is available at https://github.com/listen0425/Safety-Layers</arxiv:comment>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Shen Li</name>
+    </author>
+    <author>
+      <name>Liuyi Yao</name>
+    </author>
+    <author>
+      <name>Lan Zhang</name>
+    </author>
+    <author>
+      <name>Yaliang Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.18166v2</id>
+    <title>Defending Large Language Models Against Jailbreak Attacks via Layer-specific Editing</title>
+    <updated>2024-06-14T07:27:26Z</updated>
+    <link href="https://arxiv.org/abs/2405.18166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.18166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large language models (LLMs) are increasingly being adopted in a wide range of real-world applications. Despite their impressive performance, recent studies have shown that LLMs are vulnerable to deliberately crafted adversarial prompts even when aligned via Reinforcement Learning from Human Feedback or supervised fine-tuning. While existing defense methods focus on either detecting harmful prompts or reducing the likelihood of harmful responses through various means, defending LLMs against jailbreak attacks based on the inner mechanisms of LLMs remains largely unexplored. In this work, we investigate how LLMs response to harmful prompts and propose a novel defense method termed \textbf{L}ayer-specific \textbf{Ed}iting (LED) to enhance the resilience of LLMs against jailbreak attacks. Through LED, we reveal that several critical \textit{safety layers} exist among the early layers of LLMs. We then show that realigning these safety layers (and some selected additional layers) with the decoded safe response from selected target layers can significantly improve the alignment of LLMs against jailbreak attacks. Extensive experiments across various LLMs (e.g., Llama2, Mistral) show the effectiveness of LED, which effectively defends against jailbreak attacks while maintaining performance on benign prompts. Our code is available at \url{https://github.com/ledllm/ledllm}.</summary>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-28T13:26:12Z</published>
+    <arxiv:primary_category term="cs.AI"/>
+    <author>
+      <name>Wei Zhao</name>
+    </author>
+    <author>
+      <name>Zhe Li</name>
+    </author>
+    <author>
+      <name>Yige Li</name>
+    </author>
+    <author>
+      <name>Ye Zhang</name>
+    </author>
+    <author>
+      <name>Jun Sun</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.07404v1</id>
+    <title>Towards Safe Robot Foundation Models</title>
+    <updated>2025-03-10T14:55:09Z</updated>
+    <link href="https://arxiv.org/abs/2503.07404v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.07404v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Robot foundation models hold the potential for deployment across diverse environments, from industrial applications to household tasks. While current research focuses primarily on the policies' generalization capabilities across a variety of tasks, it fails to address safety, a critical requirement for deployment on real-world systems. In this paper, we introduce a safety layer designed to constrain the action space of any generalist policy appropriately. Our approach uses ATACOM, a safe reinforcement learning algorithm that creates a safe action space and, therefore, ensures safe state transitions. By extending ATACOM to generalist policies, our method facilitates their deployment in safety-critical scenarios without requiring any specific safety fine-tuning. We demonstrate the effectiveness of this safety layer in an air hockey environment, where it prevents a puck-hitting agent from colliding with its surroundings, a failure observed in generalist policies.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-10T14:55:09Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Maximilian Tölle</name>
+    </author>
+    <author>
+      <name>Theo Gruner</name>
+    </author>
+    <author>
+      <name>Daniel Palenicek</name>
+    </author>
+    <author>
+      <name>Jonas Günster</name>
+    </author>
+    <author>
+      <name>Puze Liu</name>
+    </author>
+    <author>
+      <name>Joe Watson</name>
+    </author>
+    <author>
+      <name>Davide Tateo</name>
+    </author>
+    <author>
+      <name>Jan Peters</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.11387v1</id>
+    <title>How Can LLMs and Knowledge Graphs Contribute to Robot Safety? A Few-Shot Learning Approach</title>
+    <updated>2024-12-16T02:28:34Z</updated>
+    <link href="https://arxiv.org/abs/2412.11387v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.11387v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large Language Models (LLMs) are transforming the robotics domain by enabling robots to comprehend and execute natural language instructions. The cornerstone benefits of LLM include processing textual data from technical manuals, instructions, academic papers, and user queries based on the knowledge provided. However, deploying LLM-generated code in robotic systems without safety verification poses significant risks. This paper outlines a safety layer that verifies the code generated by ChatGPT before executing it to control a drone in a simulated environment. The safety layer consists of a fine-tuned GPT-4o model using Few-Shot learning, supported by knowledge graph prompting (KGP). Our approach improves the safety and compliance of robotic actions, ensuring that they adhere to the regulations of drone operations.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-16T02:28:34Z</published>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Abdulrahman Althobaiti</name>
+    </author>
+    <author>
+      <name>Angel Ayala</name>
+    </author>
+    <author>
+      <name>JingYing Gao</name>
+    </author>
+    <author>
+      <name>Ali Almutairi</name>
+    </author>
+    <author>
+      <name>Mohammad Deghat</name>
+    </author>
+    <author>
+      <name>Imran Razzak</name>
+    </author>
+    <author>
+      <name>Francisco Cruz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.13183v1</id>
+    <title>DSCD: Large Language Model Detoxification with Self-Constrained Decoding</title>
+    <updated>2025-10-15T06:10:47Z</updated>
+    <link href="https://arxiv.org/abs/2510.13183v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.13183v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Detoxification in large language models (LLMs) remains a significant research challenge. Existing decoding detoxification methods are all based on external constraints, which require additional resource overhead and lose generation fluency. This work proposes Detoxification with Self-Constrained Decoding (DSCD), a novel method for LLM detoxification without parameter fine-tuning. DSCD strengthens the inner next-token distribution of the safety layer while weakening that of hallucination and toxic layers during output generation. This effectively diminishes toxicity and enhances output safety. DSCD offers lightweight, high compatibility, and plug-and-play capabilities, readily integrating with existing detoxification methods for further performance improvement. Extensive experiments on representative open-source LLMs and public datasets validate DSCD's effectiveness, demonstrating state-of-the-art (SOTA) performance in both detoxification and generation fluency, with superior efficiency compared to existing methods. These results highlight DSCD's potential as a practical and scalable solution for safer LLM deployments.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T06:10:47Z</published>
+    <arxiv:comment>Accepted at EMNLP 2025 MainConference</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Ming Dong</name>
+    </author>
+    <author>
+      <name>Jinkui Zhang</name>
+    </author>
+    <author>
+      <name>Bolong Zheng</name>
+    </author>
+    <author>
+      <name>Xinhui Tu</name>
+    </author>
+    <author>
+      <name>Po Hu</name>
+    </author>
+    <author>
+      <name>Tingting He</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.10219v1</id>
+    <title>Towards Safe Robot Foundation Models Using Inductive Biases</title>
+    <updated>2025-05-15T12:22:21Z</updated>
+    <link href="https://arxiv.org/abs/2505.10219v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.10219v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Safety is a critical requirement for the real-world deployment of robotic systems. Unfortunately, while current robot foundation models show promising generalization capabilities across a wide variety of tasks, they fail to address safety, an important aspect for ensuring long-term operation. Current robot foundation models assume that safe behavior should emerge by learning from a sufficiently large dataset of demonstrations. However, this approach has two clear major drawbacks. Firstly, there are no formal safety guarantees for a behavior cloning policy trained using supervised learning. Secondly, without explicit knowledge of any safety constraints, the policy may require an unreasonable number of additional demonstrations to even approximate the desired constrained behavior. To solve these key issues, we show how we can instead combine robot foundation models with geometric inductive biases using ATACOM, a safety layer placed after the foundation policy that ensures safe state transitions by enforcing action constraints. With this approach, we can ensure formal safety guarantees for generalist policies without providing extensive demonstrations of safe behavior, and without requiring any specific fine-tuning for safety. Our experiments show that our approach can be beneficial both for classical manipulation tasks, where we avoid unwanted collisions with irrelevant objects, and for dynamic tasks, such as the robot air hockey environment, where we can generate fast trajectories respecting complex tasks and joint space constraints.</summary>
+    <category term="cs.RO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-15T12:22:21Z</published>
+    <arxiv:comment>14 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.RO"/>
+    <author>
+      <name>Maximilian Tölle</name>
+    </author>
+    <author>
+      <name>Theo Gruner</name>
+    </author>
+    <author>
+      <name>Daniel Palenicek</name>
+    </author>
+    <author>
+      <name>Tim Schneider</name>
+    </author>
+    <author>
+      <name>Jonas Günster</name>
+    </author>
+    <author>
+      <name>Joe Watson</name>
+    </author>
+    <author>
+      <name>Davide Tateo</name>
+    </author>
+    <author>
+      <name>Puze Liu</name>
+    </author>
+    <author>
+      <name>Jan Peters</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.23217v1</id>
+    <title>Process Reward Models for Sentence-Level Verification of LVLM Radiology Reports</title>
+    <updated>2025-10-27T11:08:05Z</updated>
+    <link href="https://arxiv.org/abs/2510.23217v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.23217v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Automating radiology report generation with Large Vision-Language Models (LVLMs) holds great potential, yet these models often produce clinically critical hallucinations, posing serious risks. Existing hallucination detection methods frequently lack the necessary sentence-level granularity or robust generalization across different LVLM generators. We introduce a novel approach: a sentence-level Process Reward Model (PRM) adapted for this vision-language task. Our PRM predicts the factual correctness of each generated sentence, conditioned on clinical context and preceding text. When fine-tuned on MIMIC-CXR with weakly-supervised labels, a lightweight 0.5B-parameter PRM outperforms existing verification techniques, demonstrating, for instance, relative improvements of 7.5% in Matthews Correlation Coefficient and 1.8% in AUROC over strong white-box baselines on outputs from one LVLM. Unlike methods reliant on internal model states, our PRM demonstrates strong generalization to an unseen LVLM. We further show its practical utility: PRM scores effectively filter low-quality reports, improving F1-CheXbert scores by 4.5% (when discarding the worst 10% of reports). Moreover, when guiding a novel weighted best-of-N selection process on the MIMIC-CXR test set, our PRM show relative improvements in clinical metrics of 7.4% for F1-CheXbert and 0.6% for BERTScore. These results demonstrate that a lightweight, context-aware PRM provides a model-agnostic safety layer for clinical LVLMs without access to internal activations</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-27T11:08:05Z</published>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Alois Thomas</name>
+    </author>
+    <author>
+      <name>Maya Varma</name>
+    </author>
+    <author>
+      <name>Jean-Benoit Delbrouck</name>
+    </author>
+    <author>
+      <name>Curtis P. Langlotz</name>
+    </author>
+  </entry>
+</feed>

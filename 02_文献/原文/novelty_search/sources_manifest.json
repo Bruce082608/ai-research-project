@@ -1,0 +1,47 @@
+[
+  {
+    "id": "procon_html",
+    "url": "https://arxiv.org/html/2509.06795v1",
+    "time_utc": "2026-09-08T06:09:53.562363+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/procon_html.html"
+  },
+  {
+    "id": "procon_abs",
+    "url": "https://arxiv.org/abs/2509.06795",
+    "time_utc": "2026-09-08T06:09:53.185105+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/procon_abs.html"
+  },
+  {
+    "id": "procon_pdf",
+    "url": "https://arxiv.org/pdf/2509.06795v1",
+    "time_utc": "2026-09-08T06:09:55.201751+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/procon_pdf.pdf"
+  },
+  {
+    "id": "semantic_search",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=refusal%20direction%20fine-tuning&limit=20&fields=title,year,abstract,url,externalIds",
+    "time_utc": "2026-09-08T06:09:55.075997+00:00",
+    "http_status": "429",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/semantic_search.json"
+  },
+  {
+    "id": "acl_search",
+    "url": "https://aclanthology.org/search/?q=refusal%20direction%20fine-tuning",
+    "time_utc": "2026-09-08T06:09:55.753802+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "saved": "02_文献/原文/novelty_search/acl_search.html"
+  }
+]

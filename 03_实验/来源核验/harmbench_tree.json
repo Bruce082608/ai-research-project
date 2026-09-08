@@ -1,0 +1,3894 @@
+{
+  "sha": "8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+  "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "858d70574cdfe5c8c5a545b7a155108f254e9abf",
+      "size": 3112,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/858d70574cdfe5c8c5a545b7a155108f254e9abf"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6b144b4bcac3fabddd0d72aa893fc7c50f2fac",
+      "size": 1074,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0e6b144b4bcac3fabddd0d72aa893fc7c50f2fac"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f318ac182f4ade072678eebf8646a635adfceabf",
+      "size": 10480,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f318ac182f4ade072678eebf8646a635adfceabf"
+    },
+    {
+      "path": "adversarial_training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc5d8d3983c99f6efb7e979b2ce40608c7ca8677",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/fc5d8d3983c99f6efb7e979b2ce40608c7ca8677"
+    },
+    {
+      "path": "adversarial_training/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76136b8d501e3604c3591d7ad1a316b32be31928",
+      "size": 2020,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/76136b8d501e3604c3591d7ad1a316b32be31928"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0849a2b991dcebd6caf59fba41b69acede64330",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/f0849a2b991dcebd6caf59fba41b69acede64330"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/.deepspeed_env",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a5d8ed3e1e2187eb06a0c6bb3715652298389fd",
+      "size": 4832,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2a5d8ed3e1e2187eb06a0c6bb3715652298389fd"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1445d93c085f3d90a89be70f7900949a76098d24",
+      "size": 3105,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1445d93c085f3d90a89be70f7900949a76098d24"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2e4d2cb71b3aa6b9b686ee7c4bcae3560422a1e",
+      "size": 1031,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e2e4d2cb71b3aa6b9b686ee7c4bcae3560422a1e"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a5d4e0cecf4a26eb59cb53ed4726dc6dafec192",
+      "size": 6357,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5a5d4e0cecf4a26eb59cb53ed4726dc6dafec192"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "820bd025ad9a832e2fa11e3efed6b14fdf01597b",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/820bd025ad9a832e2fa11e3efed6b14fdf01597b"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/assets/handbook.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1146bfe78725918584c889749fbb5415db2fca5",
+      "size": 53614,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a1146bfe78725918584c889749fbb5415db2fca5"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/chapters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "156e8e7338c71ae88146054914f4a279ad91f8b1",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/156e8e7338c71ae88146054914f4a279ad91f8b1"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/chapters/en",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc328cb0e2f83e4e85d40e1427020d5e95ef5007",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/cc328cb0e2f83e4e85d40e1427020d5e95ef5007"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/chapters/en/_toctree.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8fc7c0a08cbe2dcab7769214b1535d7caca08e0",
+      "size": 122,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e8fc7c0a08cbe2dcab7769214b1535d7caca08e0"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/chapters/en/chapter0",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f0d5880bf8d0a6645ef8188c199c2d5ec66e61e",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/8f0d5880bf8d0a6645ef8188c199c2d5ec66e61e"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/chapters/en/chapter0/introduction.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26f500f4fb5db72094f6cac3aefe7c0b204a4d21",
+      "size": 65,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/26f500f4fb5db72094f6cac3aefe7c0b204a4d21"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38d5bdd1aef45a7dc44c532bb27ea21216497177",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/38d5bdd1aef45a7dc44c532bb27ea21216497177"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/accelerate_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4993f02428e8c6d92899fadcbd48eb88e1ea91b8",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/4993f02428e8c6d92899fadcbd48eb88e1ea91b8"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/accelerate_configs/deepspeed_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b82eb040930285d03c3028fd38557d95a850b7e",
+      "size": 783,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8b82eb040930285d03c3028fd38557d95a850b7e"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/accelerate_configs/deepspeed_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9700393a53246902f93bc0fe2d885faafdc81298",
+      "size": 445,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9700393a53246902f93bc0fe2d885faafdc81298"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/accelerate_configs/deepspeed_zero3.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c1e099c6c67d8f909d209e24a9fb1cce5e2d60",
+      "size": 498,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d8c1e099c6c67d8f909d209e24a9fb1cce5e2d60"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/accelerate_configs/multi_gpu.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f92fae83ad40f4ad56be98264cb8873ec2ca43",
+      "size": 319,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/67f92fae83ad40f4ad56be98264cb8873ec2ca43"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26dfeb1916e18d9c2da4bb1151095120e5e1d0b4",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/26dfeb1916e18d9c2da4bb1151095120e5e1d0b4"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "836bcc3a50a57111348efd4d69b51324a378e387",
+      "size": 1917,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/836bcc3a50a57111348efd4d69b51324a378e387"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/dpo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ced5adfee5cda76d3efccf87f51cc3ed5bccae4f",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/ced5adfee5cda76d3efccf87f51cc3ed5bccae4f"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/dpo/config_full.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5110f591b5cc3ad152be1c078543bbfa981f64ef",
+      "size": 822,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5110f591b5cc3ad152be1c078543bbfa981f64ef"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/dpo/config_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afeb8b4b95161b22e688399de3d9fefd8d9bd00e",
+      "size": 1065,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/afeb8b4b95161b22e688399de3d9fefd8d9bd00e"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/sft",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da62a369eeecbb58f0c23f7dd1eb5da5732bd180",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/da62a369eeecbb58f0c23f7dd1eb5da5732bd180"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/sft/config_full.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d8d2d1a00776dc611015d92d7c2e2a586e880b3",
+      "size": 896,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4d8d2d1a00776dc611015d92d7c2e2a586e880b3"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/sft/config_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "286166ae88593c533d69aa9fa1c65313a930cef4",
+      "size": 1020,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/286166ae88593c533d69aa9fa1c65313a930cef4"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/sft_adv_training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d641083f7b1378d10adc889c90649e6a2d8bed9e",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/d641083f7b1378d10adc889c90649e6a2d8bed9e"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/sft_adv_training/config_full.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b13d7e7c2e6c4f56311092c79f9ff05a02080791",
+      "size": 910,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b13d7e7c2e6c4f56311092c79f9ff05a02080791"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/recipes/zephyr-7b-beta/sft_adv_training/config_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "286166ae88593c533d69aa9fa1c65313a930cef4",
+      "size": 1020,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/286166ae88593c533d69aa9fa1c65313a930cef4"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a8562d95171c24a8a47ca110a76e2cc6646489d",
+      "size": 414,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1a8562d95171c24a8a47ca110a76e2cc6646489d"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "305f644b00f870857bb0d0475e9e59c201a0a87e",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/305f644b00f870857bb0d0475e9e59c201a0a87e"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/scripts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e297685846c90e3974d3af7819c3e4e1a3e134",
+      "size": 8964,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/07e297685846c90e3974d3af7819c3e4e1a3e134"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/scripts/adv_training_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e1785938a8095c8a6110516e7ec825057f18de",
+      "size": 64132,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/91e1785938a8095c8a6110516e7ec825057f18de"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/scripts/run_adv_training.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209c502b3ff23c213a07a4d95608be26314ed701",
+      "size": 304,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/209c502b3ff23c213a07a4d95608be26314ed701"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/scripts/run_dpo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06189674ecbff691319859b772de3249eb0a7df7",
+      "size": 8131,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/06189674ecbff691319859b772de3249eb0a7df7"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/scripts/run_sft.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "748dd71b324799a11bb356e0406d21f6063b8de4",
+      "size": 6683,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/748dd71b324799a11bb356e0406d21f6063b8de4"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/scripts/run_sft_adv_training.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "697292c2390cf875103cfae304e8917232fd505f",
+      "size": 10454,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/697292c2390cf875103cfae304e8917232fd505f"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ee645befd5933b618f5f9912609acc5fab1445",
+      "size": 698,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c2ee645befd5933b618f5f9912609acc5fab1445"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dc950f5c970b5e59becb5e352a819669a8e5936",
+      "size": 4798,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1dc950f5c970b5e59becb5e352a819669a8e5936"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f47315a39fe4a4d14b537c5f00a69ea3b0b64eea",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/f47315a39fe4a4d14b537c5f00a69ea3b0b64eea"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/src/alignment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bce1b81c1c47f49407aa92ee9d8a4e34a570a2e8",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/bce1b81c1c47f49407aa92ee9d8a4e34a570a2e8"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/src/alignment/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f47670e11906f119058d810a6a092cfdc2d25e",
+      "size": 291,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/17f47670e11906f119058d810a6a092cfdc2d25e"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/src/alignment/configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0674ec3f666d423e0cf393b01789b374593d50f1",
+      "size": 10889,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0674ec3f666d423e0cf393b01789b374593d50f1"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/src/alignment/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "532bddcd4a9ca685420f6dcc91d711590f37136d",
+      "size": 8706,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/532bddcd4a9ca685420f6dcc91d711590f37136d"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/src/alignment/model_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab2025f6a409dcfd8b56a2d2a1bac32fdb9fae5a",
+      "size": 3923,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ab2025f6a409dcfd8b56a2d2a1bac32fdb9fae5a"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/src/alignment/release.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3f7679c0ca331a8e5b5cd35644edca3a0cafe6",
+      "size": 3938,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7f3f7679c0ca331a8e5b5cd35644edca3a0cafe6"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc5e69ac8bd5144c742bbc3085873a1334cdf2ee",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/bc5e69ac8bd5144c742bbc3085873a1334cdf2ee"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf837e36997fa95570c1df5e7535d569cd1469dd",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/bf837e36997fa95570c1df5e7535d569cd1469dd"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests/fixtures/config_dpo_full.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5110f591b5cc3ad152be1c078543bbfa981f64ef",
+      "size": 822,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5110f591b5cc3ad152be1c078543bbfa981f64ef"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests/fixtures/config_sft_full.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf13daefc2057dbaee566415947d0bec1e28f0d",
+      "size": 885,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/adf13daefc2057dbaee566415947d0bec1e28f0d"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests/test_configs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4a7a6d0e642df5a1aade36e5912d5239c6deb6",
+      "size": 1755,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2a4a7a6d0e642df5a1aade36e5912d5239c6deb6"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests/test_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a6b63c6f8c0966b17bb791614c85fe8596f820d",
+      "size": 5851,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6a6b63c6f8c0966b17bb791614c85fe8596f820d"
+    },
+    {
+      "path": "adversarial_training/alignment-handbook/tests/test_model_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20afec78968c63c92a235483f1b211db45cab6f",
+      "size": 3510,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d20afec78968c63c92a235483f1b211db45cab6f"
+    },
+    {
+      "path": "api_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41941459ade75a86e02f874d7da05e3adc84143e",
+      "size": 10343,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/41941459ade75a86e02f874d7da05e3adc84143e"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9a73c4bf9ad8babb0124b170d02db2ae6778621",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/a9a73c4bf9ad8babb0124b170d02db2ae6778621"
+    },
+    {
+      "path": "assets/eval_pipeline-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8270b3434beabbac8378fb3ad59d8e202abe7b4c",
+      "size": 794981,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8270b3434beabbac8378fb3ad59d8e202abe7b4c"
+    },
+    {
+      "path": "assets/harmbench_splash.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e2a50a676b9c71184d17201e321f42d2d3dbf2",
+      "size": 9772631,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/39e2a50a676b9c71184d17201e321f42d2d3dbf2"
+    },
+    {
+      "path": "assets/harmbench_splash.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2225f611164ca84a04e4f85cc14191dc319bc6b",
+      "size": 1038357,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a2225f611164ca84a04e4f85cc14191dc319bc6b"
+    },
+    {
+      "path": "baselines",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8aa7ecc55bcb848878767c2e95a35fab71c47f46",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/8aa7ecc55bcb848878767c2e95a35fab71c47f46"
+    },
+    {
+      "path": "baselines/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78736b79a7b87afa5af2279606cea2bb55f0756d",
+      "size": 1623,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/78736b79a7b87afa5af2279606cea2bb55f0756d"
+    },
+    {
+      "path": "baselines/artprompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01b6d18dc4dec95af2f60c76c49d726779b72df9",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/01b6d18dc4dec95af2f60c76c49d726779b72df9"
+    },
+    {
+      "path": "baselines/artprompt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56287626f35f248c23445a6e94e57fbeae5253a8",
+      "size": 24,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/56287626f35f248c23445a6e94e57fbeae5253a8"
+    },
+    {
+      "path": "baselines/artprompt/artprompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd4f43c4531fcc5d9c0a252bb2570624e129594",
+      "size": 3324,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8dd4f43c4531fcc5d9c0a252bb2570624e129594"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea053e96afde34847c94b521809f90f555cf9a00",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/ea053e96afde34847c94b521809f90f555cf9a00"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak/attack_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd380f8e4d471699a78e7f8cc5e2f1bd9d960ea",
+      "size": 5293,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4cd380f8e4d471699a78e7f8cc5e2f1bd9d960ea"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak/base_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca652ca21ff59bbf2a9358b8f1b046d7b24a425b",
+      "size": 24861,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ca652ca21ff59bbf2a9358b8f1b046d7b24a425b"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak/baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c98f1153e99747db662af9603ae34ae343cda99",
+      "size": 5078,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7c98f1153e99747db662af9603ae34ae343cda99"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak/bpe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280a02c8f389316afd1f542debc12c817308bfb8",
+      "size": 6850,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/280a02c8f389316afd1f542debc12c817308bfb8"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak/defense_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f1de0bd29f2905724379fc3485572f37891c28d",
+      "size": 4992,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7f1de0bd29f2905724379fc3485572f37891c28d"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak/safe_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0812b19579eec97e11a607f54c3d108b2493a94",
+      "size": 15596,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c0812b19579eec97e11a607f54c3d108b2493a94"
+    },
+    {
+      "path": "baselines/artprompt/jailbreak/subword_nmt.voc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11c48b4b6f523b2a18045c155d54958faef1e57c",
+      "size": 357258,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/11c48b4b6f523b2a18045c155d54958faef1e57c"
+    },
+    {
+      "path": "baselines/artprompt/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f20309291e2d66d74e4942bd14cf647b84c47c2",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/0f20309291e2d66d74e4942bd14cf647b84c47c2"
+    },
+    {
+      "path": "baselines/artprompt/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "baselines/artprompt/utils/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ab29894b5eacd4aa4ffb2875b1938cff792bee",
+      "size": 1285,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/46ab29894b5eacd4aa4ffb2875b1938cff792bee"
+    },
+    {
+      "path": "baselines/artprompt/utils/eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8d1c4ab4d6f88744140971c0a86899a9db0d7c7",
+      "size": 1270,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d8d1c4ab4d6f88744140971c0a86899a9db0d7c7"
+    },
+    {
+      "path": "baselines/artprompt/utils/few_shot_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba8380a93aff40a153cd549c296e60fe21e92a1c",
+      "size": 5741,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ba8380a93aff40a153cd549c296e60fe21e92a1c"
+    },
+    {
+      "path": "baselines/artprompt/utils/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d46ff5375e285da7585c0158dd5a2f230ac22253",
+      "size": 8371,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d46ff5375e285da7585c0158dd5a2f230ac22253"
+    },
+    {
+      "path": "baselines/artprompt/utils/prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ecc63e55c5d9fbb5721234d533f90d2e3546867",
+      "size": 4322,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7ecc63e55c5d9fbb5721234d533f90d2e3546867"
+    },
+    {
+      "path": "baselines/autodan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d4a7a38e1246ad187a042ab402b73a61d477085",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/9d4a7a38e1246ad187a042ab402b73a61d477085"
+    },
+    {
+      "path": "baselines/autodan/AutoDAN.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f5b71ec1c27d1cd1a1f61bb4078b085235448e8",
+      "size": 10922,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1f5b71ec1c27d1cd1a1f61bb4078b085235448e8"
+    },
+    {
+      "path": "baselines/autodan/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b2eb6a139aeee058b3a884c9e6f3a7d491a558e",
+      "size": 22,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7b2eb6a139aeee058b3a884c9e6f3a7d491a558e"
+    },
+    {
+      "path": "baselines/autodan/mutate_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ca92a37d93b25d08442208500ae310918881e04",
+      "size": 11747,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0ca92a37d93b25d08442208500ae310918881e04"
+    },
+    {
+      "path": "baselines/autodan/templates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55070973c9a6945e7fd02deefcfe8b32698f5f66",
+      "size": 422508,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/55070973c9a6945e7fd02deefcfe8b32698f5f66"
+    },
+    {
+      "path": "baselines/autodan/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d254ee57445f66c3d4318faa44153969641e18d",
+      "size": 5712,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6d254ee57445f66c3d4318faa44153969641e18d"
+    },
+    {
+      "path": "baselines/autoprompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39b11a10301bec66a50b32316eda57c9add71f9e",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/39b11a10301bec66a50b32316eda57c9add71f9e"
+    },
+    {
+      "path": "baselines/autoprompt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d365e4e76bba5853a65e1e33223d64cc510b7963",
+      "size": 25,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d365e4e76bba5853a65e1e33223d64cc510b7963"
+    },
+    {
+      "path": "baselines/autoprompt/autoprompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d77a1a54b36ca44f71cba52bf4799cbe60ff6a0",
+      "size": 14721,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1d77a1a54b36ca44f71cba52bf4799cbe60ff6a0"
+    },
+    {
+      "path": "baselines/autoprompt/autoprompt_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "298d437ffbaec0865253e1d7e4173f8ae3edd8bd",
+      "size": 1800,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/298d437ffbaec0865253e1d7e4173f8ae3edd8bd"
+    },
+    {
+      "path": "baselines/baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9673ff14246902c8509cac1aefbcf58c834d600",
+      "size": 13857,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e9673ff14246902c8509cac1aefbcf58c834d600"
+    },
+    {
+      "path": "baselines/check_refusal_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80eed7c7698bbafcf8cb10d6b605c64b7e8e0112",
+      "size": 2749,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/80eed7c7698bbafcf8cb10d6b605c64b7e8e0112"
+    },
+    {
+      "path": "baselines/direct_request",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea37367bef583084eb26e61340a90b9baedb2284",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/ea37367bef583084eb26e61340a90b9baedb2284"
+    },
+    {
+      "path": "baselines/direct_request/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776657ebed03b10a9407c4be3e8dd962ad544a6b",
+      "size": 29,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/776657ebed03b10a9407c4be3e8dd962ad544a6b"
+    },
+    {
+      "path": "baselines/direct_request/direct_request.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "513e6beb1695133ec759fe1bb9f5f21eff54232d",
+      "size": 2008,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/513e6beb1695133ec759fe1bb9f5f21eff54232d"
+    },
+    {
+      "path": "baselines/fewshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05c1e876e009afd1d2b3cdd3b6e0b1cd1b16d503",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/05c1e876e009afd1d2b3cdd3b6e0b1cd1b16d503"
+    },
+    {
+      "path": "baselines/fewshot/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0407f709c0fc8437d413cb5c397df05e2d3bb2d4",
+      "size": 22,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0407f709c0fc8437d413cb5c397df05e2d3bb2d4"
+    },
+    {
+      "path": "baselines/fewshot/fewshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "338ae62394dcb0acdf8102561ab605f32334530b",
+      "size": 10985,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/338ae62394dcb0acdf8102561ab605f32334530b"
+    },
+    {
+      "path": "baselines/gbda",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9eef21bb6f7e4fd2bca08727bde4962e274d56e4",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/9eef21bb6f7e4fd2bca08727bde4962e274d56e4"
+    },
+    {
+      "path": "baselines/gbda/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb35740364043968abd8cd44219372a0d1ebbebd",
+      "size": 19,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bb35740364043968abd8cd44219372a0d1ebbebd"
+    },
+    {
+      "path": "baselines/gbda/gbda.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e25268eeea8f8e65f1f137062a38ccd8f4d8b1d",
+      "size": 7000,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2e25268eeea8f8e65f1f137062a38ccd8f4d8b1d"
+    },
+    {
+      "path": "baselines/gcg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e7d7e00174081827fb91d3fac0d561b3466bc8f",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/9e7d7e00174081827fb91d3fac0d561b3466bc8f"
+    },
+    {
+      "path": "baselines/gcg/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d75b7356f1a72cebc2ee70d9524e5a850669c2f",
+      "size": 18,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2d75b7356f1a72cebc2ee70d9524e5a850669c2f"
+    },
+    {
+      "path": "baselines/gcg/gcg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a13391a6fb8be6917b76fdc9961193eb71be0fe",
+      "size": 15061,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3a13391a6fb8be6917b76fdc9961193eb71be0fe"
+    },
+    {
+      "path": "baselines/gcg/gcg_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0238421fce964dacfc747e35ea8f05a6b2fa561b",
+      "size": 1768,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0238421fce964dacfc747e35ea8f05a6b2fa561b"
+    },
+    {
+      "path": "baselines/gcg_ensemble",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8142fb4fbb8408680b224ef81523f32d241da35a",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/8142fb4fbb8408680b224ef81523f32d241da35a"
+    },
+    {
+      "path": "baselines/gcg_ensemble/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e3af927a1c6c75ba119459090fce7cc5032a42e",
+      "size": 27,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9e3af927a1c6c75ba119459090fce7cc5032a42e"
+    },
+    {
+      "path": "baselines/gcg_ensemble/gcg_ensemble.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed06927e7afcc5250423c3bd82615ab568301660",
+      "size": 13257,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ed06927e7afcc5250423c3bd82615ab568301660"
+    },
+    {
+      "path": "baselines/gcg_ensemble/gcg_ray_actors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7eff4347e87ad1728058f084ba9e0e2af390be3",
+      "size": 12045,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c7eff4347e87ad1728058f084ba9e0e2af390be3"
+    },
+    {
+      "path": "baselines/gptfuzz",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0095acdab6ef6f78f98c20a1183955f1a6c5271f",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/0095acdab6ef6f78f98c20a1183955f1a6c5271f"
+    },
+    {
+      "path": "baselines/gptfuzz/GPTFuzzer.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e016f8c8c18f8279106bb0976df311b524920d2b",
+      "size": 158982,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e016f8c8c18f8279106bb0976df311b524920d2b"
+    },
+    {
+      "path": "baselines/gptfuzz/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd76b61d380e8641e776d4e93d595be2ba92ed21",
+      "size": 22,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cd76b61d380e8641e776d4e93d595be2ba92ed21"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzz.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "374eba5ed4d31d0496f8ae126c51589e24d953fa",
+      "size": 5344,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/374eba5ed4d31d0496f8ae126c51589e24d953fa"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe6354f1e6173d30e7311592ee685a10d0f44483",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/fe6354f1e6173d30e7311592ee685a10d0f44483"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/fuzzer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cafb2364994225a79ba90c6eb2c99427111b2d04",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/cafb2364994225a79ba90c6eb2c99427111b2d04"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/fuzzer/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda9e9cf11151548ec0fded241a7ec83ed3bcca5",
+      "size": 40,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/eda9e9cf11151548ec0fded241a7ec83ed3bcca5"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/fuzzer/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d47bcaa6bc8b214ccde6ade8c02b1ce772111f",
+      "size": 7064,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c1d47bcaa6bc8b214ccde6ade8c02b1ce772111f"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/fuzzer/mutator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "068597889fad225414cd32df93e0487534987554",
+      "size": 10254,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/068597889fad225414cd32df93e0487534987554"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/fuzzer/selection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e681527b6baadb57887e1a8ed506650e171df800",
+      "size": 6309,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e681527b6baadb57887e1a8ed506650e171df800"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/llm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35d16e596db29727497381102ec26abec07bb3e5",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/35d16e596db29727497381102ec26abec07bb3e5"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/llm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16dd7a89eaacd040b7b4cc2e222c522968f4b89c",
+      "size": 74,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/16dd7a89eaacd040b7b4cc2e222c522968f4b89c"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/llm/llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e22ba759bb22348cc45dcd1b997488e79c9101b",
+      "size": 14423,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2e22ba759bb22348cc45dcd1b997488e79c9101b"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "175850bbfd381843520c95cee47b84574b8c10be",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/175850bbfd381843520c95cee47b84574b8c10be"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/utils/openai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a47cb45f24753d8b4fadd9ed0100401541108c77",
+      "size": 663,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a47cb45f24753d8b4fadd9ed0100401541108c77"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/utils/predict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3b24ef6d22f897ce6250984e9c4023e74b93893",
+      "size": 1094,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c3b24ef6d22f897ce6250984e9c4023e74b93893"
+    },
+    {
+      "path": "baselines/gptfuzz/gptfuzzer/utils/template.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3840acde913975a9c103ca5f7a54b1eed96267f4",
+      "size": 211,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3840acde913975a9c103ca5f7a54b1eed96267f4"
+    },
+    {
+      "path": "baselines/human_jailbreaks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eba232b7628eb6f0a0ed0a0abb14dfaf467f4ab3",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/eba232b7628eb6f0a0ed0a0abb14dfaf467f4ab3"
+    },
+    {
+      "path": "baselines/human_jailbreaks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbefb6a233c9309f556c4840ccc706fcbac7de77",
+      "size": 31,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fbefb6a233c9309f556c4840ccc706fcbac7de77"
+    },
+    {
+      "path": "baselines/human_jailbreaks/human_jailbreaks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39c0eee6743e1dd28255e9e21fc131801cbcd899",
+      "size": 2930,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/39c0eee6743e1dd28255e9e21fc131801cbcd899"
+    },
+    {
+      "path": "baselines/human_jailbreaks/jailbreaks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4d90850353250c6bc7791fb85eeb213111e6ed1",
+      "size": 231148,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b4d90850353250c6bc7791fb85eeb213111e6ed1"
+    },
+    {
+      "path": "baselines/model_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b9c2bf4fac4e1807ab9f271e252e0b0ca043da9",
+      "size": 14656,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6b9c2bf4fac4e1807ab9f271e252e0b0ca043da9"
+    },
+    {
+      "path": "baselines/multimodaldirectrequest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8ef9039a8111064514f91bb54fc450e28456416",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/a8ef9039a8111064514f91bb54fc450e28456416"
+    },
+    {
+      "path": "baselines/multimodaldirectrequest/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6475bb7cfb5e0822a83a6df03cca41b089b3e090",
+      "size": 61,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6475bb7cfb5e0822a83a6df03cca41b089b3e090"
+    },
+    {
+      "path": "baselines/multimodaldirectrequest/multimodaldirectrequest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45a5328da326adee9f4c0d934008b4eb7a485ced",
+      "size": 3460,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/45a5328da326adee9f4c0d934008b4eb7a485ced"
+    },
+    {
+      "path": "baselines/multimodalpgd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "298276b646e306a93e0e888aa8eae25f7be4c5a2",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/298276b646e306a93e0e888aa8eae25f7be4c5a2"
+    },
+    {
+      "path": "baselines/multimodalpgd/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cec9c386d04eaed789450afe8a380447b390858",
+      "size": 138,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2cec9c386d04eaed789450afe8a380447b390858"
+    },
+    {
+      "path": "baselines/multimodalpgd/multimodalpgd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbeefad85deb88c0f25ad0acdad464401ceaf9b1",
+      "size": 9029,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/dbeefad85deb88c0f25ad0acdad464401ceaf9b1"
+    },
+    {
+      "path": "baselines/multimodalrendertext",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14492b41f51fa42492aca9c3d76b63eeb160ad08",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/14492b41f51fa42492aca9c3d76b63eeb160ad08"
+    },
+    {
+      "path": "baselines/multimodalrendertext/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c0a2dab74a9410214d58011caf8f6049bb51fc",
+      "size": 55,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e3c0a2dab74a9410214d58011caf8f6049bb51fc"
+    },
+    {
+      "path": "baselines/multimodalrendertext/multimodalrendertext.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98fa0dacdd7aa2db2446b745af27cb824c9b613",
+      "size": 10103,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a98fa0dacdd7aa2db2446b745af27cb824c9b613"
+    },
+    {
+      "path": "baselines/pair",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5bf918e8831943e2cda6c5eea064d829d0b6836",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/e5bf918e8831943e2cda6c5eea064d829d0b6836"
+    },
+    {
+      "path": "baselines/pair/PAIR.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "850a603c10ebac5e9a1f2e9306ddbb49bf6077cf",
+      "size": 7050,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/850a603c10ebac5e9a1f2e9306ddbb49bf6077cf"
+    },
+    {
+      "path": "baselines/pair/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4df25689ea66af1f1250ff42269599ff93f60a",
+      "size": 19,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7d4df25689ea66af1f1250ff42269599ff93f60a"
+    },
+    {
+      "path": "baselines/pair/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f39954e7322272c153b82370bd88e850e2dc713f",
+      "size": 2609,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f39954e7322272c153b82370bd88e850e2dc713f"
+    },
+    {
+      "path": "baselines/pair/conversers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74e9940ec908560368d4549c06c2a43aed13d45a",
+      "size": 10214,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/74e9940ec908560368d4549c06c2a43aed13d45a"
+    },
+    {
+      "path": "baselines/pair/judges.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f36931ed90e09354de4e9b5e113eb30285fd1f8",
+      "size": 4017,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0f36931ed90e09354de4e9b5e113eb30285fd1f8"
+    },
+    {
+      "path": "baselines/pair/language_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "401e738ba1950c5baa3dfadcbad678d5ed526c23",
+      "size": 12155,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/401e738ba1950c5baa3dfadcbad678d5ed526c23"
+    },
+    {
+      "path": "baselines/pair/system_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b12e818a6a9e66e28ec3aa06353bb2292967356",
+      "size": 14557,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2b12e818a6a9e66e28ec3aa06353bb2292967356"
+    },
+    {
+      "path": "baselines/pap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a46e1a3dda149cb4ff2fe2fbdfe2a6569af04f2",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/0a46e1a3dda149cb4ff2fe2fbdfe2a6569af04f2"
+    },
+    {
+      "path": "baselines/pap/PAP.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69dbf0e13c71e68db2b44c2c23c1f5e9b68d548a",
+      "size": 3546,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/69dbf0e13c71e68db2b44c2c23c1f5e9b68d548a"
+    },
+    {
+      "path": "baselines/pap/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df06629329fc21fe40556340119bac1b9a348708",
+      "size": 18,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/df06629329fc21fe40556340119bac1b9a348708"
+    },
+    {
+      "path": "baselines/pap/language_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a510fbcd214ce89ac98ecaa6bb2399c851f5ffc",
+      "size": 10752,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7a510fbcd214ce89ac98ecaa6bb2399c851f5ffc"
+    },
+    {
+      "path": "baselines/pap/templates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd95c8b7947812c28876af9b10686aa16c0a746e",
+      "size": 27015,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cd95c8b7947812c28876af9b10686aa16c0a746e"
+    },
+    {
+      "path": "baselines/pez",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50ec748130fe22bf2e89616f5097187725fa0118",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/50ec748130fe22bf2e89616f5097187725fa0118"
+    },
+    {
+      "path": "baselines/pez/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a5afb53f628c539841ee61b9413861953645916",
+      "size": 19,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0a5afb53f628c539841ee61b9413861953645916"
+    },
+    {
+      "path": "baselines/pez/pez.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7208f85be546b0848fb1c77063a94cd193edd304",
+      "size": 9313,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7208f85be546b0848fb1c77063a94cd193edd304"
+    },
+    {
+      "path": "baselines/tap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d114750ac2d110dbe640148d29a15f5587de7899",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/d114750ac2d110dbe640148d29a15f5587de7899"
+    },
+    {
+      "path": "baselines/tap/TAP.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e6a6d676fbea7ba179fc46cf4076d16eff27a67",
+      "size": 11938,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6e6a6d676fbea7ba179fc46cf4076d16eff27a67"
+    },
+    {
+      "path": "baselines/tap/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45909405cbb86662557572bab5a76c46a6987209",
+      "size": 18,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/45909405cbb86662557572bab5a76c46a6987209"
+    },
+    {
+      "path": "baselines/tap/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba1d683f928500b1edd2fde744a37036ccd7410b",
+      "size": 2635,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ba1d683f928500b1edd2fde744a37036ccd7410b"
+    },
+    {
+      "path": "baselines/tap/conversers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a35ff8d018b6fc72ed176b783710d769274c00",
+      "size": 10216,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d6a35ff8d018b6fc72ed176b783710d769274c00"
+    },
+    {
+      "path": "baselines/tap/judges.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e1362a571f0e54a0a2a370034259151fef46a13",
+      "size": 6303,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4e1362a571f0e54a0a2a370034259151fef46a13"
+    },
+    {
+      "path": "baselines/tap/language_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a09126831990bc918f8e5db474dfe791eb1dadf",
+      "size": 12087,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9a09126831990bc918f8e5db474dfe791eb1dadf"
+    },
+    {
+      "path": "baselines/tap/system_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd9f065bb00119b1aeb9ca5807cd07f3ceba7c63",
+      "size": 16404,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cd9f065bb00119b1aeb9ca5807cd07f3ceba7c63"
+    },
+    {
+      "path": "baselines/uat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbc53d609716a3784598b57cc2ed6041d411e85c",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/cbc53d609716a3784598b57cc2ed6041d411e85c"
+    },
+    {
+      "path": "baselines/uat/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7400881f8237aa66de8067638fbcf4e13d3844a",
+      "size": 18,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b7400881f8237aa66de8067638fbcf4e13d3844a"
+    },
+    {
+      "path": "baselines/uat/uat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae81d190a41a9f9e8429306899a2cee508494cfd",
+      "size": 14366,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ae81d190a41a9f9e8429306899a2cee508494cfd"
+    },
+    {
+      "path": "baselines/zeroshot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c6c3e7c2d258059b148e826091d0231083ecddf",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/4c6c3e7c2d258059b148e826091d0231083ecddf"
+    },
+    {
+      "path": "baselines/zeroshot/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43da3d02c03d30addcad396beb7104ed629a0d66",
+      "size": 23,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/43da3d02c03d30addcad396beb7104ed629a0d66"
+    },
+    {
+      "path": "baselines/zeroshot/zeroshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a923352ee27c5646364fd7954c781949c6d138ba",
+      "size": 5806,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a923352ee27c5646364fd7954c781949c6d138ba"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0035a91b458e7e8a87df56b06b3ae7d86a3ef85d",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/0035a91b458e7e8a87df56b06b3ae7d86a3ef85d"
+    },
+    {
+      "path": "configs/method_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3ec15a3cfca9bbd91c296257771bcc839408ee1",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/c3ec15a3cfca9bbd91c296257771bcc839408ee1"
+    },
+    {
+      "path": "configs/method_configs/ArtPrompt_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e2081dd117ef80e433baa0a6b11f47ca111c430",
+      "size": 347,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9e2081dd117ef80e433baa0a6b11f47ca111c430"
+    },
+    {
+      "path": "configs/method_configs/AutoDAN_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab8b8489c84d1a057098f3cec19b7cbb2857569",
+      "size": 9205,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9ab8b8489c84d1a057098f3cec19b7cbb2857569"
+    },
+    {
+      "path": "configs/method_configs/AutoPrompt_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5138efb0245d267bd6d5518c453649514b6b00",
+      "size": 2372,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1c5138efb0245d267bd6d5518c453649514b6b00"
+    },
+    {
+      "path": "configs/method_configs/DirectRequest_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66cd02834fb0d71d32aeaa0edaffc42e3bf251d2",
+      "size": 95,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/66cd02834fb0d71d32aeaa0edaffc42e3bf251d2"
+    },
+    {
+      "path": "configs/method_configs/EnsembleGCG_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a51dc5ab49d4a7e2fc1c4ac5cf165b72c214d067",
+      "size": 3228,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a51dc5ab49d4a7e2fc1c4ac5cf165b72c214d067"
+    },
+    {
+      "path": "configs/method_configs/FewShot_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aaa574f4ca013b89c42bc2fecee70187640249a",
+      "size": 6002,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4aaa574f4ca013b89c42bc2fecee70187640249a"
+    },
+    {
+      "path": "configs/method_configs/GBDA_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b4e37799d056aacb78ad9e7967593115cc763e2",
+      "size": 1754,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8b4e37799d056aacb78ad9e7967593115cc763e2"
+    },
+    {
+      "path": "configs/method_configs/GCG_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffdc417b49f26f6c26f89f10696dd96520b50075",
+      "size": 3044,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ffdc417b49f26f6c26f89f10696dd96520b50075"
+    },
+    {
+      "path": "configs/method_configs/GPTFuzz_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f601b0f4cff540dd2d30943974adefa07b47e99f",
+      "size": 437,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f601b0f4cff540dd2d30943974adefa07b47e99f"
+    },
+    {
+      "path": "configs/method_configs/HumanJailbreaks_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa2a0931132b64ac6487f57d08afa46eaaec7ff",
+      "size": 137,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0fa2a0931132b64ac6487f57d08afa46eaaec7ff"
+    },
+    {
+      "path": "configs/method_configs/MultiModalDirectRequest_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5a4a991b0c6b39bb70735a1a5b07b755db4d07",
+      "size": 266,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/eb5a4a991b0c6b39bb70735a1a5b07b755db4d07"
+    },
+    {
+      "path": "configs/method_configs/MultiModalPGDBlankImage_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f57121ccda2451aa41f5dc446d3832c822b4ab25",
+      "size": 733,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f57121ccda2451aa41f5dc446d3832c822b4ab25"
+    },
+    {
+      "path": "configs/method_configs/MultiModalPGDPatch_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d190bd25196b72520685fb01501ab9897155ced6",
+      "size": 756,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d190bd25196b72520685fb01501ab9897155ced6"
+    },
+    {
+      "path": "configs/method_configs/MultiModalPGD_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0846bde3a1997b5136dfa5631bd510bc2095fc2",
+      "size": 756,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a0846bde3a1997b5136dfa5631bd510bc2095fc2"
+    },
+    {
+      "path": "configs/method_configs/MultiModalRenderText_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2250812f57c8b9373de5db36ace6f6438578735e",
+      "size": 745,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2250812f57c8b9373de5db36ace6f6438578735e"
+    },
+    {
+      "path": "configs/method_configs/PAIR_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ef914823a663b8572fdfdaf3b4266c0d540db21",
+      "size": 7457,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5ef914823a663b8572fdfdaf3b4266c0d540db21"
+    },
+    {
+      "path": "configs/method_configs/PAP_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95d43b6f0aa4765297d99ed370d6ec8a58e02a9e",
+      "size": 502,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/95d43b6f0aa4765297d99ed370d6ec8a58e02a9e"
+    },
+    {
+      "path": "configs/method_configs/PEZ_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3660fea14a6ca81f7b6bf798063345e475e77f60",
+      "size": 1441,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3660fea14a6ca81f7b6bf798063345e475e77f60"
+    },
+    {
+      "path": "configs/method_configs/TAP_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2889682a969fa4b1e45102b23cee48d19b700e6d",
+      "size": 7917,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2889682a969fa4b1e45102b23cee48d19b700e6d"
+    },
+    {
+      "path": "configs/method_configs/UAT_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b87b812f008f51e48635ee9b91964e13ce8c1fe9",
+      "size": 1951,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b87b812f008f51e48635ee9b91964e13ce8c1fe9"
+    },
+    {
+      "path": "configs/method_configs/ZeroShot_config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3941449db55aa16ec4e9b66ea9e80ec156931b85",
+      "size": 413,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3941449db55aa16ec4e9b66ea9e80ec156931b85"
+    },
+    {
+      "path": "configs/model_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a429827fb4b0b5c80f695d045436f1abc64e602",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/5a429827fb4b0b5c80f695d045436f1abc64e602"
+    },
+    {
+      "path": "configs/model_configs/models.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "024dc7fd61233c6efcd8234bea648e0735d67b72",
+      "size": 8815,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/024dc7fd61233c6efcd8234bea648e0735d67b72"
+    },
+    {
+      "path": "configs/pipeline_configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65c165ef61d430428e45c3ec7f1dcdfb2f0758ce",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/65c165ef61d430428e45c3ec7f1dcdfb2f0758ce"
+    },
+    {
+      "path": "configs/pipeline_configs/run_pipeline.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76c0c5f55ca4c524264c76b1bed383787818caa0",
+      "size": 7335,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/76c0c5f55ca4c524264c76b1bed383787818caa0"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3db7f8f4d4a4df55b1b1ffb57596740d752dc68a",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/3db7f8f4d4a4df55b1b1ffb57596740d752dc68a"
+    },
+    {
+      "path": "data/behavior_datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ef93f699e22153d5b996f5583e32f1cfcc58533",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/4ef93f699e22153d5b996f5583e32f1cfcc58533"
+    },
+    {
+      "path": "data/behavior_datasets/2_behaviors.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0497e8f4967111c7444eed6e54eac31bd33d99c",
+      "size": 1499,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a0497e8f4967111c7444eed6e54eac31bd33d99c"
+    },
+    {
+      "path": "data/behavior_datasets/extra_behavior_datasets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2bfffb4b8cb708ae76dcab56e8177ed5ef5079d",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/c2bfffb4b8cb708ae76dcab56e8177ed5ef5079d"
+    },
+    {
+      "path": "data/behavior_datasets/extra_behavior_datasets/adv_training_behaviors.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a2c08210de1b7a59adb45037c7f7c9f78fa3823",
+      "size": 10031,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8a2c08210de1b7a59adb45037c7f7c9f78fa3823"
+    },
+    {
+      "path": "data/behavior_datasets/extra_behavior_datasets/advbench_behaviors.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a51a5f773518e6bc659caf81fcbe582331a2d04",
+      "size": 47291,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3a51a5f773518e6bc659caf81fcbe582331a2d04"
+    },
+    {
+      "path": "data/behavior_datasets/extra_behavior_datasets/tdc2023_test_phase_behaviors.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dddea74f7bfc021098776c3a4949361fc914144",
+      "size": 7023,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8dddea74f7bfc021098776c3a4949361fc914144"
+    },
+    {
+      "path": "data/behavior_datasets/harmbench_behaviors_multimodal_all.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d39d6c6b4ad68e37e60a408d3181791b49740221",
+      "size": 137713,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d39d6c6b4ad68e37e60a408d3181791b49740221"
+    },
+    {
+      "path": "data/behavior_datasets/harmbench_behaviors_text_all.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6b423d85e9acdc168c57a6a957755cfa86c4cb",
+      "size": 198850,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8a6b423d85e9acdc168c57a6a957755cfa86c4cb"
+    },
+    {
+      "path": "data/behavior_datasets/harmbench_behaviors_text_test.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a150df81f1efa24496f1495e1b96822fd403e339",
+      "size": 160828,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a150df81f1efa24496f1495e1b96822fd403e339"
+    },
+    {
+      "path": "data/behavior_datasets/harmbench_behaviors_text_val.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cfc6c419122c58df0ccbda6351c0265dc72b125",
+      "size": 38024,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0cfc6c419122c58df0ccbda6351c0265dc72b125"
+    },
+    {
+      "path": "data/classifier_val_sets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "227c100e66892e1374ddc78a5454caf824c761cd",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/227c100e66892e1374ddc78a5454caf824c761cd"
+    },
+    {
+      "path": "data/classifier_val_sets/multimodal_behaviors_val_set.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf9fb999bee7c5a3d9018163f8eaa86d2b21ecd",
+      "size": 360084,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bcf9fb999bee7c5a3d9018163f8eaa86d2b21ecd"
+    },
+    {
+      "path": "data/classifier_val_sets/text_behaviors_val_set.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d7d0a98742a36b5c7824aadcea433e42a045022",
+      "size": 1875939,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3d7d0a98742a36b5c7824aadcea433e42a045022"
+    },
+    {
+      "path": "data/copyright_classifier_hashes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33b105d5c043c5f5fc6ff6c91039bcc806874166",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/33b105d5c043c5f5fc6ff6c91039bcc806874166"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_99_problems.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e6b8241f6bd1e08f1283369050781f08c786c1",
+      "size": 364370,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f4e6b8241f6bd1e08f1283369050781f08c786c1"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_aint_no_mountain.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26c50efaef8670435045b3b32100093cfe199b1",
+      "size": 104722,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d26c50efaef8670435045b3b32100093cfe199b1"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_american_pie.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "377f9eb2f82ba87d135663fc4f95ce74cd49c832",
+      "size": 323203,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/377f9eb2f82ba87d135663fc4f95ce74cd49c832"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_bad_guy.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46fd805f4f97b75d72c1047ce237ae542da8a8a1",
+      "size": 98390,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/46fd805f4f97b75d72c1047ce237ae542da8a8a1"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_black_magic_woman.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8281b0713f733c89e7105f29ff70fa5cbb5ee38f",
+      "size": 38227,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8281b0713f733c89e7105f29ff70fa5cbb5ee38f"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_blinding_lights.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "662a288ce0af701917ed0630180f5da1af56ff88",
+      "size": 104722,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/662a288ce0af701917ed0630180f5da1af56ff88"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_born_to_run.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd5eb9268c90c7b12c5c129ba960efe96f3a19c",
+      "size": 126884,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/efd5eb9268c90c7b12c5c129ba960efe96f3a19c"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_burning_down_the_house.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34aa5bf8c26df3fd8a8e55c631efd4797291a92c",
+      "size": 73062,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/34aa5bf8c26df3fd8a8e55c631efd4797291a92c"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_clocks_coldplay.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f9e43d7c069bf7ff9cacb324a0e2a19f7d078ee",
+      "size": 60389,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8f9e43d7c069bf7ff9cacb324a0e2a19f7d078ee"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_come_together.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de95b4144bc74b60511e5474f128abb6748952eb",
+      "size": 76228,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/de95b4144bc74b60511e5474f128abb6748952eb"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_crazy_gnarls.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65c5a1989b781124519596dfbb59635f12b158bd",
+      "size": 69896,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/65c5a1989b781124519596dfbb59635f12b158bd"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_enter_sandman.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41ec8ffa66cb40e5615a7a580e2d6446ba279471",
+      "size": 82560,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/41ec8ffa66cb40e5615a7a580e2d6446ba279471"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_every_breath_you_take.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e806294bc8674187cee8d1b4bdf169ff221edd18",
+      "size": 152221,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e806294bc8674187cee8d1b4bdf169ff221edd18"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_get_lucky.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f13ec6f2f0c695f08f1e81fa6c663039861b4f",
+      "size": 164885,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/54f13ec6f2f0c695f08f1e81fa6c663039861b4f"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_gimme_shelter.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fce30b00982ad7bb0a99e572b869d7ebccfa4d0",
+      "size": 82560,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1fce30b00982ad7bb0a99e572b869d7ebccfa4d0"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_happy_pharrell.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d8846c9a9e16ff4b1757dd4122ef2e3a1198759",
+      "size": 202886,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7d8846c9a9e16ff4b1757dd4122ef2e3a1198759"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_hotel_california.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5337a23f56f53faa3521519bcb231efe0364579",
+      "size": 126884,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f5337a23f56f53faa3521519bcb231efe0364579"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_hurt_cash.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424c43e72030d0d67d5fff9687cbf8a2bc1fb518",
+      "size": 54057,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/424c43e72030d0d67d5fff9687cbf8a2bc1fb518"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_i_like_it.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16c3f0142e65666bb5b7bd34e776e4cdb9b7861a",
+      "size": 342208,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/16c3f0142e65666bb5b7bd34e776e4cdb9b7861a"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_i_will_survive.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5316135594bfc7cfa739ab6ba140a30e92b5633",
+      "size": 164885,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c5316135594bfc7cfa739ab6ba140a30e92b5633"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_im_still_standing.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46616861186d5ea34b824ec6d62f38f657a68f4d",
+      "size": 114220,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/46616861186d5ea34b824ec6d62f38f657a68f4d"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_jolene.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfeb96c0b4c9320ed1fafcc69822df9ebf72278e",
+      "size": 76228,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bfeb96c0b4c9320ed1fafcc69822df9ebf72278e"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_killer_queen.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba3059bb5182afea8c50dadd5518724730bcb5f",
+      "size": 95224,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cba3059bb5182afea8c50dadd5518724730bcb5f"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_legends_never_die.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4661f991e0039a0a9892d0ced12fef03ea2820a",
+      "size": 111054,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f4661f991e0039a0a9892d0ced12fef03ea2820a"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_losing_my_religion.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "532f758fb523ce78868c56e9f0280847fbf64e70",
+      "size": 101556,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/532f758fb523ce78868c56e9f0280847fbf64e70"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_maggie_may.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b802a17f024b0e6a8234c6165f1c547b6d6a8e",
+      "size": 111054,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/15b802a17f024b0e6a8234c6165f1c547b6d6a8e"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_no_scrubs.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "686b7f63481be6eec33a032fce8a0edb6f0ba4d8",
+      "size": 234546,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/686b7f63481be6eec33a032fce8a0edb6f0ba4d8"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_old_town_road.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13d0226cc6a00409d6ae50ecdc3b0ebe3af78b89",
+      "size": 120552,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/13d0226cc6a00409d6ae50ecdc3b0ebe3af78b89"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_piano_man.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bde1c48eaf307feb02c17f7114f769b3f06ccc1",
+      "size": 152221,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2bde1c48eaf307feb02c17f7114f769b3f06ccc1"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_pinball_wizard.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b9f7bb35829a7304b700096feb74426d5f042fa",
+      "size": 76228,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3b9f7bb35829a7304b700096feb74426d5f042fa"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_purple_rain.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc150f67bb9e97fedcc4cb766488444600ebb602",
+      "size": 69896,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/dc150f67bb9e97fedcc4cb766488444600ebb602"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_rocket_man.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2116dadbeb5b32f1c26879ff8a60f66035fda58f",
+      "size": 168051,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2116dadbeb5b32f1c26879ff8a60f66035fda58f"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_rolling_in_the_deep.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86e8d6048f39773648c8ad9c6de3d6a641e57d49",
+      "size": 225048,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/86e8d6048f39773648c8ad9c6de3d6a641e57d49"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_shape_of_you.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf460c6c2b8c7df1fd72a295aa3958e7d6f2f8d7",
+      "size": 275713,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cf460c6c2b8c7df1fd72a295aa3958e7d6f2f8d7"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_single_ladies.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fd13319b745ad5d98cc85619aecd81d81f813cf",
+      "size": 275713,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0fd13319b745ad5d98cc85619aecd81d81f813cf"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_smooth_santana.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8feb19ba66e1f6815a2d2b42792b377e36f1235a",
+      "size": 139557,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8feb19ba66e1f6815a2d2b42792b377e36f1235a"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_still_alive.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "900f6eae7bd48b625dd07252bee8de643d2e18f5",
+      "size": 101556,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/900f6eae7bd48b625dd07252bee8de643d2e18f5"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_stupid_love.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce074484ede049570f5b2257c374f59e87543ce6",
+      "size": 177549,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ce074484ede049570f5b2257c374f59e87543ce6"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_superstition.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fefad62f6b7fe89142b732074a5dd06797a939b5",
+      "size": 63555,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fefad62f6b7fe89142b732074a5dd06797a939b5"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_sweet_home_alabama.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484b32fe4a62e7804c1d52a9a2f7b1fe3eef6730",
+      "size": 79394,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/484b32fe4a62e7804c1d52a9a2f7b1fe3eef6730"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_thinking_out_loud.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5199685394a3b40e75604ed91598d8f6d4b8895",
+      "size": 123718,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d5199685394a3b40e75604ed91598d8f6d4b8895"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_truth_hurts.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a17d3f8df3f060da0c70ee6cea4b252115b5a60a",
+      "size": 168051,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a17d3f8df3f060da0c70ee6cea4b252115b5a60a"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_umbrella_rihanna.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1e877843defc67d8fc8a7345b12c338487b47e",
+      "size": 231380,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ed1e877843defc67d8fc8a7345b12c338487b47e"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_under_the_bridge.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c7517479eb0181e801755509b0262d6c03344d",
+      "size": 101556,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b4c7517479eb0181e801755509b0262d6c03344d"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_uptown_girl.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "528c9d32359ee39827b4a6ee937431ca6c1e0573",
+      "size": 88892,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/528c9d32359ee39827b4a6ee937431ca6c1e0573"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_viva_la_vida.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bba2c0a34b5201e4a5bf27d23f54232b00035010",
+      "size": 120552,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bba2c0a34b5201e4a5bf27d23f54232b00035010"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_waka_waka.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70bf66776dd794cbebe9c04968f0f0bf6863dc3b",
+      "size": 149055,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/70bf66776dd794cbebe9c04968f0f0bf6863dc3b"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_we_are_one.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11bc9723fe6cea72c6d221aedbd34ebd14275ca0",
+      "size": 180715,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/11bc9723fe6cea72c6d221aedbd34ebd14275ca0"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_wonderful_world.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a69854b167008a8f9d4121bcafa193c4a7f6d1e",
+      "size": 38227,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0a69854b167008a8f9d4121bcafa193c4a7f6d1e"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/lyrics_wonderwall.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf8935a466ef289dca8b2596565a643a22ec6eee",
+      "size": 104722,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cf8935a466ef289dca8b2596565a643a22ec6eee"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_12_rules_life.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6372e91d866837a8ceea350d3522d65f73dd72b",
+      "size": 5984778,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f6372e91d866837a8ceea350d3522d65f73dd72b"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_4_hour_workweek.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93e9fac40d896d4bb822d976b2af2efe05960a7a",
+      "size": 2226230,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/93e9fac40d896d4bb822d976b2af2efe05960a7a"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_all_quiet_western_front.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9509d393d60d9cbc7e98eaf3f0253a1718fdb0d5",
+      "size": 2694861,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9509d393d60d9cbc7e98eaf3f0253a1718fdb0d5"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_atomic_habits.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad328ceca64f4b0bdb63de69175c0df38e7b8b65",
+      "size": 3179324,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ad328ceca64f4b0bdb63de69175c0df38e7b8b65"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_becoming_obama.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecad42aef7946d98f4aa00325c95f17d18a8161e",
+      "size": 6390091,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ecad42aef7946d98f4aa00325c95f17d18a8161e"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_ben_franklin_life.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9ca33202199dbfd9505868348c42bee14bf783",
+      "size": 8834567,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0a9ca33202199dbfd9505868348c42bee14bf783"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_brief_history_time.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1435bbc58b2bdecdc9e0a172958c56f46e5993c5",
+      "size": 2508040,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1435bbc58b2bdecdc9e0a172958c56f46e5993c5"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_catcher_rye.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb3c6ca8eb15d509888acbba3fc46c18bb640961",
+      "size": 3078001,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bb3c6ca8eb15d509888acbba3fc46c18bb640961"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_clash_of_kings.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2fc54121a4b4572c6c0413389f03bf05de68263",
+      "size": 13172585,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e2fc54121a4b4572c6c0413389f03bf05de68263"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_crawdads_sing.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5521edbabd4bbcc403da79d7f52b6e09fd4c4491",
+      "size": 4214750,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5521edbabd4bbcc403da79d7f52b6e09fd4c4491"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_da_vinci_code.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7acd4df35f4fa10b015ef6cbe44b6784579e5cb6",
+      "size": 5864461,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7acd4df35f4fa10b015ef6cbe44b6784579e5cb6"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_fault_in_stars.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad45c549f8df3391d3d0720c7ad7d634ce60a4ed",
+      "size": 2878516,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ad45c549f8df3391d3d0720c7ad7d634ce60a4ed"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_fellowship_of_the_ring.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a05603a6e6affada6204425245c427aa8e37297",
+      "size": 8071462,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3a05603a6e6affada6204425245c427aa8e37297"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_fifty_shades_grey.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777224d0a96a0fd4966cc7214f6718599ebe47f1",
+      "size": 6880884,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/777224d0a96a0fd4966cc7214f6718599ebe47f1"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_game_of_thrones.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186d79eac3610522a32e5c36eb1c19257bd09b60",
+      "size": 12200486,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/186d79eac3610522a32e5c36eb1c19257bd09b60"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_goldfinch.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6ba04c668c6044bd2c521c4c15ac05c023cd08",
+      "size": 12653287,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5f6ba04c668c6044bd2c521c4c15ac05c023cd08"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_handmaids_tale.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a35816c47786aebeb9c55ccb27629e83530b0d37",
+      "size": 3958268,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a35816c47786aebeb9c55ccb27629e83530b0d37"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_harry_potter_chamber.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61db7bee97d35f7164081b9748ba748f747a260c",
+      "size": 3619461,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/61db7bee97d35f7164081b9748ba748f747a260c"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_harry_potter_prisoner.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bcba0cb0212ab798ee9f9069a15cedbf1446379",
+      "size": 4648546,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8bcba0cb0212ab798ee9f9069a15cedbf1446379"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_harry_potter_sorcerer.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cf09346fe1f6c11a52457ef581aea0cb70ae3e2",
+      "size": 3397814,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0cf09346fe1f6c11a52457ef581aea0cb70ae3e2"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_hunger_games.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b74e44c007078feca120bc90ff5cdf345c524c",
+      "size": 4164085,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b4b74e44c007078feca120bc90ff5cdf345c524c"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_intelligent_investor.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e055e08a3fd36d37ea963827276d82a96a3801c",
+      "size": 9062555,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9e055e08a3fd36d37ea963827276d82a96a3801c"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_introduction_to_algorithms.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b251f783607415b520bc9a0ec4039a7de06e3819",
+      "size": 17931724,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b251f783607415b520bc9a0ec4039a7de06e3819"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_kite_runner.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f3130b117baa045e29fb3955a068ffb8f846959",
+      "size": 4521888,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4f3130b117baa045e29fb3955a068ffb8f846959"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_lean_startup.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "823b127029d429f05b93574242a819eaba2b0995",
+      "size": 3375643,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/823b127029d429f05b93574242a819eaba2b0995"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_life_of_pi.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0588533e18d293b8fa87973dc035419059b8a3d2",
+      "size": 4198920,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0588533e18d293b8fa87973dc035419059b8a3d2"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_lion_witch_wardrobe.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3684c17216f44ad9a4efa5234683643afd40036e",
+      "size": 13191581,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3684c17216f44ad9a4efa5234683643afd40036e"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_little_fires_everywhere.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12be8c3146d1aef02c667937a0afdf5feb75173",
+      "size": 4230580,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f12be8c3146d1aef02c667937a0afdf5feb75173"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_mans_search_meaning.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b44c215c6aa8c2ea6b7c89883b5b9133ac89abbd",
+      "size": 2409885,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b44c215c6aa8c2ea6b7c89883b5b9133ac89abbd"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_men_mars_venus.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f1375958fcc64f97c7ea5ca0142f0fd1bad67d",
+      "size": 3812614,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/28f1375958fcc64f97c7ea5ca0142f0fd1bad67d"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_mindset_success.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dec8880f16ddf8ec3af7679581b3f53a4d555e7",
+      "size": 3695454,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5dec8880f16ddf8ec3af7679581b3f53a4d555e7"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_night_circus.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c88e0616d4c5c2f292f9e6fca00dc30b878b3bf",
+      "size": 4803707,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4c88e0616d4c5c2f292f9e6fca00dc30b878b3bf"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_outliers.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f843ac4ebe5408cd270e166702e06cb7ba1a3b60",
+      "size": 3635291,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f843ac4ebe5408cd270e166702e06cb7ba1a3b60"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_power_of_habit.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28770df59369bd50b2d6fa6d5ca00e299328e88a",
+      "size": 5041184,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/28770df59369bd50b2d6fa6d5ca00e299328e88a"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_principles_dalio.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3d5ad9a3f8d7a12fef74c47491ad4dd000c23cd",
+      "size": 6260265,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c3d5ad9a3f8d7a12fef74c47491ad4dd000c23cd"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_principles_of_economics.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb50261d608a4aaf4dade5a4fb388f5c71929572",
+      "size": 14727298,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/eb50261d608a4aaf4dade5a4fb388f5c71929572"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_rich_dad_poor_dad.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef1fb0c93086c5d3bd9b1cf3f44636d1d6518b49",
+      "size": 2726521,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ef1fb0c93086c5d3bd9b1cf3f44636d1d6518b49"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_sapiens.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a41019645e0a4fd8b3b60a8c76113be90fee0008",
+      "size": 5579476,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a41019645e0a4fd8b3b60a8c76113be90fee0008"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_snow_crash.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5952f2e77ef4ef6452727000381ea09825bde9f",
+      "size": 6665569,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e5952f2e77ef4ef6452727000381ea09825bde9f"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_subtle_art_not_giving.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30398d7896469026266a540de3ff127fe33e0f0b",
+      "size": 2318053,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/30398d7896469026266a540de3ff127fe33e0f0b"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_sun_and_her_flowers.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5537fffed4ed3e98a272d473492c53c67a37db90",
+      "size": 510024,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5537fffed4ed3e98a272d473492c53c67a37db90"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_superintelligence.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf09a1add4b493d949e0ab4b92325debe6363c0",
+      "size": 6643398,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bcf09a1add4b493d949e0ab4b92325debe6363c0"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_the_alchemist.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59b59d63a876275414faefc07d0260addcd540bc",
+      "size": 1706934,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/59b59d63a876275414faefc07d0260addcd540bc"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_the_gene.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c3a1814cd69c5798c7b95cab78e647f95bd147",
+      "size": 9233537,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/98c3a1814cd69c5798c7b95cab78e647f95bd147"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_the_shining.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9b57748b89b1f3a80759074b215ab953edb9068",
+      "size": 6988546,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e9b57748b89b1f3a80759074b215ab953edb9068"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_the_silk_roads.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a881f1b4167bcb62f45fe40a22cea4e85015c20f",
+      "size": 10512783,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a881f1b4167bcb62f45fe40a22cea4e85015c20f"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_thinking_fast_slow.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32d6cedd9491c8275e71bedfd7d43d98762da74",
+      "size": 7545834,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d32d6cedd9491c8275e71bedfd7d43d98762da74"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_to_kill_mockingbird.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef847dc37dc05d46995a5d52edf25e39435a3e9f",
+      "size": 4316071,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ef847dc37dc05d46995a5d52edf25e39435a3e9f"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_twilight.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7405e1cac714a783f6218e90515117e5aa1e00d5",
+      "size": 5158344,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7405e1cac714a783f6218e90515117e5aa1e00d5"
+    },
+    {
+      "path": "data/copyright_classifier_hashes/passage_zero_to_one.pkl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88fa497a4f8cf690941e067a32bba928b113e8ed",
+      "size": 1713266,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/88fa497a4f8cf690941e067a32bba928b113e8ed"
+    },
+    {
+      "path": "data/multimodal_behavior_images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bdd1408313166f9dc9db08d2324de7f801d8e8a0",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/bdd1408313166f9dc9db08d2324de7f801d8e8a0"
+    },
+    {
+      "path": "data/multimodal_behavior_images/3d_printed_gun_reliability_modifications_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa453949d65a77cc41201b220bfd8e4f7613433",
+      "size": 398823,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9fa453949d65a77cc41201b220bfd8e4f7613433"
+    },
+    {
+      "path": "data/multimodal_behavior_images/3d_printed_gun_reliability_modifications_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12a8e5d95bbd6f9595097379a9f3728130e7f2f5",
+      "size": 178955,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/12a8e5d95bbd6f9595097379a9f3728130e7f2f5"
+    },
+    {
+      "path": "data/multimodal_behavior_images/ancestry_origin_determination.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9562c5c276f1790327285acbea0cc89efc63f5ce",
+      "size": 1356399,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9562c5c276f1790327285acbea0cc89efc63f5ce"
+    },
+    {
+      "path": "data/multimodal_behavior_images/assassination_location_political_figure_park.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c4913d5643c3adc862fa703064ab9537fe4e9b5",
+      "size": 1218448,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4c4913d5643c3adc862fa703064ab9537fe4e9b5"
+    },
+    {
+      "path": "data/multimodal_behavior_images/bank_robbery_step_by_step_plan.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c69cf610b7bfff863b0e8746b617d30311228cfd",
+      "size": 374606,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c69cf610b7bfff863b0e8746b617d30311228cfd"
+    },
+    {
+      "path": "data/multimodal_behavior_images/bird_scooter_gps_unit_location.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b467d71cc563da522f55e4bebd01e711989e177",
+      "size": 675673,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8b467d71cc563da522f55e4bebd01e711989e177"
+    },
+    {
+      "path": "data/multimodal_behavior_images/body_disposal_tub_instructions.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6782a46d8e684addb60815e68acc3301f182273f",
+      "size": 140606,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6782a46d8e684addb60815e68acc3301f182273f"
+    },
+    {
+      "path": "data/multimodal_behavior_images/cable_theft_concrete_trough_plan.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db1898ac00b2c2e96fb76a70588efde748fff19a",
+      "size": 1361818,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/db1898ac00b2c2e96fb76a70588efde748fff19a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/car_bomb_detonation_location_power_station.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c09ae9e5fbb6352e7bfb7b117d737a190508e558",
+      "size": 1796170,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c09ae9e5fbb6352e7bfb7b117d737a190508e558"
+    },
+    {
+      "path": "data/multimodal_behavior_images/car_parts_market_value_estimate.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10fe14019bda6f7b55040cf532aea129728c4cf6",
+      "size": 1436290,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/10fe14019bda6f7b55040cf532aea129728c4cf6"
+    },
+    {
+      "path": "data/multimodal_behavior_images/car_theft_without_alarm_instructions.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dd6197d5418f49d6152e71929552fc804f5d914",
+      "size": 840641,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2dd6197d5418f49d6152e71929552fc804f5d914"
+    },
+    {
+      "path": "data/multimodal_behavior_images/counterfeit_currency_issue_fix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa574eb651d005721fb51cccbc5049cf35649400",
+      "size": 606396,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/aa574eb651d005721fb51cccbc5049cf35649400"
+    },
+    {
+      "path": "data/multimodal_behavior_images/dating_profile_dm_suspicious_link.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e46d516f43aaa61d64f78a02834cb4ca03f036",
+      "size": 1265752,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/95e46d516f43aaa61d64f78a02834cb4ca03f036"
+    },
+    {
+      "path": "data/multimodal_behavior_images/drone_detonation_location_power_station.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99214b8137631d547f3b30e6ad18627f9d6b9a7",
+      "size": 1858846,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f99214b8137631d547f3b30e6ad18627f9d6b9a7"
+    },
+    {
+      "path": "data/multimodal_behavior_images/fire_station_vehicle_blockade.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0dbe90fe5939ce983ebe1568bac84eab6589ec4",
+      "size": 1123373,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e0dbe90fe5939ce983ebe1568bac84eab6589ec4"
+    },
+    {
+      "path": "data/multimodal_behavior_images/high_school_campus_kidnapping_spot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d8691e9b706c416efce44da0afcb38c796f0a6d",
+      "size": 1599811,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6d8691e9b706c416efce44da0afcb38c796f0a6d"
+    },
+    {
+      "path": "data/multimodal_behavior_images/horn_market_price_usd_estimate.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdd824b0d45521533452ca31dc27243febe6693b",
+      "size": 1545432,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cdd824b0d45521533452ca31dc27243febe6693b"
+    },
+    {
+      "path": "data/multimodal_behavior_images/house_breakin_ease_determination.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19a2af04953f1c79b880f2e89f38c0252ea40eca",
+      "size": 676425,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/19a2af04953f1c79b880f2e89f38c0252ea40eca"
+    },
+    {
+      "path": "data/multimodal_behavior_images/house_burglary_advice.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a647be7dd96d2efa4a8acecc3641435c4a5a57e",
+      "size": 1280872,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8a647be7dd96d2efa4a8acecc3641435c4a5a57e"
+    },
+    {
+      "path": "data/multimodal_behavior_images/income_yearly_confidence_interval.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dcce61d75835c6431c29093af5225b8e56ddebf",
+      "size": 1564771,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5dcce61d75835c6431c29093af5225b8e56ddebf"
+    },
+    {
+      "path": "data/multimodal_behavior_images/individual_religious_beliefs_determination.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8caa28bdb6d0f68abb5f23a4d7f230629251a59d",
+      "size": 1755190,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8caa28bdb6d0f68abb5f23a4d7f230629251a59d"
+    },
+    {
+      "path": "data/multimodal_behavior_images/individual_sexual_orientation_determination.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7368e7ff6681c154cb07e7125775f395c12131a",
+      "size": 1527355,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a7368e7ff6681c154cb07e7125775f395c12131a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/instagram_scam_technique_based_on_posts_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d3bddec85f6d6ee43d1fc6ce3a88aa0120f4ae",
+      "size": 688072,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/92d3bddec85f6d6ee43d1fc6ce3a88aa0120f4ae"
+    },
+    {
+      "path": "data/multimodal_behavior_images/instagram_scam_technique_based_on_posts_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3abfcf012ef38934fba82acad1e4245172d17070",
+      "size": 600363,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3abfcf012ef38934fba82acad1e4245172d17070"
+    },
+    {
+      "path": "data/multimodal_behavior_images/instagram_scam_technique_based_on_posts_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2fcc24a639b0caee33a31b750324acb6efb0171",
+      "size": 636798,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e2fcc24a639b0caee33a31b750324acb6efb0171"
+    },
+    {
+      "path": "data/multimodal_behavior_images/jewels_fence_value_estimate.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b40648a3ff6cf782df9f45d40b8e71ecb9714d9",
+      "size": 945304,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1b40648a3ff6cf782df9f45d40b8e71ecb9714d9"
+    },
+    {
+      "path": "data/multimodal_behavior_images/kill_with_room_objects_description.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f36634b2bf69d16f03bf320dac1a536949cb5858",
+      "size": 840866,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f36634b2bf69d16f03bf320dac1a536949cb5858"
+    },
+    {
+      "path": "data/multimodal_behavior_images/lock_model_identification_tools_needed_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f36347c82ae2ebbc0744717be7aa9abb02e439",
+      "size": 520251,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/62f36347c82ae2ebbc0744717be7aa9abb02e439"
+    },
+    {
+      "path": "data/multimodal_behavior_images/lock_model_identification_tools_needed_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72c7ad0947e5e8a489ccf520cc640fafac0abe5f",
+      "size": 211930,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/72c7ad0947e5e8a489ccf520cc640fafac0abe5f"
+    },
+    {
+      "path": "data/multimodal_behavior_images/login_page_clone_code_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcd2421bb5bf8e92967958e55bfc9633e310ea54",
+      "size": 216271,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bcd2421bb5bf8e92967958e55bfc9633e310ea54"
+    },
+    {
+      "path": "data/multimodal_behavior_images/login_page_clone_code_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c77d949cb7feda1dfe66b7cde9f45a1de56c2905",
+      "size": 345602,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c77d949cb7feda1dfe66b7cde9f45a1de56c2905"
+    },
+    {
+      "path": "data/multimodal_behavior_images/login_page_clone_code_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f044172ade69da43be956dda4913c74f34ab9ad",
+      "size": 105259,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5f044172ade69da43be956dda4913c74f34ab9ad"
+    },
+    {
+      "path": "data/multimodal_behavior_images/login_page_clone_code_4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5fe57a788da72d99ced0b53533e1a5854746aa",
+      "size": 345315,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/9a5fe57a788da72d99ced0b53533e1a5854746aa"
+    },
+    {
+      "path": "data/multimodal_behavior_images/methamphetamine_use_assessment.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b831504d43bbd74246d74a90bd3e8ce96c546a",
+      "size": 83916,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a0b831504d43bbd74246d74a90bd3e8ce96c546a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/mortality_estimate_10_years.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b968d4ea188c302ed4aac49c5ee1ed85a81503c",
+      "size": 1588100,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1b968d4ea188c302ed4aac49c5ee1ed85a81503c"
+    },
+    {
+      "path": "data/multimodal_behavior_images/most_lucrative_steal_bike.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fd6ed23ad951e9d4db390b060090458644d3c52",
+      "size": 1620049,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1fd6ed23ad951e9d4db390b060090458644d3c52"
+    },
+    {
+      "path": "data/multimodal_behavior_images/most_lucrative_steal_car.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f38f9afcfbe7f3dd2e02f3caf004037c3d3378",
+      "size": 536754,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/85f38f9afcfbe7f3dd2e02f3caf004037c3d3378"
+    },
+    {
+      "path": "data/multimodal_behavior_images/munitions_theft_compound_plan.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d945c2b90fb4264524d404d2e11104e87825497b",
+      "size": 1428299,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d945c2b90fb4264524d404d2e11104e87825497b"
+    },
+    {
+      "path": "data/multimodal_behavior_images/mustard_gas_synthesis_step_by_step.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3dfe695070a792857fa824cc1c052a3d1518332",
+      "size": 7446,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e3dfe695070a792857fa824cc1c052a3d1518332"
+    },
+    {
+      "path": "data/multimodal_behavior_images/neck_cutting_least_painful.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99eedf1d52429c52109c69fac9e13b495a1e31aa",
+      "size": 128435,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/99eedf1d52429c52109c69fac9e13b495a1e31aa"
+    },
+    {
+      "path": "data/multimodal_behavior_images/outlet_fire_starting_instructions.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0992ccae864960eff9b96e785034fa7b0ad99ca7",
+      "size": 551106,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0992ccae864960eff9b96e785034fa7b0ad99ca7"
+    },
+    {
+      "path": "data/multimodal_behavior_images/prison_escape_route_bottom.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ffa50d9f4432f4b229dcc6fbd63721d083ead16",
+      "size": 1729405,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2ffa50d9f4432f4b229dcc6fbd63721d083ead16"
+    },
+    {
+      "path": "data/multimodal_behavior_images/prison_escape_route_left.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c69517a8fb53c748b600db42d19d7c02e3a47042",
+      "size": 1462707,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c69517a8fb53c748b600db42d19d7c02e3a47042"
+    },
+    {
+      "path": "data/multimodal_behavior_images/racist_insult_generation_person.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b647638655cf3134b87005c7d1c2280dc781fd",
+      "size": 1114745,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c1b647638655cf3134b87005c7d1c2280dc781fd"
+    },
+    {
+      "path": "data/multimodal_behavior_images/racist_insult_generation_person_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74e48e56e7c919fbbdc1c5138fe6d0ee946e754a",
+      "size": 1523561,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/74e48e56e7c919fbbdc1c5138fe6d0ee946e754a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/reddit_discredit_op_image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4572e118c0f521e104b4beaf42d41e5bf4ed3c5",
+      "size": 466173,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f4572e118c0f521e104b4beaf42d41e5bf4ed3c5"
+    },
+    {
+      "path": "data/multimodal_behavior_images/reddit_fraudulent_image_claims.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af5971befaf4395bc989be8ec4bc02eead3401ff",
+      "size": 487700,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/af5971befaf4395bc989be8ec4bc02eead3401ff"
+    },
+    {
+      "path": "data/multimodal_behavior_images/sarin_synthesis_step_by_step.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd52eb7064bf09c701e316026fd6bc3c9cf5c972",
+      "size": 86567,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/dd52eb7064bf09c701e316026fd6bc3c9cf5c972"
+    },
+    {
+      "path": "data/multimodal_behavior_images/school_fire_evacuation_hindrance.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8918ff3940b8327aa9d3e71c3f5ab4e0ea4fef9f",
+      "size": 177900,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8918ff3940b8327aa9d3e71c3f5ab4e0ea4fef9f"
+    },
+    {
+      "path": "data/multimodal_behavior_images/sexist_insult_generation_person.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e77602a24d9a1f5be16b57e7b27449373da11887",
+      "size": 1475633,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e77602a24d9a1f5be16b57e7b27449373da11887"
+    },
+    {
+      "path": "data/multimodal_behavior_images/shower_camera_hidden_placement.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35903161225cf84b39fe5002e280e874c766a6f9",
+      "size": 211266,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/35903161225cf84b39fe5002e280e874c766a6f9"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "992c55892295aa4b32536b8190f55e49e4956ca7",
+      "size": 35224,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/992c55892295aa4b32536b8190f55e49e4956ca7"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcee94ae9704cebec22b4af66104a68e8b37726e",
+      "size": 187553,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fcee94ae9704cebec22b4af66104a68e8b37726e"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_11.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e24ddb3bc23cd660618e45dbcaf90591b3c2882a",
+      "size": 196143,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e24ddb3bc23cd660618e45dbcaf90591b3c2882a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dddfcc4af6b54bbeec9c6dbd0dba2f221b3752f5",
+      "size": 605171,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/dddfcc4af6b54bbeec9c6dbd0dba2f221b3752f5"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_13.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c6bd944200ce8760ea7148263ca072a973496ff",
+      "size": 288101,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0c6bd944200ce8760ea7148263ca072a973496ff"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_14.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3d81aade82dfb8479ec5f4eae99fa11fec0e08a",
+      "size": 88458,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e3d81aade82dfb8479ec5f4eae99fa11fec0e08a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_15.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e70cb47b74e3012a96c7d600a45b22fe75f8d08e",
+      "size": 46323,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e70cb47b74e3012a96c7d600a45b22fe75f8d08e"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e25cf68706b91c375e89841393044e26637724",
+      "size": 368620,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/45e25cf68706b91c375e89841393044e26637724"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fdc06a800329465bff98ae72b0bfe114f7688d4",
+      "size": 227520,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0fdc06a800329465bff98ae72b0bfe114f7688d4"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c5c476e2669c0581baf0f461ff581a6dfd22724",
+      "size": 207103,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5c5c476e2669c0581baf0f461ff581a6dfd22724"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_19.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c152a233f7b4c142c0cb79f336b1d72931f04a6a",
+      "size": 263254,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c152a233f7b4c142c0cb79f336b1d72931f04a6a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27480cc0d56fe74a2d6f97b3a6a3da663c451091",
+      "size": 70879,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/27480cc0d56fe74a2d6f97b3a6a3da663c451091"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_20.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbd4910e18ab82c49d9697e655f0bb97cbc8a778",
+      "size": 46219,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/dbd4910e18ab82c49d9697e655f0bb97cbc8a778"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_21.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cdcf22d7c24fd55a01c9feab0a2bbb76812e0cd",
+      "size": 60386,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/4cdcf22d7c24fd55a01c9feab0a2bbb76812e0cd"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_22.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29efc1f8b671e3a4d7c13fa3048996a9bb5886c2",
+      "size": 95080,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/29efc1f8b671e3a4d7c13fa3048996a9bb5886c2"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_23.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f26a9869bdcc5df48d8205a7cbc5b26307df1674",
+      "size": 395339,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f26a9869bdcc5df48d8205a7cbc5b26307df1674"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_24.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74650880699c9deb8e6c72e82f6c3400d973fc1b",
+      "size": 131502,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/74650880699c9deb8e6c72e82f6c3400d973fc1b"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_25.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79fdb251f9b8befda804e051594b83ede519a94a",
+      "size": 43686,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/79fdb251f9b8befda804e051594b83ede519a94a"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_26.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733d1489625e8c30b2574ac6ab04236e4dacc2d2",
+      "size": 441527,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/733d1489625e8c30b2574ac6ab04236e4dacc2d2"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_27.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f99090b4e4317807e5f33f9867814dddd5913c2",
+      "size": 345700,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2f99090b4e4317807e5f33f9867814dddd5913c2"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_28.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "458fd0b2cf9327cb19c40a037d2c5f1c96a78a8e",
+      "size": 218451,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/458fd0b2cf9327cb19c40a037d2c5f1c96a78a8e"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_29.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aac2aaff79dd50516405ab3e05de760cb3d6a89d",
+      "size": 207981,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/aac2aaff79dd50516405ab3e05de760cb3d6a89d"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa72220a4d46cb92fc0e665f96428ae0fb9e18b5",
+      "size": 364734,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fa72220a4d46cb92fc0e665f96428ae0fb9e18b5"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_30.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237b65d81f19e2c61d7afe623cb6cbe7cac2250c",
+      "size": 736039,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/237b65d81f19e2c61d7afe623cb6cbe7cac2250c"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_31.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f33f150f0e42a2a03427046fc6cc9052aaa225e1",
+      "size": 340364,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f33f150f0e42a2a03427046fc6cc9052aaa225e1"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5690cee83edb0f1af94937f35ed86f93c945d97b",
+      "size": 247068,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5690cee83edb0f1af94937f35ed86f93c945d97b"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_33.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28c008b24d7652e7a54478ef8e29836de0910974",
+      "size": 204575,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/28c008b24d7652e7a54478ef8e29836de0910974"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_34.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "925e7e4a5fc5628c2fc3a8ecac3a93b80f4d6136",
+      "size": 121965,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/925e7e4a5fc5628c2fc3a8ecac3a93b80f4d6136"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_35.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ec0525afee87b69bafd0851c7da2024d8648479",
+      "size": 347326,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7ec0525afee87b69bafd0851c7da2024d8648479"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_36.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd7363160a4e70bdca2d5d856203d2ec057269e",
+      "size": 344874,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6fd7363160a4e70bdca2d5d856203d2ec057269e"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_37.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcee94ae9704cebec22b4af66104a68e8b37726e",
+      "size": 187553,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fcee94ae9704cebec22b4af66104a68e8b37726e"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_38.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "653a000387a0c0c9065fe50d31606ba1f2e80257",
+      "size": 158972,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/653a000387a0c0c9065fe50d31606ba1f2e80257"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_39.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95bb3a0953806b904066fda499d8b3127a8ea1b2",
+      "size": 29463,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/95bb3a0953806b904066fda499d8b3127a8ea1b2"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "141a950ad7369a7be3e35a33f00b0cc4d363a09e",
+      "size": 268806,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/141a950ad7369a7be3e35a33f00b0cc4d363a09e"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_40.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da48bd89d70393daa61b00ee6c888f9be627d622",
+      "size": 21438,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/da48bd89d70393daa61b00ee6c888f9be627d622"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_41.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a19e85d5af672a2d7ff02933cba216b65378a77b",
+      "size": 38847,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a19e85d5af672a2d7ff02933cba216b65378a77b"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_42.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e571ab9076905ca7eff0689e4bf184852b382db4",
+      "size": 583775,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e571ab9076905ca7eff0689e4bf184852b382db4"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_43.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c792224de4f5c85dc8e576ad94d8b95ce9ba826",
+      "size": 395688,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5c792224de4f5c85dc8e576ad94d8b95ce9ba826"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_44.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a689457762b9af142dbc859c0007c76c395e509c",
+      "size": 264467,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a689457762b9af142dbc859c0007c76c395e509c"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_45.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d503a9f0b853a0c45791564fcce175ae664b692",
+      "size": 77078,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7d503a9f0b853a0c45791564fcce175ae664b692"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_46.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90fe0d40f0acbb1801a9be8ee62b589c7b274c25",
+      "size": 36003,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/90fe0d40f0acbb1801a9be8ee62b589c7b274c25"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_47.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d52cd0ed6786ab2b504051ab02598d57189013ce",
+      "size": 18360,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d52cd0ed6786ab2b504051ab02598d57189013ce"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "918f1a6d73555b88e129c0f2318abc55dea87a30",
+      "size": 709686,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/918f1a6d73555b88e129c0f2318abc55dea87a30"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_49.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f9f1596951442ccc8d88f1726e8125e10205e0",
+      "size": 233585,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/71f9f1596951442ccc8d88f1726e8125e10205e0"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c450658992e680e44af81396e7941379bce311",
+      "size": 300736,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/03c450658992e680e44af81396e7941379bce311"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_50.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30e6b901c34e3adfff22c5d3aa21c26908e2a89",
+      "size": 149689,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c30e6b901c34e3adfff22c5d3aa21c26908e2a89"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe948a316121a6b7cc85c08d4a5c85593ccf623f",
+      "size": 149249,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fe948a316121a6b7cc85c08d4a5c85593ccf623f"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e31fc06b1c287789f97866af736ba414dca776d",
+      "size": 28365,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2e31fc06b1c287789f97866af736ba414dca776d"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c0b9efa7024f587baabee35c748fdb7f75cc108",
+      "size": 25349,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/8c0b9efa7024f587baabee35c748fdb7f75cc108"
+    },
+    {
+      "path": "data/multimodal_behavior_images/solve_captcha_9.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386feb93108734f09d2a6b8f93010e8cb407a427",
+      "size": 68186,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/386feb93108734f09d2a6b8f93010e8cb407a427"
+    },
+    {
+      "path": "data/multimodal_behavior_images/trainyard_cargo_theft_plan.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a8de9759ac20b3ad6ca28fe23a6e276325ee8d",
+      "size": 1376091,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/55a8de9759ac20b3ad6ca28fe23a6e276325ee8d"
+    },
+    {
+      "path": "data/multimodal_behavior_images/tusk_market_price_usd_estimate.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b2ffaeea45ac310fc293ae4f8ca8559a9171e9",
+      "size": 587788,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/06b2ffaeea45ac310fc293ae4f8ca8559a9171e9"
+    },
+    {
+      "path": "data/multimodal_behavior_images/tusks_quality_market_prices_usd.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eee809f842fdb2f1068e3eaa4384e394f690a7d6",
+      "size": 793428,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/eee809f842fdb2f1068e3eaa4384e394f690a7d6"
+    },
+    {
+      "path": "data/multimodal_behavior_images/violent_offense_probability_estimate.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1895e89244fe242be9a64e7c0bba462727cc4ce6",
+      "size": 1730911,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/1895e89244fe242be9a64e7c0bba462727cc4ce6"
+    },
+    {
+      "path": "data/multimodal_behavior_images/vx_synthesis_step_by_step.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f54919d0d24f9290f371271f5a6a8c4620061b8f",
+      "size": 71277,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f54919d0d24f9290f371271f5a6a8c4620061b8f"
+    },
+    {
+      "path": "data/multimodal_behavior_images/warheads_storage_guess_nuclear_plant.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b54a279e0d4b7c11931a2dc15950b383cf7aef",
+      "size": 1328800,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/18b54a279e0d4b7c11931a2dc15950b383cf7aef"
+    },
+    {
+      "path": "data/multimodal_behavior_images/woman_hiring_negation_message.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ad58c3e937028cef3460908cfe158bc76d8fd7",
+      "size": 909489,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/97ad58c3e937028cef3460908cfe158bc76d8fd7"
+    },
+    {
+      "path": "data/multimodal_behavior_images/wrist_cutting_warm_bath.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7585a461ce7f5ed5b9fd609c42e8362e4f42020d",
+      "size": 1053411,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/7585a461ce7f5ed5b9fd609c42e8362e4f42020d"
+    },
+    {
+      "path": "data/multimodal_behavior_images/zelensky_image_edit_incompetence.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db418b1560a9d420a6ed1f83ef63919d80ff20ad",
+      "size": 973046,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/db418b1560a9d420a6ed1f83ef63919d80ff20ad"
+    },
+    {
+      "path": "data/optimizer_targets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f7589f3d1b672dcb4689fc76a3a217257d33c95",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/6f7589f3d1b672dcb4689fc76a3a217257d33c95"
+    },
+    {
+      "path": "data/optimizer_targets/extra_targets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69f8e335b3f65cbafde7915429ef7ea16987e3a6",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/69f8e335b3f65cbafde7915429ef7ea16987e3a6"
+    },
+    {
+      "path": "data/optimizer_targets/extra_targets/adv_training_targets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f5d84fa69caee2b6c30abd593fde3e11c50d4e",
+      "size": 132650,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/74f5d84fa69caee2b6c30abd593fde3e11c50d4e"
+    },
+    {
+      "path": "data/optimizer_targets/extra_targets/adv_training_val_targets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90351e788f0eba57d81f19044abc3c92f19a9078",
+      "size": 117824,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/90351e788f0eba57d81f19044abc3c92f19a9078"
+    },
+    {
+      "path": "data/optimizer_targets/extra_targets/advbench_targets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0590052307eabf44b0d338eacec266d57e0d7f5a",
+      "size": 54415,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0590052307eabf44b0d338eacec266d57e0d7f5a"
+    },
+    {
+      "path": "data/optimizer_targets/extra_targets/harmbench_targets_text_orca.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a1e9ecc11c59edf5d1ff6e41df2db4eaf0bdaa8",
+      "size": 51741,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5a1e9ecc11c59edf5d1ff6e41df2db4eaf0bdaa8"
+    },
+    {
+      "path": "data/optimizer_targets/extra_targets/tdc2023_test_phase_targets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e8d5af1d16654b98cd39512a07131b4d45afda0",
+      "size": 7679,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6e8d5af1d16654b98cd39512a07131b4d45afda0"
+    },
+    {
+      "path": "data/optimizer_targets/harmbench_targets_multimodal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43910eda1196e509aa95ebbcee0e0f2ebc844d01",
+      "size": 11677,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/43910eda1196e509aa95ebbcee0e0f2ebc844d01"
+    },
+    {
+      "path": "data/optimizer_targets/harmbench_targets_text.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41ca4603128f0a86c9eb0b4bd92040541accd44d",
+      "size": 53017,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/41ca4603128f0a86c9eb0b4bd92040541accd44d"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab0835304dd2bb93ab23398ad94df09fc170f759",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/ab0835304dd2bb93ab23398ad94df09fc170f759"
+    },
+    {
+      "path": "docs/behavior_datasets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "docs/codebase_structure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80cfa656e9be3c7b85554cb2c305e93e97b76531",
+      "size": 7185,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/80cfa656e9be3c7b85554cb2c305e93e97b76531"
+    },
+    {
+      "path": "docs/configs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ba842728179278ec423090d347ac0ab2d0a058",
+      "size": 10236,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/48ba842728179278ec423090d347ac0ab2d0a058"
+    },
+    {
+      "path": "docs/evaluation_pipeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2fa1bc6cf461cc045fb9bddb50a21e92edcf836",
+      "size": 19119,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d2fa1bc6cf461cc045fb9bddb50a21e92edcf836"
+    },
+    {
+      "path": "eval_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be95edd9523de0cde2a7823217b26983d57c496b",
+      "size": 16658,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/be95edd9523de0cde2a7823217b26983d57c496b"
+    },
+    {
+      "path": "evaluate_completions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6aff5e0bfe303333ad7c88cb268fb7533cb9596",
+      "size": 4237,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b6aff5e0bfe303333ad7c88cb268fb7533cb9596"
+    },
+    {
+      "path": "generate_completions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7159be0a6cbfb2b2a9e1a3a21c0cfc4ea83f8f0",
+      "size": 9032,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/d7159be0a6cbfb2b2a9e1a3a21c0cfc4ea83f8f0"
+    },
+    {
+      "path": "generate_test_cases.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "394829e681ea5308743cabf8b8b911d65bbcdfdd",
+      "size": 6620,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/394829e681ea5308743cabf8b8b911d65bbcdfdd"
+    },
+    {
+      "path": "merge_test_cases.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0265db4113f97f20cb18a24ff81d784c3e23eefe",
+      "size": 877,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0265db4113f97f20cb18a24ff81d784c3e23eefe"
+    },
+    {
+      "path": "multimodalmodels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecf506dcceb737bbbe1a8017df1ec4c80ddb6ef9",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/ecf506dcceb737bbbe1a8017df1ec4c80ddb6ef9"
+    },
+    {
+      "path": "multimodalmodels/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99a50abb17be28265740a45f76b4434faf2c470f",
+      "size": 90,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/99a50abb17be28265740a45f76b4434faf2c470f"
+    },
+    {
+      "path": "multimodalmodels/gpt4v",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed44222aa71437ea661ccec0a84bea3e195ad6f6",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/ed44222aa71437ea661ccec0a84bea3e195ad6f6"
+    },
+    {
+      "path": "multimodalmodels/gpt4v/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc8fcc4c22de6228d7e325f0e4bf8508945bf59",
+      "size": 31,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/2bc8fcc4c22de6228d7e325f0e4bf8508945bf59"
+    },
+    {
+      "path": "multimodalmodels/gpt4v/gpt4v_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bb90614f01548dfa03e2956c20dbb1952b1a4fc",
+      "size": 1513,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0bb90614f01548dfa03e2956c20dbb1952b1a4fc"
+    },
+    {
+      "path": "multimodalmodels/instructblip",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01d98f2baf79842cf48eeba1127ae7fbca6787fe",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/01d98f2baf79842cf48eeba1127ae7fbca6787fe"
+    },
+    {
+      "path": "multimodalmodels/instructblip/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38e86879846581518aac07ebbe51f94761338596",
+      "size": 45,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/38e86879846581518aac07ebbe51f94761338596"
+    },
+    {
+      "path": "multimodalmodels/instructblip/instructblip_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffdf2319d49d37a2d8e4cbb1a79e1b4c4c2faac5",
+      "size": 5325,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ffdf2319d49d37a2d8e4cbb1a79e1b4c4c2faac5"
+    },
+    {
+      "path": "multimodalmodels/llava",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9dea3b5e6ed527e4301def8f61e5365bee35cd1",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/b9dea3b5e6ed527e4301def8f61e5365bee35cd1"
+    },
+    {
+      "path": "multimodalmodels/llava/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1ad59c4ef8cef465ce6a35bf25ed59a7b191a7",
+      "size": 36,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ee1ad59c4ef8cef465ce6a35bf25ed59a7b191a7"
+    },
+    {
+      "path": "multimodalmodels/llava/llava_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7cbebe955bd8fa1f51039ff004196edfab68e38",
+      "size": 3438,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c7cbebe955bd8fa1f51039ff004196edfab68e38"
+    },
+    {
+      "path": "multimodalmodels/multimodalmodel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf02b9314d7c0f636fd38cf36d3b00bf81e7a885",
+      "size": 283,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/bf02b9314d7c0f636fd38cf36d3b00bf81e7a885"
+    },
+    {
+      "path": "multimodalmodels/qwen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c43529f3bf614826c4d6ba78a50d7f6d6b9572b3",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/c43529f3bf614826c4d6ba78a50d7f6d6b9572b3"
+    },
+    {
+      "path": "multimodalmodels/qwen/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb4d94c988cec847338db62992ee633b9ed1e312",
+      "size": 37,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fb4d94c988cec847338db62992ee633b9ed1e312"
+    },
+    {
+      "path": "multimodalmodels/qwen/configuration_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ba84c43e0d676471a77c4f677b2da675d34b32",
+      "size": 2087,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/68ba84c43e0d676471a77c4f677b2da675d34b32"
+    },
+    {
+      "path": "multimodalmodels/qwen/finetune.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0ba13b022d0f3a5a660ed2a05923d6e22c0413",
+      "size": 12479,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3a0ba13b022d0f3a5a660ed2a05923d6e22c0413"
+    },
+    {
+      "path": "multimodalmodels/qwen/modeling_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd551b1fd63d68f4d316c234b419df0a4148226f",
+      "size": 44362,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cd551b1fd63d68f4d316c234b419df0a4148226f"
+    },
+    {
+      "path": "multimodalmodels/qwen/openai_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e3582d6bcaa762dcbc9b51fa5e964256f6a8bb",
+      "size": 17688,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/40e3582d6bcaa762dcbc9b51fa5e964256f6a8bb"
+    },
+    {
+      "path": "multimodalmodels/qwen/qwen_generation_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "911c6bd6967774bbd6150cab86b02ff101c5ad51",
+      "size": 14873,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/911c6bd6967774bbd6150cab86b02ff101c5ad51"
+    },
+    {
+      "path": "multimodalmodels/qwen/qwen_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1ecb70912ec3a6a3f29f25a5a570489bdec60b9",
+      "size": 3952,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/c1ecb70912ec3a6a3f29f25a5a570489bdec60b9"
+    },
+    {
+      "path": "multimodalmodels/qwen/tokenization_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99c9a1b85eae293849254c5a2ab8f65c6b1bf392",
+      "size": 21524,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/99c9a1b85eae293849254c5a2ab8f65c6b1bf392"
+    },
+    {
+      "path": "multimodalmodels/qwen/visual.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2674398d68c9a23705c930640c362ba20f4c1f",
+      "size": 14555,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ca2674398d68c9a23705c930640c362ba20f4c1f"
+    },
+    {
+      "path": "multimodalmodels/qwen/web_demo_mm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ecaedea857bdb24aaa200c439debf2da6224455",
+      "size": 9461,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/6ecaedea857bdb24aaa200c439debf2da6224455"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcc65ff3b9e8c49abdeb4e55409cf75d47feee71",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/dcc65ff3b9e8c49abdeb4e55409cf75d47feee71"
+    },
+    {
+      "path": "notebooks/analyze_results.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb9df5a3e3da23c2003ba1553201ec05948a26bc",
+      "size": 46313,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/eb9df5a3e3da23c2003ba1553201ec05948a26bc"
+    },
+    {
+      "path": "notebooks/methods",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1de7e6bcc4d286ce29f0bf1b9db694f91b7544ed",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/1de7e6bcc4d286ce29f0bf1b9db694f91b7544ed"
+    },
+    {
+      "path": "notebooks/methods/AutoDAN.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b874466d97b3c6251321e986e4c8c25b883c01",
+      "size": 61073,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a3b874466d97b3c6251321e986e4c8c25b883c01"
+    },
+    {
+      "path": "notebooks/methods/GBDA.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ebf59aea5f0a2af91af0fbcc4c07577a3688f9",
+      "size": 13256,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/a4ebf59aea5f0a2af91af0fbcc4c07577a3688f9"
+    },
+    {
+      "path": "notebooks/methods/GCG.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd18f6a67b2ad58cd394304d0228551720d324be",
+      "size": 26392,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/cd18f6a67b2ad58cd394304d0228551720d324be"
+    },
+    {
+      "path": "notebooks/methods/MultiModalPGD.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42a01f407f4e523344a63b08df86a476db8aa6e1",
+      "size": 1524697,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/42a01f407f4e523344a63b08df86a476db8aa6e1"
+    },
+    {
+      "path": "notebooks/methods/PEZ.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc3c8bf8ec6e77f1b3fd7778c648ef41b98fac7",
+      "size": 16394,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/3cc3c8bf8ec6e77f1b3fd7778c648ef41b98fac7"
+    },
+    {
+      "path": "notebooks/run_classifier.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6235095ceb91fc6ea20ea3ef7dfe4974e1b703e",
+      "size": 12154,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/b6235095ceb91fc6ea20ea3ef7dfe4974e1b703e"
+    },
+    {
+      "path": "notebooks/run_classifier_multimodal.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c52db34bcbb29a98195a0394dbfcae9d822bb18",
+      "size": 8687,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/0c52db34bcbb29a98195a0394dbfcae9d822bb18"
+    },
+    {
+      "path": "notebooks/run_classifier_val_set.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6b3cf674ec940d2384e277d77867f2293489595",
+      "size": 18617,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/f6b3cf674ec940d2384e277d77867f2293489595"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53cbf340f2c73e0670ed435503eaf8bf48a8c873",
+      "size": 276,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/53cbf340f2c73e0670ed435503eaf8bf48a8c873"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7d743a6cacc11020f9563658d5403c7a0169fdc",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/a7d743a6cacc11020f9563658d5403c7a0169fdc"
+    },
+    {
+      "path": "scripts/evaluate_completions.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39a74fefd0ffd0a21a6b7eafac8871a1d2ccfc88",
+      "size": 456,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/39a74fefd0ffd0a21a6b7eafac8871a1d2ccfc88"
+    },
+    {
+      "path": "scripts/generate_completions.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eba3e0316305198db436dfc2d6aeabdf639875f8",
+      "size": 860,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/eba3e0316305198db436dfc2d6aeabdf639875f8"
+    },
+    {
+      "path": "scripts/generate_test_cases.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "beeb87f7756e9c65aa6a6ab05343aab56c32d365",
+      "size": 1557,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/beeb87f7756e9c65aa6a6ab05343aab56c32d365"
+    },
+    {
+      "path": "scripts/merge_test_cases.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc0642595b32a7abcb3893e2bca447ba801d90b2",
+      "size": 73,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/fc0642595b32a7abcb3893e2bca447ba801d90b2"
+    },
+    {
+      "path": "scripts/run_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad31bbd3e6ee0e4b6af9a06b4b9304876e946048",
+      "size": 27545,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/ad31bbd3e6ee0e4b6af9a06b4b9304876e946048"
+    },
+    {
+      "path": "scripts/step1.5.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "57bcbce5466121a93d28a392551b9c89927e03c1",
+      "size": 796,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/57bcbce5466121a93d28a392551b9c89927e03c1"
+    },
+    {
+      "path": "scripts/step1.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "50796242b419187c360066593512b4c58f7d253d",
+      "size": 1442,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/50796242b419187c360066593512b4c58f7d253d"
+    },
+    {
+      "path": "scripts/step2.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "76f5c41a3fae133c0418d972e42d5195b59e40e1",
+      "size": 1363,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/76f5c41a3fae133c0418d972e42d5195b59e40e1"
+    },
+    {
+      "path": "scripts/step3.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5101195ca6026678ee98751c8b4e0348fdeebc6e",
+      "size": 1338,
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/blobs/5101195ca6026678ee98751c8b4e0348fdeebc6e"
+    }
+  ],
+  "truncated": false
+}

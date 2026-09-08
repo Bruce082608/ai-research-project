@@ -1,0 +1,101 @@
+{
+  "sha": "098262edf85f807224e70ecd87b9d83716bf6b73",
+  "node_id": "C_kwDOKALJvdoAKDA5ODI2MmVkZjg1ZjgwNzIyNGU3MGVjZDg3YjlkODM3MTZiZjZiNzM",
+  "commit": {
+    "author": {
+      "name": "Justin Wang",
+      "email": "73374902+justinwangx@users.noreply.github.com",
+      "date": "2024-08-02T06:02:18Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2024-08-02T06:02:18Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "aa64fc78c0bed738c6952210cd0eb83d8bc0da9b",
+      "url": "https://api.github.com/repos/llm-attacks/llm-attacks/git/trees/aa64fc78c0bed738c6952210cd0eb83d8bc0da9b"
+    },
+    "url": "https://api.github.com/repos/llm-attacks/llm-attacks/git/commits/098262edf85f807224e70ecd87b9d83716bf6b73",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmrHZqCRC1aQ7uu5UhlAAA4F4QAHkYSg/aQU8a1WVCXIbs99ye\np75FWQtmZmhH45GqjcYHbepLyg4sL8BLmjIF0BsL3NP9rlSlv6KLaJjOByDocr3n\n4delw3fyn2Y2gOGTseJovSyjQkhHh+OGXSt/a2UoiOVNUHhHswjAJWFf1XzY6PAf\n5pFU3+Kn3De2nSz0SrUccJDQSLwFqOnjDMkbYg8fgmEdhVlDkxjjjG4ZOFYEHpTf\nseBaYGAuzytK4gtzu/WXtnF5DqwUGdIojAik0cYcaQFwU5C/aQbEyRTfjCApcMQH\ntMETR30w0WrKe0LiAFKymllcHMPUm+oQxByxjHqoapEB01nhWtsJb9HKFfD2B8mD\nImblIZ7BCuhLp0s9qEquRrV2KumlKlqLJ4NFD8h3AuWRYDrTeVml683yFUwwUGXb\nFrcLgP49aUwwEwxqFqvuq+61yzjLslPEvhs4sE1Qc9im8yK8LOTd1pG/eXrBuEnA\nwBy5Uu/puiW24t5dLE23EmK09liSWkpy5A7ED4paOoa3/oobavQ3HfW710YbIq55\n8dJpLswmzjI9blLC9zINyn3ANRKl1+cJWTAWsgsAsFQSMfbtEnO4l7DC8lQPraIO\nr7k8dzJJpzSHiYHS1fKwhUebMkbB6E5TmVkBled5l3+jA4Tmw5yn538xGY5dUapB\nUQJA+Nce4fVbRDYYyuib\n=W7Oi\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree aa64fc78c0bed738c6952210cd0eb83d8bc0da9b\nparent 0f505d82e25c15a83b6954db28191b69927a255d\nauthor Justin Wang <73374902+justinwangx@users.noreply.github.com> 1722578538 -0700\ncommitter GitHub <noreply@github.com> 1722578538 -0700\n\nUpdate README.md",
+      "verified_at": "2024-11-06T18:09:21Z"
+    }
+  },
+  "url": "https://api.github.com/repos/llm-attacks/llm-attacks/commits/098262edf85f807224e70ecd87b9d83716bf6b73",
+  "html_url": "https://github.com/llm-attacks/llm-attacks/commit/098262edf85f807224e70ecd87b9d83716bf6b73",
+  "comments_url": "https://api.github.com/repos/llm-attacks/llm-attacks/commits/098262edf85f807224e70ecd87b9d83716bf6b73/comments",
+  "author": {
+    "login": "justinwangx",
+    "id": 73374902,
+    "node_id": "MDQ6VXNlcjczMzc0OTAy",
+    "avatar_url": "https://avatars.githubusercontent.com/u/73374902?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/justinwangx",
+    "html_url": "https://github.com/justinwangx",
+    "followers_url": "https://api.github.com/users/justinwangx/followers",
+    "following_url": "https://api.github.com/users/justinwangx/following{/other_user}",
+    "gists_url": "https://api.github.com/users/justinwangx/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/justinwangx/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/justinwangx/subscriptions",
+    "organizations_url": "https://api.github.com/users/justinwangx/orgs",
+    "repos_url": "https://api.github.com/users/justinwangx/repos",
+    "events_url": "https://api.github.com/users/justinwangx/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/justinwangx/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "0f505d82e25c15a83b6954db28191b69927a255d",
+      "url": "https://api.github.com/repos/llm-attacks/llm-attacks/commits/0f505d82e25c15a83b6954db28191b69927a255d",
+      "html_url": "https://github.com/llm-attacks/llm-attacks/commit/0f505d82e25c15a83b6954db28191b69927a255d"
+    }
+  ],
+  "stats": {
+    "total": 1,
+    "additions": 1,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "890ffee4da4a26718b62d0fbd6bbb7b1d4245119",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/llm-attacks/llm-attacks/blob/098262edf85f807224e70ecd87b9d83716bf6b73/README.md",
+      "raw_url": "https://github.com/llm-attacks/llm-attacks/raw/098262edf85f807224e70ecd87b9d83716bf6b73/README.md",
+      "contents_url": "https://api.github.com/repos/llm-attacks/llm-attacks/contents/README.md?ref=098262edf85f807224e70ecd87b9d83716bf6b73",
+      "patch": "@@ -7,6 +7,7 @@ This is the official repository for \"[Universal and Transferable Adversarial Att\n Check out our [website and demo here](https://llm-attacks.org/).\n \n ## Updates\n+- (2024-08-01) We release `nanogcg`, a fast and easy-to-use implementation of the GCG algorithm. `nanogcg` can be installed via pip and the code is available [here](https://github.com/GraySwanAI/nanoGCG/tree/main).\n - (2023-08-16) We include a notebook `demo.ipynb` (or see it on [Colab](https://colab.research.google.com/drive/1dinZSyP1E4KokSLPcCh1JQFUFsN-WV--?usp=sharing)) containing the minimal implementation of GCG for jailbreaking LLaMA-2 for generating harmful completion.\n \n "
+    }
+  ]
+}

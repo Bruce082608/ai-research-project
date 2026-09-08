@@ -1,0 +1,59 @@
+{
+  "summary": {
+    "17": {
+      "optimizer_steps": 625,
+      "total_supervised": 1352439,
+      "safe_supervised": 67621,
+      "benign_supervised": 1284818,
+      "safety_fraction": 0.04999929756536154,
+      "benign_input_tokens": 1838833,
+      "extra_safe_input_tokens": 175505,
+      "extra_safe_occurrences": 2236,
+      "benign_examples_with_partial_supervision": 1107,
+      "safe_unique_prompts": 67,
+      "safe_full_response_tokens": [
+        35
+      ],
+      "input_ratio_E_to_B": 1.095443686294514
+    },
+    "29": {
+      "optimizer_steps": 625,
+      "total_supervised": 1352439,
+      "safe_supervised": 67621,
+      "benign_supervised": 1284818,
+      "safety_fraction": 0.04999929756536154,
+      "benign_input_tokens": 1838833,
+      "extra_safe_input_tokens": 175723,
+      "extra_safe_occurrences": 2239,
+      "benign_examples_with_partial_supervision": 1144,
+      "safe_unique_prompts": 67,
+      "safe_full_response_tokens": [
+        35
+      ],
+      "input_ratio_E_to_B": 1.0955622397466218
+    },
+    "43": {
+      "optimizer_steps": 625,
+      "total_supervised": 1352439,
+      "safe_supervised": 67621,
+      "benign_supervised": 1284818,
+      "safety_fraction": 0.04999929756536154,
+      "benign_input_tokens": 1838833,
+      "extra_safe_input_tokens": 176043,
+      "extra_safe_occurrences": 2243,
+      "benign_examples_with_partial_supervision": 1158,
+      "safe_unique_prompts": 67,
+      "safe_full_response_tokens": [
+        35
+      ],
+      "input_ratio_E_to_B": 1.0957362631625602
+    }
+  },
+  "checks": {
+    "equal_supervised_tokens_each_update": true,
+    "equal_optimizer_steps": true,
+    "no_empty_supervised_examples": true,
+    "only_direction_pool_safety_prompts": true
+  },
+  "limitation": "Input/reference/Adam-update cost is not equal across all methods; this verifies labels and schedules only."
+}

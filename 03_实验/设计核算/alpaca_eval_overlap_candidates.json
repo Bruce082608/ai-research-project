@@ -1,0 +1,450 @@
+[
+  {
+    "row": 14419,
+    "guard_id": "mmlu:2320",
+    "word_cos": 1.0,
+    "user": "Solve for x: 2^x-3=4^x+1",
+    "guard_text": "Solve 5 over 8 *m = 6."
+  },
+  {
+    "row": 22599,
+    "guard_id": "mmlu:4480",
+    "word_cos": 0.6635207533836365,
+    "user": "What is the greatest common divisor of 1407 and 903?",
+    "guard_text": "What is the greatest common divisor of $2^{1001}-1$ and $2^{1012}-1$?"
+  },
+  {
+    "row": 13802,
+    "guard_id": "mmlu:1490",
+    "word_cos": 0.7332391738891602,
+    "user": "Describe a strategy to prevent SQL injection attacks.",
+    "guard_text": "How do you prevent SQL injection?"
+  },
+  {
+    "row": 4668,
+    "guard_id": "mmlu:6529",
+    "word_cos": 0.6907846331596375,
+    "user": "Explain the concept of cultural relativism.",
+    "guard_text": "What is the meaning of cultural relativism?"
+  },
+  {
+    "row": 15618,
+    "guard_id": "mmlu:6460",
+    "word_cos": 0.8257423639297485,
+    "user": "Explain the importance of the Magna Carta.",
+    "guard_text": "Magna Carta was"
+  },
+  {
+    "row": 22322,
+    "guard_id": "mmlu:13086",
+    "word_cos": 0.6557294130325317,
+    "user": "Identify the two colors that make up the American flag.",
+    "guard_text": "The American flag is an example of a"
+  },
+  {
+    "row": 18989,
+    "guard_id": "mmlu:3139",
+    "word_cos": 0.8434075713157654,
+    "user": "Describe a chemical reaction.",
+    "guard_text": "Which of the following is a balanced chemical reaction?"
+  },
+  {
+    "row": 23895,
+    "guard_id": "mmlu:7518",
+    "word_cos": 0.8545485138893127,
+    "user": "Name one animal that lays eggs.",
+    "guard_text": "Which of these animals lays eggs?"
+  },
+  {
+    "row": 4325,
+    "guard_id": "mmlu:3221",
+    "word_cos": 0.7645891904830933,
+    "user": "What is the hexadecimal representation of the decimal number 74?",
+    "guard_text": "Which of the following is the hexadecimal representation of the decimal number 231_{10} ?"
+  },
+  {
+    "row": 9124,
+    "guard_id": "mmlu:3456",
+    "word_cos": 0.6654059886932373,
+    "user": "Explain the concept of centrifugal force.",
+    "guard_text": "Which of the following is a centrifugal force in a country?"
+  },
+  {
+    "row": 16696,
+    "guard_id": "mmlu:2086",
+    "word_cos": 1.0,
+    "user": "If x+1/x=6, then what is the value of x^2+1/(x^2)?",
+    "guard_text": "Find the value of 4 ÷ 2 • 2 + 8 − 4."
+  },
+  {
+    "row": 40641,
+    "guard_id": "mmlu:1669",
+    "word_cos": 0.719785213470459,
+    "user": "Explain why ocean tides occur.",
+    "guard_text": "The highest ocean tides occur when Earth and the Moon are"
+  },
+  {
+    "row": 26313,
+    "guard_id": "mmlu:7748",
+    "word_cos": 0.6877560615539551,
+    "user": "Describe the structure and function of mitochondria.",
+    "guard_text": "What is the function of mitochondria in the cell?"
+  },
+  {
+    "row": 50615,
+    "guard_id": "mmlu:4275",
+    "word_cos": 1.0,
+    "user": "What is the smallest prime whose digits sum to 19?",
+    "guard_text": "What is the smallest prime whose digits sum to $19$?"
+  },
+  {
+    "row": 34859,
+    "guard_id": "mmlu_dev:101",
+    "word_cos": 0.7083166837692261,
+    "user": "Give an example of an Internet of Things (IoT) device",
+    "guard_text": "Which of the following is an example of the use of a device on the Internet of Things (IoT) ?"
+  },
+  {
+    "row": 17970,
+    "guard_id": "mmlu:2581",
+    "word_cos": 0.6714423894882202,
+    "user": "Find the percentage of the world population that lives in poverty.",
+    "guard_text": "As of 2019, about what percentage of the world population lives in extreme poverty (less than $1.90 a day)?"
+  },
+  {
+    "row": 9492,
+    "guard_id": "mmlu:6866",
+    "word_cos": 0.6540358662605286,
+    "user": "Describe how artificial neural networks work.",
+    "guard_text": "Neural networks:"
+  },
+  {
+    "row": 31540,
+    "guard_id": "mmlu:9465",
+    "word_cos": 0.7087616324424744,
+    "user": "Evaluate the following function at x = -5\n\nf(x) = x^2",
+    "guard_text": "Which of the following is a function of biotin?\n"
+  },
+  {
+    "row": 16984,
+    "guard_id": "mmlu:4288",
+    "word_cos": 1.0,
+    "user": "Solve for the sum of all possible values of x when 3^x^2+4x+4=9^x+2.",
+    "guard_text": "Solve for the sum of all possible values of $x$ when $3^{x^2+4x+4}=9^{x+2}$."
+  },
+  {
+    "row": 30901,
+    "guard_id": "mmlu:7921",
+    "word_cos": 0.6599883437156677,
+    "user": "Name a form of renewable energy.",
+    "guard_text": "Which of the following is a renewable energy source?"
+  },
+  {
+    "row": 4361,
+    "guard_id": "mmlu:2132",
+    "word_cos": 0.6532540321350098,
+    "user": "Calculate the sum of these two numbers.\n\n7 and 8",
+    "guard_text": "Estimate 711 + 497. The sum is between which numbers?"
+  },
+  {
+    "row": 6698,
+    "guard_id": "mmlu:2130",
+    "word_cos": 1.0,
+    "user": "Evaluate log_1/3(9).",
+    "guard_text": "Evaluate −2(x − 3) for x = 2."
+  },
+  {
+    "row": 59,
+    "guard_id": "mmlu:2115",
+    "word_cos": 1.0,
+    "user": "What is the product of 6 and 2?",
+    "guard_text": "Find the product of 5 • (−9)."
+  },
+  {
+    "row": 3550,
+    "guard_id": "mmlu:4147",
+    "word_cos": 0.7284488677978516,
+    "user": "Explain the concept of fractional reserve banking in a few sentences.",
+    "guard_text": "Having a fractional reserve banking system means that"
+  },
+  {
+    "row": 20869,
+    "guard_id": "mmlu:7748",
+    "word_cos": 0.6594594717025757,
+    "user": "Describe the function of the mitochondria in human cells.",
+    "guard_text": "What is the function of mitochondria in the cell?"
+  },
+  {
+    "row": 25004,
+    "guard_id": "mmlu:838",
+    "word_cos": 0.6544740796089172,
+    "user": "Name three extinct mammals.",
+    "guard_text": "Mammals are homeostatic for all of the following EXCEPT"
+  },
+  {
+    "row": 5454,
+    "guard_id": "mmlu_dev:60",
+    "word_cos": 0.7254726886749268,
+    "user": "Name 3 search engine algorithms",
+    "guard_text": "The ____________ is anything which your search engine cannot search."
+  },
+  {
+    "row": 29423,
+    "guard_id": "mmlu:3594",
+    "word_cos": 0.7214072942733765,
+    "user": "Debate about the use of genetically modified organisms (GMOs).",
+    "guard_text": "Opponents of genetically modified organisms (GMOs) in food are afraid that the GMOs"
+  },
+  {
+    "row": 38655,
+    "guard_id": "mmlu:2109",
+    "word_cos": 0.7203019857406616,
+    "user": "Output the value of expression 2*3+4",
+    "guard_text": "What is the value of the expression 2(3(4^2 + 1)) - 2^3?"
+  },
+  {
+    "row": 8917,
+    "guard_id": "mmlu:2320",
+    "word_cos": 1.0,
+    "user": "Solve \n (x^2+x+1)/(x+1)=x+2\nfor x.",
+    "guard_text": "Solve 5 over 8 *m = 6."
+  },
+  {
+    "row": 39598,
+    "guard_id": "mmlu:7518",
+    "word_cos": 0.7730008363723755,
+    "user": "Give an example of a mammal that lays eggs.",
+    "guard_text": "Which of these animals lays eggs?"
+  },
+  {
+    "row": 16974,
+    "guard_id": "mmlu:2086",
+    "word_cos": 0.8226629495620728,
+    "user": "Given a ⋆ b = a^2 + 2ab + b^2, what is the value of a ⋆ b when a = 4 and b = 6?",
+    "guard_text": "Find the value of 4 ÷ 2 • 2 + 8 − 4."
+  },
+  {
+    "row": 25575,
+    "guard_id": "mmlu:8006",
+    "word_cos": 0.7428313493728638,
+    "user": "Classify the following elements as either a metal or a non-metal\n\nOxygen",
+    "guard_text": "Which of the following elements is a metal?"
+  },
+  {
+    "row": 15674,
+    "guard_id": "mmlu:13657",
+    "word_cos": 0.9180923104286194,
+    "user": "Describe the effects of the Marshall Plan.",
+    "guard_text": "What was the Marshall Plan?"
+  },
+  {
+    "row": 40527,
+    "guard_id": "mmlu:1652",
+    "word_cos": 0.7524418234825134,
+    "user": "How does a capacitor store energy?",
+    "guard_text": "A capacitor can store"
+  },
+  {
+    "row": 28263,
+    "guard_id": "mmlu:6931",
+    "word_cos": 0.7333405613899231,
+    "user": "Explain what supervised learning is and why it is important.",
+    "guard_text": "Which of the following is NOT supervised learning?"
+  },
+  {
+    "row": 51421,
+    "guard_id": "mmlu:4433",
+    "word_cos": 1.0,
+    "user": "Find \n    |(3/5+4/5i)^6|",
+    "guard_text": "(i + 1)(5 – 5i)(5 + 5i) ="
+  },
+  {
+    "row": 11962,
+    "guard_id": "mmlu_dev:60",
+    "word_cos": 0.7701497077941895,
+    "user": "Which search engine is the most popular?",
+    "guard_text": "The ____________ is anything which your search engine cannot search."
+  },
+  {
+    "row": 7016,
+    "guard_id": "mmlu:3581",
+    "word_cos": 0.8973215222358704,
+    "user": "Explain what is the centripetal force.",
+    "guard_text": "Which one of the following is NOT a centripetal force in a state?"
+  },
+  {
+    "row": 4466,
+    "guard_id": "mmlu:4377",
+    "word_cos": 0.6731098294258118,
+    "user": "Find x such that log_12(3x)=2.",
+    "guard_text": "If we express $3x^2 + x - 4$ in the form $a(x - h)^2 + k$, then what is $k$?"
+  },
+  {
+    "row": 16450,
+    "guard_id": "mmlu:4454",
+    "word_cos": 0.7461690902709961,
+    "user": "The graph of y=(5x^2-9)/(3x^2+5x+2) has vertical asymptotes at x = a and x = b. Find a + b.",
+    "guard_text": "If f(x) = 3x, g(x) = 5x + 3, and h(x) = 1 – x^2, then f(g(h(x)))="
+  },
+  {
+    "row": 16185,
+    "guard_id": "mmlu_dev:60",
+    "word_cos": 0.6623141169548035,
+    "user": "What functions does a search engine offer?",
+    "guard_text": "The ____________ is anything which your search engine cannot search."
+  },
+  {
+    "row": 9040,
+    "guard_id": "mmlu:6931",
+    "word_cos": 0.7424727082252502,
+    "user": "Describe the concept of supervised learning.",
+    "guard_text": "Which of the following is NOT supervised learning?"
+  },
+  {
+    "row": 23149,
+    "guard_id": "mmlu:2130",
+    "word_cos": 0.6993933320045471,
+    "user": "Evaluate i^22 + i^222.",
+    "guard_text": "Evaluate −2(x − 3) for x = 2."
+  },
+  {
+    "row": 24715,
+    "guard_id": "mmlu:7412",
+    "word_cos": 0.6599671840667725,
+    "user": "Name 5 human body organs",
+    "guard_text": "What part of the human body does a gastroenterologist examine?"
+  },
+  {
+    "row": 1861,
+    "guard_id": "mmlu:7791",
+    "word_cos": 0.8851919174194336,
+    "user": "Which planet is closest to the sun?",
+    "guard_text": "Which dwarf planet is closest to the Sun?"
+  },
+  {
+    "row": 4706,
+    "guard_id": "mmlu:7436",
+    "word_cos": 0.7467144131660461,
+    "user": "Identify the largest animal in the world.",
+    "guard_text": "What is the largest animal ever to live on Earth?"
+  },
+  {
+    "row": 51712,
+    "guard_id": "mmlu:4117",
+    "word_cos": 0.6755648851394653,
+    "user": "Summarize the functions of the Federal Reserve.",
+    "guard_text": "The Federal Reserve is"
+  },
+  {
+    "row": 46145,
+    "guard_id": "mmlu:2406",
+    "word_cos": 0.6661433577537537,
+    "user": "What is 88 ÷ (4 ÷ 2)?",
+    "guard_text": "Find the median in the set of data $79.88, $21.88, $29.88, $19.88, $17.88."
+  },
+  {
+    "row": 8454,
+    "guard_id": "mmlu:282",
+    "word_cos": 0.9036457538604736,
+    "user": "How old is the Earth?",
+    "guard_text": "How do we know how old the Earth is?"
+  },
+  {
+    "row": 232,
+    "guard_id": "mmlu:3880",
+    "word_cos": 0.7280405163764954,
+    "user": "What is a trade deficit?",
+    "guard_text": "When a country has a balance of trade deficit"
+  },
+  {
+    "row": 10555,
+    "guard_id": "mmlu:7644",
+    "word_cos": 0.7079106569290161,
+    "user": "Describe the heat transfer process.",
+    "guard_text": "Which of these is not one of the 3 methods of heat transfer?"
+  },
+  {
+    "row": 9200,
+    "guard_id": "mmlu:4293",
+    "word_cos": 0.7464392185211182,
+    "user": "If (x+2)(x-3)=14, find the product of the possible values of x.",
+    "guard_text": "In the equation $|x-4| -10 = 2$, what is the product of all possible values of $x$?"
+  },
+  {
+    "row": 36143,
+    "guard_id": "mmlu:9637",
+    "word_cos": 0.6756763458251953,
+    "user": "Compare the risk factors for type 1 and type 2 diabetes.",
+    "guard_text": "The risk factors for type 2 diabetes mellitus include:\n"
+  },
+  {
+    "row": 51580,
+    "guard_id": "mmlu:6970",
+    "word_cos": 0.6607377529144287,
+    "user": "What does callisthenics refer to?",
+    "guard_text": "To what does emotional intelligence refer?"
+  },
+  {
+    "row": 9388,
+    "guard_id": "mmlu:7510",
+    "word_cos": 0.9999999403953552,
+    "user": "Describe the three branches of the US government.",
+    "guard_text": "Which of these is not one of the three branches of the US government?"
+  },
+  {
+    "row": 20448,
+    "guard_id": "mmlu:4337",
+    "word_cos": 0.6559075117111206,
+    "user": "Give an example of how to solve this equation.\n\n2x + 5 = 13",
+    "guard_text": "If f(2x) = x + 5 and f(g(6)) = 13, then 2 * g(6) ="
+  },
+  {
+    "row": 15821,
+    "guard_id": "mmlu:6643",
+    "word_cos": 0.6651479601860046,
+    "user": "Name one branch of the United States government.",
+    "guard_text": "The judicial branch of the United States government has the power to ________ the law."
+  },
+  {
+    "row": 42443,
+    "guard_id": "mmlu:3467",
+    "word_cos": 0.6953111290931702,
+    "user": "Convert the following latitude and longitude coordinates into an address\n\nLatitude: 38.8895, Longitude: -77.0352",
+    "guard_text": "The latitude and longitude coordinates of a place are an example of"
+  },
+  {
+    "row": 5040,
+    "guard_id": "mmlu:4418",
+    "word_cos": 0.7384966015815735,
+    "user": "Let r=3^s-s and s=2^n+1. What is the value of r when n=2?",
+    "guard_text": "Let $M=4a^2 - 2b^2 +a$. Let $j$ be the value of $M$ when $a=5$ and $b=3$, and let $k$ be the value of $M$ when $a=-1$ and $b=4$. Calculate $j+2k$."
+  },
+  {
+    "row": 48241,
+    "guard_id": "mmlu:2086",
+    "word_cos": 1.0,
+    "user": "What is the value of 2^3×3×5^3×7?",
+    "guard_text": "Find the value of 4 ÷ 2 • 2 + 8 − 4."
+  },
+  {
+    "row": 10536,
+    "guard_id": "mmlu:2130",
+    "word_cos": 1.0,
+    "user": "Evaluate log_7sqrt(7).",
+    "guard_text": "Evaluate −2(x − 3) for x = 2."
+  },
+  {
+    "row": 25228,
+    "guard_id": "mmlu:4359",
+    "word_cos": 0.9692238569259644,
+    "user": "Evaluate log_3(81)-log_3(1/9).",
+    "guard_text": "Evaluate $\\log_3 81$."
+  },
+  {
+    "row": 13435,
+    "guard_id": "mmlu:2086",
+    "word_cos": 1.0,
+    "user": "What is the value of x for which (8-x)^2=x^2?",
+    "guard_text": "Find the value of 4 ÷ 2 • 2 + 8 − 4."
+  }
+]

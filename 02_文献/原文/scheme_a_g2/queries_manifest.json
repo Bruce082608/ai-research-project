@@ -1,0 +1,123 @@
+[
+  {
+    "query_id": 1,
+    "query": "all:\"refusal direction\" AND (all:\"random\" OR all:\"control\") AND (all:\"fine-tuning\" OR all:\"training\")",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22refusal+direction%22+AND+%28all%3A%22random%22+OR+all%3A%22control%22%29+AND+%28all%3A%22fine-tuning%22+OR+all%3A%22training%22%29&start=0&max_results=20&sortBy=lastUpdatedDate&sortOrder=descending",
+    "completed_utc": "2026-09-08T07:09:32.244288+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "file": "query_01.xml",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2608.25390v2",
+        "title": "Refusal geometry reflects refusal training: diverse refusal prefixes can raise stable rank and weaken refusal vector ablation attacks",
+        "summary": "Refusal training protects AI models from jailbreaks by training models to decline unsafe queries, reducing the risk of misuse. Recent work finds that refusal behavior in aligned language models can be mediated by a single activation direction or a low-dimensional refusal subspace shared across harmful prompts: ablating those directions suppresses refusals while largely preserves other model capabilities. Yet it remains unclear why safety-critical features in a wide range of models emerge in a concentrated, low-dimensional structure. In a case study of OLMo-2-0425-1B-Instruct we find that the refusal geometry reflects refusal training: activation updates resulting from refusal-completion first-token losses explain the resulting refusal direction and refusal subspace. We study refusal directions through the training dynamics across refusal datasets and reveal that their brittleness is associated with repetitive refusal starts, which in turn is linked to concentration of gradients and refusal features in a low-dimensional subspace. Across frozen-model analyses and controlled synthetic fine-tuning, we find evidence of a hardening lever: diverse refusal starts can raise stable ranks of gradients and activation changes, making refusals harder to remove with a vector ablation attack."
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.29109v1",
+        "title": "Recognition-Refusal Misalignment in LLMs: Why Models Answer Structurally Unanswerable Questions",
+        "summary": "Large language models often answer structurally unanswerable questions, such as computing cot(-540°) or evaluating (1).startswith(\"1\"), instead of abstaining. We ask whether this failure reflects missing recognition or failed routing from recognition to abstention. Across instruction-tuned models from 1.7B to 70B parameters, a single linear direction in the hidden state separates answerable from structurally impossible math and code prompts, showing that models represent impossibility before generation. Yet this recognition direction is nearly orthogonal to the canonical safety-refusal direction that mediates trained harmful-content refusal. An in-domain behavior-defined invalidity-aware direction is closer to recognition, but only partially aligned with it, and remains near-orthogonal to safety refusal. Generation-time steering along the recognition direction changes invalidity-aware behavior bidirectionally and dose-responsively on structural math and code cells, while random directions do not. Base/instruct comparisons further show that the low-cosine geometry is already present at the pretraining endpoint. The confident-on-impossible failure is therefore better explained as a routing failure than as an encoding failure: the model has a usable \"no admissible answer\" signal, but the safety-refusal pathway is not aligned to use it."
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.19857v1",
+        "title": "Inadvertent Context Leakage in Language Models",
+        "summary": "For AI agents to be useful beyond simple chat, they must hold sensitive user context such as calendars, credentials, health records, and financial data. We study whether the mere presence of such secrets in a model's context window introduces hidden correlations into the model's benign outputs, allowing reconstruction even when the model correctly refuses direct extraction. We further study whether an adversary can actively engineer prompts that amplify this effect, using the model as a covert carrier to transmit secrets through seemingly innocuous text. In both cases, this limited leakage is exploited using a novel adaptive attack that assumes black-box access to the underlying model. In controlled experiments across eight proprietary models, we find that 2-digit in-context secrets are reconstructed with near-perfect accuracy and 4-digit secrets at 82\\% exact match, all from outputs the model produces in response to ordinary, non-adversarial requests. We observe that more capable models leak more: stronger instruction-following amplifies sensitivity to in-context secrets, suggesting leakage is a byproduct of capability as opposed to a patchable bug. We show this leakage enables two practical attacks: (1) a trained classifier that infers semantic predicates about user memories (e.g., health conditions, financial events) from routine natural-language outputs, and (2) an RL-trained adversary that extracts full Social Security Numbers from a production-style agent."
+      },
+      {
+        "id": "http://arxiv.org/abs/2608.18093v1",
+        "title": "Abliteration Mitigation via Refusal Aliases",
+        "summary": "Abliteration, the removal of refusal capabilities from large language models by projecting weight matrices orthogonal to an extracted refusal direction, has emerged as a prominent safety concern through its ability to bypass post-training alignment using only a small set of contrastive prompts. We find that existing defenses commonly overlook the cause of abliteration; that is, how easily the refusal direction can be extracted. To hinder this process, we introduce a weight-editing method that obscures the refusal signal by applying rank-$k$ updates to residual stream writer matrices while replacing refusal-inducing activations with random aliases and correcting downstream reader matrices to preserve the model's original behavior. On Llama-3-8B, AMRA improves post-abliteration refusal scores by $2.16$ points over the undefended baseline with less than $0.5$ percentage points of MMLU degradation. On Gemma-2-9B, it improves the post-abliteration refusal by $14.70$ points over the baseline while keeping harmful output rates similar to the baseline, albeit at a greater utility cost."
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.21706v2",
+        "title": "Latent-space Attacks for Refusal Evasion in Language Models",
+        "summary": "Safety-aligned language models are trained to refuse harmful requests, yet refusal behavior can be suppressed by steering their internal representations. Existing methods do so by ablating a refusal direction from model activations, aiming to remove refusal from the model's residual stream. Despite their empirical success, these methods lack a principled account of the latent-space transformation they induce and why it suppresses refusal. In this work, we recast refusal suppression as a latent-space evasion attack against linear probes trained to separate refused from answered prompts. Under this view, prior work's difference-in-means direction naturally defines such a probe, and its ablation is exactly a projection onto its decision boundary, i.e., a minimum-confidence evasion attack. This perspective not only explains the empirical success of prior work but also admits a key limitation: evasion stops at the decision boundary, motivating the need to push representations further into the compliant region, i.e., where the model answers. We leverage this by proposing a Controlled Latent-space Evasion attack that projects representations past the boundary with an optimized confidence. We achieve state-of-the-art attack success rate across 15 instruction-tuned, multimodal, and reasoning models, outperforming existing refusal-ablation baselines and specialized jailbreak attacks."
+      },
+      {
+        "id": "http://arxiv.org/abs/2606.05958v1",
+        "title": "Steering Vectors are an Adversarial Attack Surface",
+        "summary": "Activation steering has become a popular way to control Large Language Model (LLM) behavior without fine-tuning. Since the technique is plug-and-play, users share datasets and precomputed vectors to steer model activations. However, we show that a \\emph{stealth data poisoning attack} silently compromises this pipeline. By substituting $4{-}6\\%$ of tokens in the steering dataset, an attacker can silently align the resulting vector with an anti-refusal direction. This jailbreaks the target model while preserving the intended steering effect on benign prompts. Under this threat model, a malicious actor can distribute an apparently safe bundle containing texts, vectors, and weights, alongside an equivalence certificate that the end-user can verify. We test the attack on two open-weight model families and eight model-attribute combinations, observing that poisoned vectors reach an absolute attack success rate (ASR) of $20{-}55\\%$, $+19\\%$ to $+51\\%$ over a clean reference. Finally, we find that a refusal-direction orthogonalization defense can recover ${\\approx}82\\%$ of the ASR gap without harming benign behavior."
+      },
+      {
+        "id": "http://arxiv.org/abs/2605.24583v3",
+        "title": "Measuring Alignment-Induced Activation Shifts Correctly: A Template-Controlled Difference-in-Differences Protocol",
+        "summary": "Comparing a model's internal activations before and after alignment is a natural way to ask what safety training changes: one forms the matrix of paired aligned-minus-base activations on safety-relevant inputs and reads off its effective rank or top direction. We show the obvious way to form this matrix is confounded. The aligned model is evaluated under a chat template the base model never saw, so the naive difference conflates the alignment shift with chat formatting. We introduce a four-variant decomposition of the modification matrix (naive, template-controlled, within-aligned, and difference-in-differences, DiD) that separates the two effects. Template control alone removes a 2.0-3.9x inflation of the measured effective rank across Llama-3.1-8B, Gemma-2-9B, and Qwen-2.5-7B; the DiD contrast is what recovers the refusal direction of Arditi et al. (2024), lifting its cosine alignment from 0.18-0.39 to 0.50-0.86. Projection-ablation across the three families confirms the recovered subspace is behaviorally active and that singular-value order is not causal order. We validate the protocol on a controlled testbed and distill it into measurement recommendations for activation-difference studies of alignment."
+      },
+      {
+        "id": "http://arxiv.org/abs/2505.20309v3",
+        "title": "Guiding Giants: Lightweight Controllers for Weighted Activation Steering in LLMs",
+        "summary": "Controlling undesirable Large Language Model (LLM) behaviors, such as the generation of unsafe content or failing to adhere to safety guidelines, often relies on costly fine-tuning. Activation steering provides an alternative for inference-time control, but existing methods typically lack fine-grained, adaptive mechanisms. We introduce a novel approach using a lightweight, trainable controller network integrated during inference. This controller network observes specific intermediate LLM activations and predicts both a global scaling factor and layer-specific weights. The predicted global scaling factor and layer-specific weights then dynamically modulate the intensity of a steering patch, derived from a pre-computed \"refusal direction\" vector, applied across the LLM's layers during generation. Trained on activations from both harmful and benign prompts, our controller learns to discriminatively apply nuanced, layer-aware interventions, activating steering primarily for harmful inputs. Experiments using safety benchmarks like ToxicChat & In-The-Wild Jailbreak Prompts demonstrate that our weighted steering controller significantly increases refusal rates compared to the base LLM, achieving targeted behavioral modification without altering the original model parameters. Our experiments with Llama-3.1-8B, Llama-3.2-1B & Mistral-7B show our approach outperforms existing methods, presenting an efficient and adaptive method for fine-grained control over LLM behavior at inference time."
+      },
+      {
+        "id": "http://arxiv.org/abs/2603.13359v1",
+        "title": "From Refusal Tokens to Refusal Control: Discovering and Steering Category-Specific Refusal Directions",
+        "summary": "Language models are commonly fine-tuned for safety alignment to refuse harmful prompts. One approach fine-tunes them to generate categorical refusal tokens that distinguish different refusal types before responding. In this work, we leverage a version of Llama 3 8B fine-tuned with these categorical refusal tokens to enable inference-time control over fine-grained refusal behavior, improving both safety and reliability. We show that refusal token fine-tuning induces separable, category-aligned directions in the residual stream, which we extract and use to construct categorical steering vectors with a lightweight probe that determines whether to steer toward or away from refusal during inference. In addition, we introduce a learned low-rank combination that mixes these category directions in a whitened, orthonormal steering basis, resulting in a single controllable intervention under activation-space anisotropy, and show that this intervention is transferable across same-architecture model variants without additional training. Across benchmarks, both categorical steering vectors and the low-rank combination consistently reduce over-refusals on benign prompts while increasing refusal rates on harmful prompts, highlighting their utility for multi-category refusal control."
+      },
+      {
+        "id": "http://arxiv.org/abs/2602.11358v2",
+        "title": "When Models Examine Themselves: Vocabulary-Activation Correspondence in Self-Referential Processing",
+        "summary": "Large language models produce rich introspective language when prompted for self-examination, but whether this language reflects internal computation or sophisticated confabulation has remained unclear. We show that self-referential vocabulary tracks concurrent activation dynamics, and that this correspondence is specific to self-referential processing. We introduce the Pull Methodology, a protocol that elicits extended self-examination through format engineering, and use it to identify a direction in activation space that distinguishes self-referential from descriptive processing in Llama 3.1. The direction is orthogonal to the known refusal direction, localised at 6.25% of model depth, and causally influences introspective output when used for steering. When models produce \"loop\" vocabulary, their activations exhibit higher autocorrelation (r = 0.44, p = 0.002); when they produce \"shimmer\" vocabulary under steering, activation variability increases (r = 0.36, p = 0.002). Critically, the same vocabulary in non-self-referential contexts shows no activation correspondence despite nine-fold higher frequency. Qwen 2.5-32B, with no shared training, independently develops different introspective vocabulary tracking different activation metrics, all absent in descriptive controls. The findings indicate that self-report in transformer models can, under appropriate conditions, reliably track internal computational states."
+      },
+      {
+        "id": "http://arxiv.org/abs/2509.12221v1",
+        "title": "MEUV: Achieving Fine-Grained Capability Activation in Large Language Models via Mutually Exclusive Unlock Vectors",
+        "summary": "Large language models (LLMs) enforce safety alignment to reliably refuse malicious requests, yet the same blanket safeguards also block legitimate uses in policing, defense, and other high-stakes settings. Earlier \"refusal-direction\" edits can bypass those layers, but they rely on a single vector that indiscriminately unlocks all hazardous topics, offering no semantic control. We introduce Mutually Exclusive Unlock Vectors (MEUV), a lightweight framework that factorizes the monolithic refusal direction into topic-aligned, nearly orthogonal vectors, each dedicated to one sensitive capability. MEUV is learned in a single epoch with a multi-task objective that blends a differential-ablation margin, cross-topic and orthogonality penalties, and several auxiliary terms. On bilingual malicious-prompt benchmarks, MEUV achieves an attack success rate of no less than 87% on Gemma-2-2B, LLaMA-3-8B, and Qwen-7B, yet cuts cross-topic leakage by up to 90% compared with the best single-direction baseline. Vectors trained in Chinese transfer almost unchanged to English (and vice versa), suggesting a language-agnostic refusal subspace. The results show that fine-grained, topic-level capability activation is achievable with minimal utility loss, paving the way for controlled LLMs deployment in security-sensitive domains."
+      }
+    ],
+    "totalResults": "11"
+  },
+  {
+    "query_id": 2,
+    "query": "all:\"safety direction\" AND (all:\"regularization\" OR all:\"random direction\")",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22safety+direction%22+AND+%28all%3A%22regularization%22+OR+all%3A%22random+direction%22%29&start=0&max_results=20&sortBy=lastUpdatedDate&sortOrder=descending",
+    "completed_utc": "2026-09-08T07:09:34.198093+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "file": "query_02.xml",
+    "entries": [],
+    "totalResults": "0"
+  },
+  {
+    "query_id": 3,
+    "query": "all:\"benign fine-tuning\" AND (all:\"representation\" OR all:\"subspace\") AND (all:\"control\" OR all:\"random\")",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22benign+fine-tuning%22+AND+%28all%3A%22representation%22+OR+all%3A%22subspace%22%29+AND+%28all%3A%22control%22+OR+all%3A%22random%22%29&start=0&max_results=20&sortBy=lastUpdatedDate&sortOrder=descending",
+    "completed_utc": "2026-09-08T07:09:36.022514+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "file": "query_03.xml",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2601.15220v2",
+        "title": "Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models",
+        "summary": "We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle patterns in training data can degrade contextual privacy, including optimisation for helpfulness, exposure to user information, emotional and subjective dialogue, and debugging code printing internal variables, among others. Fine-tuned models lose their ability to reason about contextual privacy norms, share information inappropriately with tools, and violate memory boundaries across contexts. Privacy collapse is a ``silent failure'' because models maintain high performance on standard safety and utility benchmarks whilst exhibiting severe privacy vulnerabilities. Our experiments show evidence of privacy collapse across six models (closed and open weight), five fine-tuning datasets (real-world and controlled data), and two task categories (agentic and memory-based). Our mechanistic analysis reveals that privacy representations are uniquely fragile to fine-tuning, compared to task-relevant features which are preserved. Our results reveal a critical gap in current safety evaluations, in particular for the deployment of specialised agents."
+      }
+    ],
+    "totalResults": "1"
+  },
+  {
+    "query_id": 4,
+    "query": "all:\"projection constraint\" AND all:\"safety\"",
+    "url": "https://export.arxiv.org/api/query?search_query=all%3A%22projection+constraint%22+AND+all%3A%22safety%22&start=0&max_results=20&sortBy=lastUpdatedDate&sortOrder=descending",
+    "completed_utc": "2026-09-08T07:09:37.313218+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "file": "query_04.xml",
+    "entries": [
+      {
+        "id": "http://arxiv.org/abs/2602.22554v1",
+        "title": "Multilingual Safety Alignment Via Sparse Weight Editing",
+        "summary": "Large Language Models (LLMs) exhibit significant safety disparities across languages, with low-resource languages (LRLs) often bypassing safety guardrails established for high-resource languages (HRLs) like English. Existing solutions, such as multilingual supervised fine-tuning (SFT) or Reinforcement Learning from Human Feedback (RLHF), are computationally expensive and dependent on scarce multilingual safety data. In this work, we propose a novel, training-free alignment framework based on Sparse Weight Editing. Identifying that safety capabilities are localized within a sparse set of safety neurons, we formulate the cross-lingual alignment problem as a constrained linear transformation. We derive a closed-form solution to optimally map the harmful representations of LRLs to the robust safety subspaces of HRLs, while preserving general utility via a null-space projection constraint. Extensive experiments across 8 languages and multiple model families (Llama-3, Qwen-2.5) demonstrate that our method substantially reduces Attack Success Rate (ASR) in LRLs with negligible impact on general reasoning capabilities, all achieved with a single, data-efficient calculation."
+      },
+      {
+        "id": "http://arxiv.org/abs/2509.06795v1",
+        "title": "Anchoring Refusal Direction: Mitigating Safety Risks in Tuning via Projection Constraint",
+        "summary": "Instruction Fine-Tuning (IFT) has been widely adopted as an effective post-training strategy to enhance various abilities of Large Language Models (LLMs). However, prior studies have shown that IFT can significantly compromise LLMs' safety, particularly their ability to refuse malicious instructions, raising significant concerns. Recent research into the internal mechanisms of LLMs has identified the refusal direction (r-direction) in the hidden states, which plays a pivotal role in governing refusal behavior. Building on this insight, our study reveals that the r-direction tends to drift during training, which we identify as one of the causes of the associated safety risks. To mitigate such drift, our proposed ProCon method introduces a projection-constrained loss term that regularizes the projection magnitude of each training sample's hidden state onto the r-direction. Our initial analysis shows that applying an appropriate constraint can effectively mitigate the refusal direction drift and associated safety risks, but remains limited by overall performance barriers. To overcome this barrier, informed by our observation of early-stage sharp drift and a data-driven perspective, we introduce a warm-up strategy that emphasizes early-stage strong constraints and broaden the data distribution to strengthen constraint signals, leading to an enhanced ProCon method. Experimental results under various datasets, scenarios, and LLMs demonstrate that our method can significantly mitigate safety risks posed by IFT while preserving task performance gains. Even compared with strong baselines, our method consistently delivers superior overall performance. Crucially, our analysis indicates that ProCon can contribute to stabilizing the r-direction during training, while such an interpretability-driven exploration of LLMs' internal mechanisms lays a solid foundation for future safety research."
+      }
+    ],
+    "totalResults": "2"
+  }
+]

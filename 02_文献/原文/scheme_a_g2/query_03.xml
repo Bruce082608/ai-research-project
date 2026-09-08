@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/f9o6sdhQnc44WFBtwceU285NIEo</id>
+  <title>arXiv Query: search_query=all:"benign fine-tuning" AND (all:"representation" OR all:"subspace") AND (all:"control" OR all:"random")&amp;id_list=&amp;start=0&amp;max_results=20</title>
+  <updated>2026-09-08T07:09:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:%22benign+fine-tuning%22+AND+((all:%22representation%22+OR+all:%22subspace%22)+AND+(all:%22control%22+OR+all:%22random%22))&amp;start=0&amp;max_results=20&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>20</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2601.15220v2</id>
+    <title>Privacy Collapse: Benign Fine-Tuning Can Break Contextual Privacy in Language Models</title>
+    <updated>2026-04-20T16:03:14Z</updated>
+    <link href="https://arxiv.org/abs/2601.15220v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2601.15220v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We identify a novel phenomenon in language models: benign fine-tuning of frontier models can lead to privacy collapse. We find that diverse, subtle patterns in training data can degrade contextual privacy, including optimisation for helpfulness, exposure to user information, emotional and subjective dialogue, and debugging code printing internal variables, among others. Fine-tuned models lose their ability to reason about contextual privacy norms, share information inappropriately with tools, and violate memory boundaries across contexts. Privacy collapse is a ``silent failure'' because models maintain high performance on standard safety and utility benchmarks whilst exhibiting severe privacy vulnerabilities. Our experiments show evidence of privacy collapse across six models (closed and open weight), five fine-tuning datasets (real-world and controlled data), and two task categories (agentic and memory-based). Our mechanistic analysis reveals that privacy representations are uniquely fragile to fine-tuning, compared to task-relevant features which are preserved. Our results reveal a critical gap in current safety evaluations, in particular for the deployment of specialised agents.</summary>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2026-01-21T17:53:06Z</published>
+    <arxiv:comment>ACL 2026 Main</arxiv:comment>
+    <arxiv:primary_category term="cs.CL"/>
+    <author>
+      <name>Anmol Goel</name>
+    </author>
+    <author>
+      <name>Cornelius Emde</name>
+    </author>
+    <author>
+      <name>Sangdoo Yun</name>
+    </author>
+    <author>
+      <name>Seong Joon Oh</name>
+    </author>
+    <author>
+      <name>Martin Gubri</name>
+    </author>
+  </entry>
+</feed>

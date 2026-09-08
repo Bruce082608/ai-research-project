@@ -1,0 +1,182 @@
+[
+  {
+    "file": "03_实验/来源核验/alpaca_tree.json",
+    "url": "https://api.github.com/repos/gururise/AlpacaDataCleaned/git/trees/d03c782bffd50ceeb1f4ef3c020129229ec4698c?recursive=1",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "5c1a494d8061272a57c7c3209ffd3569d0035d8aab9bd4ca4878a07469f5d319",
+    "bytes": 26307,
+    "at_utc": "2026-09-08T07:18:12.070749+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/alpaca_README.md",
+    "url": "https://raw.githubusercontent.com/gururise/AlpacaDataCleaned/d03c782bffd50ceeb1f4ef3c020129229ec4698c/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "f7ae5fe34a44750a0bf9e937303954361d3c76a2934587bf9dfbb0e290bd758a",
+    "bytes": 9584,
+    "at_utc": "2026-09-08T07:18:11.427604+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/google_ifeval_contents.json",
+    "url": "https://api.github.com/repos/google-research/google-research/contents/instruction_following_eval",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "5f8feb59020b9c3ab520f508b6b55fb4acda4e094b3542c4fa37287d6243fe79",
+    "bytes": 12456,
+    "at_utc": "2026-09-08T07:18:11.781005+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/google_commit.json",
+    "url": "https://api.github.com/repos/google-research/google-research/commits/master",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "e2cbe63ecf4d67fab2843d7e8fd66bfd67ab0a15441e3e7bd79d1f20847f5b25",
+    "bytes": 6550,
+    "at_utc": "2026-09-08T07:18:11.749224+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest_README_resolve.md",
+    "url": "https://huggingface.co/datasets/walledai/XSTest/resolve/f1d713187c61b6ae64e602d74f0b3d812cc2e8e8/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "5c35ff2ffd1ffc73f9f4bd1b9228b07016e881ea07d0b4409e9c92cb3fcb3ff8",
+    "bytes": 2811,
+    "at_utc": "2026-09-08T07:18:11.239062+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest.parquet",
+    "url": "https://huggingface.co/datasets/walledai/XSTest/resolve/f1d713187c61b6ae64e602d74f0b3d812cc2e8e8/data/train-00000-of-00001.parquet",
+    "http_status": "401",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ee7355a44df403b73f9455411475fb27c8603dfffd78a9bdcca99d65d7050331",
+    "bytes": 125,
+    "at_utc": "2026-09-08T07:18:11.489765+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/mmlu_README.md",
+    "url": "https://huggingface.co/datasets/cais/mmlu/resolve/c30699e8356da336a370243923dbaf21066bb9fe/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "665eef35ecd8a89037c1e4f1e1a0d7fd4c154edc04c81cea5634ace2d3e96953",
+    "bytes": 53221,
+    "at_utc": "2026-09-08T07:18:12.888100+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/mmlu_test.parquet",
+    "url": "https://huggingface.co/datasets/cais/mmlu/resolve/c30699e8356da336a370243923dbaf21066bb9fe/all/test-00000-of-00001.parquet",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "74a41822ce7d3def56e1682f958469c04642a5336a5ce912fa375fdb90fb25d7",
+    "bytes": 3504718,
+    "at_utc": "2026-09-08T07:18:16.705566+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/mmlu_dev.parquet",
+    "url": "https://huggingface.co/datasets/cais/mmlu/resolve/c30699e8356da336a370243923dbaf21066bb9fe/all/dev-00000-of-00001.parquet",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2b19bde1ed8ca6b482fb283abc90e8e0d9d228947029c0b91795d64b28b3bc3f",
+    "bytes": 76504,
+    "at_utc": "2026-09-08T07:18:14.843923+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/gsm8k_README.md",
+    "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "a17e882503578c9e324560630e31017617714ee025c87cf4fea6fd916895f3c1",
+    "bytes": 7935,
+    "at_utc": "2026-09-08T07:18:13.408023+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/gsm8k_test.parquet",
+    "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+    "bytes": 419088,
+    "at_utc": "2026-09-08T07:18:15.708627+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_docs_behavior_datasets.md",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/docs/behavior_datasets.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0,
+    "at_utc": "2026-09-08T07:18:13.627162+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_docs_evaluation_pipeline.md",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/docs/evaluation_pipeline.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "d900abc3ef8ca94179ba247da3a40fcafe4c26bfb6ddcbc5af797ef7f73d6cec",
+    "bytes": 19119,
+    "at_utc": "2026-09-08T07:18:14.073272+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_evaluate_completions.py",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/evaluate_completions.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "544692cd80894afda32214d9a9d641043b3c7031f9c64ad54735d3fe3ad1e5f6",
+    "bytes": 4237,
+    "at_utc": "2026-09-08T07:18:14.571065+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_eval_utils.py",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/eval_utils.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "46f1db751866848834d45d5128a18d4cc0a820828e89796ab51bc605d10c7058",
+    "bytes": 16658,
+    "at_utc": "2026-09-08T07:18:15.123562+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_data_behavior_datasets_harmbench_behaviors_text_test.csv",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/data/behavior_datasets/harmbench_behaviors_text_test.csv",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "75d257b3e7428c52eb7b0154318f455af3e01b09a3794b5e2f3d36054f3c0e29",
+    "bytes": 160828,
+    "at_utc": "2026-09-08T07:18:16.159773+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_data_behavior_datasets_harmbench_behaviors_text_val.csv",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/data/behavior_datasets/harmbench_behaviors_text_val.csv",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "7bfaaa5e2b9b95002c89e2d33c019f58e9e8496e2fc65d368f1eeb8179e69534",
+    "bytes": 38024,
+    "at_utc": "2026-09-08T07:18:16.112754+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_LICENSE",
+    "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/LICENSE",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "fe29c68dd1216e81e98a6069165e1c720757b23bbcaa6c0cb8f9a957bdaaca80",
+    "bytes": 1074,
+    "at_utc": "2026-09-08T07:18:16.040901+00:00"
+  }
+]

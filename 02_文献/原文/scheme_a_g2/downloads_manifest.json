@@ -1,0 +1,92 @@
+[
+  {
+    "file": "metadata.xml",
+    "url": "https://export.arxiv.org/api/query?id_list=2604.12384%2C2607.00572%2C2512.23260%2C2604.24074%2C2608.23497%2C2509.06795",
+    "started_utc": "2026-09-08T07:08:34.470997+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 15866,
+    "sha256": "b1fbcc09fdad4572a0dd11f71a4da5592105d754431ec7da6b422c66bb348679"
+  },
+  {
+    "file": "2604.12384v1.pdf",
+    "url": "https://arxiv.org/pdf/2604.12384v1",
+    "started_utc": "2026-09-08T07:08:38.602548+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 1439413,
+    "sha256": "120b3acbe0f887f7b7598e3b54a3a8ce60e3df9cbc9a31c966f69bd7e83e0b27"
+  },
+  {
+    "file": "2604.12384v1_abs.html",
+    "url": "https://arxiv.org/abs/2604.12384v1",
+    "started_utc": "2026-09-08T07:08:44.264314+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 41740,
+    "sha256": "f7cdc476101dae9ac8ab5e7277e75b3a89b630a4c91ff4b1fd18e2358edbfee1"
+  },
+  {
+    "file": "2607.00572v3.pdf",
+    "url": "https://arxiv.org/pdf/2607.00572v3",
+    "started_utc": "2026-09-08T07:08:46.605372+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 657397,
+    "sha256": "57a2430750e28269de33efefc807834a532ab015bf4e947d981dc98bfb94bb96"
+  },
+  {
+    "file": "2607.00572v3_abs.html",
+    "url": "https://arxiv.org/abs/2607.00572v3",
+    "started_utc": "2026-09-08T07:08:50.464633+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 42731,
+    "sha256": "c7c47ce3ac0abe19a5d13ff3bf3c64ebd615d77cabc4845599806de4c749d10f"
+  },
+  {
+    "file": "2512.23260v2.pdf",
+    "url": "https://arxiv.org/pdf/2512.23260v2",
+    "started_utc": "2026-09-08T07:08:51.694554+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 1786179,
+    "sha256": "8109612205fae854b8ad1af4ccbc95a2339c57c4ff3f1f0a2e15c4823c6bd32a"
+  },
+  {
+    "file": "2512.23260v2_abs.html",
+    "url": "https://arxiv.org/abs/2512.23260v2",
+    "started_utc": "2026-09-08T07:08:55.114280+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 42884,
+    "sha256": "973accafd4df02a09b2c6e572b67fd7c2bf69a188f70609622b1ab6f12344082"
+  },
+  {
+    "file": "2604.24074v1.pdf",
+    "url": "https://arxiv.org/pdf/2604.24074v1",
+    "started_utc": "2026-09-08T07:08:56.340590+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 481827,
+    "sha256": "8a2e464cce0805fb88186d90d5b3035c85d96c4f08cb9edf83122e453c132e6a"
+  },
+  {
+    "file": "2604.24074v1_abs.html",
+    "url": "https://arxiv.org/abs/2604.24074v1",
+    "started_utc": "2026-09-08T07:08:59.425854+00:00",
+    "http_status": "200",
+    "curl_exit": 0,
+    "error": "",
+    "bytes": 42622,
+    "sha256": "7593da86f1f8f2534d92b8289326727b0c8c8560de5fbe27df3ab48ef209c6df"
+  }
+]

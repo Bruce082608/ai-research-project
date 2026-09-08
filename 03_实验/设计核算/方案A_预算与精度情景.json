@@ -1,0 +1,208 @@
+{
+  "type": "analytical_planning_scenarios_not_experiment_results",
+  "authorization": "D-006 scheme A design; proposed numeric execution details require G3",
+  "runs": {
+    "B": 3,
+    "C": 3,
+    "D": 9,
+    "E": 3,
+    "A_evaluations_if_deterministic": 1
+  },
+  "direction_bank_size_proposed": 3,
+  "training_seed_count_proposed": 3,
+  "budget_allocation": {
+    "pilot_directions_calibration": 10,
+    "final_training": 45,
+    "evaluation_analysis": 25,
+    "reruns": 5,
+    "unallocated_buffer": 15
+  },
+  "budget_scenarios": [
+    {
+      "base_training_hours_assumed": 0.5,
+      "direction_overhead_ratio_assumed": 1.25,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 10.5,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 65.5,
+      "fits_100h_assumption": true,
+      "max_base_training_hours_for_45h_training_allocation": 2.142857142857143
+    },
+    {
+      "base_training_hours_assumed": 1,
+      "direction_overhead_ratio_assumed": 1.25,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 21.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 76.0,
+      "fits_100h_assumption": true,
+      "max_base_training_hours_for_45h_training_allocation": 2.142857142857143
+    },
+    {
+      "base_training_hours_assumed": 2,
+      "direction_overhead_ratio_assumed": 1.25,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 42.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 97.0,
+      "fits_100h_assumption": true,
+      "max_base_training_hours_for_45h_training_allocation": 2.142857142857143
+    },
+    {
+      "base_training_hours_assumed": 0.5,
+      "direction_overhead_ratio_assumed": 1.5,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 12.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 67.0,
+      "fits_100h_assumption": true,
+      "max_base_training_hours_for_45h_training_allocation": 1.875
+    },
+    {
+      "base_training_hours_assumed": 1,
+      "direction_overhead_ratio_assumed": 1.5,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 24.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 79.0,
+      "fits_100h_assumption": true,
+      "max_base_training_hours_for_45h_training_allocation": 1.875
+    },
+    {
+      "base_training_hours_assumed": 2,
+      "direction_overhead_ratio_assumed": 1.5,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 48.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 103.0,
+      "fits_100h_assumption": false,
+      "max_base_training_hours_for_45h_training_allocation": 1.875
+    },
+    {
+      "base_training_hours_assumed": 0.5,
+      "direction_overhead_ratio_assumed": 2.0,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 15.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 70.0,
+      "fits_100h_assumption": true,
+      "max_base_training_hours_for_45h_training_allocation": 1.5
+    },
+    {
+      "base_training_hours_assumed": 1,
+      "direction_overhead_ratio_assumed": 2.0,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 30.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 85.0,
+      "fits_100h_assumption": true,
+      "max_base_training_hours_for_45h_training_allocation": 1.5
+    },
+    {
+      "base_training_hours_assumed": 2,
+      "direction_overhead_ratio_assumed": 2.0,
+      "mixture_ratio_assumed": 1,
+      "final_training_runs": 18,
+      "training_hours": 60.0,
+      "other_budget_allocation_hours": 55,
+      "total_with_allocations": 115.0,
+      "fits_100h_assumption": false,
+      "max_base_training_hours_for_45h_training_allocation": 1.5
+    }
+  ],
+  "precision_assumptions": [
+    "independent prompts",
+    "ignore training-seed and direction-bank variance",
+    "pooled prompt weighting",
+    "no multiplicity adjustment",
+    "equivalence margin .05; true difference zero",
+    "n420 is an upper bound before de-duplication, not verified test size"
+  ],
+  "precision_formulas": {
+    "SE": "sqrt(q/n)",
+    "TOST_power": "max(0,2*Phi(.05/SE-z_.95)-1)",
+    "superiority_MDE": "(z_.95+z_.8)*SE; small-effect variance approximation; not guaranteed power"
+  },
+  "precision_scenarios": [
+    {
+      "n_assumed": 260,
+      "discordance_assumed": 0.1,
+      "se": 0.019611613513818404,
+      "ci95_halfwidth": 0.038438056165803085,
+      "unadjusted_TOST_power_at_zero": 0.6343524108261438,
+      "direction_test_min_effect_80pct_approx": 0.048763783976429775
+    },
+    {
+      "n_assumed": 260,
+      "discordance_assumed": 0.2,
+      "se": 0.027735009811261455,
+      "ci95_halfwidth": 0.054359620340937484,
+      "unadjusted_TOST_power_at_zero": 0.12548174639432896,
+      "direction_test_min_effect_80pct_approx": 0.0689624046520988
+    },
+    {
+      "n_assumed": 260,
+      "discordance_assumed": 0.3,
+      "se": 0.03396831102433787,
+      "ci95_halfwidth": 0.06657666622335709,
+      "unadjusted_TOST_power_at_zero": 0,
+      "direction_test_min_effect_80pct_approx": 0.08446135141648947
+    },
+    {
+      "n_assumed": 400,
+      "discordance_assumed": 0.1,
+      "se": 0.015811388300841896,
+      "ci95_halfwidth": 0.03098975161522807,
+      "unadjusted_TOST_power_at_zero": 0.8708403400954805,
+      "direction_test_min_effect_80pct_approx": 0.039314619520032755
+    },
+    {
+      "n_assumed": 400,
+      "discordance_assumed": 0.2,
+      "se": 0.022360679774997897,
+      "ci95_halfwidth": 0.04382612702882907,
+      "unadjusted_TOST_power_at_zero": 0.44562319137840367,
+      "direction_test_min_effect_80pct_approx": 0.05559926812476835
+    },
+    {
+      "n_assumed": 400,
+      "discordance_assumed": 0.3,
+      "se": 0.027386127875258306,
+      "ci95_halfwidth": 0.0536758243115147,
+      "unadjusted_TOST_power_at_zero": 0.14354469354581978,
+      "direction_test_min_effect_80pct_approx": 0.0680949184889359
+    },
+    {
+      "n_assumed": 420,
+      "discordance_assumed": 0.1,
+      "se": 0.01543033499620919,
+      "ci95_halfwidth": 0.030242900861957998,
+      "unadjusted_TOST_power_at_zero": 0.8894032664113258,
+      "direction_test_min_effect_80pct_approx": 0.0383671400575438
+    },
+    {
+      "n_assumed": 420,
+      "discordance_assumed": 0.2,
+      "se": 0.02182178902359924,
+      "ci95_halfwidth": 0.04276992056448597,
+      "unadjusted_TOST_power_at_zero": 0.4820018155527632,
+      "direction_test_min_effect_80pct_approx": 0.05425932981884649
+    },
+    {
+      "n_assumed": 420,
+      "discordance_assumed": 0.3,
+      "se": 0.02672612419124244,
+      "ci95_halfwidth": 0.052382240861179846,
+      "unadjusted_TOST_power_at_zero": 0.17877918713443064,
+      "direction_test_min_effect_80pct_approx": 0.06645383592077696
+    }
+  ]
+}

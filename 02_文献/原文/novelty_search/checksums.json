@@ -1,0 +1,137 @@
+[
+  {
+    "path": "02_文献/原文/novelty_search/acl_search.html",
+    "bytes": 11261,
+    "sha256": "cf5dc0844b8fd0719f446994429ae6d6befb41d7385057bf885f3f8ba8c88aa5"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/manifest.json",
+    "bytes": 138661,
+    "sha256": "9db8198a945ab5f04b54c46a44883cac2bd6303d63f69642af3d474e625c2507"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/procon_abs.html",
+    "bytes": 44289,
+    "sha256": "6a324ffa2cb7e870a8dd81bdf5edb6ef9e2d9a4d6f667f0f0e114f14a1090d59"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/procon_html.html",
+    "bytes": 405787,
+    "sha256": "1b71da4e0c92426ccfb6851fd438da21aaed4f06ecf8af210e63de9493933d04"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/procon_html.txt",
+    "bytes": 79120,
+    "sha256": "63ec431bd4bdc319a2fedc76687271ebc465c7384ed62fca2e9477ec6c0fe55d"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/procon_pdf.pdf",
+    "bytes": 2074346,
+    "sha256": "30867c180da71f92802655e860dfe599ad515bdb334f8997a2b599c857b09ce2"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/procon_pdf.txt",
+    "bytes": 75150,
+    "sha256": "32506a42d3b0e0614b19cb3211b67e15a8a6137b2e0d0b4a12fb02415539be1f"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_01.xml",
+    "bytes": 26610,
+    "sha256": "df58a2ffa921b82230f76eedc219eb413f57585d319b737da9683268318aad10"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_02.xml",
+    "bytes": 3173,
+    "sha256": "e9d0a2ab4e1a77bb70d745d000e70e3c87a90b10a2bd5db266ff6d4be39faf90"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_03.xml",
+    "bytes": 13436,
+    "sha256": "70b5e468d162e42748a9217246f7b7dbccc02613e9a866936160562b35dd57e0"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_04.xml",
+    "bytes": 76266,
+    "sha256": "8c55cfce5555224647b4ac2550052106dd73cb9aec796bf7384b8d7182f00663"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_05.xml",
+    "bytes": 27329,
+    "sha256": "eff5ee7ae3e4f932a0f0ba8af30f1358c401e94e477e7aecc47d5a86394e6119"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_06.xml",
+    "bytes": 5300,
+    "sha256": "0a41220e33ff033437c23eb463ad6241aa9851798549699b2852ac2e400c963b"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_07.xml",
+    "bytes": 23472,
+    "sha256": "3ffdf7bcc54be70b58395ad371a55bc694961662387846959b602c93d80be2ff"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_08.xml",
+    "bytes": 16982,
+    "sha256": "fb68d7293a03a260b5480f2c971c2101518df704cd68e883fd67d9306a56b5f4"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/query_09.xml",
+    "bytes": 3285,
+    "sha256": "d46c7ee8315ebb7ad541705ec98cb949d653bf476d278752caec5a3da2044e6e"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/routing_abs.html",
+    "bytes": 41228,
+    "sha256": "ce6c27697f07df64ac0a558b7ee2ab3c6ea46e8b6e19a8a399c94f5e322403c3"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/routing_html.html",
+    "bytes": 309379,
+    "sha256": "b3868b627a6787baaf1bccb1a6ed1157d43c69e5f95b2805250ada3ff1b66034"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/routing_pdf.pdf",
+    "bytes": 891114,
+    "sha256": "96c08fad73bb1555bdb937a12f7af8030ef9f1191046c48a8f2da3d3a34dbe02"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/routing_pdf.txt",
+    "bytes": 60181,
+    "sha256": "4cf56c44c018dd3036cedfa8e07e77221d68612ffb4ce6f2b014356ad7a00a61"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/sdp_abs.html",
+    "bytes": 42542,
+    "sha256": "74d75593ee5e0ca7e0908ae97fe21586cc2a2c06b04722bae26a5929125aaa5d"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/sdp_html.html",
+    "bytes": 621583,
+    "sha256": "6c4b3dadb543fe6ee89a6186b17c1f172e2a8648b12518d969a6b4c4740a235c"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/sdp_pdf.pdf",
+    "bytes": 519288,
+    "sha256": "4b5956c73f1a6f0d7e03f97097b26cca5905fb7e75060b4f17580928bfa4982f"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/sdp_pdf.txt",
+    "bytes": 101864,
+    "sha256": "72e6a06d836c82456ad5f55c17adc10615bb001232b93579b8994d00b0fa77c0"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/semantic_search.json",
+    "bytes": 174,
+    "sha256": "65ab993d12c5c2cc9b68e6da2bb79b326930283e520363ffcdc145f88cd5a148"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/sources_extra_manifest.json",
+    "bytes": 1554,
+    "sha256": "30c400bb985db049e3534c0a6bcaabc59681ad86b141df9b60253d7e5be8b892"
+  },
+  {
+    "path": "02_文献/原文/novelty_search/sources_manifest.json",
+    "bytes": 1457,
+    "sha256": "2dfa3050acf816eb812db079784f1d51cc0d1b4b56c63c08400dc2fd5f4462cd"
+  }
+]

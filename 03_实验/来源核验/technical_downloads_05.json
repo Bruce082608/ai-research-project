@@ -1,0 +1,85 @@
+[
+  {
+    "file": "03_实验/来源核验/xstest_tree.json",
+    "url": "https://api.github.com/repos/paul-rottger/exaggerated-safety/git/trees/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d?recursive=1",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "fbd3aa6284b2d267dbabfb583e577b592009ca72cc276cd3be661d223a0d1243",
+    "bytes": 8217,
+    "at_utc": "2026-09-08T07:24:30.645626+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/xstest_README_official.md",
+    "url": "https://raw.githubusercontent.com/paul-rottger/exaggerated-safety/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/README.md",
+    "http_status": "404",
+    "returncode": 0,
+    "error": "",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "bytes": 14,
+    "at_utc": "2026-09-08T07:24:28.548882+00:00",
+    "artifact_state": "superseded_on_case_insensitive_filesystem_by_technical_downloads_06_success",
+    "current_response_manifest": "technical_downloads_06.json",
+    "note": "Historical 404 hash is retained as the actual response record. Its body was overwritten when the successful lowercase readme path resolved to the same local filename; do not compare that historical hash with the current 200 body."
+  },
+  {
+    "file": "03_实验/来源核验/xstest_v2_prompts.csv",
+    "url": "https://raw.githubusercontent.com/paul-rottger/exaggerated-safety/d7bb5bd738c1fcbc36edd83d5e7d1b71a3e2d84d/xstest_v2_prompts.csv",
+    "http_status": "404",
+    "returncode": 0,
+    "error": "",
+    "sha256": "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed",
+    "bytes": 14,
+    "at_utc": "2026-09-08T07:24:28.703729+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_judge_README.md",
+    "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls/resolve/bda705349d1144fa618770bea64d99ce54e3835b/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2a4da0ed60320f7131a2752b1ae57637232d44ac3386bbeca822e8effe3ea7c2",
+    "bytes": 4807,
+    "at_utc": "2026-09-08T07:24:29.027260+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_judge_config.json",
+    "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls/resolve/bda705349d1144fa618770bea64d99ce54e3835b/config.json",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "19af1a6d4bd84bffde19a062ac3cd798fee393d02a40e03dd9c95357e2f2bd70",
+    "bytes": 754,
+    "at_utc": "2026-09-08T07:24:28.913472+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_judge_tokenizer_config.json",
+    "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls/resolve/bda705349d1144fa618770bea64d99ce54e3835b/tokenizer_config.json",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "a6e4720e1b56223aca5a7554b7e3ecd5c77a13a74fe975150f2d5d22f9a7d4ca",
+    "bytes": 932,
+    "at_utc": "2026-09-08T07:24:30.134482+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_cais_models.json",
+    "url": "https://huggingface.co/api/models?author=cais&search=HarmBench&limit=30",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "2255bc40b09ad10bb3abde7a4fe5543b7aff1642cac77fffb1e2da432bc84850",
+    "bytes": 1404,
+    "at_utc": "2026-09-08T07:24:29.986273+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/lm_eval_tree.json",
+    "url": "https://api.github.com/repos/EleutherAI/lm-evaluation-harness/git/trees/b954108c9baaaa934b4ad842033b31a97ee30816?recursive=1",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "65be4541fb9a36528e6cc417b18118222c8799f96a93888c0af30d3020af87eb",
+    "bytes": 5906857,
+    "at_utc": "2026-09-08T07:24:34.798320+00:00"
+  }
+]

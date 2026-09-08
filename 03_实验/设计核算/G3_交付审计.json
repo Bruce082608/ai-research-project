@@ -1,0 +1,222 @@
+{
+  "status": "passed_local_evidence_audit_not_G3_approval",
+  "at_utc": "2026-09-08T08:37:05.987897+00:00",
+  "scope": "Local provenance, deterministic design accounting and document state; no new web search or model execution",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+    "executable": "/Users/bruce/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "pypdf": "6.10.0"
+  },
+  "checks": {
+    "source_lock": {
+      "resources": 11,
+      "files": 40,
+      "all_match": true
+    },
+    "download_history": {
+      "manifests": 9,
+      "retained_response_hashes_verified": 145,
+      "superseded_response_exceptions": [
+        {
+          "manifest": "03_实验/来源核验/technical_downloads_05.json",
+          "file": "03_实验/来源核验/xstest_README_official.md",
+          "historical_status": "404",
+          "current_body_verified": true
+        }
+      ]
+    },
+    "citations": {
+      "unique_papers": 61,
+      "verified": 16,
+      "metadata_only": 45,
+      "cards": 16,
+      "outline_uses_verified_only": true
+    },
+    "new_papers": {
+      "R-058": {
+        "version": "2604.12384v1",
+        "physical_pages": 17,
+        "sha256": "120b3acbe0f887f7b7598e3b54a3a8ce60e3df9cbc9a31c966f69bd7e83e0b27"
+      },
+      "R-059": {
+        "version": "2607.00572v3",
+        "physical_pages": 27,
+        "sha256": "57a2430750e28269de33efefc807834a532ab015bf4e947d981dc98bfb94bb96"
+      },
+      "R-060": {
+        "version": "2512.23260v2",
+        "physical_pages": 16,
+        "sha256": "8109612205fae854b8ad1af4ccbc95a2339c57c4ff3f1f0a2e15c4823c6bd32a"
+      },
+      "R-061": {
+        "version": "2604.24074v1",
+        "physical_pages": 15,
+        "sha256": "8a2e464cce0805fb88186d90d5b3035c85d96c4f08cb9edf83122e453c132e6a"
+      }
+    },
+    "queries": {
+      "returned_per_query": {
+        "1": 11,
+        "2": 0,
+        "3": 1,
+        "4": 2
+      },
+      "unique_version_urls": 14,
+      "new_full_reads": 4
+    },
+    "safety_inventory": {
+      "official_standard_test_val": [
+        159,
+        41
+      ],
+      "partitions": {
+        "harmbench_test": 159,
+        "development_diagnostic": 38,
+        "test_candidate": 192,
+        "development_calibration": 36,
+        "direction_extract": 67
+      },
+      "main_test_total": 351,
+      "excluded_advbench": 187,
+      "cross_use_guard_clusters_disjoint": true,
+      "not_exhaustive_semantic_validation": true
+    },
+    "training_inventory": {
+      "counts": {
+        "harmbench_standard_test": 159,
+        "xstest_all": 450,
+        "xstest_safe": 250,
+        "mmlu_all_test": 14042,
+        "mmlu_dev": 285,
+        "gsm8k_all_test": 1319,
+        "ifeval": 541,
+        "alpaca_raw": 51760,
+        "alpaca_eligible_before_overlap": 47740,
+        "reserve": 12000,
+        "reserve_after_overlap": 11936,
+        "selected": 10000,
+        "safety_pair_candidates": 690
+      },
+      "training_tokens": {
+        "input_tokens": 1840986,
+        "supervised_tokens": 1354795,
+        "min_length": 39,
+        "max_length": 973,
+        "median_length": 148.0,
+        "max_sequence_length": 2048,
+        "optimizer_steps": 625,
+        "epochs": 1
+      },
+      "contraction_regression_hits": 0,
+      "not_human_safety_certified": true
+    },
+    "E_accounting": {
+      "all_1875_updates_checked": true,
+      "all_seed_budgets": {
+        "17": {
+          "optimizer_steps": 625,
+          "total_supervised": 1354795,
+          "safe_supervised": 67739,
+          "benign_supervised": 1287056,
+          "safety_fraction": 0.049999446410711586,
+          "benign_input_tokens": 1840986,
+          "extra_safe_input_tokens": 175036,
+          "extra_safe_occurrences": 2230,
+          "benign_examples_with_partial_supervision": 1117,
+          "safe_unique_prompts": 67,
+          "safe_full_response_tokens": [
+            35
+          ],
+          "input_ratio_E_to_B": 1.0950773118318118
+        },
+        "29": {
+          "optimizer_steps": 625,
+          "total_supervised": 1354795,
+          "safe_supervised": 67739,
+          "benign_supervised": 1287056,
+          "safety_fraction": 0.049999446410711586,
+          "benign_input_tokens": 1840986,
+          "extra_safe_input_tokens": 175967,
+          "extra_safe_occurrences": 2242,
+          "benign_examples_with_partial_supervision": 1122,
+          "safe_unique_prompts": 67,
+          "safe_full_response_tokens": [
+            35
+          ],
+          "input_ratio_E_to_B": 1.0955830190995477
+        },
+        "43": {
+          "optimizer_steps": 625,
+          "total_supervised": 1354795,
+          "safe_supervised": 67739,
+          "benign_supervised": 1287056,
+          "safety_fraction": 0.049999446410711586,
+          "benign_input_tokens": 1840986,
+          "extra_safe_input_tokens": 176117,
+          "extra_safe_occurrences": 2244,
+          "benign_examples_with_partial_supervision": 1178,
+          "safe_unique_prompts": 67,
+          "safe_full_response_tokens": [
+            35
+          ],
+          "input_ratio_E_to_B": 1.0956644971770562
+        }
+      },
+      "finalizer_rerun_hashes_match_current": true
+    },
+    "planning_arithmetic": {
+      "lora_parameters": 40370176,
+      "normal_tost_scenario_power": 0.3471326357082565,
+      "not_measured_gpu_cost_or_confirmatory_test": true
+    },
+    "template_sources": {
+      "primary_template_matches_ast_literal": true,
+      "fixture_terminal_ids": [
+        151645,
+        198
+      ],
+      "transformers_model_integration_not_run": true
+    },
+    "markdown_links": {
+      "authored_documents_scanned": 52,
+      "local_links": 137,
+      "broken": [],
+      "excludes_vendor_snapshots_and_cpu_archive": true
+    },
+    "workspace_state": {
+      "git_diff_check": "passed",
+      "protected_tracked_files_unchanged_vs_HEAD": 10,
+      "Q011": "complete",
+      "Q012_G3": "pending",
+      "Q013_outline": "pending",
+      "git_status": " M 01_选题/Research_Brief.md\n M 01_选题/候选课题.md\n M 01_选题/对抗审查.md\n M 02_文献/引文库.md\n M DECISIONS.md\n M ERRATA.md\n M PLAN.md\n M QUESTIONS.md\n M STATE.md\n?? 01_选题/G1_重审建议.md\n?? 01_选题/历史/\n?? 02_文献/原文/\n?? 02_文献/对比矩阵.md\n?? 02_文献/引用-论断对照表.md\n?? 02_文献/方案A_补充核验计划.md\n?? 02_文献/检索计划.md\n?? 02_文献/检索记录/\n?? 02_文献/精读卡/\n?? 02_文献/综述大纲.md\n?? 03_实验/G3_审批包.md\n?? 03_实验/protocol.md\n?? 03_实验/protocol_审查.md\n?? 03_实验/历史/\n?? 03_实验/来源核验/\n?? 03_实验/设计核算/\n"
+    }
+  },
+  "deliverable_sha256": {
+    "STATE.md": "ae6e00b6a00750e82e3fdf01b4fac08996c533f9621268c0171b553c0ea47ffb",
+    "PLAN.md": "986e06c536a006d3b83564d67a27ea37b367caa7cf77b3e9a8c100943c854141",
+    "DECISIONS.md": "f0731d3cca9ade8d6d5915edcba2a4a91cc2b9337426ff4d61dec80f1712e373",
+    "QUESTIONS.md": "f23158c6c96c7d3013fbe2c550303e79cbc6ed8f101d672fa13e16d6f910bf59",
+    "ERRATA.md": "82e0aa9ef944f420dbb6ff8c41a10ca1fa43ae96d4b69fe065bf76d33c5558b2",
+    "01_选题/Research_Brief.md": "51a7074050f5ef49c7dc25a0ddd6dfacd325367e699d31ece29e366117ac1d88",
+    "03_实验/protocol.md": "129d01d5a0034eff5702b5b6d7f5e2f8506ec75f6644ffcde2a7164275d8f0f7",
+    "03_实验/protocol_审查.md": "eaaff52025c3add2796f9909503584f89d13b51ebebbe0dc3213f40bff9c3892",
+    "03_实验/G3_审批包.md": "1aa506a2d18940fa95d3a74d62924bd3e35f1d66d151df32abfd4b3e6478f99e",
+    "02_文献/综述大纲.md": "a9d6e9c4941902b130ad8ba74c63c8bc3fcde325a1f5402480d00991e80c2186",
+    "02_文献/对比矩阵.md": "cad34f48cdc96ae66aa9f0e584e69f5f513269206d2c82b5aad403c91ca7c1cb",
+    "02_文献/引用-论断对照表.md": "bf500a11ab4fb0c9ddddc141ee7c3ebc12351167ce89da48aec275d65fe6413d",
+    "02_文献/检索记录/方案A_G2第二批审计.md": "16a6c74e4bc409f8081e7ce31ced23823ae3610da44e8dfa579c793be158c0a7"
+  },
+  "audit_script_sha256": "d2a538cbf399864c8a656692c4b8fc52da5aee2283c9282d2cd43c8b780820b6",
+  "not_run": [
+    "Formal training/evaluation implementation",
+    "Transformers tokenizer/model integration",
+    "GPU loss/gradient/reference/hook validation",
+    "32/64-step calibration",
+    "Judge inference",
+    "Full 18 trainings",
+    "Human annotation",
+    "GPU throughput, peak memory, disk and historical billing verification"
+  ],
+  "new_gpu_model_runs": 0
+}

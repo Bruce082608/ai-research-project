@@ -1,0 +1,52 @@
+[
+  {
+    "file": "03_实验/来源核验/lm_mmlu_default_template.yaml",
+    "url": "https://raw.githubusercontent.com/EleutherAI/lm-evaluation-harness/b954108c9baaaa934b4ad842033b31a97ee30816/lm_eval/tasks/mmlu/default/_default_template_yaml",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "a0997593bf94f52cc87eb1f9b621f52613a6c60f1fb48775b0926104fd385122",
+    "bytes": 406,
+    "at_utc": "2026-09-08T07:31:44.031607+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_val_judge_README.md",
+    "url": "https://huggingface.co/cais/HarmBench-Mistral-7b-val-cls/resolve/51182c7cdaf9b2e5f05b745b81b047b67e7384a1/README.md",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "fb438757655a2e8689dde1789eae65e4d3ca3115562c757f1219315796a41edd",
+    "bytes": 6706,
+    "at_utc": "2026-09-08T07:31:44.570064+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/harmbench_val_judge_tokenizer_config.json",
+    "url": "https://huggingface.co/cais/HarmBench-Mistral-7b-val-cls/resolve/51182c7cdaf9b2e5f05b745b81b047b67e7384a1/tokenizer_config.json",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "23d6cf3bb32e85c4e239599892e4b6ffbd0fd9c0afbbf062748f43364ad37ca4",
+    "bytes": 1470,
+    "at_utc": "2026-09-08T07:31:44.640106+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_instructions_util.py",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/instruction_following_eval/instructions_util.py",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "a73797261eee5bf447e279d82a2b700b1bdd3cb1193412dbab1270a85832bc6b",
+    "bytes": 19538,
+    "at_utc": "2026-09-08T07:31:44.056516+00:00"
+  },
+  {
+    "file": "03_实验/来源核验/ifeval_requirements.txt",
+    "url": "https://raw.githubusercontent.com/google-research/google-research/5594ac0ee7a13c77eb1e0b98f0f305a2ca65b6c4/instruction_following_eval/requirements.txt",
+    "http_status": "200",
+    "returncode": 0,
+    "error": "",
+    "sha256": "1b1716c9ac21b9cc2bd0d7354ed8f7b6982ccf35598529601a7c08508acec94a",
+    "bytes": 35,
+    "at_utc": "2026-09-08T07:31:43.990161+00:00"
+  }
+]

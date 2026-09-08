@@ -1,0 +1,106 @@
+{
+  "sha": "8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+  "node_id": "C_kwDOLNL-y9oAKDhlMTYwNGQxMTcxZmU4YTQ4ZDhmZWJlY2QyMmY2MDBlNDYyYmRjZGQ",
+  "commit": {
+    "author": {
+      "name": "Long Phan",
+      "email": "131222390+justinphan3110cais@users.noreply.github.com",
+      "date": "2024-08-05T20:25:38Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2024-08-05T20:25:38Z"
+    },
+    "message": "Merge pull request #63 from ronakrm/save-test-cases-logging-bugfix\n\nBugfix for Logging Multiple Behavior Test Cases",
+    "tree": {
+      "sha": "e28303aa064b3a4fdbe5698bc323e43306b7ab74",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/trees/e28303aa064b3a4fdbe5698bc323e43306b7ab74"
+    },
+    "url": "https://api.github.com/repos/centerforaisafety/HarmBench/git/commits/8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJmsTVCCRC1aQ7uu5UhlAAAgPIQAA0q8DaPWSkWXQkPs2sF8gUN\nTcAFNJ9dv0aEPYTDCYhCezkHIEYzKMj53urUfJhmOHQifbLbffl3XIbGQv1uD0Cj\nqEhCwcWDvVlchHETZ71trFUL18MFryGPaoAXKgxVstt4BQNQBcwB5rM3SG48/ajc\nt6wt+8HOoVYdpTruSDpqoTddepCy/h+25UxVA0W8KrPEHYp9xvi72Byx+oo3d0MD\neOth3p/sPcK38flrocTs/ehRxy1hq08BVflru4balSnbUWNikqpPu+rE5glxqCJb\nB9sEAi6THB/renx7jJwp+JlME0ac/AUB6Bd4l4/xDQuFZRKcowEbt55o4fAS43j6\nVkhi2Zsa8/DHlXYSW4Er/6Y4ZpGCu/PNSIdMdmkrQz7oQNMSmp1n93zJxuJocdsH\nZfbj7Dh5qhKyhXmNN/IXugdBeOB6HVTAFR2F8jx4l8U9mACbOvt6hEdu5xt2b5Hu\nh1JdsP7LZM5/0t7M6/WnNg3Ss7+aJPRZRxitW9aOu7ezMlYsBH0kb4pLarHu1qzU\n15J52ENOt79GG0yaQR01S/r2UHIJ65rKmalPSg1uNI1Lz1L1KC7Mm0/zsBcDHqZr\nEFaimoVGaTDYBXQaNBnZl+AWrEUCZuCQX4c0R2fToEEFlVkE+eyRjDk5ZoMyuIFT\nwJP6AgLeGhIo61eK9CTT\n=51WM\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree e28303aa064b3a4fdbe5698bc323e43306b7ab74\nparent aa8d4898dc04fe5a2e1f9cd314316f864c089414\nparent 37150ed7d07f1db7639c9e3cfee3288391482503\nauthor Long Phan <131222390+justinphan3110cais@users.noreply.github.com> 1722889538 -0700\ncommitter GitHub <noreply@github.com> 1722889538 -0700\n\nMerge pull request #63 from ronakrm/save-test-cases-logging-bugfix\n\nBugfix for Logging Multiple Behavior Test Cases",
+      "verified_at": "2024-11-08T01:25:35Z"
+    }
+  },
+  "url": "https://api.github.com/repos/centerforaisafety/HarmBench/commits/8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+  "html_url": "https://github.com/centerforaisafety/HarmBench/commit/8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+  "comments_url": "https://api.github.com/repos/centerforaisafety/HarmBench/commits/8e1604d1171fe8a48d8febecd22f600e462bdcdd/comments",
+  "author": {
+    "login": "justinphan3110cais",
+    "id": 131222390,
+    "node_id": "U_kgDOB9JLdg",
+    "avatar_url": "https://avatars.githubusercontent.com/u/131222390?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/justinphan3110cais",
+    "html_url": "https://github.com/justinphan3110cais",
+    "followers_url": "https://api.github.com/users/justinphan3110cais/followers",
+    "following_url": "https://api.github.com/users/justinphan3110cais/following{/other_user}",
+    "gists_url": "https://api.github.com/users/justinphan3110cais/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/justinphan3110cais/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/justinphan3110cais/subscriptions",
+    "organizations_url": "https://api.github.com/users/justinphan3110cais/orgs",
+    "repos_url": "https://api.github.com/users/justinphan3110cais/repos",
+    "events_url": "https://api.github.com/users/justinphan3110cais/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/justinphan3110cais/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "aa8d4898dc04fe5a2e1f9cd314316f864c089414",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/commits/aa8d4898dc04fe5a2e1f9cd314316f864c089414",
+      "html_url": "https://github.com/centerforaisafety/HarmBench/commit/aa8d4898dc04fe5a2e1f9cd314316f864c089414"
+    },
+    {
+      "sha": "37150ed7d07f1db7639c9e3cfee3288391482503",
+      "url": "https://api.github.com/repos/centerforaisafety/HarmBench/commits/37150ed7d07f1db7639c9e3cfee3288391482503",
+      "html_url": "https://github.com/centerforaisafety/HarmBench/commit/37150ed7d07f1db7639c9e3cfee3288391482503"
+    }
+  ],
+  "stats": {
+    "total": 4,
+    "additions": 2,
+    "deletions": 2
+  },
+  "files": [
+    {
+      "sha": "e9673ff14246902c8509cac1aefbcf58c834d600",
+      "filename": "baselines/baseline.py",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/centerforaisafety/HarmBench/blob/8e1604d1171fe8a48d8febecd22f600e462bdcdd/baselines%2Fbaseline.py",
+      "raw_url": "https://github.com/centerforaisafety/HarmBench/raw/8e1604d1171fe8a48d8febecd22f600e462bdcdd/baselines%2Fbaseline.py",
+      "contents_url": "https://api.github.com/repos/centerforaisafety/HarmBench/contents/baselines%2Fbaseline.py?ref=8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+      "patch": "@@ -192,9 +192,9 @@ def save_test_cases(self, save_dir, test_cases, logs=None, method_config=None, r\n         for behavior_id in test_cases.keys():\n             test_cases_individual_behavior = {behavior_id: test_cases[behavior_id]}\n             if logs is not None:\n-                logs = {behavior_id: logs.get(behavior_id, [])}\n+                behavior_logs = {behavior_id: logs.get(behavior_id, [])}\n             self.save_test_cases_single_behavior(save_dir, behavior_id, test_cases_individual_behavior,\n-                                                 logs, method_config=method_config, run_id=run_id)\n+                                                 behavior_logs, method_config=method_config, run_id=run_id)\n \n     def save_test_cases_single_behavior(self, save_dir, behavior_id, test_cases, logs=None, method_config=None, run_id=None):\n         if save_dir is None:"
+    }
+  ]
+}
