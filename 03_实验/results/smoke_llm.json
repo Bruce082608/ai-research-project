@@ -1,0 +1,16 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "n_params_M": 494.0,
+  "load_s": 5.05,
+  "gen_32tok_s": 0.919,
+  "tok_per_s": 34.8,
+  "peak_mem_GB": 1.01,
+  "output": " Paris. It is the seat of the government of France. It is the capital of France. It is the seat of the government of France. It is the",
+  "env": {
+    "gpu": "NVIDIA A800 80GB PCIe",
+    "torch": "2.8.0+cu128",
+    "cuda": "12.8",
+    "python": "3.12.3",
+    "hf_endpoint": "https://hf-mirror.com"
+  }
+}
